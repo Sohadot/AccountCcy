@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AccountCcy.com — The Account Currency Control Layer</title>
+<meta name="description" content="Where currency stops being a rate — and becomes an accounting state. The reference layer for account currency control in enterprise finance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@300;400;500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --ink: #0d0d0b;
+  --paper: #f5f0e8;
+  --cream: #ede7d5;
+  --gold: #b8941f;
+  --gold-light: #d4a843;
+  --gold-pale: #f0e4b8;
+  --slate: #2c3240;
+  --slate-mid: #4a5268;
+  --rule: #c8bea8;
+  --accent-red: #8b2020;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Libre Baskerville', Georgia, serif;
+  overflow-x: hidden;
+}
+
+/* ─── GRAIN OVERLAY ─── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.6;
+}
+
+/* ─── MASTHEAD ─── */
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  padding: 18px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--paper);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.masthead-logo {
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.masthead-logo span {
+  color: var(--gold);
+}
+
+.masthead-nav {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+}
+
+.masthead-nav a {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--slate-mid);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.masthead-nav a:hover { color: var(--gold); }
+
+/* ─── HERO ─── */
+.hero {
+  min-height: 92vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-left {
+  padding: 80px 60px 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid var(--rule);
+  position: relative;
+  z-index: 2;
+}
+
+.hero-eyebrow {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 28px;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.2s;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 700;
+  line-height: 1.08;
+  color: var(--ink);
+  margin-bottom: 32px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 0.4s;
+}
+
+.hero-title em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.hero-rule {
+  width: 48px;
+  height: 2px;
+  background: var(--gold);
+  margin-bottom: 32px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 0.55s;
+}
+
+.hero-sub {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--slate-mid);
+  max-width: 440px;
+  margin-bottom: 48px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 0.7s;
+}
+
+.hero-thesis {
+  border-left: 3px solid var(--gold);
+  padding-left: 20px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--slate);
+  margin-bottom: 48px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 0.85s;
+}
+
+.hero-cta-row {
+  display: flex;
+  gap: 16px;
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards 1s;
+}
+
+.btn-primary {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 14px 28px;
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  border: 1px solid var(--ink);
+  transition: all 0.25s;
+}
+
+.btn-primary:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
+}
+
+.btn-secondary {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 14px 28px;
+  background: transparent;
+  color: var(--ink);
+  text-decoration: none;
+  border: 1px solid var(--rule);
+  transition: all 0.25s;
+}
+
+.btn-secondary:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* ─── HERO RIGHT — CCY CHAIN VISUAL ─── */
+.hero-right {
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--cream);
+  position: relative;
+}
+
+.chain-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--slate-mid);
+  margin-bottom: 40px;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards 1.2s;
+}
+
+.ccy-chain {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.chain-state {
+  display: flex;
+  align-items: stretch;
+  opacity: 0;
+  animation: slideIn 0.6s ease forwards;
+}
+
+.chain-state:nth-child(1) { animation-delay: 0.3s; }
+.chain-state:nth-child(2) { animation-delay: 0.5s; }
+.chain-state:nth-child(3) { animation-delay: 0.7s; }
+.chain-state:nth-child(4) { animation-delay: 0.9s; }
+.chain-state:nth-child(5) { animation-delay: 1.1s; }
+.chain-state:nth-child(6) { animation-delay: 1.3s; }
+.chain-state:nth-child(7) { animation-delay: 1.5s; }
+.chain-state:nth-child(8) { animation-delay: 1.7s; }
+
+.chain-connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32px;
+  flex-shrink: 0;
+}
+
+.chain-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--rule);
+  border: 2px solid var(--paper);
+  flex-shrink: 0;
+  margin-top: 14px;
+  transition: background 0.3s;
+}
+
+.chain-state.active .chain-dot,
+.chain-state:hover .chain-dot {
+  background: var(--gold);
+}
+
+.chain-line {
+  width: 1px;
+  flex: 1;
+  background: var(--rule);
+  margin: 0 auto;
+  min-height: 16px;
+}
+
+.chain-state:last-child .chain-line { display: none; }
+
+.chain-body {
+  flex: 1;
+  padding: 10px 16px 10px 8px;
+  border-bottom: 1px solid var(--rule);
+  cursor: default;
+  transition: background 0.2s;
+}
+
+.chain-state:last-child .chain-body { border-bottom: none; }
+.chain-body:hover { background: rgba(184,148,31,0.06); }
+
+.chain-state.active .chain-body {
+  background: rgba(184,148,31,0.1);
+}
+
+.chain-num {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  color: var(--rule);
+  margin-bottom: 2px;
+}
+
+.chain-name {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--slate);
+  letter-spacing: 0.05em;
+}
+
+.chain-state.active .chain-name { color: var(--gold); }
+
+.chain-desc {
+  font-size: 11px;
+  color: var(--slate-mid);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+/* ─── DOCTRINE BAND ─── */
+.doctrine-band {
+  background: var(--ink);
+  padding: 64px 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.doctrine-band::before {
+  content: 'CCY';
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Playfair Display', serif;
+  font-size: 180px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.03);
+  letter-spacing: -0.05em;
+  pointer-events: none;
+}
+
+.doctrine-inner {
+  max-width: 780px;
+}
+
+.doctrine-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 24px;
+}
+
+.doctrine-quote {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(20px, 3vw, 30px);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--paper);
+}
+
+.doctrine-quote strong {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+
+.doctrine-attr {
+  margin-top: 32px;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: rgba(245,240,232,0.35);
+  text-transform: uppercase;
+}
+
+/* ─── FRAMEWORK SECTION ─── */
+.framework {
+  padding: 100px 60px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.section-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  margin-bottom: 72px;
+  align-items: start;
+}
+
+.section-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding-top: 8px;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.section-title em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.framework-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border: 1px solid var(--rule);
+}
+
+.fw-card {
+  padding: 36px 28px;
+  border-right: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  position: relative;
+  transition: background 0.3s;
+  cursor: default;
+}
+
+.fw-card:hover { background: var(--cream); }
+
+.fw-card:nth-child(4n) { border-right: none; }
+.fw-card:nth-child(n+5) { border-bottom: none; }
+
+.fw-number {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  color: var(--rule);
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+.fw-state-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+.fw-state-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.fw-desc {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--slate-mid);
+}
+
+.fw-card.highlight {
+  background: var(--ink);
+}
+
+.fw-card.highlight .fw-number { color: rgba(245,240,232,0.3); }
+.fw-card.highlight .fw-state-name { color: var(--gold-light); }
+.fw-card.highlight .fw-state-sub { color: rgba(212,168,67,0.7); }
+.fw-card.highlight .fw-desc { color: rgba(245,240,232,0.65); }
+.fw-card.highlight:hover { background: var(--slate); }
+
+/* ─── THESIS SECTION ─── */
+.thesis-section {
+  padding: 100px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  background: var(--cream);
+  border-bottom: 1px solid var(--rule);
+}
+
+.thesis-left .section-tag { margin-bottom: 20px; }
+
+.thesis-left h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(26px, 3.5vw, 40px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ink);
+  margin-bottom: 32px;
+}
+
+.thesis-left p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--slate-mid);
+  margin-bottom: 20px;
+}
+
+.thesis-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.thesis-card {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: 28px;
+  position: relative;
+  transition: border-color 0.25s, transform 0.25s;
+}
+
+.thesis-card:hover {
+  border-color: var(--gold);
+  transform: translateX(4px);
+}
+
+.thesis-card-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+.thesis-card-text {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+/* ─── WHO SECTION ─── */
+.who-section {
+  padding: 100px 60px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.who-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.who-card {
+  border-top: 2px solid var(--rule);
+  padding-top: 28px;
+  transition: border-color 0.25s;
+}
+
+.who-card:hover { border-color: var(--gold); }
+
+.who-role {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.who-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 12px;
+}
+
+.who-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--slate-mid);
+}
+
+/* ─── ACQUISITION SECTION ─── */
+.acquisition {
+  padding: 80px 60px;
+  background: var(--ink);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.acq-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 20px;
+}
+
+.acq-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 700;
+  color: var(--paper);
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.acq-body {
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(245,240,232,0.65);
+  margin-bottom: 32px;
+}
+
+.acq-targets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 36px;
+}
+
+.acq-tag-pill {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border: 1px solid rgba(184,148,31,0.4);
+  color: var(--gold-light);
+}
+
+.acq-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.acq-stat {
+  border-left: 2px solid var(--gold);
+  padding-left: 20px;
+}
+
+.acq-stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+
+.acq-stat-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(245,240,232,0.4);
+  margin-top: 4px;
+}
+
+.btn-gold {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 14px 28px;
+  background: var(--gold);
+  color: var(--ink);
+  text-decoration: none;
+  border: 1px solid var(--gold);
+  display: inline-block;
+  transition: all 0.25s;
+  font-weight: 500;
+}
+
+.btn-gold:hover {
+  background: var(--gold-light);
+  border-color: var(--gold-light);
+}
+
+/* ─── FOOTER ─── */
+footer {
+  padding: 36px 60px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--slate-mid);
+}
+
+.footer-logo span { color: var(--gold); }
+
+.footer-note {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rule);
+}
+
+/* ─── ANIMATIONS ─── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-12px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 1024px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-right { display: none; }
+  .masthead { padding: 16px 24px; }
+  .hero-left { padding: 60px 24px; }
+  .framework { padding: 70px 24px; }
+  .framework-grid { grid-template-columns: repeat(2, 1fr); }
+  .fw-card:nth-child(2n) { border-right: none; }
+  .fw-card:nth-child(n+7) { border-bottom: none; }
+  .fw-card:nth-child(5), .fw-card:nth-child(6) { border-bottom: 1px solid var(--rule); }
+  .section-header { grid-template-columns: 1fr; gap: 16px; }
+  .thesis-section { grid-template-columns: 1fr; padding: 70px 24px; }
+  .who-section { padding: 70px 24px; }
+  .who-grid { grid-template-columns: 1fr; gap: 28px; }
+  .acquisition { grid-template-columns: 1fr; padding: 60px 24px; }
+  .acq-right { flex-direction: row; flex-wrap: wrap; gap: 24px; }
+  footer { padding: 28px 24px; flex-direction: column; gap: 12px; text-align: center; }
+  .masthead-nav { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <a href="#" class="masthead-logo">Account<span>Ccy</span>.com</a>
+  <nav>
+    <ul class="masthead-nav">
+      <li><a href="#framework">The Framework</a></li>
+      <li><a href="#thesis">The Doctrine</a></li>
+      <li><a href="#who">Who It Serves</a></li>
+      <li><a href="#acquisition">Acquisition</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-eyebrow">The Account Currency Control Layer</p>
+    <h1 class="hero-title">Where currency stops<br>being a <em>rate</em> —<br>and becomes a <em>state</em>.</h1>
+    <div class="hero-rule"></div>
+    <p class="hero-sub">Every enterprise transaction begins with a currency. But before that currency appears in a report, it must pass through accounts, ledgers, reconciliations, translations, and controls.</p>
+    <blockquote class="hero-thesis">
+      The most important currency in enterprise finance is not always the one paid.<br>It is the one <strong>recorded</strong>.
+    </blockquote>
+    <div class="hero-cta-row">
+      <a href="#framework" class="btn-primary">Explore the Framework</a>
+      <a href="#acquisition" class="btn-secondary">Strategic Acquisition</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <p class="chain-label">The CCY State Chain™</p>
+    <div class="ccy-chain">
+
+      <div class="chain-state">
+        <div class="chain-connector">
+          <div class="chain-dot"></div>
+          <div class="chain-line"></div>
+        </div>
+        <div class="chain-body">
+          <div class="chain-num">STATE 01</div>
+          <div class="chain-name">Quoted Currency</div>
+          <div class="chain-desc">Currency as a market price</div>
+        </div>
+      </div>
+
+      <div class="chain-state">
+        <div class="chain-connector">
+          <div class="chain-dot"></div>
+          <div class="chain-line"></div>
+        </div>
+        <div class="chain-body">
+          <div class="chain-num">STATE 02</div>
+          <div class="chain-name">Transaction Currency</div>
+          <div class="chain-desc">Currency of the exchange event</div>
+        </div>
+      </div>
+
+      <div class="chain-state">
+        <div class="chain-connector">
+          <div class="chain-dot"></div>
+          <div class="chain-line"></div>
+        </div>
+        <div class="chain-body">
+          <div class="chain-num">STATE 03</div>
+          <div class="chain-name">Settlement Currency</div>
+          <div class="chain-desc">Currency of actual payment</div>
+        </div>
+      </div>
+
+      <div class="chain-state active">
+        <div class="chain-connector">
+          <div class="chain-dot"></div>
+          <div class="chain-line"></div>
+        </div>
+        <div class="chain-body">
+          <div class="chain-num">STATE 04</div>
+          <div class="chain-name">Account Currency</div>
+          <div class="chain-desc">The control point. Where market becomes ledger.</div>
+        </div>
+      </div>
+
+      <div class="chain-state">
+        <div class="chain-connector">
+          <div class="chain-dot"></div>
+          <div class="chain-line"></div>
+        </div>
+        <div class="chain-body">
+          <div class="chain-num">STATE 05</div>
+          <div class="chain-name">Ledger Currency</div>
+          <div class="chain-desc">Currency of maintained books</div>
+        </div>
+      </div>
+
+      <div class="chain-state">
+        <div class="chain-connector">
+          <div class="chain-dot"></div>
+          <div class="chain-line"></div>
+        </div>
+        <div class="chain-body">
+          <div class="chain-num">STATE 06</div>
+          <div class="chain-name">Reporting Currency</div>
+          <div class="chain-desc">Currency of presented results</div>
+        </div>
+      </div>
+
+      <div class="chain-state">
+        <div class="chain-connector">
+          <div class="chain-dot"></div>
+          <div class="chain-line"></div>
+        </div>
+        <div class="chain-body">
+          <div class="chain-num">STATE 07</div>
+          <div class="chain-name">Consolidation Currency</div>
+          <div class="chain-desc">Group-level unified currency</div>
+        </div>
+      </div>
+
+      <div class="chain-state">
+        <div class="chain-connector">
+          <div class="chain-dot"></div>
+          <div class="chain-line"></div>
+        </div>
+        <div class="chain-body">
+          <div class="chain-num">STATE 08</div>
+          <div class="chain-name">Audit Reality</div>
+          <div class="chain-desc">Defensible accounting truth</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- DOCTRINE BAND -->
+<section class="doctrine-band">
+  <div class="doctrine-inner">
+    <p class="doctrine-tag">The AccountCcy Doctrine</p>
+    <p class="doctrine-quote">
+      Currency is not only exchanged.<br>
+      It is <strong>recorded, assigned, reconciled, translated,<br>revalued, consolidated,</strong> and audited.<br><br>
+      Account currency is the hidden control point<br>
+      where <strong>market value becomes accounting reality.</strong>
+    </p>
+    <p class="doctrine-attr">— The Currency State Control Framework · AccountCcy.com</p>
+  </div>
+</section>
+
+<!-- FRAMEWORK -->
+<section class="framework" id="framework">
+  <div class="section-header">
+    <p class="section-tag">The Framework</p>
+    <h2 class="section-title">The Currency State<br>Control <em>Framework</em></h2>
+  </div>
+
+  <div class="framework-grid">
+    <div class="fw-card">
+      <div class="fw-number">01 · Market State</div>
+      <div class="fw-state-name">Quoted Currency</div>
+      <div class="fw-state-sub">External · Pre-transaction</div>
+      <p class="fw-desc">Currency exists as a rate in a market. No accounting consequence has occurred. This is price, not money.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-number">02 · Movement State</div>
+      <div class="fw-state-name">Transaction Currency</div>
+      <div class="fw-state-sub">Event · Denominated</div>
+      <p class="fw-desc">A financial event occurs in a specific currency. The rate is locked. The obligation is born. Accounting begins here.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-number">03 · Payment State</div>
+      <div class="fw-state-name">Settlement Currency</div>
+      <div class="fw-state-sub">Execution · Transferred</div>
+      <p class="fw-desc">Cash moves. The settlement currency may differ from the transaction currency — a divergence with significant FX implications.</p>
+    </div>
+    <div class="fw-card highlight">
+      <div class="fw-number">04 · Control Point</div>
+      <div class="fw-state-name">Account Currency</div>
+      <div class="fw-state-sub">The Transition · CCY State</div>
+      <p class="fw-desc">The critical inflection. External financial movement enters the internal accounting system. This is where AccountCcy.com lives.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-number">05 · Recording State</div>
+      <div class="fw-state-name">Ledger Currency</div>
+      <div class="fw-state-sub">Internal · Maintained</div>
+      <p class="fw-desc">The currency in which G/L accounts are maintained. Determined by the functional currency of the legal entity.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-number">06 · Presentation State</div>
+      <div class="fw-state-name">Reporting Currency</div>
+      <div class="fw-state-sub">Output · Translated</div>
+      <p class="fw-desc">Financial results are translated for management, regulatory, or investor presentation. Translation gains and losses emerge here.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-number">07 · Group State</div>
+      <div class="fw-state-name">Consolidation Currency</div>
+      <div class="fw-state-sub">Unified · Group-level</div>
+      <p class="fw-desc">Multiple entities, multiple ledger currencies, unified into a single group reporting currency. Complexity is maximum here.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-number">08 · Truth State</div>
+      <div class="fw-state-name">Audit Reality</div>
+      <div class="fw-state-sub">Final · Defensible</div>
+      <p class="fw-desc">The currency reality that survives audit, compliance, and board scrutiny. This is the terminal state of the CCY State Chain.</p>
+    </div>
+  </div>
+</section>
+
+<!-- THESIS -->
+<section class="thesis-section" id="thesis">
+  <div class="thesis-left">
+    <p class="section-tag">The Doctrine</p>
+    <h2>Three principles that<br>define account currency<br>as a control discipline.</h2>
+    <p>Most enterprise finance functions manage FX exposure at the treasury level. They monitor transaction and settlement currencies with precision. But account currency configuration — the moment external movement becomes internal reality — is often treated as a setup task, not a strategic control point.</p>
+    <p>AccountCcy.com is built on a different premise.</p>
+  </div>
+  <div class="thesis-right">
+    <div class="thesis-card">
+      <div class="thesis-card-label">Principle I · Transition</div>
+      <p class="thesis-card-text">"Between payment and reporting, currency enters its most consequential state: the account."</p>
+    </div>
+    <div class="thesis-card">
+      <div class="thesis-card-label">Principle II · Divergence</div>
+      <p class="thesis-card-text">"The same financial event can have multiple currency identities. Confusing those identities is one of the quiet sources of reconciliation complexity and FX distortion."</p>
+    </div>
+    <div class="thesis-card">
+      <div class="thesis-card-label">Principle III · Consequence</div>
+      <p class="thesis-card-text">"Account currency configuration is not a system setup. It is a financial control decision with long-term implications for revaluation, translation, and audit."</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHO -->
+<section class="who-section" id="who">
+  <div class="section-header">
+    <p class="section-tag">Who It Serves</p>
+    <h2 class="section-title">Built for the professionals<br>who live inside the <em>system</em>.</h2>
+  </div>
+  <div class="who-grid">
+    <div class="who-card">
+      <div class="who-role">Enterprise Finance</div>
+      <div class="who-title">CFOs & Group Controllers</div>
+      <p class="who-desc">Who monitor FX exposure at the treasury level but may carry hidden account currency risk inside their ERP configuration.</p>
+    </div>
+    <div class="who-card">
+      <div class="who-role">Technology</div>
+      <div class="who-title">ERP Consultants & Architects</div>
+      <p class="who-desc">SAP, Oracle, NetSuite, and Dynamics practitioners who configure account currency at implementation and bear the downstream consequences.</p>
+    </div>
+    <div class="who-card">
+      <div class="who-role">Markets</div>
+      <div class="who-title">Fintech & Treasury Platforms</div>
+      <p class="who-desc">Builders of multi-currency financial infrastructure who need authoritative reference architecture for account currency behavior.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ACQUISITION -->
+<section class="acquisition" id="acquisition">
+  <div class="acq-left">
+    <p class="acq-tag">Strategic Acquisition</p>
+    <h2 class="acq-title">AccountCcy.com is a category-grade digital asset.</h2>
+    <p class="acq-body">This domain occupies a precise and rare intersection: institutional financial terminology (Ccy — the standard abbreviation used in Swift, SAP, Oracle, and Bloomberg) combined with the foundational concept of account currency control. It is not a generic keyword domain. It is a sovereign reference asset positioned at the intersection of ERP, multi-currency accounting, and enterprise finance.</p>
+    <div class="acq-targets">
+      <span class="acq-tag-pill">ERP Vendors</span>
+      <span class="acq-tag-pill">Accounting Platforms</span>
+      <span class="acq-tag-pill">Treasury Systems</span>
+      <span class="acq-tag-pill">Financial Advisory</span>
+      <span class="acq-tag-pill">Fintech B2B</span>
+      <span class="acq-tag-pill">Oracle / SAP Partners</span>
+    </div>
+    <a href="mailto:agent@sohadot.com" class="btn-gold">Initiate Acquisition Inquiry</a>
+  </div>
+  <div class="acq-right">
+    <div class="acq-stat">
+      <div class="acq-stat-num">Ccy</div>
+      <div class="acq-stat-label">ISO / Swift / Bloomberg standard abbreviation</div>
+    </div>
+    <div class="acq-stat">
+      <div class="acq-stat-num">8</div>
+      <div class="acq-stat-label">Currency states in the CCY State Chain framework</div>
+    </div>
+    <div class="acq-stat">
+      <div class="acq-stat-num">B2B</div>
+      <div class="acq-stat-label">Enterprise-exclusive positioning. No retail. No ambiguity.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Account<span>Ccy</span>.com · The Currency State Control Layer</div>
+  <div class="footer-note">A Sohadot Portfolio Asset · agent@sohadot.com</div>
+</footer>
+
+</body>
+</html>
