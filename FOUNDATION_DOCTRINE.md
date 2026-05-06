@@ -218,34 +218,32 @@ It is the reference layer for the chain through which monetary movement becomes 
 
 The asset is governed by the following hierarchy:
 
-```text
-Monetary Truth
-↓
-Chain of Custody
-↓
-Currency State Control Framework
-↓
-CCY State Chain
-↓
-Account Currency Control
-↓
-ERP / CFO / Treasury / Reporting / Audit Application
-```
+**Monetary Truth**  
+↓  
+**Chain of Custody**  
+↓  
+**Currency State Control Framework**  
+↓  
+**CCY State Chain**  
+↓  
+**Account Currency Control**  
+↓  
+**ERP / CFO / Treasury / Reporting / Audit Application**
 
 This hierarchy is non-negotiable.
 
 It must govern:
 
-- homepage positioning  
-- site architecture  
-- page titles  
-- internal linking  
-- content strategy  
-- SEO targeting  
-- tool development  
-- monetization  
-- acquisition posture  
-- public language  
+- homepage positioning
+- site architecture
+- page titles
+- internal linking
+- content strategy
+- SEO targeting
+- tool development
+- monetization
+- acquisition posture
+- public language
 - private decision-making
 
 No part of the asset should be built outside this hierarchy.
@@ -259,15 +257,15 @@ If a proposed page, feature, monetization layer, or design direction does not st
 AccountCcy.com must be communicated through three distinct narrative layers.  
 These layers must not be flattened.
 
-### 9.1 Structural Layer  
+## 9.1 Structural Layer  
 **The Currency State Control Framework**  
 This is the formal structure of the asset. It defines how currency changes institutional state as it moves through enterprise finance systems. It gives the asset intellectual architecture.
 
-### 9.2 Philosophical Layer  
+## 9.2 Philosophical Layer  
 **The Chain of Custody for Monetary Truth**  
 This is the deeper necessity of the asset. It explains why the asset matters.
 
-### 9.3 Symbolic Layer  
+## 9.3 Symbolic Layer  
 **Where currency stops being a rate — and becomes a state.**  
 This is the compressed public signal. It is memorable, strong, and useful for the homepage, social preview, high-level positioning, and acquisition language.
 
