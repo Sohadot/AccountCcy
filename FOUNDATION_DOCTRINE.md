@@ -1,4 +1,3 @@
-```markdown
 # AccountCcy.com Foundation Doctrine
 
 ## Document Status
