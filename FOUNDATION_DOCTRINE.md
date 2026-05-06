@@ -16,7 +16,7 @@ No page, tool, article, design decision, commercial layer, or outreach posture m
 
 ---
 
-# 1. Supreme Governing Thesis
+## 1. Supreme Governing Thesis
 
 **AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.**
 
@@ -37,7 +37,7 @@ This is the domain of AccountCcy.com.
 
 ---
 
-# 2. Sovereign Asset Identity
+## 2. Sovereign Asset Identity
 
 AccountCcy.com is a sovereign-grade strategic digital asset.
 
@@ -64,7 +64,7 @@ AccountCcy.com is built for the institutional buyer who understands that owning 
 
 ---
 
-# 3. Strategic Construction Principle
+## 3. Strategic Construction Principle
 
 The value of AccountCcy.com is not merely discovered.  
 It is constructed.
@@ -93,7 +93,7 @@ This is strategic value construction.
 
 ---
 
-# 4. The Benchmark Principle
+## 4. The Benchmark Principle
 
 AccountCcy.com is not built to compete inside ordinary domain resale logic.  
 It is built to challenge symbolic-value benchmarks through a stronger form of value.
@@ -126,7 +126,7 @@ It must become a named control surface for a problem that already exists inside 
 
 ---
 
-# 5. The Core Strategic Insight
+## 5. The Core Strategic Insight
 
 Enterprise finance does not suffer only from currency volatility.  
 It suffers from monetary truth fragmentation.
@@ -146,7 +146,7 @@ Its central insight is:
 
 ---
 
-# 6. The Problem AccountCcy.com Owns
+## 6. The Problem AccountCcy.com Owns
 
 Modern enterprise finance operates across:
 
@@ -195,7 +195,7 @@ AccountCcy.com owns this hidden control problem.
 
 ---
 
-# 7. The Central Story
+## 7. The Central Story
 
 The central story of AccountCcy.com is simple, deep, and defensible:
 
@@ -214,7 +214,7 @@ It is the reference layer for the chain through which monetary movement becomes 
 
 ---
 
-# 8. Conceptual Hierarchy
+## 8. Conceptual Hierarchy
 
 The asset is governed by the following hierarchy:
 
@@ -252,20 +252,20 @@ If a proposed page, feature, monetization layer, or design direction does not st
 
 ---
 
-# 9. The Three-Layer Narrative System
+## 9. The Three-Layer Narrative System
 
 AccountCcy.com must be communicated through three distinct narrative layers.  
 These layers must not be flattened.
 
-## 9.1 Structural Layer  
+### 9.1 Structural Layer  
 **The Currency State Control Framework**  
 This is the formal structure of the asset. It defines how currency changes institutional state as it moves through enterprise finance systems. It gives the asset intellectual architecture.
 
-## 9.2 Philosophical Layer  
+### 9.2 Philosophical Layer  
 **The Chain of Custody for Monetary Truth**  
 This is the deeper necessity of the asset. It explains why the asset matters.
 
-## 9.3 Symbolic Layer  
+### 9.3 Symbolic Layer  
 **Where currency stops being a rate — and becomes a state.**  
 This is the compressed public signal. It is memorable, strong, and useful for the homepage, social preview, high-level positioning, and acquisition language.
 
@@ -275,7 +275,7 @@ The structural layer governs.
 
 ---
 
-# 10. The Currency State Control Framework
+## 10. The Currency State Control Framework
 
 The Currency State Control Framework is the primary structural framework of AccountCcy.com.
 
@@ -295,7 +295,7 @@ This distinction must always be preserved.
 
 ---
 
-# 11. The CCY State Chain
+## 11. The CCY State Chain
 
 The CCY State Chain is the core doctrine of AccountCcy.com.  
 It is the asset’s primary intellectual architecture.  
@@ -331,7 +331,7 @@ The final defensible state. This is the currency reality that survives reconcili
 
 ---
 
-# 12. Account Currency as the Control Point
+## 12. Account Currency as the Control Point
 
 Account currency is not merely one state among many.  
 It is the gate through which external monetary activity becomes internal accounting reality.
@@ -347,7 +347,7 @@ Account currency must be framed as a control discipline.
 
 ---
 
-# 13. What AccountCcy.com Is
+## 13. What AccountCcy.com Is
 
 AccountCcy.com is:
 
@@ -369,7 +369,7 @@ But it must always remain a reference-grade asset before it becomes a revenue la
 
 ---
 
-# 14. What AccountCcy.com Is Not
+## 14. What AccountCcy.com Is Not
 
 AccountCcy.com is not:
 
@@ -394,7 +394,7 @@ The asset must never trade authority for short-term revenue.
 
 ---
 
-# 15. Target Audience Doctrine
+## 15. Target Audience Doctrine
 
 AccountCcy.com is built for serious enterprise finance audiences.
 
@@ -425,7 +425,7 @@ The right visitor is the one who recognizes the problem.
 
 ---
 
-# 16. Buyer Doctrine
+## 16. Buyer Doctrine
 
 The future buyer of AccountCcy.com is not a domain trader.  
 The future buyer is a strategic institutional actor.
@@ -453,7 +453,7 @@ It must be a strategic asset transfer.
 
 ---
 
-# 17. Scarcity Creation Doctrine
+## 17. Scarcity Creation Doctrine
 
 AccountCcy.com already has native scarcity because of its precise institutional language.
 
@@ -480,7 +480,7 @@ AccountCcy.com must become rare not only because of its name, but because of the
 
 ---
 
-# 18. Contextual Inevitability Doctrine
+## 18. Contextual Inevitability Doctrine
 
 The purpose of the build is to make AccountCcy.com feel contextually inevitable.
 
@@ -494,7 +494,7 @@ The asset must become the natural home for account currency control and monetary
 
 ---
 
-# 19. Content Governance
+## 19. Content Governance
 
 Every page must strengthen at least one of the following:
 
@@ -517,7 +517,7 @@ Every keyword must serve the asset.
 
 ---
 
-# 20. Evidence Discipline
+## 20. Evidence Discipline
 
 Authority must be earned through structure and defensibility.
 
@@ -531,7 +531,7 @@ The asset must be serious enough that a CFO, controller, ERP architect, or audit
 
 ---
 
-# 21. SEO Doctrine
+## 21. SEO Doctrine
 
 SEO is not the master of AccountCcy.com.  
 SEO is a servant of authority.
@@ -562,7 +562,7 @@ SEO must not dilute the asset.
 
 ---
 
-# 22. Design Doctrine
+## 22. Design Doctrine
 
 The design of AccountCcy.com must communicate:
 
@@ -581,7 +581,7 @@ The design should feel like a reference institution, a strategic finance archive
 
 ---
 
-# 23. Tool Doctrine
+## 23. Tool Doctrine
 
 Tools may be added only if they strengthen the methodology.
 
@@ -594,13 +594,12 @@ The tool must not become a gimmick. It must serve professional usefulness, lead 
 
 ---
 
-# 24. Monetization Doctrine
+## 24. Monetization Doctrine
 
 AccountCcy.com may generate income before eventual acquisition.  
 But income must never degrade the asset.
 
-**Allowed** monetization forms include:  
-premium diagnostic reports · enterprise finance briefings · professional white papers
+**Allowed** monetization forms include:
 
 - premium diagnostic reports
 - enterprise finance briefings
@@ -630,7 +629,7 @@ If revenue reduces dignity, it is the wrong revenue.
 
 ---
 
-# 25. Acquisition Doctrine
+## 25. Acquisition Doctrine
 
 AccountCcy.com is not to be sold downward.
 
@@ -660,7 +659,7 @@ The asset must be found, respected, and approached from a position of authority.
 
 ---
 
-# 26. Development Order
+## 26. Development Order
 
 AccountCcy.com must be developed in this order:
 
@@ -693,7 +692,7 @@ Acquisition cannot precede visible value.
 
 ---
 
-# 27. Initial Page Architecture
+## 27. Initial Page Architecture
 
 The first sovereign build should include:
 
@@ -719,7 +718,7 @@ No page should exist only to fill a sitemap.
 
 ---
 
-# 28. Language Rules
+## 28. Language Rules
 
 Preferred language:
 
@@ -751,7 +750,7 @@ It must not sound like it is pretending.
 
 ---
 
-# 29. Non-Negotiable Rejections
+## 29. Non-Negotiable Rejections
 
 Reject any proposal that turns AccountCcy.com into:
 
@@ -773,7 +772,7 @@ Sovereign assets are built as much by what they reject as by what they publish.
 
 ---
 
-# 30. Final Operating Test
+## 30. Final Operating Test
 
 Every future decision must pass this test:
 
