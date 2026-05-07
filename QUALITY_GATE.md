@@ -4,27 +4,31 @@
 
 This document defines the quality gate for AccountCcy.com.
 
-It governs what must be true before content, pages, tools, monetization layers, or public acquisition posture may be published.
+It governs what must be true before content, pages, tools, monetization layers, acquisition language, visual identity, or technical releases may be published.
 
-This is not a checklist for cosmetic quality.
+This is not a cosmetic checklist.
 
 This is a sovereign asset quality gate.
 
-Its purpose is to protect AccountCcy.com from dilution, inconsistency, weak content, unsupported claims, poor design, broken structure, and premature commercialization.
+Its purpose is to protect AccountCcy.com from dilution, inconsistency, weak content, unsupported claims, poor design, technical carelessness, SEO degradation, and premature commercialization.
 
 ---
 
-## Supreme Quality Standard
+## 1. Supreme Quality Standard
 
 Every element of AccountCcy.com must strengthen the asset as:
 
 **the chain of custody for monetary truth inside enterprise finance.**
 
-If a page, feature, design choice, or revenue layer does not support that thesis, it should not proceed.
+If a page, feature, design choice, claim, tool, or revenue layer does not support that thesis, it should not proceed.
+
+Quality is not optional.
+
+Quality is part of value construction.
 
 ---
 
-## Quality Gate Categories
+## 2. Quality Gate Categories
 
 Every major asset element must pass the following gates:
 
@@ -36,14 +40,18 @@ Every major asset element must pass the following gates:
 6. SEO Integrity
 7. Design Integrity
 8. Technical Quality
-9. Monetization Compatibility
-10. Acquisition Compatibility
+9. Accessibility and Mobile Readability
+10. Monetization Compatibility
+11. Acquisition Compatibility
+12. Governance Traceability
+
+A failure in any critical gate may block publication.
 
 ---
 
-## Gate 1 — Doctrine Alignment
+## 3. Gate 1 — Doctrine Alignment
 
-A page or feature must align with:
+A page, feature, or product must align with:
 
 - Foundation Doctrine
 - Asset Thesis
@@ -65,33 +73,33 @@ It must reinforce at least one of the following:
 
 Fail condition:
 
-The page or feature feels generic, unrelated, retail-facing, or driven only by traffic.
+The element feels generic, unrelated, retail-facing, traffic-driven, or inconsistent with the foundation doctrine.
 
 ---
 
-## Gate 2 — Conceptual Integrity
+## 4. Gate 2 — Conceptual Integrity
 
 A page must preserve the core hierarchy:
 
-**Monetary Truth**  
-↓  
-**Chain of Custody**  
-↓  
-**Currency State Control Framework**  
-↓  
-**CCY State Chain**  
-↓  
-**Account Currency Control**  
-↓  
+**Monetary Truth**<br>
+↓<br>
+**Chain of Custody**<br>
+↓<br>
+**Currency State Control Framework**<br>
+↓<br>
+**CCY State Chain**<br>
+↓<br>
+**Account Currency Control**<br>
+↓<br>
 **ERP / CFO / Treasury / Reporting / Audit Application**
 
 Fail condition:
 
-The content treats account currency as only a setup field, currency conversion topic, or generic accounting term without connecting it to the larger doctrine.
+The content treats account currency as only a setup field, currency conversion topic, glossary term, or generic accounting concept without connecting it to the larger doctrine.
 
 ---
 
-## Gate 3 — Institutional Seriousness
+## 5. Gate 3 — Institutional Seriousness
 
 The asset must sound and feel serious enough for:
 
@@ -102,6 +110,7 @@ The asset must sound and feel serious enough for:
 - treasury managers
 - audit professionals
 - enterprise finance software buyers
+- professional advisory firms
 
 The language must be:
 
@@ -110,16 +119,17 @@ The language must be:
 - professional
 - defensible
 - reference-grade
+- non-hype-driven
 
 Fail condition:
 
-The content sounds promotional, hype-driven, casual, cheap, speculative, or domain-sales oriented.
+The content sounds promotional, casual, speculative, desperate, cheap, exaggerated, or domain-sales oriented.
 
 ---
 
-## Gate 4 — Evidence Discipline
+## 6. Gate 4 — Evidence Discipline
 
-Any factual claim about accounting standards, ERP systems, financial reporting, revaluation, translation, consolidation, structured financial data, or audit must be carefully worded.
+Any factual claim about accounting standards, ERP systems, financial reporting, revaluation, translation, consolidation, structured financial data, treasury practice, or audit must be carefully worded.
 
 The asset must distinguish between:
 
@@ -130,11 +140,11 @@ The asset must distinguish between:
 
 Fail condition:
 
-The page presents proprietary concepts as official standards, implies vendor affiliation, or makes claims that a serious professional could easily challenge.
+The page presents proprietary concepts as official standards, implies vendor affiliation, copies vendor documentation, or makes claims that a serious professional could easily challenge.
 
 ---
 
-## Gate 5 — Content Quality
+## 7. Gate 5 — Content Quality
 
 Every public page must include:
 
@@ -146,16 +156,23 @@ Every public page must include:
 - no filler
 - no keyword stuffing
 - no unsupported exaggeration
+- no generic padding
+- no public-facing uncertainty that weakens authority
 
-Each major page should explain why the topic matters, where it sits in the CCY State Chain, and what risk or consequence appears if misunderstood.
+Each major page should explain:
+
+- why the topic matters
+- where it sits in the CCY State Chain
+- what risk or consequence appears if misunderstood
+- how the concept relates to monetary truth custody
 
 Fail condition:
 
-The page is thin, repetitive, generic, padded, or written only to capture a keyword.
+The page is thin, repetitive, generic, padded, keyword-driven, or disconnected from the asset doctrine.
 
 ---
 
-## Gate 6 — SEO Integrity
+## 8. Gate 6 — SEO Integrity
 
 SEO must serve authority.
 
@@ -170,14 +187,16 @@ Approved SEO intent types:
 - CFO strategy
 - glossary support
 - diagnostic support
+- financial close context
+- reporting and consolidation context
 
 Fail condition:
 
-The page chases mass-market traffic, forex traffic, crypto traffic, or unrelated finance queries.
+The page chases mass-market traffic, forex traffic, crypto traffic, generic finance traffic, or unrelated accounting traffic.
 
 ---
 
-## Gate 7 — Design Integrity
+## 9. Gate 7 — Design Integrity
 
 Design must communicate:
 
@@ -188,6 +207,7 @@ Design must communicate:
 - financial seriousness
 - conceptual depth
 - quiet power
+- system clarity
 
 Fail condition:
 
@@ -200,12 +220,15 @@ The design resembles:
 - domain parking page
 - generic finance blog
 - hype-driven startup page
+- cluttered ad platform
 
 The design must not overpower the doctrine.
 
+The design must make the doctrine easier to understand.
+
 ---
 
-## Gate 8 — Technical Quality
+## 10. Gate 8 — Technical Quality
 
 Before publication, the site must check:
 
@@ -214,11 +237,15 @@ Before publication, the site must check:
 - no duplicate canonical URLs
 - no missing page titles
 - no missing meta descriptions
-- no placeholder content
+- no temporary filler content
 - no exposed drafts
-- no console errors in basic pages
-- mobile readability
-- responsive navigation
+- no basic console errors
+- no malformed HTML
+- no unclosed tags
+- no broken navigation
+- no broken images
+- no accidental external dependencies without purpose
+- no unoptimized critical assets
 - clean canonical URLs
 - sitemap accuracy
 - robots.txt presence
@@ -227,11 +254,34 @@ Before publication, the site must check:
 
 Fail condition:
 
-The site feels unfinished, broken, or technically careless.
+The site feels unfinished, broken, technically careless, or inconsistent with a high-value institutional asset.
 
 ---
 
-## Gate 9 — Monetization Compatibility
+## 11. Gate 9 — Accessibility and Mobile Readability
+
+The asset must be readable and usable on mobile and desktop.
+
+Minimum checks:
+
+- responsive layout
+- readable font size
+- no horizontal overflow
+- navigation usable on mobile
+- adequate contrast
+- visible focus states for interactive elements
+- image alt text where applicable
+- no content hidden in a way that removes conceptual value
+- no code-block formatting for doctrine hierarchy unless needed
+- no excessively wide tables on mobile without adaptation
+
+Fail condition:
+
+The site or documentation looks broken, clipped, unreadable, or amateur on mobile.
+
+---
+
+## 12. Gate 10 — Monetization Compatibility
 
 Any revenue layer must preserve dignity and authority.
 
@@ -247,23 +297,22 @@ Allowed revenue layers must support:
 
 Fail condition:
 
-Revenue layer introduces display ads, low-trust affiliates, forex promotions, crypto hype, cheap sales tactics, or public domain-sale identity.
+Revenue introduces display ads, low-trust affiliates, forex promotions, crypto hype, cheap sales tactics, public domain-sale identity, or visual clutter.
 
 ---
 
-## Gate 10 — Acquisition Compatibility
+## 13. Gate 11 — Acquisition Compatibility
 
 Every major asset decision must preserve future acquisition value.
 
 Ask:
 
-Would a serious institutional buyer respect this decision?
-
-Does this make the asset more defensible?
-
-Does this make the asset more useful?
-
-Does this make the asset more coherent?
+- Would a serious institutional buyer respect this decision?
+- Does this make the asset more defensible?
+- Does this make the asset more useful?
+- Does this make the asset more coherent?
+- Does this increase category ownership?
+- Does this preserve professional trust?
 
 Fail condition:
 
@@ -271,7 +320,28 @@ The decision increases short-term activity but reduces long-term respect.
 
 ---
 
-## Publication Gate
+## 14. Gate 12 — Governance Traceability
+
+Major decisions must be traceable to governance files.
+
+A public page should be consistent with:
+
+- Foundation Doctrine
+- Asset Thesis
+- Architecture
+- Content Governance
+- SEO Policy
+- Monetization Principles
+- Acquisition Posture
+- Quality Gate
+
+Fail condition:
+
+A page, feature, or commercial decision appears without clear relationship to the asset doctrine.
+
+---
+
+## 15. Publication Gate
 
 A page may be published only if it passes:
 
@@ -283,12 +353,14 @@ A page may be published only if it passes:
 - internal linking
 - technical readability
 - mobile readability
+- metadata completeness
+- acquisition compatibility
 
 If any of these fail, the page should remain draft.
 
 ---
 
-## Monetization Gate
+## 16. Monetization Gate
 
 A monetization layer may be launched only if:
 
@@ -299,10 +371,11 @@ A monetization layer may be launched only if:
 - payment experience is professional
 - the offer strengthens authority
 - the asset still reads as a reference asset first
+- the revenue layer does not become the visible identity of the site
 
 ---
 
-## Acquisition Gate
+## 17. Acquisition Gate
 
 Acquisition posture may become publicly visible only if:
 
@@ -313,10 +386,11 @@ Acquisition posture may become publicly visible only if:
 - no cheap monetization is visible
 - the asset feels institutionally serious
 - buyer logic is clear
+- public language does not resemble a domain pitch
 
 ---
 
-## Severity Levels
+## 18. Severity Levels
 
 ### Blocker
 
@@ -330,6 +404,10 @@ Examples:
 - generic domain-for-sale posture
 - low-trust monetization
 - conceptual contradiction
+- missing canonical on public pages
+- major mobile breakage
+- temporary filler content
+- legal or compliance risk caused by careless advice language
 
 ### Warning
 
@@ -342,6 +420,9 @@ Examples:
 - overly long meta description
 - weak evidence language
 - thin supporting section
+- insufficient glossary links
+- weak CTA language
+- design inconsistency
 
 ### Improvement
 
@@ -354,10 +435,39 @@ Examples:
 - additional glossary links
 - improved schema
 - expanded diagnostic logic
+- better social preview
+- deeper examples for professionals
 
 ---
 
-## Final Quality Test
+## 19. Suggested Automated Checks
+
+The future build system should include checks for:
+
+- missing titles
+- missing descriptions
+- missing canonical tags
+- broken links
+- missing images
+- missing alt text
+- invalid sitemap entries
+- duplicate slugs
+- empty pages
+- temporary filler terms
+- overlong titles
+- overlong descriptions
+- absent robots.txt
+- absent favicon
+- non-canonical internal links
+- accidental draft exposure
+
+These checks do not replace human strategic review.
+
+They protect the technical floor.
+
+---
+
+## 20. Final Quality Test
 
 Before publishing anything, ask:
 
@@ -368,3 +478,9 @@ If yes, proceed.
 If no, stop.
 
 If uncertain, return to the foundation doctrine.
+
+Quality is part of the asset.
+
+Quality is part of the valuation.
+
+Quality is part of the sovereignty.
