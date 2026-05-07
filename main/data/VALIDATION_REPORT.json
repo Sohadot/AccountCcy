@@ -1,0 +1,34 @@
+{
+  "ACQUISITION_POSTURE.md": {
+    "lines": 427,
+    "h1_count": 1,
+    "fenced_code_blocks": 0,
+    "placeholder_tokens": [],
+    "trailing_whitespace_lines": 0,
+    "sha256": "aedf9372c0a38c78"
+  },
+  "DECISION_LOG.md": {
+    "lines": 367,
+    "h1_count": 1,
+    "fenced_code_blocks": 0,
+    "placeholder_tokens": [],
+    "trailing_whitespace_lines": 0,
+    "sha256": "f4828e6bdd8e2b86"
+  },
+  "MONETIZATION_PRINCIPLES.md": {
+    "lines": 456,
+    "h1_count": 1,
+    "fenced_code_blocks": 0,
+    "placeholder_tokens": [],
+    "trailing_whitespace_lines": 0,
+    "sha256": "2146bd91854d2636"
+  },
+  "QUALITY_GATE.md": {
+    "lines": 486,
+    "h1_count": 1,
+    "fenced_code_blocks": 0,
+    "placeholder_tokens": [],
+    "trailing_whitespace_lines": 0,
+    "sha256": "40007dd7497b42e3"
+  }
+}
