@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-07",
+  "tools": [
+    {
+      "slug": "currency-state-diagnostic",
+      "name": "Currency State Diagnostic",
+      "url": "/tools/currency-state-diagnostic/",
+      "public_url": "/currency-state-diagnostic/",
+      "status": "draft",
+      "type": "diagnostic",
+      "maturity_levels": ["Fragmented", "Configured", "Governed", "Controlled", "Audit-Defensible"],
+      "ccy_states_assessed": [1, 2, 3, 4, 5, 6, 7, 8],
+      "questions": [
+        {"id": "q01", "state": 1, "question": "Is the source of FX rates used for transaction recording documented and consistently applied?", "weight": 1},
+        {"id": "q02", "state": 2, "question": "Is transaction currency recorded separately from settlement currency in your ERP?", "weight": 2},
+        {"id": "q03", "state": 3, "question": "Are settlement currency differences from transaction currency recognized and reconciled?", "weight": 2},
+        {"id": "q04", "state": 4, "question": "Does your organization have a documented account currency policy for each account class?", "weight": 3},
+        {"id": "q05", "state": 4, "question": "Is account currency reviewed before any G/L account is created or modified?", "weight": 3},
+        {"id": "q06", "state": 4, "question": "Are foreign currency account balances reviewed at period end against account currency policy?", "weight": 3},
+        {"id": "q07", "state": 5, "question": "Is foreign currency revaluation performed for all monetary items at period end?", "weight": 2},
+        {"id": "q08", "state": 5, "question": "Are revaluation results reconciled to ledger balances before close?", "weight": 2},
+        {"id": "q09", "state": 6, "question": "Are reporting currency translation rates applied consistently and documented?", "weight": 2},
+        {"id": "q10", "state": 6, "question": "Are currency translation adjustments correctly classified and disclosed?", "weight": 2},
+        {"id": "q11", "state": 7, "question": "Can consolidation currency adjustments be traced to source entity ledgers?", "weight": 3},
+        {"id": "q12", "state": 8, "question": "Can every material foreign currency balance be traced from source transaction to audit trail?", "weight": 3}
+      ],
+      "disclaimer": "The Currency State Diagnostic is a reference maturity framework for educational and self-assessment purposes. It does not provide accounting, audit, tax, legal, or ERP implementation advice. Consult qualified professionals for matters requiring professional judgment.",
+      "monetization_path": "paid diagnostic report",
+      "related_pages": ["/ccy-state-chain/", "/framework/", "/what-is-account-currency/", "/cfo-guide/"]
+    },
+    {
+      "slug": "account-currency-control-checklist",
+      "name": "Account Currency Control Checklist",
+      "url": "/tools/account-currency-control-checklist/",
+      "status": "draft",
+      "type": "checklist",
+      "ccy_states_assessed": [4],
+      "sections": [
+        {"section": "Policy", "items": ["Account currency policy is documented", "Policy covers all account classes", "Policy is reviewed annually", "Policy is aligned with functional currency determination"]},
+        {"section": "Configuration", "items": ["Account currency is set correctly for all G/L accounts", "Foreign currency accounts are correctly identified", "No account currency was set by default without review", "Account currency changes require documented approval"]},
+        {"section": "Period-End", "items": ["Foreign currency balances are revalued at period end", "Revaluation results are reconciled before close", "Unexplained revaluation variances are investigated", "Revaluation entries are documented in the audit trail"]},
+        {"section": "Audit Readiness", "items": ["Account currency policy is available to auditors", "Configuration documentation is maintained", "Changes to account currency are logged and approved", "Revaluation history is retained"]}
+      ],
+      "disclaimer": "This checklist is a reference tool for educational and self-assessment purposes only. It does not constitute accounting, audit, tax, legal, or ERP implementation advice.",
+      "monetization_path": "paid checklist report",
+      "related_pages": ["/what-is-account-currency/", "/risks/account-currency-misconfiguration/", "/tools/currency-state-diagnostic/", "/states/account-currency/"]
+    },
+    {
+      "slug": "fx-revaluation-readiness",
+      "name": "FX Revaluation Readiness Check",
+      "url": "/tools/fx-revaluation-readiness/",
+      "status": "draft",
+      "type": "checklist",
+      "ccy_states_assessed": [4, 5],
+      "disclaimer": "Reference tool only. Not accounting or audit advice.",
+      "monetization_path": "paid readiness report",
+      "related_pages": ["/revaluation-and-translation/", "/states/ledger-currency/", "/glossary/fx-revaluation/"]
+    },
+    {
+      "slug": "close-currency-risk-map",
+      "name": "Financial Close Currency Risk Map",
+      "url": "/tools/close-currency-risk-map/",
+      "status": "draft",
+      "type": "risk-map",
+      "ccy_states_assessed": [4, 5, 6, 7],
+      "disclaimer": "Reference tool only. Not accounting or audit advice.",
+      "monetization_path": "paid risk map report",
+      "related_pages": ["/cfo-guide/", "/risks/account-currency-misconfiguration/", "/revaluation-and-translation/"]
+    },
+    {
+      "slug": "audit-reality-checklist",
+      "name": "Audit Reality Traceability Checklist",
+      "url": "/tools/audit-reality-checklist/",
+      "status": "draft",
+      "type": "checklist",
+      "ccy_states_assessed": [8],
+      "disclaimer": "Reference tool only. Not accounting or audit advice.",
+      "monetization_path": "paid audit readiness report",
+      "related_pages": ["/states/audit-reality/", "/monetary-truth-chain-of-custody/", "/glossary/audit-trail/"]
+    },
+    {
+      "slug": "erp-currency-configuration-risk-scanner",
+      "name": "ERP Currency Configuration Risk Scanner",
+      "url": "/tools/erp-currency-configuration-risk-scanner/",
+      "status": "draft",
+      "type": "risk-scanner",
+      "ccy_states_assessed": [4, 5],
+      "disclaimer": "Reference tool only. Not ERP implementation or accounting advice. Not affiliated with any ERP vendor.",
+      "monetization_path": "paid ERP risk report",
+      "related_pages": ["/account-currency-in-erp/", "/erp/erp-currency-configuration-risk/", "/risks/account-currency-misconfiguration/"]
+    }
+  ]
+}

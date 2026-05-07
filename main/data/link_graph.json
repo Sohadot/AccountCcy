@@ -1,0 +1,131 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-07",
+  "hierarchy_levels": {
+    "0": "Supreme Thesis",
+    "1": "Framework Layer",
+    "2": "Definition Layer",
+    "3": "Application Layer",
+    "4": "Risk and Consequence Layer",
+    "5": "Executive Layer",
+    "6": "Monetization Layer",
+    "7": "Acquisition Layer"
+  },
+  "nodes": [
+    {
+      "url": "/",
+      "level": 0,
+      "parent": null,
+      "required_outbound": ["/monetary-truth-chain-of-custody/", "/framework/", "/ccy-state-chain/", "/what-is-account-currency/", "/glossary/", "/cfo-guide/", "/currency-state-diagnostic/", "/acquisition/"],
+      "inbound_from": ["all pages"]
+    },
+    {
+      "url": "/monetary-truth-chain-of-custody/",
+      "level": 0,
+      "parent": "/",
+      "required_outbound": ["/framework/", "/ccy-state-chain/", "/what-is-account-currency/", "/cfo-guide/", "/glossary/"],
+      "inbound_from": ["/", "/framework/", "/ccy-state-chain/", "/states/account-currency/", "/states/audit-reality/", "/cfo-guide/", "/acquisition/"]
+    },
+    {
+      "url": "/framework/",
+      "level": 1,
+      "parent": "/monetary-truth-chain-of-custody/",
+      "required_outbound": ["/monetary-truth-chain-of-custody/", "/ccy-state-chain/", "/what-is-account-currency/", "/glossary/"],
+      "inbound_from": ["/", "/monetary-truth-chain-of-custody/", "/ccy-state-chain/", "all pillar pages"]
+    },
+    {
+      "url": "/ccy-state-chain/",
+      "level": 1,
+      "parent": "/framework/",
+      "required_outbound": ["/monetary-truth-chain-of-custody/", "/framework/", "/states/account-currency/", "/what-is-account-currency/", "/glossary/"],
+      "inbound_from": ["/", "/framework/", "all state pages", "all comparison pages"]
+    },
+    {
+      "url": "/what-is-account-currency/",
+      "level": 2,
+      "parent": "/ccy-state-chain/",
+      "required_outbound": ["/monetary-truth-chain-of-custody/", "/ccy-state-chain/", "/states/account-currency/", "/glossary/account-currency/", "/framework/"],
+      "inbound_from": ["/", "/ccy-state-chain/", "/states/account-currency/", "all ERP pages", "all risk pages"]
+    },
+    {
+      "url": "/glossary/",
+      "level": 2,
+      "parent": "/",
+      "required_outbound": ["/framework/", "/ccy-state-chain/", "/what-is-account-currency/", "/monetary-truth-chain-of-custody/"],
+      "inbound_from": ["all pages"]
+    },
+    {
+      "url": "/account-currency-in-erp/",
+      "level": 3,
+      "parent": "/what-is-account-currency/",
+      "required_outbound": ["/what-is-account-currency/", "/states/account-currency/", "/states/ledger-currency/", "/erp/erp-currency-configuration-risk/", "/framework/"],
+      "inbound_from": ["/", "/ccy-state-chain/", "all ERP pages"]
+    },
+    {
+      "url": "/revaluation-and-translation/",
+      "level": 3,
+      "parent": "/states/ledger-currency/",
+      "required_outbound": ["/states/ledger-currency/", "/states/reporting-currency/", "/glossary/fx-revaluation/", "/glossary/currency-translation/", "/cfo-guide/"],
+      "inbound_from": ["/cfo-guide/", "/states/ledger-currency/", "/states/reporting-currency/", "all risk pages on FX"]
+    },
+    {
+      "url": "/transaction-vs-account-vs-reporting-currency/",
+      "level": 3,
+      "parent": "/what-is-account-currency/",
+      "required_outbound": ["/states/transaction-currency/", "/states/account-currency/", "/states/reporting-currency/", "/ccy-state-chain/", "/framework/"],
+      "inbound_from": ["/what-is-account-currency/", "/compare/transaction-currency-vs-account-currency/"]
+    },
+    {
+      "url": "/functional-currency-explained/",
+      "level": 3,
+      "parent": "/states/ledger-currency/",
+      "required_outbound": ["/glossary/functional-currency/", "/states/ledger-currency/", "/states/reporting-currency/", "/revaluation-and-translation/", "/framework/"],
+      "inbound_from": ["/states/ledger-currency/", "/glossary/functional-currency/", "/revaluation-and-translation/"]
+    },
+    {
+      "url": "/cfo-guide/",
+      "level": 5,
+      "parent": "/",
+      "required_outbound": ["/monetary-truth-chain-of-custody/", "/states/account-currency/", "/risks/account-currency-misconfiguration/", "/tools/currency-state-diagnostic/", "/acquisition/"],
+      "inbound_from": ["/", "/monetary-truth-chain-of-custody/", "/states/account-currency/", "all risk pages", "all CFO pages"]
+    },
+    {
+      "url": "/currency-state-diagnostic/",
+      "level": 6,
+      "parent": "/tools/currency-state-diagnostic/",
+      "required_outbound": ["/ccy-state-chain/", "/framework/", "/what-is-account-currency/", "/cfo-guide/"],
+      "inbound_from": ["/", "/cfo-guide/", "all risk pages", "all CFO pages", "all tool pages"]
+    },
+    {
+      "url": "/acquisition/",
+      "level": 7,
+      "parent": "/",
+      "required_outbound": ["/monetary-truth-chain-of-custody/", "/framework/", "/ccy-state-chain/", "/currency-state-diagnostic/"],
+      "inbound_from": ["/", "/cfo-guide/", "/states/audit-reality/"]
+    },
+    {
+      "url": "/states/account-currency/",
+      "level": 4,
+      "parent": "/ccy-state-chain/",
+      "required_outbound": ["/monetary-truth-chain-of-custody/", "/states/settlement-currency/", "/states/ledger-currency/", "/what-is-account-currency/", "/ccy-state-chain/", "/risks/account-currency-misconfiguration/"],
+      "inbound_from": ["/what-is-account-currency/", "/ccy-state-chain/", "all ERP pages", "all risk pages"]
+    },
+    {
+      "url": "/states/audit-reality/",
+      "level": 4,
+      "parent": "/ccy-state-chain/",
+      "required_outbound": ["/states/consolidation-currency/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/glossary/audit-trail/", "/acquisition/"],
+      "inbound_from": ["/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/"]
+    }
+  ],
+  "link_rules": {
+    "upward_link_required": true,
+    "minimum_lateral_links": 3,
+    "no_link_to_draft": true,
+    "no_html_extension": true,
+    "no_orphan_pages": true,
+    "risk_to_tool_required": true,
+    "glossary_to_state_required": true,
+    "comparison_to_state_required": true
+  }
+}
