@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-07",
+  "url": "/what-is-account-currency/",
+  "type": "pillar",
+  "status": "ready-for-published-cluster",
+  "quality_gate": "sovereign",
+  "page_eyebrow": "Definition · Control Discipline",
+  "h1": "What Is Account Currency?",
+  "intro": "Account currency is the currency assigned to an account for recording, maintaining, reconciling, and controlling financial balances inside an enterprise finance or ERP system.",
+  "doctrine_eyebrow": "Definition Doctrine",
+  "doctrine_statement": "Account currency is not merely a configuration field.<br>It is the control point where external monetary movement enters accounting custody.",
+  "doctrine_attribution": "Account Currency Definition · AccountCcy.com",
+  "primary_section_eyebrow": "Reference Definition",
+  "primary_section_title": "Account currency governs how balances are held, controlled, revalued, and defended.",
+  "primary_section_body": [
+    "In enterprise finance, an account does not only hold a balance. It holds a balance under a currency identity. That identity governs how postings are recorded, how balances are maintained, how foreign currency amounts are revalued, and how the account can be reconciled and audited.",
+    "Account currency is therefore different from transaction currency, settlement currency, functional currency, ledger currency, reporting currency, and consolidation currency. These are related but distinct roles inside the currency state chain.",
+    "AccountCcy.com treats account currency as a control discipline because errors or weak governance at this layer can affect the ledger, reporting, consolidation, and audit reality downstream."
+  ],
+  "graph_eyebrow": "Position in Chain",
+  "graph_title": "Account currency is State 04 of the CCY State Chain.",
+  "graph_intro": "It is the central control point between external financial movement and internal accounting record. This is where AccountCcy.com lives conceptually and strategically.",
+  "grid_eyebrow": "Position in Chain",
+  "grid_title": "Account currency is State 04 of the CCY State Chain.",
+  "grid_intro": "It is the central control point between external financial movement and internal accounting record. This is where AccountCcy.com lives conceptually and strategically.",
+  "cards": [
+    {"label": "Not Transaction Currency", "title": "Transaction currency is the currency of the event.", "body": "It defines the currency in which the financial obligation is denominated. It does not necessarily define how an account balance is maintained."},
+    {"label": "Not Settlement Currency", "title": "Settlement currency is the currency of cash transfer.", "body": "It defines how payment occurs. It may differ from transaction currency and account currency, creating FX consequences."},
+    {"label": "Not Ledger Currency", "title": "Ledger currency is the currency of maintained books.", "body": "It often reflects functional currency policy and may require foreign currency account balances to be revalued."},
+    {"label": "Not Reporting Currency", "title": "Reporting currency is the currency of presentation.", "body": "It governs how results are shown to management, regulators, investors, or group reporting structures."},
+    {"label": "Control Point", "title": "Account currency is where movement becomes record.", "body": "It is the custody gate through which external monetary activity enters internal accounting control."},
+    {"label": "Audit Consequence", "title": "Account currency affects whether the final number can be defended.", "body": "Weak account currency governance can create downstream traceability, reconciliation, and audit problems."}
+  ],
+  "control_label": "Definition Control",
+  "control_title": "Account currency turns currency identity into accounting custody.",
+  "control_body": "A strong account currency layer clarifies what currency an account is allowed to maintain, how balances should be interpreted, and how foreign currency movements should be controlled through the close process.",
+  "risk_label": "Definition Risk",
+  "risk_title": "Misunderstanding account currency creates structural risk.",
+  "risk_body": "If account currency is confused with transaction currency, settlement currency, ledger currency, or reporting currency, the result can be revaluation errors, reconciliation breaks, reporting distortion, and audit-trail gaps.",
+  "faq": [
+    {"question": "Is account currency the same as transaction currency?", "answer": "No. Transaction currency is the currency in which the financial event is denominated. Account currency is the currency assigned to the account where balances are recorded or maintained."},
+    {"question": "Is account currency the same as functional currency?", "answer": "Not necessarily. Functional currency relates to the primary economic environment of the entity. Account currency is an account-level currency assignment inside the accounting or ERP system."},
+    {"question": "Why does account currency matter?", "answer": "It matters because it influences balance maintenance, revaluation, reconciliation, reporting, and audit defensibility."}
+  ],
+  "schema_notes": {
+    "primary_schema": "DefinedTerm",
+    "secondary_schema": ["Article", "FAQPage", "WebPage", "BreadcrumbList"],
+    "framework_status": "Reference definition within the AccountCcy framework."
+  }
+}
