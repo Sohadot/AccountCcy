@@ -1,0 +1,97 @@
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: state_page.html
+
+  Role:
+  CCY State Chain node pages.
+
+  Render contract:
+  - Every state page must show the current state inside the full eight-state rail.
+  - Every state page must state the custody question.
+  - Every state page must link to previous/next state where applicable.
+  - State 04 and State 08 must be treated as sovereign-level pages.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">CCY State Chain · State {{STATE_NUMBER}}</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">{{STATE_NAME}}</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">{{STATE_SUMMARY}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="state-role-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">{{STATE_ROLE_LABEL}}</p>
+        <h2 id="state-role-title" class="ccy-title">{{STATE_ROLE_TITLE}}</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body">{{STATE_ROLE_BODY}}</p>
+        <div class="ccy-panel-gold">
+          <p class="ccy-label">Custody Question</p>
+          <p class="ccy-section-title">{{CUSTODY_QUESTION}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="chain-position-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div>
+        <p class="ccy-eyebrow">Position in Chain</p>
+        <h2 id="chain-position-title" class="ccy-title">{{STATE_NAME}} inside the chain of custody.</h2>
+        <p class="ccy-body">{{CHAIN_POSITION_BODY}}</p>
+      </div>
+      <div class="ccy-panel-strong">
+        <div class="ccy-custody-rail" role="list" aria-label="CCY State Chain with current state highlighted">
+{{STATE_RAIL_HTML}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="risk-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if weak</p>
+        <h2 id="risk-title" class="ccy-consequence-heading">{{STATE_RISK_TITLE}}</h2>
+        <p class="ccy-consequence-body">{{STATE_RISK_BODY}}</p>
+      </article>
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Control logic</p>
+        <h2 class="ccy-consequence-heading">{{STATE_CONTROL_TITLE}}</h2>
+        <p class="ccy-consequence-body">{{STATE_CONTROL_BODY}}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="transition-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Transition Logic</p>
+        <h2 id="transition-title" class="ccy-title">What this state receives and what it passes forward.</h2>
+      </div>
+      <div class="ccy-stack">
+        <div class="ccy-panel">
+          <p class="ccy-label">Receives From</p>
+          <p class="ccy-body">{{RECEIVES_FROM}}</p>
+        </div>
+        <div class="ccy-panel">
+          <p class="ccy-label">Passes To</p>
+          <p class="ccy-body">{{PASSES_TO}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

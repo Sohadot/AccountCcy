@@ -1,0 +1,95 @@
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: glossary_term.html
+
+  Role:
+  DefinedTerm pages generated from glossary_terms.json.
+
+  Render contract:
+  - No thin definitions.
+  - Every term must be positioned inside the CCY State Chain or explicitly marked as cross-chain.
+  - Every term must include risk-if-misunderstood.
+  - Every term must connect back to pillar/state pages.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Glossary · {{TERM_CATEGORY}}</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">{{TERM}}</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">{{DEFINITION}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="definition-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Reference Definition</p>
+        <h2 id="definition-title" class="ccy-title">What {{TERM}} means inside enterprise finance.</h2>
+      </div>
+      <div class="ccy-definition-box">
+        <p class="ccy-body">{{DEFINITION}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Institutional Context</p>
+        <h2 id="context-title" class="ccy-title">{{TERM}} in the AccountCcy reference graph.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body">{{INSTITUTIONAL_CONTEXT}}</p>
+        <div class="ccy-panel-gold">
+          <p class="ccy-label">Position in Chain</p>
+          <p class="ccy-body">{{POSITION_IN_CHAIN}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="matters-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Why it matters</p>
+        <h2 id="matters-title" class="ccy-consequence-heading">{{TERM}} as a control concept</h2>
+        <p class="ccy-consequence-body">{{WHY_IT_MATTERS}}</p>
+      </article>
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if misunderstood</p>
+        <h2 class="ccy-consequence-heading">Where misunderstanding creates distortion</h2>
+        <p class="ccy-consequence-body">{{RISK_IF_MISUNDERSTOOD}}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="related-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Related Terms</p>
+    <h2 id="related-title" class="ccy-section-title" style="margin-bottom: var(--ccy-space-6);">Continue through the reference graph.</h2>
+    <div class="ccy-cluster">
+{{RELATED_TERMS_HTML}}
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="term-discipline-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Terminology Discipline</p>
+        <h2 id="term-discipline-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Definition is not decoration. It is control.</h2>
+      </div>
+      <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">AccountCcy.com glossary terms exist to reduce ambiguity inside multi-currency enterprise finance. Each term is treated as a reference node connected to the Currency State Control Framework, the CCY State Chain, operational risk, and audit defensibility.</p>
+    </div>
+  </div>
+</section>

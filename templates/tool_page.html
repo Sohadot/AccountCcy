@@ -1,4 +1,18 @@
-<!-- Template: tool_page.html | Diagnostic, checklist, scanner, and report-entry pages. -->
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: tool_page.html
+
+  Role:
+  Diagnostic, checklist, scanner, maturity model, and report-entry pages.
+
+  Static-hosting rule:
+  This template intentionally does not use POST forms. GitHub Pages is static hosting.
+  Interactive behavior must be JavaScript-only, local-first, and non-collecting unless a separately approved external endpoint is introduced.
+
+  Trust rule:
+  Tools must not claim to provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+-->
+
 <section class="ccy-section" aria-labelledby="page-title">
   <div class="ccy-container">
     <div style="max-width: var(--ccy-container-sm);">
@@ -19,7 +33,9 @@
       </div>
       <div class="ccy-stack">
         <p class="ccy-body">{{TOOL_PURPOSE_BODY}}</p>
-        <div class="ccy-verified-note"><p class="ccy-small">{{TOOL_DISCLAIMER}}</p></div>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">{{TOOL_DISCLAIMER}}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -32,18 +48,52 @@
       <h2 id="assessment-title" class="ccy-title">{{ASSESSMENT_TITLE}}</h2>
       <p class="ccy-body">{{ASSESSMENT_INTRO}}</p>
     </div>
-    <form class="ccy-panel-strong" action="#" method="post" aria-describedby="tool-disclaimer">
+
+    <div class="ccy-panel-strong ccy-tool-surface" role="form" aria-labelledby="assessment-title" aria-describedby="tool-disclaimer" data-tool-slug="{{TOOL_SLUG}}">
 {{TOOL_FORM_HTML}}
       <p id="tool-disclaimer" class="ccy-small" style="margin-top: var(--ccy-space-6);">{{TOOL_DISCLAIMER}}</p>
-    </form>
+    </div>
   </div>
 </section>
 
-<section class="ccy-section ccy-surface-cream" aria-labelledby="monetization-title">
+<section class="ccy-section ccy-surface-cream" aria-labelledby="maturity-title">
   <div class="ccy-container">
     <div class="ccy-grid-2">
-      <div class="ccy-stack"><p class="ccy-eyebrow">Report Layer</p><h2 id="monetization-title" class="ccy-title">{{REPORT_TITLE}}</h2></div>
-      <div class="ccy-panel-gold"><p class="ccy-body">{{REPORT_BODY}}</p></div>
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Maturity Logic</p>
+        <h2 id="maturity-title" class="ccy-title">{{MATURITY_TITLE}}</h2>
+      </div>
+      <div class="ccy-panel-strong">
+        <div class="ccy-cluster">
+{{MATURITY_LEVELS_HTML}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="report-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Report Layer</p>
+        <h2 id="report-title" class="ccy-title">{{REPORT_TITLE}}</h2>
+      </div>
+      <div class="ccy-panel-gold">
+        <p class="ccy-body">{{REPORT_BODY}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="tool-trust-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Tool Trust Boundary</p>
+        <h2 id="tool-trust-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Diagnostic clarity without false authority.</h2>
+      </div>
+      <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">AccountCcy.com tools are reference maturity instruments. They help structure questions, reveal control gaps, and map currency-state governance. They do not replace professional accounting judgment, audit procedures, tax advice, legal advice, investment advice, or ERP implementation expertise.</p>
     </div>
   </div>
 </section>
