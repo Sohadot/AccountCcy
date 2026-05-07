@@ -4,7 +4,7 @@
 
 This document defines the acquisition posture for AccountCcy.com.
 
-It governs how the asset should be positioned, discussed, protected, and eventually transferred if a strategic buyer appears.
+It governs how the asset should be positioned, discussed, protected, qualified, packaged, negotiated, and eventually transferred if a serious institutional buyer appears.
 
 This is not a domain sales document.
 
@@ -14,33 +14,43 @@ This is not a marketplace listing strategy.
 
 This is the acquisition discipline for a sovereign-grade strategic digital asset.
 
-No acquisition posture may contradict `FOUNDATION_DOCTRINE.md`.
-
----
-
-## Governing Acquisition Thesis
-
-**AccountCcy.com is not sold as a domain name.**
-
-It may be considered for strategic acquisition only as a built reference asset, methodology surface, professional trust layer, and category-positioned digital property.
-
-The supreme thesis remains:
+No acquisition posture may contradict the governing thesis:
 
 **AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.**
 
-The buyer must understand that the asset’s value is not confined to the raw string.
+---
 
-The value includes the name, the doctrine, the framework, the architecture, the audience, the SEO authority, the diagnostic model, the monetization layer, and the category position.
+## 1. Supreme Acquisition Thesis
+
+AccountCcy.com is not sold as a domain name.
+
+It may be considered for strategic acquisition only as a built reference asset, methodology surface, professional trust layer, and category-positioned digital property.
+
+The buyer must understand that the value is not confined to the raw string.
+
+The value includes:
+
+- name
+- doctrine
+- framework
+- architecture
+- content system
+- professional audience
+- SEO authority
+- diagnostic model
+- monetization layer
+- category position
+- strategic defensibility
+
+The intended outcome is a strategic asset transfer, not a commodity domain sale.
 
 ---
 
-## Acquisition Objective
+## 2. Acquisition Objective
 
 The objective is not to sell quickly.
 
 The objective is to build upward until the right institutional buyer recognizes that AccountCcy.com controls a meaningful conceptual and professional surface.
-
-The intended acquisition outcome is a strategic asset transfer, not a commodity domain sale.
 
 The correct buyer should ask:
 
@@ -50,13 +60,21 @@ not merely:
 
 **How much for the domain?**
 
+A domain question produces domain pricing.
+
+An asset question produces strategic pricing.
+
+AccountCcy.com must be built to force the second question.
+
 ---
 
-## Buyer Profile
+## 3. Target Buyer Profile
 
-The strongest acquisition candidates are institutional actors operating in or adjacent to enterprise finance infrastructure.
+The future buyer of AccountCcy.com is not a domain trader.
 
-Primary buyer categories:
+The future buyer is a strategic institutional actor operating in or adjacent to enterprise finance infrastructure.
+
+### Primary Buyer Categories
 
 - financial close platforms
 - consolidation software companies
@@ -69,7 +87,7 @@ Primary buyer categories:
 - ERP implementation networks
 - professional finance training organizations
 
-Secondary buyer categories:
+### Secondary Buyer Categories
 
 - financial reporting infrastructure companies
 - audit technology platforms
@@ -77,25 +95,28 @@ Secondary buyer categories:
 - multi-currency accounting software providers
 - enterprise data integrity platforms
 - finance transformation consultancies
+- professional certification bodies
+- financial systems education companies
 
 Domain traders, wholesale buyers, speculative resellers, and low-price opportunists are not target buyers.
 
 ---
 
-## Buyer Logic
+## 4. Buyer Logic
 
 A serious buyer may value AccountCcy.com because it can serve as:
 
-- a category reference hub
-- a thought leadership platform
-- a professional education surface
-- a methodology asset
-- a diagnostic tool surface
-- a lead qualification layer
-- a defensive brand asset
-- a product category name
-- a trust-building reference system
-- a high-value acquisition surface in multi-currency finance
+- category reference hub
+- thought leadership platform
+- professional education surface
+- methodology asset
+- diagnostic tool surface
+- lead qualification layer
+- defensive brand asset
+- product category name
+- trust-building reference system
+- training and certification support layer
+- high-value acquisition surface in multi-currency finance
 
 The buyer is not acquiring a name alone.
 
@@ -103,13 +124,48 @@ The buyer is acquiring control over a narrative, framework, and reference archit
 
 ---
 
-## What May Be Included in a Strategic Transfer
+## 5. Strategic Use Cases for an Acquirer
+
+A qualified acquirer may use AccountCcy.com as one or more of the following.
+
+### Reference Hub
+
+A public education and authority surface for account currency control, multi-currency accounting, and financial close currency risk.
+
+### Product Layer
+
+A category-level front door for a product module, diagnostic tool, or educational layer related to ERP currency control, reconciliation, reporting, or consolidation.
+
+### Thought Leadership Surface
+
+A defensible institutional platform for publishing high-quality research, frameworks, briefings, and guidance.
+
+### Diagnostic Engine
+
+A maturity assessment surface for CFOs, controllers, ERP teams, and financial close professionals.
+
+### Training Surface
+
+A training and enablement layer for internal teams, implementation partners, customers, or professional communities.
+
+### Defensive Asset
+
+A category-relevant surface that prevents competitors from controlling the public language around account currency governance.
+
+### Trust Layer
+
+A high-specificity reference asset that demonstrates seriousness in monetary truth, auditability, and multi-currency finance.
+
+---
+
+## 6. What May Be Included in a Strategic Transfer
 
 A future acquisition may include:
 
 - AccountCcy.com domain ownership
-- brand identity and visual assets
 - public website
+- brand identity and visual assets
+- reference architecture
 - content library
 - glossary
 - Currency State Control Framework
@@ -118,12 +174,13 @@ A future acquisition may include:
 - diagnostic model
 - diagnostic questions
 - premium report templates
+- training materials
+- professional briefing library
 - email list or subscriber base if lawfully transferable
 - SEO authority
 - analytics history
 - inbound inquiry history
 - monetization products
-- training materials
 - acquisition narrative
 - documentation and governance files
 
@@ -131,20 +188,21 @@ The asset should be built so that a future buyer sees a complete strategic packa
 
 ---
 
-## Non-Sale Posture
+## 7. Non-Sale Public Posture
 
 AccountCcy.com must not publicly present itself as a domain for sale.
 
 Avoid:
 
-- “Buy this domain”
-- “Premium domain for sale”
-- “Make offer”
-- price tags on the homepage
+- Buy this domain
+- Premium domain for sale
+- Make offer
+- public price tags
 - domain marketplace framing
 - aggressive outbound sales language
 - low-price anchoring
 - urgency tactics
+- parking-page identity
 
 Permitted language:
 
@@ -153,11 +211,13 @@ Permitted language:
 - Acquisition consideration is limited to aligned enterprise finance, ERP, financial close, treasury, accounting automation, and professional education contexts.
 - AccountCcy.com is a reference asset first.
 
+The public posture must communicate selectivity, not availability.
+
 ---
 
-## Acquisition Page Role
+## 8. Acquisition Page Doctrine
 
-The `/acquisition/` page must be restrained.
+The acquisition page must be restrained.
 
 It should explain:
 
@@ -168,17 +228,17 @@ It should explain:
 - why it is not positioned as a commodity domain sale
 - how to initiate a serious inquiry
 
-The page should not disclose a public price.
+The page must not disclose a public price.
 
-The page should not sound eager.
+The page must not sound eager.
 
-The page should not pressure the buyer.
+The page must not pressure the buyer.
 
-The page should communicate selectivity.
+The page must communicate that the asset may be considered only under strong institutional alignment.
 
 ---
 
-## Outreach Discipline
+## 9. Outreach Discipline
 
 No outreach should occur before authority is visible.
 
@@ -197,9 +257,19 @@ Minimum conditions before any targeted outreach:
 
 Premature outreach risks collapsing the asset back into raw-domain perception.
 
+No outreach should be framed as:
+
+- domain sale
+- quick opportunity
+- available name
+- premium domain pitch
+- price inquiry
+
+If outreach ever occurs, it must be framed around strategic category alignment, not domain availability.
+
 ---
 
-## Inbound Inquiry Qualification
+## 10. Inbound Inquiry Qualification
 
 If an inbound inquiry arrives, qualify the buyer before discussing price.
 
@@ -209,15 +279,17 @@ Questions to consider:
 - What organization do they represent?
 - Why are they interested in AccountCcy.com?
 - Do they understand the asset as a reference system or only as a domain?
-- Are they aligned with enterprise finance, ERP, financial close, treasury, accounting automation, or advisory?
+- Are they aligned with enterprise finance, ERP, financial close, treasury, accounting automation, reporting, audit, or advisory?
 - Are they likely to preserve or strengthen the asset?
 - Is the inquiry serious, funded, and strategic?
+- What would they do with the asset?
+- Do they understand the Currency State Control Framework and the CCY State Chain?
 
 Do not rush into price disclosure.
 
 ---
 
-## Price Posture
+## 11. Price Posture
 
 No public asking price should be displayed during the authority-building phase.
 
@@ -233,9 +305,11 @@ A price discussion should happen only after:
 
 The price should reflect asset value, not string value.
 
+If a buyer evaluates the asset only as a domain string, the conversation is not yet mature.
+
 ---
 
-## Negotiation Principle
+## 12. Negotiation Principle
 
 Do not negotiate from potential alone.
 
@@ -253,12 +327,15 @@ Proof may include:
 - inbound inquiries
 - framework recognition
 - qualified audience
+- professional citations
+- licensing interest
+- revenue evidence
 
 The stronger the proof, the stronger the negotiation posture.
 
 ---
 
-## Defensive Acquisition Logic
+## 13. Defensive Acquisition Logic
 
 AccountCcy.com may become valuable because the right buyer may not want a competitor to own the category surface.
 
@@ -278,7 +355,7 @@ This strategic pressure is part of the asset’s value.
 
 ---
 
-## Red Lines
+## 14. Red Lines
 
 Reject acquisition approaches that:
 
@@ -291,12 +368,14 @@ Reject acquisition approaches that:
 - require speculative crypto, forex, or trading positioning
 - undermine the doctrine
 - damage future reputation
+- pressure public price disclosure
+- attempt to separate the domain from the built reference system without strategic valuation
 
 The asset should not be sold merely because someone is willing to buy.
 
 ---
 
-## Acquisition Timing
+## 15. Acquisition Timing
 
 Best timing for acquisition consideration:
 
@@ -304,14 +383,38 @@ Best timing for acquisition consideration:
 - after the framework is coherent
 - after the diagnostic model is present
 - after SEO traction begins
-- after some qualified audience or revenue signal exists
+- after qualified audience or revenue signals exist
 - after the asset is legible as a system, not only a name
+- after public identity feels institutionally serious
+- after the acquisition page can be read without sounding like a domain pitch
 
 The longer the authority compounds, the more defensible the valuation becomes.
 
 ---
 
-## Final Acquisition Test
+## 16. Package Discipline
+
+Before any serious acquisition discussion, define what is included.
+
+Possible package levels:
+
+### Domain-Only Transfer
+
+Not preferred. Should generally be rejected unless pricing reflects strategic loss.
+
+### Domain Plus Public Site
+
+Includes domain, website, content, and visible brand surface.
+
+### Full Strategic Asset Transfer
+
+Includes domain, site, content, frameworks, diagnostic model, governance files, templates, SEO history, subscriber assets if lawfully transferable, monetization products, and acquisition narrative.
+
+The preferred path is full strategic asset transfer.
+
+---
+
+## 17. Final Acquisition Test
 
 Before entertaining any acquisition, ask:
 
@@ -320,3 +423,5 @@ Before entertaining any acquisition, ask:
 If yes, the conversation may proceed cautiously.
 
 If no, the inquiry should be rejected, delayed, or reframed.
+
+AccountCcy.com must be sold only from strength.
