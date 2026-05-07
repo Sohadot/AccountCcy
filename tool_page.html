@@ -1,0 +1,49 @@
+<!-- Template: tool_page.html | Diagnostic, checklist, scanner, and report-entry pages. -->
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Tool · {{TOOL_TYPE}}</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">{{TOOL_NAME}}</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">{{TOOL_SUMMARY}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="tool-purpose-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Purpose</p>
+        <h2 id="tool-purpose-title" class="ccy-title">{{TOOL_PURPOSE_TITLE}}</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body">{{TOOL_PURPOSE_BODY}}</p>
+        <div class="ccy-verified-note"><p class="ccy-small">{{TOOL_DISCLAIMER}}</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="assessment-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-10);">
+      <p class="ccy-eyebrow">Assessment Surface</p>
+      <h2 id="assessment-title" class="ccy-title">{{ASSESSMENT_TITLE}}</h2>
+      <p class="ccy-body">{{ASSESSMENT_INTRO}}</p>
+    </div>
+    <form class="ccy-panel-strong" action="#" method="post" aria-describedby="tool-disclaimer">
+{{TOOL_FORM_HTML}}
+      <p id="tool-disclaimer" class="ccy-small" style="margin-top: var(--ccy-space-6);">{{TOOL_DISCLAIMER}}</p>
+    </form>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="monetization-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <div class="ccy-stack"><p class="ccy-eyebrow">Report Layer</p><h2 id="monetization-title" class="ccy-title">{{REPORT_TITLE}}</h2></div>
+      <div class="ccy-panel-gold"><p class="ccy-body">{{REPORT_BODY}}</p></div>
+    </div>
+  </div>
+</section>
