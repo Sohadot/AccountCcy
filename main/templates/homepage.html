@@ -1,0 +1,113 @@
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: homepage.html
+
+  Role:
+  Public homepage content template rendered inside base.html.
+
+  Sovereign render contract:
+  - The homepage must establish the supreme thesis above the fold.
+  - The custody rail must remain visible and meaningful.
+  - Acquisition language must remain restrained and secondary.
+  - No domain-sale language. No price. No urgency.
+  - No links to draft or unpublished pages.
+-->
+
+<section class="ccy-hero" aria-labelledby="hero-title">
+  <div class="ccy-hero-content">
+    <div class="ccy-hero-copy ccy-stack" style="--ccy-stack-space: 1.5rem;">
+      <p class="ccy-eyebrow">{{HOMEPAGE_EYEBROW}}</p>
+      <h1 id="hero-title" class="ccy-display">{{HOMEPAGE_H1}}</h1>
+      <p class="ccy-subtitle">{{HOMEPAGE_INTRO}}</p>
+      <div class="ccy-rule-gold" aria-hidden="true"></div>
+      <blockquote class="ccy-thesis-quote">{{HOMEPAGE_THESIS_QUOTE}}</blockquote>
+
+      <div class="ccy-hero-actions" aria-label="Primary actions">
+        <a class="ccy-button ccy-button-primary" href="/framework/">Explore the Framework</a>
+        <a class="ccy-button ccy-button-secondary" href="/ccy-state-chain/">Trace the State Chain</a>
+      </div>
+    </div>
+  </div>
+
+  <aside class="ccy-hero-visual" aria-labelledby="rail-title">
+    <div class="ccy-custody-rail" role="list" aria-label="CCY State Chain homepage preview">
+      <p id="rail-title" class="ccy-label">The CCY State Chain</p>
+{{HOMEPAGE_STATE_RAIL_HTML}}
+    </div>
+  </aside>
+</section>
+
+<section class="ccy-section" aria-labelledby="problem-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">{{PROBLEM_EYEBROW}}</p>
+        <h2 id="problem-title" class="ccy-title">{{PROBLEM_TITLE}}</h2>
+      </div>
+      <div class="ccy-stack">
+{{PROBLEM_BODY_HTML}}
+      </div>
+    </div>
+
+    <div class="ccy-grid-4" style="margin-top: var(--ccy-space-12);">
+{{PROBLEM_CARDS_HTML}}
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">The Control Point</p>
+        <h2 id="control-title" class="ccy-title">{{CONTROL_POINT_TITLE}}</h2>
+        <p class="ccy-body">{{CONTROL_POINT_BODY}}</p>
+      </div>
+      <div class="ccy-panel-gold">
+        <p class="ccy-label">Account Currency</p>
+        <p class="ccy-section-title">{{ACCOUNT_CURRENCY_DEFINITION}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">AccountCcy Doctrine</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">{{HOMEPAGE_DOCTRINE}}</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      The Currency State Control Framework · AccountCcy.com
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="audience-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Who It Serves</p>
+        <h2 id="audience-title" class="ccy-title">{{AUDIENCE_TITLE}}</h2>
+      </div>
+      <p class="ccy-body">{{AUDIENCE_INTRO}}</p>
+    </div>
+
+    <div class="ccy-grid-3" style="margin-top: var(--ccy-space-12);">
+{{AUDIENCE_CARDS_HTML}}
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="acquisition-preview-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Strategic Acquisition</p>
+        <h2 id="acquisition-preview-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">{{ACQUISITION_PREVIEW_TITLE}}</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">{{ACQUISITION_PREVIEW_BODY}}</p>
+        <a class="ccy-button ccy-button-gold" href="/acquisition/">Strategic Acquisition Posture</a>
+      </div>
+    </div>
+  </div>
+</section>
