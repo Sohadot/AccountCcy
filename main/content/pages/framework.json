@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-07",
+  "url": "/framework/",
+  "type": "pillar",
+  "status": "ready-for-published-cluster",
+  "quality_gate": "sovereign",
+  "page_eyebrow": "Framework · Currency State Control",
+  "h1": "The Currency State Control Framework",
+  "intro": "The Currency State Control Framework defines currency as a state-bearing object inside enterprise finance. It maps how monetary movement passes from market price to accounting custody, ledger maintenance, reporting presentation, consolidation, and audit-defensible truth.",
+  "doctrine_eyebrow": "Framework Doctrine",
+  "doctrine_statement": "Currency is not a static unit inside enterprise finance.<br>It changes institutional meaning as it moves through systems, accounts, ledgers, reports, consolidations, and audit trails.",
+  "doctrine_attribution": "The Currency State Control Framework · AccountCcy.com",
+  "primary_section_eyebrow": "Why The Framework Exists",
+  "primary_section_title": "Enterprise finance needs a language for the states currency passes through before it becomes truth.",
+  "primary_section_body": [
+    "Most finance systems treat currency as a field: a code, a rate, a transaction attribute, a reporting parameter, or a ledger configuration. But the same currency code can carry different meanings depending on where it appears in the enterprise finance chain.",
+    "A currency in a market quote is not the same institutional object as a currency in a transaction, a settlement, an account, a ledger, a report, a consolidation, or an audit trail. Each position carries different control obligations and different consequences if misunderstood.",
+    "The Currency State Control Framework provides a disciplined structure for naming these positions, governing their transitions, and identifying the point at which monetary movement enters accounting custody: account currency."
+  ],
+  "graph_eyebrow": "Reference Graph Position",
+  "graph_title": "The framework is the structural layer beneath the AccountCcy reference system.",
+  "graph_intro": "The framework connects the supreme thesis, the CCY State Chain, account currency control, glossary definitions, risk pages, CFO guidance, diagnostic tools, and future acquisition logic.",
+  "grid_eyebrow": "Reference Graph Position",
+  "grid_title": "The framework is the structural layer beneath the AccountCcy reference system.",
+  "grid_intro": "The framework connects the supreme thesis, the CCY State Chain, account currency control, glossary definitions, risk pages, CFO guidance, diagnostic tools, and future acquisition logic.",
+  "cards": [
+    {
+      "label": "State Identity",
+      "title": "Currency carries different institutional identities at different points in the chain.",
+      "body": "A transaction currency, account currency, ledger currency, and reporting currency may all use the same ISO code while representing different control realities."
+    },
+    {
+      "label": "Custody Transfer",
+      "title": "Monetary movement becomes accounting record through controlled transition.",
+      "body": "The key transition occurs when external financial movement enters the account layer and becomes part of the internal accounting system."
+    },
+    {
+      "label": "Downstream Propagation",
+      "title": "Weak account currency governance propagates into ledger, reporting, consolidation, and audit.",
+      "body": "A configuration or interpretation problem at State 04 can create downstream distortion that only appears during close, reporting, consolidation, or audit review."
+    },
+    {
+      "label": "Audit Defensibility",
+      "title": "The terminal state is not a report. It is defensible monetary truth.",
+      "body": "The framework exists to make the full path from monetary event to audit reality traceable, reconcilable, and defendable."
+    }
+  ],
+  "control_label": "Control Discipline",
+  "control_title": "Account currency is the framework’s critical control point.",
+  "control_body": "The framework identifies State 04 — Account Currency — as the gate where external monetary activity enters accounting custody. Before this state, currency belongs primarily to market, transaction, and settlement behavior. After this state, it propagates into ledger, reporting, consolidation, and audit layers.",
+  "risk_label": "Risk Discipline",
+  "risk_title": "The framework exposes structural currency risk before it becomes reporting distortion.",
+  "risk_body": "When currency states are treated as interchangeable, finance teams may face reconciliation breaks, revaluation errors, translation inconsistencies, consolidation mismatches, and audit-trail gaps. The framework turns that hidden risk into a governed map.",
+  "schema_notes": {
+    "primary_schema": "Article",
+    "secondary_schema": ["WebPage", "BreadcrumbList"],
+    "framework_status": "Original AccountCcy conceptual framework; not an official accounting standard."
+  }
+}

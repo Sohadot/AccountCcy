@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-07",
+  "url": "/ccy-state-chain/",
+  "type": "pillar",
+  "status": "ready-for-published-cluster",
+  "quality_gate": "sovereign",
+  "page_eyebrow": "Framework · Eight-State Reference",
+  "h1": "The CCY State Chain",
+  "intro": "The CCY State Chain maps the eight institutional states through which currency passes inside enterprise finance — from quoted market price to audit-defensible monetary truth.",
+  "doctrine_eyebrow": "State Chain Doctrine",
+  "doctrine_statement": "A currency does not have one meaning across enterprise finance.<br>It has a state, a role, a custody position, and a consequence.",
+  "doctrine_attribution": "The CCY State Chain · AccountCcy.com",
+  "primary_section_eyebrow": "Why The State Chain Matters",
+  "primary_section_title": "The same monetary event can pass through multiple currency states before it becomes defensible.",
+  "primary_section_body": [
+    "A financial event may begin as a quoted rate, become a transaction obligation, settle as cash movement, enter an account, be maintained in a ledger, translate into a reporting currency, consolidate at group level, and finally face audit scrutiny.",
+    "Each state carries a different question. Each transition can create distortion if it is not governed. The CCY State Chain makes these states visible so they can be named, linked, controlled, and reviewed.",
+    "State 04 — Account Currency — is the critical control point because it is where monetary movement enters accounting custody and begins to affect the ledger, reporting, consolidation, and audit layers."
+  ],
+  "graph_eyebrow": "Eight Custody States",
+  "graph_title": "From quoted price to audit reality.",
+  "graph_intro": "The state chain gives AccountCcy.com its navigable architecture. Every glossary term, risk page, comparison page, ERP page, CFO guide, and diagnostic tool should map back to one or more states.",
+  "grid_eyebrow": "Eight Custody States",
+  "grid_title": "From quoted price to audit reality.",
+  "grid_intro": "The state chain gives AccountCcy.com its navigable architecture. Every glossary term, risk page, comparison page, ERP page, CFO guide, and diagnostic tool should map back to one or more states.",
+  "cards": [
+    {"label": "State 01", "title": "Quoted Currency", "body": "Currency as a market price before a transaction, obligation, account, ledger, report, or audit trail exists."},
+    {"label": "State 02", "title": "Transaction Currency", "body": "The currency in which the financial event is denominated and the obligation takes its first formal identity."},
+    {"label": "State 03", "title": "Settlement Currency", "body": "The currency in which cash actually transfers, creating consequences when settlement diverges from transaction currency."},
+    {"label": "State 04 · Control Point", "title": "Account Currency", "body": "The currency assigned to an account for recording, maintaining, reconciling, and controlling balances inside the accounting system."},
+    {"label": "State 05", "title": "Ledger Currency", "body": "The currency in which entity books and balances are maintained, commonly aligned with the functional currency depending on framework and system configuration."},
+    {"label": "State 06", "title": "Reporting Currency", "body": "The currency in which results are presented for management, regulatory, investor, or internal reporting purposes."},
+    {"label": "State 07", "title": "Consolidation Currency", "body": "The group-level currency into which multiple entity ledgers, reporting layers, and adjustments are unified."},
+    {"label": "State 08", "title": "Audit Reality", "body": "The final defensible state where monetary figures can be traced, supported, reconciled, reviewed, and defended."}
+  ],
+  "control_label": "State 04",
+  "control_title": "Account Currency is the custody gate.",
+  "control_body": "The CCY State Chain gives State 04 special weight because account currency is where external monetary movement becomes internal accounting record. Weakness at this point is not isolated; it travels downstream.",
+  "risk_label": "State Failure",
+  "risk_title": "Confusing states creates hidden accounting distortion.",
+  "risk_body": "When transaction currency, settlement currency, account currency, ledger currency, and reporting currency are treated as interchangeable, the organization loses the ability to trace where monetary truth changed state and where distortion entered the system.",
+  "state_sequence": [
+    "Quoted Currency",
+    "Transaction Currency",
+    "Settlement Currency",
+    "Account Currency",
+    "Ledger Currency",
+    "Reporting Currency",
+    "Consolidation Currency",
+    "Audit Reality"
+  ],
+  "schema_notes": {
+    "primary_schema": "Article",
+    "secondary_schema": ["DefinedTermSet", "WebPage", "BreadcrumbList"],
+    "framework_status": "Original AccountCcy conceptual architecture."
+  }
+}
