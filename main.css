@@ -1,0 +1,1136 @@
+/*
+  AccountCcy.com — Sovereign CSS Foundation
+  File: assets/css/main.css
+
+  Purpose:
+  This stylesheet establishes the tokenized visual foundation for AccountCcy.com.
+
+  Governing thesis:
+  AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.
+
+  Design system:
+  Custody Archive Design System
+  Visual direction:
+  archive paper, institutional ink, muted gold custody markers,
+  ledger rules, restrained risk signals, and reference-grade clarity.
+*/
+
+/* ==========================================================================
+   01. DESIGN TOKENS
+   ========================================================================== */
+
+:root {
+  /* -----------------------------------------------------------------------
+     Color System — Custody Archive Palette
+     ----------------------------------------------------------------------- */
+
+  /* Primary archive surfaces */
+  --ccy-color-ink: #0d0d0b;
+  --ccy-color-ink-soft: #191915;
+  --ccy-color-paper: #f5f0e8;
+  --ccy-color-paper-deep: #e6dcc8;
+  --ccy-color-cream: #ede7d5;
+  --ccy-color-cream-dark: #ded4bd;
+
+  /* Institutional text and technical structure */
+  --ccy-color-slate: #2c3240;
+  --ccy-color-slate-mid: #4a5268;
+  --ccy-color-slate-soft: #6b7280;
+
+  /* Custody gold — reserved for control points, proof, and high-value emphasis */
+  --ccy-color-gold: #b8941f;
+  --ccy-color-gold-light: #d4a843;
+  --ccy-color-gold-pale: #f0e4b8;
+  --ccy-color-gold-veil: rgba(184, 148, 31, 0.12);
+
+  /* Rules, borders, and ledger lines */
+  --ccy-color-rule: #c8bea8;
+  --ccy-color-rule-soft: rgba(200, 190, 168, 0.58);
+  --ccy-color-rule-dark: #a79a82;
+
+  /* Semantic states */
+  --ccy-color-risk: #8b2020;
+  --ccy-color-risk-soft: rgba(139, 32, 32, 0.10);
+  --ccy-color-verified: #2f6f4e;
+  --ccy-color-verified-soft: rgba(47, 111, 78, 0.11);
+  --ccy-color-neutral-state: rgba(44, 50, 64, 0.12);
+
+  /* Dark archive surfaces */
+  --ccy-color-dark-surface: #0d0d0b;
+  --ccy-color-dark-surface-2: #171713;
+  --ccy-color-dark-text: #f5f0e8;
+  --ccy-color-dark-muted: rgba(245, 240, 232, 0.68);
+  --ccy-color-dark-faint: rgba(245, 240, 232, 0.38);
+
+  /* -----------------------------------------------------------------------
+     Typography
+     ----------------------------------------------------------------------- */
+
+  --ccy-font-heading: "Playfair Display", Georgia, "Times New Roman", serif;
+  --ccy-font-body: "Libre Baskerville", Georgia, "Times New Roman", serif;
+  --ccy-font-mono: "DM Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --ccy-font-system: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --ccy-font-size-2xs: clamp(0.6875rem, 0.66rem + 0.08vw, 0.75rem);
+  --ccy-font-size-xs: clamp(0.75rem, 0.72rem + 0.12vw, 0.8125rem);
+  --ccy-font-size-sm: clamp(0.875rem, 0.84rem + 0.18vw, 0.9375rem);
+  --ccy-font-size-md: clamp(1rem, 0.95rem + 0.22vw, 1.0625rem);
+  --ccy-font-size-lg: clamp(1.125rem, 1.02rem + 0.36vw, 1.25rem);
+  --ccy-font-size-xl: clamp(1.375rem, 1.16rem + 0.82vw, 1.75rem);
+  --ccy-font-size-2xl: clamp(1.75rem, 1.35rem + 1.6vw, 2.5rem);
+  --ccy-font-size-3xl: clamp(2.25rem, 1.55rem + 3vw, 4.25rem);
+  --ccy-font-size-4xl: clamp(3rem, 2rem + 5vw, 6.8rem);
+
+  --ccy-line-tight: 1.08;
+  --ccy-line-heading: 1.16;
+  --ccy-line-body: 1.72;
+  --ccy-line-loose: 1.9;
+
+  --ccy-letter-tight: -0.035em;
+  --ccy-letter-normal: 0;
+  --ccy-letter-wide: 0.08em;
+  --ccy-letter-wider: 0.14em;
+  --ccy-letter-widest: 0.22em;
+
+  /* -----------------------------------------------------------------------
+     Layout and Spacing
+     ----------------------------------------------------------------------- */
+
+  --ccy-container-xs: 44rem;
+  --ccy-container-sm: 56rem;
+  --ccy-container-md: 72rem;
+  --ccy-container-lg: 82rem;
+  --ccy-container-xl: 92rem;
+
+  --ccy-gutter: clamp(1.25rem, 3vw, 3.75rem);
+  --ccy-section-y: clamp(4.5rem, 9vw, 8rem);
+  --ccy-section-y-compact: clamp(3rem, 6vw, 5rem);
+  --ccy-section-y-large: clamp(6rem, 12vw, 11rem);
+
+  --ccy-space-1: 0.25rem;
+  --ccy-space-2: 0.5rem;
+  --ccy-space-3: 0.75rem;
+  --ccy-space-4: 1rem;
+  --ccy-space-5: 1.25rem;
+  --ccy-space-6: 1.5rem;
+  --ccy-space-8: 2rem;
+  --ccy-space-10: 2.5rem;
+  --ccy-space-12: 3rem;
+  --ccy-space-16: 4rem;
+  --ccy-space-20: 5rem;
+  --ccy-space-24: 6rem;
+
+  /* -----------------------------------------------------------------------
+     Borders, Radius, Shadows
+     ----------------------------------------------------------------------- */
+
+  --ccy-border-thin: 1px solid var(--ccy-color-rule);
+  --ccy-border-soft: 1px solid var(--ccy-color-rule-soft);
+  --ccy-border-gold: 1px solid rgba(184, 148, 31, 0.46);
+  --ccy-border-dark: 1px solid rgba(13, 13, 11, 0.12);
+
+  --ccy-radius-xs: 0.25rem;
+  --ccy-radius-sm: 0.5rem;
+  --ccy-radius-md: 0.875rem;
+  --ccy-radius-lg: 1.25rem;
+  --ccy-radius-xl: 1.75rem;
+  --ccy-radius-full: 999px;
+
+  --ccy-shadow-soft: 0 18px 60px rgba(13, 13, 11, 0.08);
+  --ccy-shadow-lift: 0 24px 80px rgba(13, 13, 11, 0.12);
+  --ccy-shadow-gold: 0 0 0 1px rgba(184, 148, 31, 0.22), 0 18px 50px rgba(184, 148, 31, 0.09);
+  --ccy-shadow-inset-rule: inset 0 1px 0 rgba(255, 255, 255, 0.24);
+
+  /* -----------------------------------------------------------------------
+     Motion
+     ----------------------------------------------------------------------- */
+
+  --ccy-ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ccy-ease-formal: cubic-bezier(0.16, 1, 0.3, 1);
+  --ccy-duration-fast: 160ms;
+  --ccy-duration-standard: 260ms;
+  --ccy-duration-slow: 520ms;
+
+  /* -----------------------------------------------------------------------
+     Z-index
+     ----------------------------------------------------------------------- */
+
+  --ccy-z-base: 1;
+  --ccy-z-sticky: 20;
+  --ccy-z-overlay: 50;
+  --ccy-z-modal: 100;
+
+  /* -----------------------------------------------------------------------
+     Focus
+     ----------------------------------------------------------------------- */
+
+  --ccy-focus-ring: 0 0 0 3px rgba(184, 148, 31, 0.35);
+}
+
+/* ==========================================================================
+   02. RESET AND BASE
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(240, 228, 184, 0.32), transparent 34rem),
+    linear-gradient(180deg, var(--ccy-color-paper) 0%, var(--ccy-color-cream) 100%);
+  color: var(--ccy-color-ink);
+  font-family: var(--ccy-font-body);
+  font-size: var(--ccy-font-size-md);
+  line-height: var(--ccy-line-body);
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(13, 13, 11, 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(13, 13, 11, 0.014) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.58), transparent 86%);
+}
+
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--ccy-color-gold);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--ccy-focus-ring);
+}
+
+::selection {
+  background: var(--ccy-color-gold-pale);
+  color: var(--ccy-color-ink);
+}
+
+/* ==========================================================================
+   03. TYPOGRAPHY PRIMITIVES
+   ========================================================================== */
+
+.ccy-eyebrow,
+.ccy-label,
+.ccy-kicker {
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-widest);
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+
+.ccy-eyebrow {
+  color: var(--ccy-color-gold);
+}
+
+.ccy-label {
+  color: var(--ccy-color-slate-mid);
+}
+
+.ccy-display {
+  margin: 0;
+  max-width: 12ch;
+  font-family: var(--ccy-font-heading);
+  font-size: var(--ccy-font-size-4xl);
+  font-weight: 700;
+  letter-spacing: var(--ccy-letter-tight);
+  line-height: var(--ccy-line-tight);
+}
+
+.ccy-title {
+  margin: 0;
+  font-family: var(--ccy-font-heading);
+  font-size: var(--ccy-font-size-3xl);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: var(--ccy-line-heading);
+}
+
+.ccy-section-title {
+  margin: 0;
+  font-family: var(--ccy-font-heading);
+  font-size: var(--ccy-font-size-2xl);
+  font-weight: 700;
+  line-height: var(--ccy-line-heading);
+}
+
+.ccy-subtitle {
+  margin: 0;
+  color: var(--ccy-color-slate-mid);
+  font-size: var(--ccy-font-size-lg);
+  line-height: var(--ccy-line-body);
+}
+
+.ccy-body {
+  margin: 0;
+  color: var(--ccy-color-slate-mid);
+  line-height: var(--ccy-line-body);
+}
+
+.ccy-small {
+  margin: 0;
+  color: var(--ccy-color-slate-mid);
+  font-size: var(--ccy-font-size-sm);
+  line-height: 1.65;
+}
+
+.ccy-mono {
+  font-family: var(--ccy-font-mono);
+}
+
+/* ==========================================================================
+   04. LAYOUT PRIMITIVES
+   ========================================================================== */
+
+.ccy-container {
+  width: min(100% - (2 * var(--ccy-gutter)), var(--ccy-container-lg));
+  margin-inline: auto;
+}
+
+.ccy-container-narrow {
+  width: min(100% - (2 * var(--ccy-gutter)), var(--ccy-container-sm));
+  margin-inline: auto;
+}
+
+.ccy-section {
+  padding-block: var(--ccy-section-y);
+}
+
+.ccy-section-compact {
+  padding-block: var(--ccy-section-y-compact);
+}
+
+.ccy-section-large {
+  padding-block: var(--ccy-section-y-large);
+}
+
+.ccy-grid {
+  display: grid;
+  gap: var(--ccy-space-8);
+}
+
+.ccy-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(2rem, 5vw, 5rem);
+}
+
+.ccy-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--ccy-space-8);
+}
+
+.ccy-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+}
+
+.ccy-stack > * + * {
+  margin-top: var(--ccy-stack-space, var(--ccy-space-6));
+}
+
+.ccy-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ccy-space-3);
+  align-items: center;
+}
+
+.ccy-split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ccy-space-6);
+}
+
+/* ==========================================================================
+   05. SURFACES AND PANELS
+   ========================================================================== */
+
+.ccy-surface {
+  background: rgba(245, 240, 232, 0.84);
+  border: var(--ccy-border-soft);
+  box-shadow: var(--ccy-shadow-soft);
+}
+
+.ccy-surface-cream {
+  background: var(--ccy-color-cream);
+  border: var(--ccy-border-soft);
+}
+
+.ccy-surface-dark {
+  background:
+    radial-gradient(circle at 80% 10%, rgba(184, 148, 31, 0.10), transparent 22rem),
+    var(--ccy-color-dark-surface);
+  color: var(--ccy-color-dark-text);
+}
+
+.ccy-panel {
+  padding: clamp(1.25rem, 3vw, 2.25rem);
+  border: var(--ccy-border-soft);
+  background: rgba(245, 240, 232, 0.68);
+}
+
+.ccy-panel-strong {
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: var(--ccy-border-thin);
+  background: var(--ccy-color-paper);
+  box-shadow: var(--ccy-shadow-soft);
+}
+
+.ccy-panel-gold {
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: var(--ccy-border-gold);
+  background:
+    linear-gradient(180deg, rgba(240, 228, 184, 0.52), rgba(245, 240, 232, 0.86)),
+    var(--ccy-color-paper);
+  box-shadow: var(--ccy-shadow-gold);
+}
+
+.ccy-rule {
+  width: 100%;
+  height: 1px;
+  background: var(--ccy-color-rule);
+}
+
+.ccy-rule-gold {
+  width: 3.5rem;
+  height: 2px;
+  background: var(--ccy-color-gold);
+}
+
+/* ==========================================================================
+   06. BUTTONS AND LINKS
+   ========================================================================== */
+
+.ccy-button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ccy-space-2);
+  padding: 0.85rem 1.35rem;
+  border: var(--ccy-border-dark);
+  background: transparent;
+  color: var(--ccy-color-ink);
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  font-weight: 500;
+  letter-spacing: var(--ccy-letter-wider);
+  line-height: 1.2;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    background-color var(--ccy-duration-standard) var(--ccy-ease-standard),
+    border-color var(--ccy-duration-standard) var(--ccy-ease-standard),
+    color var(--ccy-duration-standard) var(--ccy-ease-standard),
+    transform var(--ccy-duration-standard) var(--ccy-ease-standard);
+}
+
+.ccy-button:hover {
+  transform: translateY(-1px);
+}
+
+.ccy-button-primary {
+  border-color: var(--ccy-color-ink);
+  background: var(--ccy-color-ink);
+  color: var(--ccy-color-paper);
+}
+
+.ccy-button-primary:hover {
+  border-color: var(--ccy-color-gold);
+  background: var(--ccy-color-gold);
+  color: var(--ccy-color-ink);
+}
+
+.ccy-button-secondary {
+  border-color: var(--ccy-color-rule);
+  background: rgba(245, 240, 232, 0.38);
+}
+
+.ccy-button-secondary:hover {
+  border-color: var(--ccy-color-gold);
+  color: var(--ccy-color-gold);
+}
+
+.ccy-button-gold {
+  border-color: var(--ccy-color-gold);
+  background: var(--ccy-color-gold);
+  color: var(--ccy-color-ink);
+}
+
+.ccy-button-gold:hover {
+  border-color: var(--ccy-color-gold-light);
+  background: var(--ccy-color-gold-light);
+  color: var(--ccy-color-ink);
+}
+
+.ccy-text-link {
+  color: var(--ccy-color-ink);
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-xs);
+  letter-spacing: var(--ccy-letter-wide);
+  text-transform: uppercase;
+}
+
+.ccy-text-link:hover {
+  color: var(--ccy-color-gold);
+}
+
+/* ==========================================================================
+   07. SOVEREIGN MASTHEAD
+   ========================================================================== */
+
+.ccy-masthead {
+  position: sticky;
+  top: 0;
+  z-index: var(--ccy-z-sticky);
+  border-bottom: var(--ccy-border-soft);
+  background: rgba(245, 240, 232, 0.86);
+  backdrop-filter: blur(18px);
+}
+
+.ccy-masthead-inner {
+  width: min(100% - (2 * var(--ccy-gutter)), var(--ccy-container-xl));
+  min-height: 72px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ccy-space-6);
+}
+
+.ccy-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ccy-space-3);
+  color: var(--ccy-color-ink);
+  text-decoration: none;
+}
+
+.ccy-brand-mark {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(184, 148, 31, 0.55);
+  background: rgba(240, 228, 184, 0.34);
+  color: var(--ccy-color-gold);
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-xs);
+  letter-spacing: 0.05em;
+}
+
+.ccy-brand-name {
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-xs);
+  font-weight: 500;
+  letter-spacing: var(--ccy-letter-wider);
+  text-transform: uppercase;
+}
+
+.ccy-brand-name span {
+  color: var(--ccy-color-gold);
+}
+
+.ccy-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 2.5vw, 2rem);
+}
+
+.ccy-nav a {
+  color: var(--ccy-color-slate-mid);
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-wider);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color var(--ccy-duration-fast) var(--ccy-ease-standard);
+}
+
+.ccy-nav a:hover {
+  color: var(--ccy-color-gold);
+}
+
+/* ==========================================================================
+   08. HERO AND THESIS AREAS
+   ========================================================================== */
+
+.ccy-hero {
+  min-height: min(820px, calc(100svh - 72px));
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  border-bottom: var(--ccy-border-soft);
+}
+
+.ccy-hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:
+    clamp(4rem, 9vw, 8rem)
+    var(--ccy-gutter);
+  border-right: var(--ccy-border-soft);
+}
+
+.ccy-hero-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(2rem, 6vw, 5rem);
+  background:
+    linear-gradient(135deg, rgba(237, 231, 213, 0.92), rgba(245, 240, 232, 0.64)),
+    var(--ccy-color-cream);
+}
+
+.ccy-hero-copy {
+  max-width: 48rem;
+}
+
+.ccy-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ccy-space-3);
+  margin-top: var(--ccy-space-8);
+}
+
+.ccy-thesis-quote {
+  margin: var(--ccy-space-8) 0 0;
+  padding-left: var(--ccy-space-5);
+  border-left: 3px solid var(--ccy-color-gold);
+  color: var(--ccy-color-slate);
+  font-family: var(--ccy-font-heading);
+  font-size: var(--ccy-font-size-lg);
+  font-style: italic;
+  line-height: 1.65;
+}
+
+/* ==========================================================================
+   09. CUSTODY RAIL AND STATE CHAIN
+   ========================================================================== */
+
+.ccy-custody-rail {
+  width: 100%;
+  max-width: 42rem;
+  counter-reset: state;
+}
+
+.ccy-custody-state {
+  counter-increment: state;
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  gap: var(--ccy-space-3);
+  padding-block: var(--ccy-space-3);
+}
+
+.ccy-custody-state::before {
+  content: "";
+  position: absolute;
+  top: 2.1rem;
+  bottom: -0.85rem;
+  left: 0.94rem;
+  width: 1px;
+  background: var(--ccy-color-rule);
+}
+
+.ccy-custody-state:last-child::before {
+  display: none;
+}
+
+.ccy-state-dot {
+  position: relative;
+  z-index: 1;
+  width: 1.9rem;
+  height: 1.9rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--ccy-color-rule);
+  border-radius: var(--ccy-radius-full);
+  background: var(--ccy-color-paper);
+  color: var(--ccy-color-slate-soft);
+  font-family: var(--ccy-font-mono);
+  font-size: 0.62rem;
+}
+
+.ccy-state-dot::after {
+  content: counter(state, decimal-leading-zero);
+}
+
+.ccy-custody-state.is-control .ccy-state-dot {
+  border-color: var(--ccy-color-gold);
+  background: var(--ccy-color-gold);
+  color: var(--ccy-color-ink);
+  box-shadow: 0 0 0 6px var(--ccy-color-gold-veil);
+}
+
+.ccy-state-body {
+  padding: var(--ccy-space-3) var(--ccy-space-4);
+  border-bottom: var(--ccy-border-soft);
+}
+
+.ccy-custody-state.is-control .ccy-state-body {
+  border: var(--ccy-border-gold);
+  background: rgba(240, 228, 184, 0.28);
+  box-shadow: var(--ccy-shadow-gold);
+}
+
+.ccy-state-name {
+  margin: 0;
+  color: var(--ccy-color-ink);
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-xs);
+  font-weight: 500;
+  letter-spacing: var(--ccy-letter-wide);
+  text-transform: uppercase;
+}
+
+.ccy-state-desc {
+  margin: var(--ccy-space-1) 0 0;
+  color: var(--ccy-color-slate-mid);
+  font-size: var(--ccy-font-size-sm);
+  line-height: 1.55;
+}
+
+/* ==========================================================================
+   10. COMPONENT FOUNDATIONS
+   ========================================================================== */
+
+.ccy-state-card {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: var(--ccy-border-soft);
+  background: rgba(245, 240, 232, 0.72);
+  transition:
+    background-color var(--ccy-duration-standard) var(--ccy-ease-standard),
+    border-color var(--ccy-duration-standard) var(--ccy-ease-standard),
+    transform var(--ccy-duration-standard) var(--ccy-ease-standard);
+}
+
+.ccy-state-card:hover {
+  border-color: rgba(184, 148, 31, 0.54);
+  background: rgba(237, 231, 213, 0.7);
+  transform: translateY(-2px);
+}
+
+.ccy-state-card.is-control {
+  border-color: var(--ccy-color-gold);
+  background:
+    linear-gradient(180deg, rgba(240, 228, 184, 0.5), rgba(245, 240, 232, 0.74)),
+    var(--ccy-color-paper);
+  box-shadow: var(--ccy-shadow-gold);
+}
+
+.ccy-doctrine-block {
+  position: relative;
+  padding: clamp(2rem, 6vw, 5rem);
+  overflow: hidden;
+  background: var(--ccy-color-ink);
+  color: var(--ccy-color-paper);
+}
+
+.ccy-doctrine-block::after {
+  content: "CCY";
+  position: absolute;
+  right: clamp(1rem, 5vw, 4rem);
+  bottom: -0.28em;
+  color: rgba(245, 240, 232, 0.035);
+  font-family: var(--ccy-font-heading);
+  font-size: clamp(6rem, 20vw, 17rem);
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.ccy-doctrine-block > * {
+  position: relative;
+  z-index: 1;
+}
+
+.ccy-doctrine-text {
+  max-width: 56rem;
+  margin: 0;
+  color: var(--ccy-color-paper);
+  font-family: var(--ccy-font-heading);
+  font-size: var(--ccy-font-size-2xl);
+  font-style: italic;
+  line-height: 1.46;
+}
+
+.ccy-doctrine-text strong {
+  color: var(--ccy-color-gold-light);
+  font-style: normal;
+}
+
+.ccy-evidence-panel {
+  padding: clamp(1.5rem, 4vw, 2.75rem);
+  border-top: 2px solid var(--ccy-color-gold);
+  background: rgba(245, 240, 232, 0.72);
+}
+
+.ccy-definition-box {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border-left: 3px solid var(--ccy-color-gold);
+  background: rgba(240, 228, 184, 0.25);
+}
+
+.ccy-risk-note {
+  padding: var(--ccy-space-5);
+  border-left: 3px solid var(--ccy-color-risk);
+  background: var(--ccy-color-risk-soft);
+  color: var(--ccy-color-slate);
+}
+
+.ccy-verified-note {
+  padding: var(--ccy-space-5);
+  border-left: 3px solid var(--ccy-color-verified);
+  background: var(--ccy-color-verified-soft);
+  color: var(--ccy-color-slate);
+}
+
+.ccy-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--ccy-color-rule);
+  border-radius: var(--ccy-radius-full);
+  color: var(--ccy-color-slate-mid);
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-wide);
+  text-transform: uppercase;
+}
+
+.ccy-badge-gold {
+  border-color: rgba(184, 148, 31, 0.54);
+  color: var(--ccy-color-gold);
+  background: rgba(240, 228, 184, 0.22);
+}
+
+.ccy-badge-verified {
+  border-color: rgba(47, 111, 78, 0.38);
+  color: var(--ccy-color-verified);
+  background: var(--ccy-color-verified-soft);
+}
+
+/* ==========================================================================
+   11. TABLES AND MATRICES
+   ========================================================================== */
+
+.ccy-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: var(--ccy-border-soft);
+  background: rgba(245, 240, 232, 0.7);
+}
+
+.ccy-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+}
+
+.ccy-table th,
+.ccy-table td {
+  padding: 1rem 1.15rem;
+  border-bottom: var(--ccy-border-soft);
+  text-align: left;
+  vertical-align: top;
+}
+
+.ccy-table th {
+  color: var(--ccy-color-ink);
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-wider);
+  text-transform: uppercase;
+}
+
+.ccy-table td {
+  color: var(--ccy-color-slate-mid);
+  font-size: var(--ccy-font-size-sm);
+  line-height: 1.6;
+}
+
+.ccy-table tr:last-child th,
+.ccy-table tr:last-child td {
+  border-bottom: 0;
+}
+
+/* ==========================================================================
+   12. FOOTER
+   ========================================================================== */
+
+.ccy-footer {
+  border-top: var(--ccy-border-soft);
+  padding-block: var(--ccy-space-8);
+  background: rgba(237, 231, 213, 0.58);
+}
+
+.ccy-footer-inner {
+  width: min(100% - (2 * var(--ccy-gutter)), var(--ccy-container-xl));
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ccy-space-4);
+  color: var(--ccy-color-slate-mid);
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-wide);
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   13. UTILITIES
+   ========================================================================== */
+
+.ccy-text-gold {
+  color: var(--ccy-color-gold);
+}
+
+.ccy-text-ink {
+  color: var(--ccy-color-ink);
+}
+
+.ccy-text-muted {
+  color: var(--ccy-color-slate-mid);
+}
+
+.ccy-bg-paper {
+  background: var(--ccy-color-paper);
+}
+
+.ccy-bg-cream {
+  background: var(--ccy-color-cream);
+}
+
+.ccy-bg-ink {
+  background: var(--ccy-color-ink);
+  color: var(--ccy-color-paper);
+}
+
+.ccy-visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* ==========================================================================
+   14. RESPONSIVE SYSTEM
+   ========================================================================== */
+
+@media (max-width: 1100px) {
+  .ccy-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .ccy-hero-content {
+    border-right: 0;
+    border-bottom: var(--ccy-border-soft);
+  }
+
+  .ccy-hero-visual {
+    justify-content: stretch;
+  }
+
+  .ccy-grid-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ccy-grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 820px) {
+  .ccy-masthead-inner {
+    min-height: 64px;
+  }
+
+  .ccy-nav {
+    display: none;
+  }
+
+  .ccy-grid-2,
+  .ccy-grid-3,
+  .ccy-grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .ccy-split {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ccy-display {
+    max-width: 11ch;
+  }
+
+  .ccy-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ccy-button {
+    width: 100%;
+  }
+
+  .ccy-doctrine-block::after {
+    opacity: 0.72;
+  }
+}
+
+@media (max-width: 560px) {
+  :root {
+    --ccy-gutter: 1rem;
+  }
+
+  .ccy-brand-mark {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ccy-brand-name {
+    font-size: 0.68rem;
+  }
+
+  .ccy-hero-content,
+  .ccy-hero-visual {
+    padding-block: clamp(3rem, 14vw, 4.5rem);
+  }
+
+  .ccy-custody-state {
+    grid-template-columns: 1.9rem minmax(0, 1fr);
+  }
+
+  .ccy-state-dot {
+    width: 1.6rem;
+    height: 1.6rem;
+    font-size: 0.54rem;
+  }
+
+  .ccy-custody-state::before {
+    left: 0.78rem;
+  }
+
+  .ccy-state-body {
+    padding-inline: var(--ccy-space-3);
+  }
+
+  .ccy-panel,
+  .ccy-panel-strong,
+  .ccy-panel-gold {
+    padding: var(--ccy-space-5);
+  }
+}
+
+/* ==========================================================================
+   15. MOTION SAFETY
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ==========================================================================
+   16. PRINT FOUNDATION
+   ========================================================================== */
+
+@media print {
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .ccy-masthead,
+  .ccy-footer,
+  .ccy-button {
+    display: none !important;
+  }
+
+  .ccy-section,
+  .ccy-section-compact,
+  .ccy-section-large {
+    padding-block: 1.5rem;
+  }
+
+  .ccy-panel,
+  .ccy-panel-strong,
+  .ccy-panel-gold,
+  .ccy-surface,
+  .ccy-surface-cream {
+    box-shadow: none;
+    background: #ffffff;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
