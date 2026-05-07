@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This file records major strategic, architectural, conceptual, commercial, and governance decisions for AccountCcy.com.
+This file records major strategic, architectural, conceptual, commercial, technical, and governance decisions for AccountCcy.com.
 
 The decision log exists to preserve institutional memory.
 
@@ -26,7 +26,7 @@ Each entry should include:
 
 The decision log should not record minor edits.
 
-It should record decisions that affect the asset’s meaning, structure, monetization, acquisition posture, or build direction.
+It should record decisions that affect the asset’s meaning, structure, monetization, acquisition posture, public positioning, quality discipline, or build direction.
 
 ---
 
@@ -113,7 +113,7 @@ All future pages, tools, products, design, monetization, SEO, and acquisition po
 
 ### Next Action
 
-Embed this thesis into all governance files, page architecture, and public positioning.
+Embed this thesis into all governance files, page architecture, public positioning, and quality review.
 
 ---
 
@@ -123,16 +123,16 @@ Embed this thesis into all governance files, page architecture, and public posit
 
 The asset adopted the following hierarchy:
 
-**Monetary Truth**  
-↓  
-**Chain of Custody**  
-↓  
-**Currency State Control Framework**  
-↓  
-**CCY State Chain**  
-↓  
-**Account Currency Control**  
-↓  
+**Monetary Truth**<br>
+↓<br>
+**Chain of Custody**<br>
+↓<br>
+**Currency State Control Framework**<br>
+↓<br>
+**CCY State Chain**<br>
+↓<br>
+**Account Currency Control**<br>
+↓<br>
 **ERP / CFO / Treasury / Reporting / Audit Application**
 
 ### Strategic Meaning
@@ -143,11 +143,11 @@ It prevents the site from becoming merely a glossary, SEO property, ERP guide, o
 
 ### Implications
 
-Architecture, content, internal linking, SEO targeting, and monetization must follow this hierarchy.
+Architecture, content, internal linking, SEO targeting, monetization, and acquisition language must follow this hierarchy.
 
 ### Next Action
 
-Use this hierarchy inside `ASSET_THESIS.md`, `ARCHITECTURE.md`, `CONTENT_GOVERNANCE.md`, `SEO_POLICY.md`, and all future page briefs.
+Use this hierarchy inside all future page briefs and public positioning.
 
 ---
 
@@ -178,7 +178,7 @@ No final website build should begin until governance files are in place.
 
 ### Next Action
 
-Complete remaining governance files, then begin page briefs and build architecture.
+Complete governance files, then begin page briefs and build architecture.
 
 ---
 
@@ -264,11 +264,11 @@ Build visible authority before any outreach or price disclosure.
 
 ### Decision
 
-AccountCcy.com adopted a sovereign quality gate covering doctrine, content, evidence, SEO, design, technical quality, monetization, and acquisition compatibility.
+AccountCcy.com adopted a sovereign quality gate covering doctrine, concept integrity, institutional seriousness, evidence, content, SEO, design, technical quality, mobile readability, monetization, acquisition, and governance traceability.
 
 ### Strategic Meaning
 
-The quality gate protects the asset from dilution, weak content, unsupported claims, poor design, and premature commercialization.
+The quality gate protects the asset from dilution, weak content, unsupported claims, poor design, broken implementation, and premature commercialization.
 
 ### Implications
 
@@ -295,7 +295,7 @@ The logo contains useful conceptual symbols:
 - institutional mark structure
 - blue and gold financial seriousness
 
-However, the final identity should be more restrained, more geometric, and more institutionally refined.
+However, the final identity should be more restrained, more geometric, more system-oriented, and more institutionally refined.
 
 ### Implications
 
@@ -315,6 +315,38 @@ Develop final visual identity after design doctrine and site architecture are st
 
 ---
 
+## 2026-05-07 — No Final Build Before Page Briefs
+
+### Decision
+
+The project will not proceed directly into full website code after governance.
+
+### Strategic Meaning
+
+A sovereign-grade asset requires page briefs before final implementation.
+
+Each page must have:
+
+- purpose
+- thesis
+- audience
+- SEO intent
+- relationship to doctrine
+- internal links
+- content requirements
+- evidence discipline
+- quality gate expectations
+
+### Implications
+
+The next phase after governance is Page Briefs, not final HTML.
+
+### Next Action
+
+Create page briefs for the initial sovereign build, starting with Homepage, Chain of Custody, Framework, CCY State Chain, and What Is Account Currency.
+
+---
+
 ## Future Decisions
 
 Future entries should record major decisions related to:
@@ -329,3 +361,7 @@ Future entries should record major decisions related to:
 - SEO expansion
 - framework licensing
 - public positioning
+- technical implementation
+- validation scripts
+- visual identity
+- page publication
