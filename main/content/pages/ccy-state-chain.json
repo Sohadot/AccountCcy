@@ -5,41 +5,173 @@
   "type": "pillar",
   "status": "published",
   "quality_gate": "sovereign",
-  "page_eyebrow": "Framework · Eight-State Reference",
+  "page_eyebrow": "Framework · State-Sequence Pillar",
   "h1": "The CCY State Chain",
-  "intro": "The CCY State Chain maps the eight institutional states through which currency passes inside enterprise finance — from quoted market price to audit-defensible monetary truth.",
+  "intro": "Inside enterprise finance, currency is not a cosmetic ISO badge beside USD, EUR, MAD, or any code—it is a state carried through systems, postings, accounts, ledgers, settlement rails, functional measurement discipline, reporting lenses, translation mechanics, revaluation logic, and the evidentiary trail auditors reconstruct. The CCY State Chain names those transitions so teams stop collapsing incompatible meanings behind identical symbols.",
   "doctrine_eyebrow": "State Chain Doctrine",
-  "doctrine_statement": "A currency does not have one meaning across enterprise finance.<br>It has a state, a role, a custody position, and a consequence.",
+  "doctrine_statement": "Doctrine asserts custody lineage.<br>The chain asserts sequential monetary identity—what changed, where it changed, and which artifact proves each transformation—not rhetoric layered atop dashboards.",
   "doctrine_attribution": "The CCY State Chain · AccountCcy.com",
-  "primary_section_eyebrow": "Why The State Chain Matters",
-  "primary_section_title": "The same monetary event can pass through multiple currency states before it becomes defensible.",
+  "primary_section_eyebrow": "From Thesis Through Controls Into Mechanics",
+  "primary_section_title": "The doctrine gates custody; the framework layers governance; the chain navigates reality.",
   "primary_section_body": [
-    "A financial event may begin as a quoted rate, become a transaction obligation, settle as cash movement, enter an account, be maintained in a ledger, translate into a reporting currency, consolidate at group level, and finally face audit scrutiny.",
-    "Each state carries a different question. Each transition can create distortion if it is not governed. The CCY State Chain makes these states visible so they can be named, linked, controlled, and reviewed.",
-    "State 04 — Account Currency — is the critical control point because it is where monetary movement enters accounting custody and begins to affect the ledger, reporting, consolidation, and audit layers."
+    "Monetary truth on AccountCcy.com begins as anchored discourse—the custody pillar describes why figures demand lineage rather than optimism.",
+    "The Currency State Control Framework converts doctrine into operational custody zones spanning ERP cores, ledgers, close mechanics, translation narratives, and audit posture—not substituting standards or vendor logic, but exposing transitions finance must own.",
+    "This page sequences glossary-published checkpoints finance routinely scrambles—especially settlement versus account custody, ledger versus functional identity, revaluation versus translation, and reporting narration versus ledger proofs.",
+    "The eight numbered custody tiles below preserve canonical navigation toward quotation through consolidation into audit reality; the glossary-linked passage beneath complements them by spotlighting reconstruction-critical checkpoints ERP architects and controllers reconcile weekly."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "ccy-chain-glossary-passage",
+      "eyebrow": "Glossary-anchored sequence",
+      "title": "Structured custody checkpoints tied to published definitions",
+      "paragraphs": [
+        "Canonical state numbering from quotation through consolidation appears across `/states/` reference tiles and the grid beneath; AccountCcy also publishes defined terminology where treasury and controllers collide.",
+        "Ordered below as custody checkpoints—not reranking authoritative accounting sequence—you trace meanings ERP postings confuse unless custody vocabulary disciplines interfaces among treasury, accounting, consolidation, and disclosure owners."
+      ],
+      "steps": [
+        {
+          "title": "1 · Transaction currency",
+          "body": "Names obligation denomination and measurable commercial duties encoded before postings stabilize ledger custody; dominates invoicing, contract clauses, AR/AP recognition debates. Mistaken for ERP account assignment or reporting narration early—obligation currency survives unchanged while custody hops distort reconciliation silently beneath dashboards.",
+          "link_url": "/glossary/transaction-currency/",
+          "link_label": "Transaction currency"
+        },
+        {
+          "title": "2 · Account currency",
+          "body": "Assigns ERP chart custody—balances reconcile inside subsystem postings bounded by configuration—not interchangeable with obligation denomination alone nor synonymous with ledger measurement conventions downstream.",
+          "link_url": "/what-is-account-currency/",
+          "link_label": "What Is Account Currency?"
+        },
+        {
+          "title": "3 · Settlement currency",
+          "body": "Governs cash rails clearing counterparties—rates diverge from transactional obligation when corridors net differently; treasury proves settlement artifacts while controllers tie postings back to obligation currency.",
+          "link_url": "/glossary/settlement-currency/",
+          "link_label": "Settlement currency"
+        },
+        {
+          "title": "4 · Ledger currency",
+          "body": "Materializes entity trial-balance measurement where close discipline accumulates FX differences before translation refracts narratives outward; confusion with functional currency governance invites misaligned policy debates across controllers.",
+          "link_url": "/glossary/ledger-currency/",
+          "link_label": "Ledger currency"
+        },
+        {
+          "title": "5 · Functional currency",
+          "body": "Determines economic-environment measurement lens anchoring primary amounts before translation reshapes disclosure—distinct from ledger configuration artifacts yet tightly coupled inside SAP-class stacks and equivalents.",
+          "link_url": "/glossary/functional-currency/",
+          "link_label": "Functional currency"
+        },
+        {
+          "title": "6 · Reporting currency",
+          "body": "Frames outward management, investor, or regulatory lenses—presentation choices can diverge sharply from ledger custody without naming where translation policy intervened.",
+          "link_url": "/glossary/reporting-currency/",
+          "link_label": "Reporting currency"
+        },
+        {
+          "title": "7 · Currency translation",
+          "body": "Executes methodology converting measured results into presentation currencies—distinct mechanical discipline from rate-driven restatements at period boundaries if teams mislabel translation runs as ‘just FX.’",
+          "link_url": "/glossary/currency-translation/",
+          "link_label": "Currency translation"
+        },
+        {
+          "title": "8 · FX revaluation",
+          "body": "Restates monetary balances still denominated foreign at period ends—rate lineage and policy ownership surface here before consolidation absorbs residual drift.",
+          "link_url": "/glossary/fx-revaluation/",
+          "link_label": "FX revaluation"
+        },
+        {
+          "title": "9 · Audit and control reconstruction",
+          "body": "Terminal posture requiring replayable monetary paths—rates, postings, reconciliations, subsystem extracts—without heroic spreadsheets storytelling audit committees tolerate briefly.",
+          "link_url": "/glossary/audit-reality/",
+          "link_label": "Audit reality"
+        }
+      ]
+    },
+    {
+      "section_id": "why-ccy-chain-matters",
+      "eyebrow": "Institutional consequence",
+      "title": "Why sequencing monetary states matters",
+      "paragraphs": [
+        "Multi-currency accounting breaks silently when obligation currency, ERP custody, ledger measurement, functional determination, revaluation batch logic, translation methodology, and outward reporting narration collapse behind identical ISO symbols.",
+        "ERP and accounting platform architects encode postings, valuation engines, tax integrations, and consolidation pipelines—each hop preserves numeric fidelity yet may discard custody narrative unless configuration mirrors disciplined vocabulary.",
+        "Ledger interpretation depends on knowing whether balances reflect transactional obligations, settlement-clearing differences, account assignments, or close-restated valuations.",
+        "FX revaluation discipline requires naming rate sources and boundary ownership before consolidation narratives absorb unexplained drift.",
+        "Currency translation discipline demands separating measured ledger outcomes from presentation conversions CFO packs summarize.",
+        "CFO reporting inherits whichever custody fractures controllers tolerated upstream—investor narratives amplify ambiguity unless sequencing clarity preceded disclosure drafting.",
+        "Audit reconstruction fails when evidence bundles omit subsystem hops reviewers cannot replay independently.",
+        "Preventing monetary ambiguity is therefore preventative governance—not quarterly reconciliation heroics—because ambiguity metastasizes before dashboards admit variance."
+      ]
+    },
+    {
+      "section_id": "where-ccy-chain-breaks",
+      "eyebrow": "Failure anatomy",
+      "title": "Where the chain fractures inside enterprise finance",
+      "paragraphs": [
+        "Treat transactional obligation currency as ERP account assignment—or reverse them—and reconciliation scopes detach before cash settles.",
+        "Treat ledger measurement currency as interchangeable with functional currency governance—or vice versa—and policy debates mis-target controls while postings obey opposing conventions.",
+        "Confuse revaluation mechanics with translation methodology—classic vocabulary drift—and teams debate variance narratives disconnected from actual pipeline transforms.",
+        "Allow reporting currency narration to obscure earlier custody hops—management packs polish outcomes while auditors hunt lineage upstream.",
+        "Leave audit teams unable to reconstruct originating obligation currencies through settlements into postings—assurance escalates into qualitative storytelling instead of artifact replay.",
+        "Preserve numeric balances while shedding subsystem state context—values survive while forensic narrative collapses—the silent precursor to material weakness conversations."
+      ]
+    },
+    {
+      "section_id": "ccy-chain-control-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "CCY State Chain control questions",
+      "paragraphs": [
+        "Operators spanning treasury, controllers, systems owners, consolidation hubs, and assurance leads answer these jointly—not sequentially delegated questions evaporating across inbox boundaries."
+      ],
+      "questions": [
+        "What was the originating transaction currency—and where is its obligation documented against counterparties?",
+        "Which chart-of-account assignment carried monetary custody when postings absorbed the exposure?",
+        "Which subsystem or integration transformed currency state—ERP batch, treasury workstation, consolidation hub, translation engine?",
+        "Was value movement driven by settlement clearing, period-end revaluation, translation methodology, or mere reporting presentation—and where is each distinguished?",
+        "Which currency is authoritative at this boundary for measurement versus disclosure versus audit replay?",
+        "Can independent reviewers reconstruct the custody sequence using artifacts alone—rates, policies, postings, reconciliations—without improvisational narrative?"
+      ]
+    },
+    {
+      "section_id": "ccy-chain-reference-anchors",
+      "eyebrow": "Continuity map",
+      "title": "Doctrine, framework, canonical states, and lexicon",
+      "paragraphs": [
+        "Quoted currency precedes obligations commercially—anchor quotation discipline before transactional duties crystallize; consolidation currency still absorbs group reshaping prior to terminal audit posture across canonical `/states/` navigation.",
+        "Currency state vocabulary explains why ISO equality masks institutional inequality; account currency control names governance over custody assignments at State 04."
+      ],
+      "reference_strip": [
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/framework/", "label": "Framework pillar" },
+        { "href": "/glossary/quoted-currency/", "label": "Quoted currency" },
+        { "href": "/glossary/currency-state/", "label": "Currency state" },
+        { "href": "/glossary/account-currency-control/", "label": "Account currency control" },
+        { "href": "/states/account-currency/", "label": "State 04 reference" },
+        { "href": "/glossary/account-currency/", "label": "Account currency (defined)" },
+        { "href": "/glossary/consolidation-currency/", "label": "Consolidation currency" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
   ],
   "graph_eyebrow": "Eight Custody States",
-  "graph_title": "From quoted price to audit reality.",
-  "graph_intro": "The state chain gives AccountCcy.com its navigable architecture. Every glossary term, risk page, comparison page, ERP page, CFO guide, and diagnostic tool should map back to one or more states.",
+  "graph_title": "Canonical navigation — quotation through audit reality.",
+  "graph_intro": "Follow numbered `/states/` tiles for end-to-end custody traversal across quotation, obligation, settlement, account custody, ledger measurement, reporting, consolidation, and audit posture.",
   "grid_eyebrow": "Eight Custody States",
-  "grid_title": "From quoted price to audit reality.",
-  "grid_intro": "The state chain gives AccountCcy.com its navigable architecture. Every glossary term, risk page, comparison page, ERP page, CFO guide, and diagnostic tool should map back to one or more states.",
+  "grid_title": "Canonical navigation — quotation through audit reality.",
+  "grid_intro": "Follow numbered `/states/` tiles for end-to-end custody traversal across quotation, obligation, settlement, account custody, ledger measurement, reporting, consolidation, and audit posture.",
   "cards": [
-    {"label": "State 01", "title": "Quoted Currency", "body": "Currency as a market price before a transaction, obligation, account, ledger, report, or audit trail exists."},
-    {"label": "State 02", "title": "Transaction Currency", "body": "The currency in which the financial event is denominated and the obligation takes its first formal identity."},
-    {"label": "State 03", "title": "Settlement Currency", "body": "The currency in which cash actually transfers, creating consequences when settlement diverges from transaction currency."},
-    {"label": "State 04 · Control Point", "title": "Account Currency", "body": "The currency assigned to an account for recording, maintaining, reconciling, and controlling balances inside the accounting system."},
-    {"label": "State 05", "title": "Ledger Currency", "body": "The currency in which entity books and balances are maintained, commonly aligned with the functional currency depending on framework and system configuration."},
-    {"label": "State 06", "title": "Reporting Currency", "body": "The currency in which results are presented for management, regulatory, investor, or internal reporting purposes."},
-    {"label": "State 07", "title": "Consolidation Currency", "body": "The group-level currency into which multiple entity ledgers, reporting layers, and adjustments are unified."},
-    {"label": "State 08", "title": "Audit Reality", "body": "The final defensible state where monetary figures can be traced, supported, reconciled, reviewed, and defended."}
+    {"label": "State 01", "title": "Quoted Currency", "body": "Market-facing currency signal preceding measurable obligations—rate-source governance precedes custody debates downstream."},
+    {"label": "State 02", "title": "Transaction Currency", "body": "Obligation denomination attaching measurable duties commercial counterparties recognize—distinct from ERP custody until postings freeze balances."},
+    {"label": "State 03", "title": "Settlement Currency", "body": "Cash-movement denomination reconciling banking realities versus invoiced obligations—FX realization surfaces when divergence persists."},
+    {"label": "State 04 · Control Point", "title": "Account Currency", "body": "ERP custody assignment governing reconciliation scope—weak governance propagates ledger, reporting, consolidation, and audit fractures."},
+    {"label": "State 05", "title": "Ledger Currency", "body": "Entity measurement posture accumulating balances controllers defend before translation reshapes outward narratives."},
+    {"label": "State 06", "title": "Reporting Currency", "body": "Presentation lens refracting ledger truth through disclosure choices CFO narratives amplify internally or externally."},
+    {"label": "State 07", "title": "Consolidation Currency", "body": "Group aggregation absorbing elimination logic, ownership adjustments, and multi-entity translation interplay."},
+    {"label": "State 08", "title": "Audit Reality", "body": "Terminal reconstructable custody—rates, postings, reconciliations, scrutiny artifacts aligned without improvised storytelling."}
   ],
   "control_label": "State 04",
-  "control_title": "Account Currency is the custody gate.",
-  "control_body": "The CCY State Chain gives State 04 special weight because account currency is where external monetary movement becomes internal accounting record. Weakness at this point is not isolated; it travels downstream.",
-  "risk_label": "State Failure",
-  "risk_title": "Confusing states creates hidden accounting distortion.",
-  "risk_body": "When transaction currency, settlement currency, account currency, ledger currency, and reporting currency are treated as interchangeable, the organization loses the ability to trace where monetary truth changed state and where distortion entered the system.",
+  "control_title": "Account currency remains the custody gate.",
+  "control_body": "Sequential checkpoints underscore why State 04 assignments deserve explicit account currency control—settlements, ledger measurement, functional lenses, translation, revaluation, and consolidation inherit whichever fractures originate here.",
+  "risk_label": "Sequence Risk",
+  "risk_title": "Collapsed vocabulary hides incompatible custody truths.",
+  "risk_body": "Identical ISO codes lubricate informal synonym swapping—obligation, custody assignment, clearing denomination, measurement lens, presentation narration—until reconstruction demands lineage finance cannot rapidly replay.",
   "state_sequence": [
     "Quoted Currency",
     "Transaction Currency",

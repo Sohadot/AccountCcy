@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T18:05:05.742533+00:00",
+  "generated_at": "2026-05-08T18:10:02.228162+00:00",
   "url_count": 31,
   "errors": [],
   "warnings": [],
@@ -9,7 +9,7 @@
       "url_path": "/ccy-state-chain/",
       "loc": "https://accountccy.com/ccy-state-chain/",
       "title": "The CCY State Chain — From Quoted Price to Audit Reality",
-      "description": "The CCY State Chain maps eight currency states inside enterprise finance — from quoted price to audit reality. Account Currency is the critical control point at State 04.",
+      "description": "The CCY State Chain maps currency as institutional states—not static ISO codes—from ERP custody through ledger, FX, translation, reporting, to audit reconstruction.",
       "canonical": "https://accountccy.com/ccy-state-chain/",
       "robots": "index, follow",
       "h1_count": 1,
