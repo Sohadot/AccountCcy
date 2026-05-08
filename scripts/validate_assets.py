@@ -6,7 +6,12 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import List, Optional, Sequence
 from urllib.parse import urlparse
-REQ=['assets/css/main.css','assets/icons/favicon.svg','assets/img/social-preview.svg']
+REQ = [
+    'assets/css/main.css',
+    'assets/icons/favicon.webp',
+    'assets/img/social-preview.webp',
+    'assets/img/logo-accountccy.webp',
+]
 class AP(HTMLParser):
     def __init__(self): super().__init__(convert_charrefs=True); self.assets=[]
     def handle_starttag(self, tag, attrs):
