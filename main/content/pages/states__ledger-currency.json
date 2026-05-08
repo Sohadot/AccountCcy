@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-08",
+  "url": "/states/ledger-currency/",
+  "type": "state",
+  "status": "published",
+  "state_number": "05",
+  "state_name": "Ledger Currency",
+  "state_summary": "Ledger currency is the currency in which an entity maintains its general ledger and core accounting books. State 05 translates account-level custody into systemic ledger truth — the operational backbone ERP teams configure and controllers defend during close.",
+  "state_role_label": "Books Reality",
+  "state_role_title": "Where balances live between accounts and reporting packs.",
+  "state_role_body": "Functional currency policy (under accounting standards) often aligns with ledger currency, yet alignment is not automatic across subsidiaries, carve-outs, or hybrid ledgers. Ledger currency answers how journals accumulate before reporting translation reshapes visibility for stakeholders.",
+  "custody_question": "Which currency identity anchors how journals, trial balances, and systematic postings accumulate for this entity?",
+  "chain_position_body": "Ledger currency receives disciplined postings from accounts governed at State 04 and feeds reporting translations at State 06. Misalignment between account assignments and ledger architecture surfaces as recurring FX differences during reconciliation bridges.",
+  "state_rail": [
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
+    {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
+    {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
+    {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
+    {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
+  ],
+  "state_risk_title": "Silent divergence from functional policy",
+  "state_risk_body": "Operational shortcuts — merged ledgers, legacy charts, acquisition overlays — can maintain books in a currency that no longer matches documented functional determinations.",
+  "state_control_title": "Ledger integrity reviews",
+  "state_control_body": "Schedule periodic proofs tying ledger currency declarations to statutory filings, management packs, and ERP configuration exports.",
+  "receives_from": "Account currency postings once balances enter systematic journals.",
+  "passes_to": "Reporting translations, management narratives, and consolidation ingestion pipelines."
+}

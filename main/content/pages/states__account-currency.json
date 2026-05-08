@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-08",
+  "url": "/states/account-currency/",
+  "type": "state",
+  "status": "published",
+  "state_number": "04",
+  "state_name": "Account Currency",
+  "state_summary": "Account currency is the currency assigned to an account for recording, reconciling, and controlling balances inside an enterprise finance system. It is the custody gate where external monetary movement enters internal accounting discipline — the conceptual heart of AccountCcy.com.",
+  "state_role_label": "Custody Gate",
+  "state_role_title": "Where obligation becomes governed balance.",
+  "state_role_body": "Before State 04, currency identities primarily describe commercial motion — quotation, obligation, settlement. After State 04, currency identities propagate through ledger maintenance, reporting translation, consolidation bridges, and audit defense. Weak discipline here amplifies downstream reconciliation exceptions and narrative gaps during close and review.",
+  "custody_question": "Which currency identity governs how this account may record, revalue, reconcile, and defend its balances?",
+  "chain_position_body": "Account currency sits between settlement reality and ledger architecture. It translates cash and obligation narratives into account-level truth that ERP postings, subledgers, and trial balances must honour. Confusing it with transaction currency or reporting currency collapses three distinct institutional questions into one misleading ISO code.",
+  "state_rail": [
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
+    {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
+    {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
+    {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
+    {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
+  ],
+  "state_risk_title": "Identity drift across postings",
+  "state_risk_body": "Teams silently alternate between transaction framing and account framing during configuration changes, acquisitions, or retrofit projects — producing balances that reconcile only after heroic spreadsheets.",
+  "state_control_title": "Govern assignment as control",
+  "state_control_body": "Document account currency policy jointly with treasury and controllers, tie assignments to chart logic, and prove reconciliations tie each balance to settlement and obligation narratives.",
+  "receives_from": "Settlement and obligation narratives once monetary movement is ready for accounting custody.",
+  "passes_to": "Ledger postings, subledger maintenance, revaluation policy execution, and downstream reporting translations.",
+  "faq": [
+    {"question": "Is account currency identical to transaction currency?", "answer": "No. Transaction currency denominates the event. Account currency defines how the account records and maintains balances and interacts with revaluation rules."},
+    {"question": "Does changing account currency retrofit history cleanly?", "answer": "Rarely without engineered migration. Treat changes as control events with reconciliation plans, not cosmetic field edits."},
+    {"question": "Who owns account currency policy?", "answer": "Controllers and ERP architects co-own it with treasury input — because custody bridges operational cash narratives and accounting books."}
+  ]
+}

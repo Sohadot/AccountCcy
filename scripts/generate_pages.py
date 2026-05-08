@@ -110,11 +110,16 @@ def template_for(p: Page) -> str:
 
 def breadcrumb(p: Page) -> str:
     if p.url=='/': return ''
-    parts=p.url.strip('/').split('/'); items=['<li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li>']; path=''
+    parts=p.url.strip('/').split('/'); items=['<li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li>']; path_acc=''
     for idx, part in enumerate(parts):
-        path += f'/{part}/'; label=p.title if idx==len(parts)-1 else part.replace('-',' ').title()
+        path_acc += f'/{part}/'
+        label=p.title if idx==len(parts)-1 else part.replace('-',' ').title()
         items.append('<li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li>')
-        items.append(f'<li aria-current="page" style="color: var(--ccy-color-slate-mid);">{esc(label)}</li>' if idx==len(parts)-1 else f'<li><a href="{esc(path)}" style="color: var(--ccy-color-gold); text-decoration:none;">{esc(label)}</a></li>')
+        if idx==len(parts)-1:
+            items.append(f'<li aria-current="page" style="color: var(--ccy-color-slate-mid);">{esc(label)}</li>')
+        else:
+            href = '/ccy-state-chain/' if parts[0]=='states' and idx==0 else path_acc
+            items.append(f'<li><a href="{esc(href)}" style="color: var(--ccy-color-gold); text-decoration:none;">{esc(label)}</a></li>')
     return '<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);">'+''.join(items)+'</ol></nav></div>'
 
 def related(p: Page, records: Dict[str,Page], glossary: Dict[str,Any]) -> str:

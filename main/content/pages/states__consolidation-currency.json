@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-08",
+  "url": "/states/consolidation-currency/",
+  "type": "state",
+  "status": "published",
+  "state_number": "07",
+  "state_name": "Consolidation Currency",
+  "state_summary": "Consolidation currency is the group-level currency into which entity reporting packages unify — absorbing translation differences, elimination logic, and ownership adjustments. State 07 is the altitude where multi-entity FX complexity peaks before audit narratives finalize.",
+  "state_role_label": "Group Altitude",
+  "state_role_title": "Where entity truths merge into one reporting spine.",
+  "state_role_body": "Subsidiaries may close confidently in local reporting currencies yet collide when consolidation engines translate into group presentation currency. Treasury hedges, statutory accounts, and management packs must reconcile to this spine or fragment under investor scrutiny.",
+  "custody_question": "Which group currency converts diverse entity packs into a single defensible group statement — and how are translation reserves governed?",
+  "chain_position_body": "Consolidation currency consumes reporting outputs from State 06 and prepares the unified posture examined during audit reality at State 08. Weak lineage between entity account discipline and consolidation bridges produces unexplained CTA swings.",
+  "state_rail": [
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
+    {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
+    {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
+    {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
+    {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
+  ],
+  "state_risk_title": "Opaque elimination journals",
+  "state_risk_body": "Complex adjustments hide upstream account mis-assignments until variance analytics collapse during audit readiness.",
+  "state_control_title": "Consolidation governance forums",
+  "state_control_body": "Institute recurring CFO-sponsored forums tying consolidation currency outcomes to entity-level custody dashboards.",
+  "receives_from": "Entity reporting packs, translation schedules, and ownership structures.",
+  "passes_to": "Group disclosures, audit workbooks, and investor-ready narratives."
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-08",
+  "url": "/states/audit-reality/",
+  "type": "state",
+  "status": "published",
+  "state_number": "08",
+  "state_name": "Audit Reality",
+  "state_summary": "Audit reality is the terminal state of the CCY State Chain — the condition where monetary figures are traceable to evidence, reconciled across systems, supported by documentation, and defensible under independent professional scrutiny. It is custody fulfilled, not optimism declared.",
+  "state_role_label": "Terminal Custody",
+  "state_role_title": "Truth that survives challenge.",
+  "state_role_body": "Audit committees, external auditors, and internal assurance teams test whether monetary narratives hold under detail questions — not whether dashboards looked smooth during quarter close. Audit reality fails when earlier states blurred identities or discarded lineage.",
+  "custody_question": "Can every material figure survive traceability from economic event through account, ledger, reporting, and consolidation layers without narrative gaps?",
+  "chain_position_body": "Audit reality integrates consolidation outputs from State 07 with evidence repositories, control attestations, and governance oversight. It loops backward to doctrine: monetary truth is custody realized, not rhetoric sustained.",
+  "state_rail": [
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
+    {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
+    {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
+    {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
+    {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
+  ],
+  "state_risk_title": "Performative assurance without custody lineage",
+  "state_risk_body": "Controls certified on paper cannot compensate when earlier currency states were unnamed — auditors escalate findings precisely when traceability collapses.",
+  "state_control_title": "Evidence-grade traceability",
+  "state_control_body": "Invest in reconciliations, structured metadata, and cross-functional custody maps tying monetary movements to accountable owners.",
+  "receives_from": "Consolidated reporting packages and governance-ready disclosures.",
+  "passes_to": "Institutional confidence — and the foundation for strategic valuation of AccountCcy-grade discipline."
+}

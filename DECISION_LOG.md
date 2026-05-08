@@ -86,6 +86,39 @@ Reference navigation must never point to non-existent URLs; expanding the graph 
 
 ---
 
+## 2026-05-08 — Foundation Publication Cluster 03 (Core CCY State Pages)
+
+### Decision
+
+AccountCcy.com published five sovereign state pages along the CCY State Chain:
+
+- `/states/account-currency/` (State 04 — critical control point)
+- `/states/ledger-currency/` (State 05)
+- `/states/reporting-currency/` (State 06)
+- `/states/consolidation-currency/` (State 07)
+- `/states/audit-reality/` (State 08 — terminal custody)
+
+States 01–03 remain text-only in on-page rails until their dedicated pages publish; the hub pillar `/ccy-state-chain/` deep-links to the five published states.
+
+### Strategic Meaning
+
+The asset gains navigable depth beyond pillar summaries — aligning ERP, reporting, consolidation, and audit audiences with custody language grounded in published URLs.
+
+### Technical Changes
+
+- Added JSON corpus files under `main/content/pages/` using the `states__*.json` slug convention consumed by `generate_pages.py`.
+- Promoted the five URLs in `main/data/pages.json` with `required_links` constrained to the published graph only.
+- Expanded `/ccy-state-chain/` and `/what-is-account-currency/` related-link registries to surface State 04.
+- Adjusted `breadcrumb()` in `scripts/generate_pages.py` so intermediate `states/` segments resolve to `/ccy-state-chain/` (avoiding a non-existent `/states/` index).
+- Shortened State 04 registry meta description to satisfy SEO length discipline.
+- Regenerated HTML, `sitemap.xml`, and reports — **sovereign quality gate passed**.
+
+### Governance Implication
+
+State rails must not hyperlink unpublished targets; expanding the chain requires publishing upstream states or keeping rail entries text-only until URLs exist.
+
+---
+
 ## 2026-05-08 — WebP Identity Assets Integrated
 
 ### Decision

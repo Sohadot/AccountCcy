@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-08",
+  "url": "/states/reporting-currency/",
+  "type": "state",
+  "status": "published",
+  "state_number": "06",
+  "state_name": "Reporting Currency",
+  "state_summary": "Reporting currency is the currency in which financial results are presented for management review, regulatory filings, investor communications, or internal performance packs. State 06 is where translation policy visibly reshapes enterprise narratives built from ledger truth.",
+  "state_role_label": "Presentation Layer",
+  "state_role_title": "How leadership sees performance after translation.",
+  "state_role_body": "Ledger balances may remain stable while reporting packs swing because of methodology choices, equity carve-outs, hyperinflation contexts, or hybrid reporting regimes. CFO offices experience State 06 as bridge schedules, translation adjustments, and commentary obligations.",
+  "custody_question": "Which presentation currency tells the authoritative story to governance bodies — and does it trace cleanly to ledger custody?",
+  "chain_position_body": "Reporting currency consumes disciplined ledger output from State 05 and hands coherent packages toward consolidation engines at State 07. Confusing reporting currency with account currency invites boards to misread operational exposure versus presentation noise.",
+  "state_rail": [
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
+    {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
+    {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
+    {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
+    {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
+  ],
+  "state_risk_title": "Bridge narratives that cannot tie to accounts",
+  "state_risk_body": "When translation bridges omit custody lineage, finance explains swings using macro volatility alone — destroying credibility with audit committees.",
+  "state_control_title": "Document translation methodology",
+  "state_control_body": "Maintain living methodology memos linking reporting currency choices to ledger facts, equity treatments, and consolidation policies.",
+  "receives_from": "Ledger closes and systematic balances ready for presentation adjustments.",
+  "passes_to": "Consolidation currency layers, investor disclosures, and regulator-facing exhibits."
+}
