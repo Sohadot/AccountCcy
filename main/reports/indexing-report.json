@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T18:19:59.710238+00:00",
+  "generated_at": "2026-05-08T18:26:18.975449+00:00",
   "url_count": 31,
   "errors": [],
   "warnings": [],
@@ -273,7 +273,7 @@
       "url_path": "/states/account-currency/",
       "loc": "https://accountccy.com/states/account-currency/",
       "title": "Account Currency — State 04 — The Critical Control Point",
-      "description": "Account currency assigns custody for balances in ERP — State 04 where movement enters accounting record.",
+      "description": "State 04 Account Currency: ERP custody identity for balances—not transaction labels—bridging settlement into ledger, FX, translation, audit lineage.",
       "canonical": "https://accountccy.com/states/account-currency/",
       "robots": "index, follow",
       "h1_count": 1,
