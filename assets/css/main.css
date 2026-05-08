@@ -528,47 +528,8 @@ button {
 }
 
 /* ==========================================================================
-   07. SOVEREIGN MASTHEAD
+   07. SOVEREIGN MASTHEAD — LEGACY TEXT BRAND (shell + responsive system at file end)
    ========================================================================== */
-
-.ccy-masthead {
-  position: sticky;
-  top: 0;
-  z-index: var(--ccy-z-sticky);
-  background:
-    linear-gradient(
-      135deg,
-      #07182d 0%,
-      #0b213a 48%,
-      #102f4e 100%
-    );
-  border-bottom: 1px solid rgba(212, 168, 67, 0.38);
-  box-shadow: 0 10px 30px rgba(7, 24, 45, 0.22);
-}
-
-.ccy-masthead-inner {
-  width: min(100% - (2 * var(--ccy-gutter)), var(--ccy-container-xl));
-  min-height: 88px;
-  margin-inline: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--ccy-space-6);
-}
-
-.ccy-brand {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.ccy-brand-logo {
-  display: block;
-  width: min(220px, 54vw);
-  height: auto;
-  object-fit: contain;
-  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.35));
-}
 
 .ccy-brand-mark {
   width: 34px;
@@ -592,26 +553,6 @@ button {
 }
 
 .ccy-brand-name span {
-  color: var(--ccy-color-gold);
-}
-
-.ccy-nav {
-  display: flex;
-  align-items: center;
-  gap: clamp(1rem, 2.5vw, 2rem);
-}
-
-.ccy-nav a {
-  color: rgba(245, 240, 232, 0.78);
-  font-family: var(--ccy-font-mono);
-  font-size: var(--ccy-font-size-2xs);
-  letter-spacing: var(--ccy-letter-wider);
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: color var(--ccy-duration-fast) var(--ccy-ease-standard);
-}
-
-.ccy-nav a:hover {
   color: var(--ccy-color-gold);
 }
 
@@ -1014,21 +955,7 @@ button {
   }
 }
 
-@media (max-width: 48rem) {
-  .ccy-masthead-inner {
-    min-height: 76px;
-  }
-
-  .ccy-brand-logo {
-    width: min(185px, 60vw);
-  }
-}
-
 @media (max-width: 820px) {
-  .ccy-nav {
-    display: none;
-  }
-
   .ccy-grid-2,
   .ccy-grid-3,
   .ccy-grid-4 {
@@ -1150,5 +1077,152 @@ button {
 
   a {
     text-decoration: none;
+  }
+}
+
+/* ==========================================================================
+   AccountCcy Responsive Masthead System
+   Royal institutional header for all screen sizes
+   ========================================================================== */
+
+.ccy-masthead {
+  background:
+    linear-gradient(
+      135deg,
+      #07182d 0%,
+      #0b213a 48%,
+      #102f4e 100%
+    );
+  border-bottom: 1px solid rgba(212, 168, 67, 0.36);
+  box-shadow: 0 10px 30px rgba(7, 24, 45, 0.20);
+  position: relative;
+  z-index: 50;
+}
+
+.ccy-masthead-inner {
+  width: min(100%, var(--ccy-container-xl, 1200px));
+  margin: 0 auto;
+  min-height: clamp(86px, 7vw, 112px);
+  padding: 0 clamp(1.25rem, 4vw, 3.75rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(1rem, 3vw, 3rem);
+}
+
+.ccy-brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.ccy-brand-logo {
+  display: block;
+  width: clamp(170px, 16vw, 260px);
+  max-height: clamp(62px, 6.5vw, 92px);
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.34));
+}
+
+.ccy-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(1rem, 2.2vw, 2.25rem);
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ccy-nav a {
+  color: rgba(245, 240, 232, 0.76);
+  font-family: var(--ccy-font-mono);
+  font-size: clamp(0.58rem, 0.62vw, 0.72rem);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    color var(--ccy-duration-standard, 180ms) var(--ccy-ease-standard, ease),
+    opacity var(--ccy-duration-standard, 180ms) var(--ccy-ease-standard, ease);
+}
+
+.ccy-nav a:hover {
+  color: var(--ccy-color-gold);
+}
+
+/* Medium laptops and small desktops */
+@media (max-width: 72rem) {
+  .ccy-masthead-inner {
+    min-height: 92px;
+    padding-inline: clamp(1.25rem, 3vw, 2rem);
+  }
+
+  .ccy-brand-logo {
+    width: clamp(165px, 20vw, 220px);
+    max-height: 76px;
+  }
+
+  .ccy-nav {
+    gap: 1rem;
+  }
+
+  .ccy-nav a {
+    font-size: 0.58rem;
+    letter-spacing: 0.14em;
+  }
+}
+
+/* Tablet and large mobile: protect the identity, hide compressed nav */
+@media (max-width: 60rem) {
+  .ccy-masthead-inner {
+    min-height: 88px;
+    justify-content: center;
+    padding-inline: 1.5rem;
+  }
+
+  .ccy-brand {
+    justify-content: center;
+  }
+
+  .ccy-brand-logo {
+    width: clamp(170px, 38vw, 220px);
+    max-height: 74px;
+  }
+
+  .ccy-nav {
+    display: none;
+  }
+}
+
+/* Phones */
+@media (max-width: 48rem) {
+  .ccy-masthead {
+    box-shadow: 0 6px 18px rgba(7, 24, 45, 0.18);
+  }
+
+  .ccy-masthead-inner {
+    min-height: 78px;
+    padding: 0 1rem;
+  }
+
+  .ccy-brand-logo {
+    width: clamp(145px, 44vw, 175px);
+    max-height: 58px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 24rem) {
+  .ccy-masthead-inner {
+    min-height: 72px;
+  }
+
+  .ccy-brand-logo {
+    width: clamp(132px, 48vw, 155px);
+    max-height: 52px;
   }
 }
