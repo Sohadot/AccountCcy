@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-08T17:13:27.311905+00:00",
-  "url_count": 23,
+  "generated_at": "2026-05-08T17:22:46.401633+00:00",
+  "url_count": 31,
   "errors": [],
   "warnings": [],
   "audits": [
@@ -53,6 +53,18 @@
       "warnings": []
     },
     {
+      "source_path": "glossary/account-currency-control/index.html",
+      "url_path": "/glossary/account-currency-control/",
+      "loc": "https://accountccy.com/glossary/account-currency-control/",
+      "title": "Account Currency Control — AccountCcy.com Glossary",
+      "description": "Account currency control is governance over ERP custody assignments—not occasional reconciliation heroics.",
+      "canonical": "https://accountccy.com/glossary/account-currency-control/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "glossary/audit-reality/index.html",
       "url_path": "/glossary/audit-reality/",
       "loc": "https://accountccy.com/glossary/audit-reality/",
@@ -65,12 +77,84 @@
       "warnings": []
     },
     {
+      "source_path": "glossary/chain-of-custody/index.html",
+      "url_path": "/glossary/chain-of-custody/",
+      "loc": "https://accountccy.com/glossary/chain-of-custody/",
+      "title": "Chain of Custody — AccountCcy.com Glossary",
+      "description": "Chain of custody in finance is the ordered evidence path monetary signals follow before becoming truth.",
+      "canonical": "https://accountccy.com/glossary/chain-of-custody/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "glossary/consolidation-currency/index.html",
       "url_path": "/glossary/consolidation-currency/",
       "loc": "https://accountccy.com/glossary/consolidation-currency/",
       "title": "Consolidation Currency — AccountCcy.com Glossary",
       "description": "Consolidation currency unifies group reporting — State 07 absorbing translations, eliminations, ownership drift.",
       "canonical": "https://accountccy.com/glossary/consolidation-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "glossary/currency-state/index.html",
+      "url_path": "/glossary/currency-state/",
+      "loc": "https://accountccy.com/glossary/currency-state/",
+      "title": "Currency State — AccountCcy.com Glossary",
+      "description": "A currency state is a named phase where enterprise finance assigns monetary identity—distinct from ‘currency’ alone.",
+      "canonical": "https://accountccy.com/glossary/currency-state/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "glossary/currency-state-control-framework/index.html",
+      "url_path": "/glossary/currency-state-control-framework/",
+      "loc": "https://accountccy.com/glossary/currency-state-control-framework/",
+      "title": "Currency State Control Framework — AccountCcy.com Glossary",
+      "description": "The Currency State Control Framework governs monetary custody across currency states—not FX slogans alone.",
+      "canonical": "https://accountccy.com/glossary/currency-state-control-framework/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "glossary/currency-translation/index.html",
+      "url_path": "/glossary/currency-translation/",
+      "loc": "https://accountccy.com/glossary/currency-translation/",
+      "title": "Currency Translation — AccountCcy.com Glossary",
+      "description": "Currency translation converts measured results into presentation currency—State 06 visibility discipline.",
+      "canonical": "https://accountccy.com/glossary/currency-translation/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "glossary/functional-currency/index.html",
+      "url_path": "/glossary/functional-currency/",
+      "loc": "https://accountccy.com/glossary/functional-currency/",
+      "title": "Functional Currency — AccountCcy.com Glossary",
+      "description": "Functional currency names the primary economic environment lens—typically aligning ledger measurement.",
+      "canonical": "https://accountccy.com/glossary/functional-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "glossary/fx-revaluation/index.html",
+      "url_path": "/glossary/fx-revaluation/",
+      "loc": "https://accountccy.com/glossary/fx-revaluation/",
+      "title": "FX Revaluation — AccountCcy.com Glossary",
+      "description": "FX revaluation restates monetary balances to ledger currency at period boundaries—State 05 custody mechanics.",
+      "canonical": "https://accountccy.com/glossary/fx-revaluation/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],
@@ -95,6 +179,18 @@
       "title": "Ledger Currency — AccountCcy.com Glossary",
       "description": "Ledger currency houses the entity trial balance — State 05 aligned with functional books discipline.",
       "canonical": "https://accountccy.com/glossary/ledger-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "glossary/monetary-truth/index.html",
+      "url_path": "/glossary/monetary-truth/",
+      "loc": "https://accountccy.com/glossary/monetary-truth/",
+      "title": "Monetary Truth — AccountCcy.com Glossary",
+      "description": "Monetary truth is accounting-defensible money figures traceable through custody—not optimism or dashboards alone.",
+      "canonical": "https://accountccy.com/glossary/monetary-truth/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],

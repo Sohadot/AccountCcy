@@ -156,12 +156,195 @@
       "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
     },
     {
+      "slug": "monetary-truth",
+      "term": "Monetary Truth",
+      "url": "/glossary/monetary-truth/",
+      "ccy_state": null,
+      "ccy_state_name": "Doctrine · Monetary Truth",
+      "status": "published",
+      "meta_description": "Monetary truth is accounting-defensible money figures traceable through custody—not optimism or dashboards alone.",
+      "definition": "Monetary truth is the condition where monetary figures inside enterprise finance become institutionally believable: aligned to evidence, reconciled across systems, and consistent across currency states from quoted exposure through consolidation. AccountCcy treats monetary truth as an outcome of custody—not as a slogan attached to FX variance commentary.",
+      "institutional_context": "Operating enterprises accumulate monetary signals from markets, counterparties, banking rails, ERP postings, close processes, and consolidation hubs. Monetary truth emerges only when those signals carry lineage—who locked rates, which obligation currency governed postings, how settlement cleared, how account assignments held balances, and how translation methodology ties disclosure back to ledger proofs.",
+      "position_in_chain": "Monetary truth is the doctrinal north star behind the CCY State Chain: each state exists to earn truth through custody rather than assuming it from automation.",
+      "why_it_matters": "Boards, auditors, regulators, and counterparties ultimately challenge monetary truth—not treasury rhetoric. Weak custody upstream becomes material exposure downstream.",
+      "risk_if_misunderstood": "Treating monetary truth as synonymous with ‘balanced books’ or ‘FX explained’ invites narrative substitutes that collapse under evidence requests.",
+      "related_terms": [
+        "chain-of-custody",
+        "audit-reality",
+        "currency-state-control-framework"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/monetary-truth-chain-of-custody/",
+        "/glossary/chain-of-custody/",
+        "/framework/",
+        "/ccy-state-chain/"
+      ],
+      "not_confused_with": "Monetary truth is not the same as treasury risk analytics, liquidity visibility, or slogans about ‘single version of truth’ unless those layers reconcile to postings and documentation.",
+      "custody_question": "If challenged tonight, could finance prove every material figure from quote through consolidation?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility.",
+      "buyer_relevance": [
+        "all"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ]
+    },
+    {
+      "slug": "chain-of-custody",
+      "term": "Chain of Custody",
+      "url": "/glossary/chain-of-custody/",
+      "ccy_state": null,
+      "ccy_state_name": "Doctrine · Chain of Custody",
+      "status": "published",
+      "meta_description": "Chain of custody in finance is the ordered evidence path monetary signals follow before becoming truth.",
+      "definition": "Chain of custody names the institutional discipline of preserving continuity as monetary signals transform—from market quotation through obligation creation, settlement movement, account assignment, ledger measurement, reporting translation, consolidation assembly, and audit defensibility. Break custody anywhere and truth claims lose footing.",
+      "institutional_context": "Custody is operationalized through contracts, rate policies, TMS confirmations, ERP configuration, period-end controls, consolidation methodologies, and documentary standards. Each hop must reference the prior hop; otherwise forensic reconstruction replaces governance.",
+      "position_in_chain": "The CCY State Chain is AccountCcy’s concrete articulation of monetary custody across eight currency states.",
+      "why_it_matters": "Custody gaps are where FX disputes, close delays, restatements, and governance escalations concentrate.",
+      "risk_if_misunderstood": "Assuming custody equals logging transactions ignores configuration-state custody—the dominant failure pattern in multi-currency ERP environments.",
+      "related_terms": [
+        "monetary-truth",
+        "currency-state",
+        "audit-reality"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/monetary-truth-chain-of-custody/",
+        "/glossary/monetary-truth/",
+        "/framework/",
+        "/ccy-state-chain/"
+      ],
+      "not_confused_with": "Chain of custody is broader than an audit trail artifact: it includes commercial, treasury, and configuration decisions that audit trails only reflect if designed intentionally.",
+      "custody_question": "Does every custody hop name its predecessor and successor states without ambiguity?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility.",
+      "buyer_relevance": [
+        "all"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ]
+    },
+    {
+      "slug": "currency-state",
+      "term": "Currency State",
+      "url": "/glossary/currency-state/",
+      "ccy_state": null,
+      "ccy_state_name": "Framework Concept · Currency State",
+      "status": "published",
+      "meta_description": "A currency state is a named phase where enterprise finance assigns monetary identity—distinct from ‘currency’ alone.",
+      "definition": "A currency state is a named phase in enterprise finance where monetary identity takes a specific institutional meaning—quoted lens, obligation denomination, settlement rail, account custody, ledger measurement, reporting presentation, consolidation assembly, or audit defensibility. Recognizing states prevents collapsing unlike identities into one ambiguous ‘currency’ label.",
+      "institutional_context": "ERP configuration, contracting templates, treasury procedures, and consolidation policies implicitly encode currency states even when teams lack vocabulary. Naming states exposes gaps—especially where transaction and settlement diverge or where reporting narratives detach from ledger proofs.",
+      "position_in_chain": "AccountCcy enumerates eight canonical currency states from quotation through audit reality.",
+      "why_it_matters": "Without explicit currency-state vocabulary, controls drift into tribal knowledge—fragile under turnover and audits.",
+      "risk_if_misunderstood": "Confusing adjacent states (for example settlement versus account, or reporting versus ledger) seeds systematic FX and reconciliation distortion.",
+      "related_terms": [
+        "currency-state-control-framework",
+        "account-currency",
+        "ledger-currency"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/monetary-truth-chain-of-custody/",
+        "/glossary/currency-state-control-framework/"
+      ],
+      "not_confused_with": "Currency state is not ISO currency codes or bank balances alone—it is the institutional role currency plays inside a governed progression.",
+      "custody_question": "Which state owns this figure right now—and what evidence proves the transition from the prior state?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility.",
+      "buyer_relevance": [
+        "controllers",
+        "ERP consultants",
+        "CFO advisory"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ]
+    },
+    {
+      "slug": "currency-state-control-framework",
+      "term": "Currency State Control Framework",
+      "url": "/glossary/currency-state-control-framework/",
+      "ccy_state": null,
+      "ccy_state_name": "Framework · Currency State Control Framework",
+      "status": "published",
+      "meta_description": "The Currency State Control Framework governs monetary custody across currency states—not FX slogans alone.",
+      "definition": "The Currency State Control Framework is AccountCcy’s governing methodology for treating multi-currency finance as a custody problem: explicitly naming currency states, enforcing disciplined transitions between them, and designing controls where identity ambiguity would otherwise compound into material misstatement risk.",
+      "institutional_context": "Implementation spans policy forums, ERP configuration governance, close calendars, consolidation methodology reviews, and audit readiness—not merely treasury hedging programs. The framework ties doctrine (/framework/) to operational evidence across systems.",
+      "position_in_chain": "The framework contextualizes the CCY State Chain as the canonical ordered model of monetary custody.",
+      "why_it_matters": "Buyers and auditors increasingly challenge configuration-era decisions; the framework supplies durable vocabulary for those defenses.",
+      "risk_if_misunderstood": "Reading the framework as academic doctrine without operational hooks repeats failed ‘tone at the top’ programs that never touched charts of accounts.",
+      "related_terms": [
+        "currency-state",
+        "account-currency-control",
+        "monetary-truth"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/monetary-truth-chain-of-custody/",
+        "/glossary/currency-state/",
+        "/glossary/account-currency-control/"
+      ],
+      "not_confused_with": "This framework is not a substitute for statutory accounting standards—it provides custody vocabulary and control orientation referenced alongside standards.",
+      "custody_question": "Which forum owns currency-state transitions—and how are exceptions escalated with evidence?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility.",
+      "buyer_relevance": [
+        "ERP vendors",
+        "financial close platforms",
+        "CFO advisory"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ]
+    },
+    {
+      "slug": "account-currency-control",
+      "term": "Account Currency Control",
+      "url": "/glossary/account-currency-control/",
+      "ccy_state": 4,
+      "ccy_state_name": "Control Discipline · Account Currency Control",
+      "status": "published",
+      "meta_description": "Account currency control is governance over ERP custody assignments—not occasional reconciliation heroics.",
+      "definition": "Account currency control is the institutional discipline of governing how account currency assignments are authorized, documented, reconciled, and defended across charts, entities, migrations, and audits. It treats State 04 as the operational choke point where monetary movement becomes accountable ledger identity.",
+      "institutional_context": "Controllers partner with treasury and IT to ensure assignments align with policy, intercompany structures, and subledger design; exceptions require recorded approvals—otherwise downstream revaluation, translation, and consolidation inherit invisible fractures.",
+      "position_in_chain": "Account currency control anchors State 04—upstream of ledger discipline and downstream of settlement reality.",
+      "why_it_matters": "Most severe multi-currency remediation programs trace to State 04 drift—not spot FX markets.",
+      "risk_if_misunderstood": "Equating account currency control with ‘functional currency policy memos’ misses ERP-specific custody mechanics.",
+      "related_terms": [
+        "account-currency",
+        "ledger-currency",
+        "currency-state-control-framework"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/what-is-account-currency/",
+        "/states/account-currency/",
+        "/glossary/account-currency/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/monetary-truth-chain-of-custody/",
+        "/cfo-guide/"
+      ],
+      "not_confused_with": "Account currency control is not identical to hedge accounting design nor treasury dealing policies—those intersect but do not replace custody over postings.",
+      "custody_question": "Who may change account currency assignments—and what evidence proves balances still reconcile afterward?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility.",
+      "buyer_relevance": [
+        "all"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ]
+    },
+    {
       "slug": "functional-currency",
       "term": "Functional Currency",
       "url": "/glossary/functional-currency/",
       "ccy_state": 5,
       "ccy_state_name": "Ledger Currency — State 05 (functional currency typically determines ledger currency)",
-      "status": "draft",
+      "status": "published",
       "definition": "Functional currency is the currency of the primary economic environment in which an entity operates. It is the currency that mainly influences sales prices for goods and services and the currency of the country whose competitive forces and regulations mainly determine the selling prices of its goods and services.",
       "institutional_context": "Under accounting standards including IFRS IAS 21 and US GAAP ASC 830, every entity must determine its functional currency based on economic indicators. The functional currency typically determines the ledger currency in which the entity's books are maintained. Foreign currency transactions — those denominated in a currency other than the functional currency — must be recognized, tracked, and revalued according to applicable standards. Note: AccountCcy.com references these standards as context only and does not provide accounting advice.",
       "position_in_chain": "Functional currency is most directly associated with State 05 (Ledger Currency) of the CCY State Chain. The functional currency determination governs how foreign currency balances held in accounts are revalued and how the ledger is maintained.",
@@ -175,10 +358,14 @@
         "currency-translation"
       ],
       "related_pages": [
-        "/functional-currency-explained/",
+        "/glossary/",
         "/states/ledger-currency/",
-        "/revaluation-and-translation/",
-        "/ccy-state-chain/"
+        "/states/account-currency/",
+        "/states/reporting-currency/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/monetary-truth-chain-of-custody/",
+        "/glossary/ledger-currency/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -187,7 +374,11 @@
       ],
       "schema_types": [
         "DefinedTerm"
-      ]
+      ],
+      "meta_description": "Functional currency names the primary economic environment lens—typically aligning ledger measurement.",
+      "not_confused_with": "Functional currency determination differs from presentation currency choices and from individual account currency assignments inside charts—misalignment between these layers drives recurring misstatement patterns.",
+      "custody_question": "Does documented functional currency determination match how ledger and account assignments behave under stress scenarios?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
     },
     {
       "slug": "ledger-currency",
@@ -350,7 +541,7 @@
       "url": "/glossary/fx-revaluation/",
       "ccy_state": 5,
       "ccy_state_name": "Ledger Currency — State 05 (revaluation adjusts foreign currency to ledger currency at period end)",
-      "status": "draft",
+      "status": "published",
       "definition": "FX revaluation is the process of restating foreign currency account balances to the ledger currency equivalent at the period-end exchange rate. It produces unrealized FX gains or losses that reflect the change in the exchange rate between the transaction date and the period-end date.",
       "institutional_context": "Period-end revaluation is a required accounting process for entities holding monetary items — assets and liabilities — denominated in foreign currencies. The revaluation adjusts the carrying value of those items to the closing exchange rate. The resulting gain or loss is recognized in profit or loss unless specific hedge accounting rules apply. Note: AccountCcy.com references this process for reference purposes only and does not provide accounting advice.",
       "position_in_chain": "FX revaluation operates at State 05 (Ledger Currency). It is the mechanism by which foreign currency account balances — held at the account currency level (State 04) — are adjusted to the ledger currency at period end before reporting.",
@@ -366,10 +557,14 @@
         "period-end-close"
       ],
       "related_pages": [
-        "/revaluation-and-translation/",
+        "/glossary/",
         "/states/ledger-currency/",
         "/states/account-currency/",
-        "/risks/fx-revaluation-errors/"
+        "/ccy-state-chain/",
+        "/framework/",
+        "/monetary-truth-chain-of-custody/",
+        "/glossary/currency-translation/",
+        "/glossary/functional-currency/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -378,7 +573,11 @@
       ],
       "schema_types": [
         "DefinedTerm"
-      ]
+      ],
+      "meta_description": "FX revaluation restates monetary balances to ledger currency at period boundaries—State 05 custody mechanics.",
+      "not_confused_with": "FX revaluation adjusts monetary items toward ledger measurement at period end; currency translation reshapes presentation layers—confusing them misroutes rates and mislabels adjustments.",
+      "custody_question": "Which rate sources and posting maps prove every revaluation line ties to identifiable balance custody at State 04?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
     },
     {
       "slug": "currency-translation",
@@ -386,7 +585,7 @@
       "url": "/glossary/currency-translation/",
       "ccy_state": 6,
       "ccy_state_name": "Reporting Currency — State 06",
-      "status": "draft",
+      "status": "published",
       "definition": "Currency translation is the process of converting financial statement amounts expressed in one currency (the functional or ledger currency) into another currency (the reporting or presentation currency) for the purposes of financial statement presentation.",
       "institutional_context": "Currency translation is distinct from foreign currency revaluation. Revaluation adjusts individual account balances to ledger currency at period-end rates. Translation converts an entire set of financial statements from one currency to another — typically using closing rates for balance sheet items and average rates for income statement items, with the resulting difference recognized as a currency translation adjustment (CTA) in equity.",
       "position_in_chain": "Currency translation operates at State 06 (Reporting Currency) of the CCY State Chain. It is the process by which the ledger currency view of results is converted into the reporting currency view.",
@@ -401,10 +600,14 @@
         "remeasurement"
       ],
       "related_pages": [
-        "/revaluation-and-translation/",
+        "/glossary/",
         "/states/reporting-currency/",
-        "/compare/currency-translation-vs-revaluation/",
-        "/ccy-state-chain/"
+        "/states/ledger-currency/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/monetary-truth-chain-of-custody/",
+        "/glossary/fx-revaluation/",
+        "/glossary/reporting-currency/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -413,7 +616,11 @@
       ],
       "schema_types": [
         "DefinedTerm"
-      ]
+      ],
+      "meta_description": "Currency translation converts measured results into presentation currency—State 06 visibility discipline.",
+      "not_confused_with": "Currency translation is not FX revaluation at account level—translation operates on financial statement sets once ledger measurement exists.",
+      "custody_question": "Which methodology ties translation adjustments to archived ledger packages—not narrative decks alone?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
     },
     {
       "slug": "audit-trail",

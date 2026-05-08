@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Monetary Truth — AccountCcy.com Glossary</title>
+  <meta name="description" content="Monetary truth is accounting-defensible money figures traceable through custody—not optimism or dashboards alone.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/glossary/monetary-truth/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Monetary Truth — AccountCcy.com Glossary">
+  <meta property="og:description" content="Monetary truth is accounting-defensible money figures traceable through custody—not optimism or dashboards alone.">
+  <meta property="og:url" content="https://accountccy.com/glossary/monetary-truth/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Monetary Truth — AccountCcy.com Glossary">
+  <meta name="twitter:description" content="Monetary truth is accounting-defensible money figures traceable through custody—not optimism or dashboards alone.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Monetary Truth",
+            "description": "Monetary truth is the condition where monetary figures inside enterprise finance become institutionally believable: aligned to evidence, reconciled across systems, and consistent across currency states from quoted exposure through consolidation. AccountCcy treats monetary truth as an outcome of custody—not as a slogan attached to FX variance commentary.",
+            "url": "https://accountccy.com/glossary/monetary-truth/",
+            "inDefinedTermSet": {
+                "@type": "DefinedTermSet",
+                "name": "AccountCcy.com Glossary",
+                "url": "https://accountccy.com/glossary/"
+            }
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/glossary/monetary-truth/",
+            "url": "https://accountccy.com/glossary/monetary-truth/",
+            "name": "Monetary Truth — AccountCcy.com Glossary",
+            "description": "Monetary truth is the condition where monetary figures inside enterprise finance become institutionally believable: aligned to evidence, reconciled across ",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Glossary",
+                    "item": "https://accountccy.com/glossary/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Monetary Truth",
+                    "item": "https://accountccy.com/glossary//monetary-truth/"
+                }
+            ]
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-glossary-term" data-template="glossary_term.html" data-page-type="glossary-term">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/framework/">Framework</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/what-is-account-currency/">Account Currency</a>
+        <a href="/cfo-guide/">CFO Guide</a>
+        <a href="/glossary/">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li><a href="/glossary/" style="color: var(--ccy-color-gold); text-decoration:none;">Glossary</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">Monetary Truth</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: glossary_term.html
+
+  Role:
+  DefinedTerm pages generated from glossary_terms.json.
+
+  Render contract:
+  - No thin definitions.
+  - Every term must be positioned inside the CCY State Chain or explicitly marked as cross-chain.
+  - Every term must include risk-if-misunderstood.
+  - Every term must connect back to pillar/state pages.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Glossary · Doctrine · Monetary Truth</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">Monetary Truth</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">Monetary truth is the condition where monetary figures inside enterprise finance become institutionally believable: aligned to evidence, reconciled across systems, and consistent across currency states from quoted exposure through consolidation. AccountCcy treats monetary truth as an outcome of custody—not as a slogan attached to FX variance commentary.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="definition-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Reference Definition</p>
+        <h2 id="definition-title" class="ccy-title">What Monetary Truth means inside enterprise finance.</h2>
+      </div>
+      <div class="ccy-definition-box">
+        <p class="ccy-body">Monetary truth is the condition where monetary figures inside enterprise finance become institutionally believable: aligned to evidence, reconciled across systems, and consistent across currency states from quoted exposure through consolidation. AccountCcy treats monetary truth as an outcome of custody—not as a slogan attached to FX variance commentary.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Operational meaning</p>
+        <h2 id="context-title" class="ccy-title">Monetary Truth inside enterprise finance operations.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body">Operating enterprises accumulate monetary signals from markets, counterparties, banking rails, ERP postings, close processes, and consolidation hubs. Monetary truth emerges only when those signals carry lineage—who locked rates, which obligation currency governed postings, how settlement cleared, how account assignments held balances, and how translation methodology ties disclosure back to ledger proofs.</p>
+        <div class="ccy-panel-gold">
+          <p class="ccy-label">Position in Chain</p>
+          <p class="ccy-body">Monetary truth is the doctrinal north star behind the CCY State Chain: each state exists to earn truth through custody rather than assuming it from automation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="matters-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Why it matters</p>
+        <h2 id="matters-title" class="ccy-consequence-heading">Monetary Truth as a control concept</h2>
+        <p class="ccy-consequence-body">Boards, auditors, regulators, and counterparties ultimately challenge monetary truth—not treasury rhetoric. Weak custody upstream becomes material exposure downstream.</p>
+      </article>
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if misunderstood</p>
+        <h2 class="ccy-consequence-heading">Where misunderstanding creates distortion</h2>
+        <p class="ccy-consequence-body">Treating monetary truth as synonymous with ‘balanced books’ or ‘FX explained’ invites narrative substitutes that collapse under evidence requests.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="distinctions-title"><div class="ccy-container"><div style="max-width: var(--ccy-container-sm);"><p class="ccy-eyebrow">Distinctions</p><h2 id="distinctions-title" class="ccy-title">Do not confuse this term with adjacent currency identities.</h2><p class="ccy-body">Monetary truth is not the same as treasury risk analytics, liquidity visibility, or slogans about ‘single version of truth’ unless those layers reconcile to postings and documentation.</p></div></div></section>
+<section class="ccy-section" aria-labelledby="custody-q-title"><div class="ccy-container"><div class="ccy-panel-gold" style="max-width: var(--ccy-container-sm);"><p class="ccy-label">Custody question</p><p id="custody-q-title" class="ccy-body" style="font-family: var(--ccy-font-heading); font-size: var(--ccy-font-size-lg); line-height: var(--ccy-line-heading); margin:0;">If challenged tonight, could finance prove every material figure from quote through consolidation?</p></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="evidence-title"><div class="ccy-container"><div style="max-width: var(--ccy-container-sm);"><p class="ccy-eyebrow">Evidence discipline</p><h2 id="evidence-title" class="ccy-title">Reference posture — not professional advice.</h2><p class="ccy-body">AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization&#x27;s responsibility.</p></div></div></section>
+
+<section class="ccy-section" aria-labelledby="related-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Related Terms</p>
+    <h2 id="related-title" class="ccy-section-title" style="margin-bottom: var(--ccy-space-6);">Continue through the reference graph.</h2>
+    <div class="ccy-cluster">
+<span class="ccy-badge ccy-badge-gold">Chain Of Custody</span>
+<span class="ccy-badge ccy-badge-gold">Audit Reality</span>
+<span class="ccy-badge ccy-badge-gold">Currency State Control Framework</span>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="term-discipline-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Terminology Discipline</p>
+        <h2 id="term-discipline-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Definition is not decoration. It is control.</h2>
+      </div>
+      <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">AccountCcy.com glossary terms exist to reduce ambiguity inside multi-currency enterprise finance. Each term is treated as a reference node connected to the Currency State Control Framework, the CCY State Chain, operational risk, and audit defensibility.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-related-links" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-related-grid"><a class="ccy-related-card" href="/glossary/"><span class="ccy-related-label">Glossary</span><span class="ccy-related-title">Account Currency Glossary — Enterprise Finance Reference</span></a><a class="ccy-related-card" href="/monetary-truth-chain-of-custody/"><span class="ccy-related-label">Doctrine</span><span class="ccy-related-title">The Chain of Custody for Monetary Truth</span></a><a class="ccy-related-card" href="/glossary/chain-of-custody/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Chain of Custody</span></a><a class="ccy-related-card" href="/framework/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The Currency State Control Framework</span></a><a class="ccy-related-card" href="/ccy-state-chain/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The CCY State Chain — From Quoted Price to Audit Reality</span></a></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
