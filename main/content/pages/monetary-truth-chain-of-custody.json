@@ -7,54 +7,165 @@
   "quality_gate": "sovereign",
   "page_eyebrow": "Doctrine · Supreme Thesis",
   "h1": "The Chain of Custody for Monetary Truth",
-  "intro": "Money does not become accounting truth automatically. It becomes truth through custody. Inside enterprise finance, monetary movement passes through controlled states — from quotation and transaction through settlement, account assignment, ledger maintenance, reporting, consolidation, and audit-defensible reality.",
+  "intro": "Monetary truth in enterprise finance is not carried by the naked figure alone. The same numeric surface can answer incompatible custody questions unless finance preserves currency identity, source events, system postings, ledger measurement choices, control-framework ownership, FX mechanics, translation methodology, outward presentation, and the evidentiary trail that lets an outsider reconstruct lineage. AccountCcy.com exists to map that chain—not as commentary, but as an accountable vocabulary tied to institutional behavior.",
   "doctrine_eyebrow": "Foundation Doctrine",
-  "doctrine_statement": "AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.<br>The asset maps where monetary movement becomes recorded, assigned, reconciled, translated, consolidated, reported, and defensible.",
+  "doctrine_statement": "AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.<br>The asset names where quotation becomes obligation, obligation becomes settlement, settlement becomes account custody, custody becomes ledger measurement, measurement becomes translation and consolidation, and consolidation becomes audit-defensible reality—not because automation guarantees truth, but because governance earns it.",
   "doctrine_attribution": "AccountCcy.com Foundation Doctrine",
-  "primary_section_eyebrow": "Why Custody Matters",
-  "primary_section_title": "Currency gains institutional meaning only through governed transitions.",
+  "primary_section_eyebrow": "Why Custody Precedes Optimism",
+  "primary_section_title": "Truth is what survives reconstruction—not what survives dashboards.",
   "primary_section_body": [
-    "Enterprise finance does not treat currency as a single static flag on a transaction. The same monetary event can carry multiple identities — quotation, obligation, settlement, account custody, ledger maintenance, reporting presentation, group consolidation, and audit scrutiny.",
-    "Without naming those transitions, finance organizations inherit fragmentation: reconciliation burden, FX distortion, close-cycle friction, and audit exposure long before misconduct enters the picture.",
-    "Custody is the institutional discipline through which movement becomes record — not magically at posting time, but through deliberate assignment, reconciliation, and defensibility across systems."
+    "Enterprise finance stacks quotation, commercial obligation, banking settlement, ERP posting discipline, functional measurement, period-end revaluation, translation policy, group consolidation, and external reporting—often across different owners who speak overlapping jargon.",
+    "When transaction currency, account currency, ledger currency, functional currency treatment, revaluation, translation, and reporting presentation are treated as interchangeable labels on ‘the FX line,’ monetary truth weakens long before fraud enters the picture: reconciliation breaks, close friction, and evidentiary gaps accumulate in silence.",
+    "Custody names those transitions so control can attach at boundaries—who locked the rate, which obligation currency governs performance, which ERP assignment holds balances, which ledger rule measured results, which policy translated them, and which artifacts prove each hop.",
+    "Readers seeking named doctrine terms should begin with monetary truth and chain of custody as lexical anchors, then move through currency state vocabulary into framework mechanics."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "custody-sequence-monetary-truth",
+      "eyebrow": "Operational lineage",
+      "title": "The custody sequence of monetary truth",
+      "paragraphs": [
+        "Monetary truth travels as an ordered passage—not as a single posting snapshot. Each transition below can change what the figure means even when the ISO code beside the amount appears unchanged.",
+        "The ordered states are published canonically in the CCY State Chain and disciplined through the Currency State Control Framework; the glossary locks accountable definitions at each hop."
+      ],
+      "steps": [
+        {
+          "title": "1 · Commercial event",
+          "body": "Counterparty commitments, confirmations, and pricing terms create the monetary facts that will later demand accounting identity—before ERP assigns custody.",
+          "link_url": "/framework/",
+          "link_label": "Currency State Control Framework"
+        },
+        {
+          "title": "2 · Transaction currency",
+          "body": "The obligation crystallizes in a denomination that legally and commercially defines measurable performance—the first accountable currency identity attached to the duty.",
+          "link_url": "/glossary/transaction-currency/",
+          "link_label": "Transaction currency"
+        },
+        {
+          "title": "3 · Account currency",
+          "body": "ERP assigns the balance’s ledger custody—how that obligation lives inside charts of accounts, reconciliation scopes, and subsystem postings.",
+          "link_url": "/what-is-account-currency/",
+          "link_label": "What Is Account Currency?"
+        },
+        {
+          "title": "4 · Ledger currency",
+          "body": "Trial-balance measurement aligns with entity books—the operational lens where balances accumulate until period discipline reshapes them.",
+          "link_url": "/glossary/ledger-currency/",
+          "link_label": "Ledger currency"
+        },
+        {
+          "title": "5 · Functional currency treatment",
+          "body": "Economic environment determination frames which monetary amounts are considered ‘primary’ for measurement before translation reshapes outward narratives.",
+          "link_url": "/glossary/functional-currency/",
+          "link_label": "Functional currency"
+        },
+        {
+          "title": "6 · FX revaluation",
+          "body": "Period boundaries restate monetary amounts still held in foreign denominations—where rate lineage and methodology become control surfaces.",
+          "link_url": "/glossary/fx-revaluation/",
+          "link_label": "FX revaluation"
+        },
+        {
+          "title": "7 · Currency translation",
+          "body": "Measured results convert into presentation choices governed by policy—distinct from the custody assignment that held balances upstream.",
+          "link_url": "/glossary/currency-translation/",
+          "link_label": "Currency translation"
+        },
+        {
+          "title": "8 · Reporting currency presentation",
+          "body": "External visibility refracts ledger truth through disclosure choices—where weak upstream custody becomes narrative strain.",
+          "link_url": "/glossary/reporting-currency/",
+          "link_label": "Reporting currency"
+        },
+        {
+          "title": "9 · Audit and control evidence",
+          "body": "Terminal monetary truth is reconstructable lineage—rates, postings, reconciliations, sign-offs, and independent scrutiny—not optimism layered after the fact.",
+          "link_url": "/glossary/audit-reality/",
+          "link_label": "Audit reality"
+        }
+      ]
+    },
+    {
+      "section_id": "where-monetary-truth-breaks",
+      "eyebrow": "Failure anatomy",
+      "title": "Where monetary truth breaks",
+      "paragraphs": [
+        "Monetary truth fractures when organizations silently interchange obligation currency (transaction currency), ERP custody assignment (account currency), measurement currency (ledger currency aligned to functional currency discipline), mechanical restatement (revaluation), presentation translation, and reporting narration.",
+        "Interfaces—banks, TMS, procurement, tax engines, consolidation hubs—accelerate handoffs. Without explicit custody ownership per transition, teams reconcile symptoms while the underlying identity mismatch persists.",
+        "Weak custody produces ‘balanced’ sub-ledgers that still fail reconstruction tests: an auditor or regulator asks which rate, which policy, which subsystem transformation produced the figure—and finance reaches for manual storytelling instead of artifacts.",
+        "Account currency control names governance over State 04 custody assignments; currency state vocabulary explains why ‘currency’ is an operational state—not an interchangeable flag."
+      ]
+    },
+    {
+      "section_id": "custody-control-questions",
+      "eyebrow": "Control interrogation",
+      "title": "Custody questions finance must answer without improvisation",
+      "paragraphs": [
+        "These questions operationalize the doctrine page into review discipline. They are not rhetorical—they decide whether monetary figures belong in the same forensic class."
+      ],
+      "questions": [
+        "What currency did the obligation originate in—and who locked the commercial terms that established it?",
+        "Where was the monetary state transformed (quoted signal to obligation, obligation to cash movement, movement to ERP custody, custody to ledger measurement)?",
+        "Which system changed the value, currency denomination, or presentation layer—and under whose authority?",
+        "Which FX rate source, accounting policy, ledger rule, translation methodology, or consolidation elimination altered the reported value?",
+        "Can the monetary path be reconstructed from artifacts alone—without tribal narrative, heroic spreadsheets, or inaccessible tribal knowledge?"
+      ]
+    },
+    {
+      "section_id": "doctrine-lexical-anchors",
+      "eyebrow": "Internal vocabulary",
+      "title": "Doctrine vocabulary tied to published definitions",
+      "paragraphs": [
+        "AccountCcy publishes sovereign glossary entries so treasury, accounting, systems owners, consolidation teams, and auditors can argue about the same institutional objects—not adjacent synonyms."
+      ],
+      "reference_strip": [
+        { "href": "/glossary/monetary-truth/", "label": "Monetary truth" },
+        { "href": "/glossary/chain-of-custody/", "label": "Chain of custody" },
+        { "href": "/glossary/currency-state/", "label": "Currency state" },
+        { "href": "/glossary/account-currency-control/", "label": "Account currency control" },
+        { "href": "/glossary/account-currency/", "label": "Account currency (defined)" },
+        { "href": "/states/account-currency/", "label": "State 04 reference" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" }
+      ]
+    }
   ],
   "graph_eyebrow": "Doctrine Layer",
-  "graph_title": "The supreme thesis anchors the reference architecture.",
-  "graph_intro": "Every pillar — framework definition, CCY State Chain, account currency discipline — unfolds downstream from this thesis. The doctrine page exists so readers grasp custody before navigating mechanics.",
+  "graph_title": "Downstream pillars unfold from custody clarity.",
+  "graph_intro": "Once custody language is shared, the Currency State Control Framework, CCY State Chain, account currency definition pillar, and glossary clusters become navigable mechanics—not isolated articles.",
   "grid_eyebrow": "Doctrine Layer",
-  "grid_title": "The supreme thesis anchors the reference architecture.",
-  "grid_intro": "Every pillar — framework definition, CCY State Chain, account currency discipline — unfolds downstream from this thesis. The doctrine page exists so readers grasp custody before navigating mechanics.",
+  "grid_title": "Downstream pillars unfold from custody clarity.",
+  "grid_intro": "Once custody language is shared, the Currency State Control Framework, CCY State Chain, account currency definition pillar, and glossary clusters become navigable mechanics—not isolated articles.",
   "cards": [
     {
-      "label": "Thesis",
-      "title": "Monetary truth is earned through custody, not asserted by rates.",
-      "body": "Market prices quote possibilities; custody converts obligations into reconciled balances defensible under review."
+      "label": "Lexicon",
+      "title": "Monetary truth is definitional—not decorative FX commentary.",
+      "body": "Definitions for monetary truth and chain of custody anchor how AccountCcy expects leaders to speak about evidence-grade figures."
     },
     {
-      "label": "Chain",
-      "title": "The passage has discernible institutional states.",
-      "body": "Each state carries a different meaning — identity risk emerges when states blur."
+      "label": "Architecture",
+      "title": "Eight currency states encode institutional transitions.",
+      "body": "The CCY State Chain sequences quotation through audit reality so fragmented jargon collapses into navigable custody transitions."
     },
     {
-      "label": "Control",
-      "title": "Account currency is the pivotal custody gate.",
-      "body": "External monetary movement enters internal accounting discipline primarily through assigned account currency."
+      "label": "Control gate",
+      "title": "Account currency is where movement earns ERP custody.",
+      "body": "State 04 discipline decides how balances reconcile across subsidiaries before translation and consolidation absorb distortions."
     },
     {
       "label": "Defense",
-      "title": "Terminal custody is audit-defensible reality.",
-      "body": "Truth survives traceability, support documentation, reconciliation, and independent scrutiny."
+      "title": "Terminal posture is reconstructable audit reality.",
+      "body": "Evidence must survive independent scrutiny—rates, postings, reconciliations, and ownership—not storytelling layered after numbers freeze."
     }
   ],
   "control_label": "Doctrine Discipline",
-  "control_title": "Articulate custody before optimizing mechanics.",
-  "control_body": "Policies and ERP configurations matter — after governance articulates where custody transfers occur and who owns each boundary.",
+  "control_title": "Name transitions before tuning rates or postings.",
+  "control_body": "Rate desks and ERP postings matter only after governance states where custody transfers—otherwise optimizations rearrange symptoms while identity mismatch persists.",
   "risk_label": "Doctrine Risk",
-  "risk_title": "Organizations confuse liquidity FX exposure with accounting custody decay.",
-  "risk_body": "Treasury hedges rates while fragmented currency identities distort ledger balances reporting consolidation audit narratives downstream.",
+  "risk_title": "Synonyms hide fractures until close or audit forces daylight.",
+  "risk_body": "When transaction, account, ledger, functional, translation, and reporting lenses collapse into one overloaded ‘FX’ conversation, finance loses the ability to detect where truth weakened.",
   "schema_notes": {
     "primary_schema": "Article",
     "secondary_schema": ["WebPage", "BreadcrumbList"],
-    "framework_status": "Foundational AccountCcy doctrine — conceptual positioning."
+    "framework_status": "Foundational AccountCcy doctrine — conceptual positioning with custody sequence reinforcement."
   }
 }

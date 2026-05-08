@@ -1357,3 +1357,93 @@ button {
   line-height: 1.55;
   color: var(--ccy-color-slate-mid);
 }
+
+/* Pillar pages — optional custody sequence & reference strips */
+.ccy-pillar-section-body {
+  max-width: var(--ccy-container-md);
+}
+
+.ccy-monetary-sequence {
+  margin: var(--ccy-space-8) 0 0;
+  padding-left: 1.35rem;
+  list-style: decimal;
+  font-family: var(--ccy-font-body);
+  color: var(--ccy-color-ink);
+}
+
+.ccy-monetary-sequence-item {
+  margin-bottom: var(--ccy-space-8);
+  padding-left: var(--ccy-space-2);
+}
+
+.ccy-seq-step-title {
+  font-family: var(--ccy-font-heading);
+  font-size: var(--ccy-font-size-md);
+  line-height: var(--ccy-line-heading);
+  color: var(--ccy-color-ink);
+  margin-bottom: var(--ccy-space-2);
+}
+
+.ccy-seq-ref-label {
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-wider);
+  text-transform: uppercase;
+  color: var(--ccy-color-gold);
+  margin-right: var(--ccy-space-2);
+}
+
+.ccy-monetary-sequence-item .ccy-small a {
+  color: var(--ccy-color-gold-dark, var(--ccy-color-gold));
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.ccy-monetary-sequence-item .ccy-small a:hover {
+  color: var(--ccy-color-ink);
+}
+
+.ccy-custody-questions {
+  margin: var(--ccy-space-8) 0 0;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.ccy-custody-questions li {
+  margin-bottom: var(--ccy-space-5);
+}
+
+.ccy-pillar-reference-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ccy-space-3);
+  margin-top: var(--ccy-space-8);
+  padding-top: var(--ccy-space-6);
+  border-top: 1px solid var(--ccy-color-rule-soft);
+}
+
+.ccy-pillar-strip-link {
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-wide);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: var(--ccy-space-2) var(--ccy-space-4);
+  border: 1px solid var(--ccy-color-rule-soft);
+  border-radius: 2px;
+  color: var(--ccy-color-ink);
+  background: rgba(245, 240, 232, 0.35);
+  transition:
+    border-color var(--ccy-duration-standard, 180ms) var(--ccy-ease-standard, ease),
+    color var(--ccy-duration-standard, 180ms) var(--ccy-ease-standard, ease);
+}
+
+.ccy-pillar-strip-link:hover {
+  border-color: var(--ccy-color-gold);
+  color: var(--ccy-color-gold-dark, var(--ccy-color-gold));
+}
+
+.ccy-pillar-strip-link:focus-visible {
+  outline: 2px solid var(--ccy-color-gold);
+  outline-offset: 3px;
+}

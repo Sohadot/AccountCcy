@@ -287,6 +287,95 @@ def authority_sections_html(sections: Any, slug_idx: Dict[str, Dict[str, Any]]) 
     return '\n'.join(chunks)
 
 
+def _pillar_href(raw: str, allowed_urls: Optional[Set[str]]) -> str:
+    u = norm(raw.strip())
+    if allowed_urls is not None and u not in allowed_urls:
+        raise GenerationError(f'pillar_sections links to unpublished URL: {u}')
+    return u
+
+
+def pillar_sections_html(sections: Any, allowed_urls: Optional[Set[str]] = None) -> str:
+    """Optional structured blocks for pillar reference pages (validated internal links)."""
+    if not isinstance(sections, list) or not sections:
+        return ''
+    chunks: List[str] = []
+    for i, sec in enumerate(sections):
+        sid_raw = sec.get('section_id') or f'pillar-section-{i + 1}'
+        sid = esc(str(sid_raw))
+        eyebrow = esc(sec.get('eyebrow', 'Reference'))
+        title = esc(sec.get('title', ''))
+        paras_src = sec.get('paragraphs')
+        if paras_src is None:
+            paras_src = []
+        if isinstance(paras_src, str):
+            paras_src = [paras_src]
+        lead = '\n'.join(f'<p class="ccy-body">{esc(x)}</p>' for x in paras_src)
+        cream = ' ccy-surface-cream' if i % 2 else ''
+        body_parts: List[str] = [lead]
+
+        steps = sec.get('steps')
+        if isinstance(steps, list) and steps:
+            lis: List[str] = []
+            for step in steps:
+                if not isinstance(step, dict):
+                    raise GenerationError(f'pillar_sections step must be object, got {step!r}')
+                st = esc(step.get('title', ''))
+                body = esc(step.get('body', ''))
+                href_raw = step.get('link_url') or step.get('href') or ''
+                if href_raw:
+                    u = _pillar_href(str(href_raw), allowed_urls)
+                    ll = step.get('link_label')
+                    if not ll:
+                        ll = u.strip('/').split('/')[-1].replace('-', ' ').title()
+                    link_line = (
+                        f'<p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> '
+                        f'<a href="{esc(u)}">{esc(ll)}</a></p>'
+                    )
+                    lis.append(
+                        f'<li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">{st}</p>'
+                        f'<p class="ccy-body">{body}</p>{link_line}</li>'
+                    )
+                else:
+                    lis.append(
+                        f'<li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">{st}</p>'
+                        f'<p class="ccy-body">{body}</p></li>'
+                    )
+            body_parts.append(f'<ol class="ccy-monetary-sequence">{"".join(lis)}</ol>')
+
+        qs = sec.get('questions')
+        if isinstance(qs, list) and qs:
+            q_items = '\n'.join(f'<li><p class="ccy-body">{esc(q)}</p></li>' for q in qs)
+            body_parts.append(f'<ul class="ccy-custody-questions">{q_items}</ul>')
+
+        strip = sec.get('reference_strip')
+        if isinstance(strip, list) and strip:
+            links: List[str] = []
+            for item in strip:
+                if not isinstance(item, dict) or not item.get('href'):
+                    raise GenerationError('reference_strip entries require href and label')
+                u = _pillar_href(str(item['href']), allowed_urls)
+                lbl = esc(item.get('label') or u.strip('/').split('/')[-1])
+                links.append(
+                    f'<a class="ccy-pillar-strip-link" href="{esc(u)}">{lbl}</a>'
+                )
+            body_parts.append(
+                '<nav class="ccy-pillar-reference-strip" aria-label="Related AccountCcy definitions">'
+                + ''.join(links)
+                + '</nav>'
+            )
+
+        body_html = '\n'.join(body_parts)
+        chunks.append(
+            f'<section class="ccy-section{cream}" aria-labelledby="{sid}-heading">'
+            '<div class="ccy-container">'
+            f'<p class="ccy-eyebrow">{eyebrow}</p>'
+            f'<h2 id="{sid}-heading" class="ccy-title">{title}</h2>'
+            f'<div class="ccy-pillar-section-body">{body_html}</div>'
+            '</div></section>'
+        )
+    return '\n'.join(chunks)
+
+
 def render_glossary_hub(root: Path, p: Page, c: Dict[str, Any], glossary: Dict[str, Any]) -> str:
     slug_idx = {t['slug']: t for t in glossary.get('terms', []) if t.get('status') == PUBLISHED}
     auth = authority_sections_html(c.get('authority_sections'), slug_idx)
@@ -313,12 +402,13 @@ def render_glossary_hub(root: Path, p: Page, c: Dict[str, Any], glossary: Dict[s
     )
 
 
-def render_reference(root: Path, p: Page, c: Dict[str,Any]) -> str:
+def render_reference(root: Path, p: Page, c: Dict[str,Any], allowed_urls: Optional[Set[str]] = None) -> str:
     name='reference-page.html' if (root/'main/templates/reference-page.html').exists() else 'reference_page.html'
     return repl(tmpl(root,name), {
         'PAGE_EYEBROW':esc(c.get('page_eyebrow',p.type.title())),'H1':esc(c.get('h1',p.title.replace(' — AccountCcy.com',''))),'INTRO':esc(c.get('intro',p.meta_description)),
         'DOCTRINE_EYEBROW':esc(c.get('doctrine_eyebrow','AccountCcy Doctrine')),'DOCTRINE_STATEMENT':raw(c.get('doctrine_statement','Money becomes accounting truth through custody.')),'DOCTRINE_ATTRIBUTION':esc(c.get('doctrine_attribution','The Currency State Control Framework · AccountCcy.com')),
         'PRIMARY_SECTION_EYEBROW':esc(c.get('primary_section_eyebrow','Reference')),'PRIMARY_SECTION_TITLE':esc(c.get('primary_section_title',p.title)),'PRIMARY_SECTION_BODY':paras(c.get('primary_section_body',[])),
+        'PILLAR_SECTIONS_HTML':pillar_sections_html(c.get('pillar_sections'), allowed_urls),
         'GRAPH_EYEBROW':esc(c.get('graph_eyebrow',c.get('grid_eyebrow','Reference Graph'))),'GRAPH_TITLE':esc(c.get('graph_title',c.get('grid_title','Reference graph position'))),'GRAPH_INTRO':esc(c.get('graph_intro',c.get('grid_intro',''))),'CARD_GRID_HTML':cards(c.get('cards',[])),
         'CONTROL_LABEL':esc(c.get('control_label','Control Discipline')),'CONTROL_TITLE':esc(c.get('control_title','Control logic')),'CONTROL_BODY':esc(c.get('control_body','')),
         'RISK_LABEL':esc(c.get('risk_label','Risk Discipline')),'RISK_TITLE':esc(c.get('risk_title','Risk if weak')),'RISK_BODY':esc(c.get('risk_body',''))})
@@ -343,7 +433,7 @@ def render_state(root: Path, p: Page, c: Dict[str,Any]) -> str:
 def render_base(root: Path, p: Page, c: Dict[str,Any], main: str, rel: str) -> str:
     return repl(tmpl(root,'base.html'), {'PAGE_TITLE':esc(p.title),'META_DESCRIPTION':esc(p.meta_description),'ROBOTS_DIRECTIVE':'index, follow' if p.indexable else 'noindex, follow','CANONICAL_URL':canon(p.url),'OG_TYPE':'website' if p.type=='homepage' else 'article','OG_TITLE':esc(p.title),'OG_DESCRIPTION':esc(p.meta_description),'JSON_LD':schema_for_registered_page(p.raw,c,BASE_URL),'BODY_CLASS':esc('page-'+p.type),'TEMPLATE_NAME':esc(template_for(p)),'PAGE_TYPE':esc(p.type),'BREADCRUMB_HTML':breadcrumb(p),'MAIN_CONTENT':main,'RELATED_LINKS_HTML':rel})
 
-def render_page(root: Path, p: Page, recs: Dict[str,Page], glossary: Dict[str,Any], gidx: Dict[str,Dict[str,Any]]) -> Optional[str]:
+def render_page(root: Path, p: Page, recs: Dict[str,Page], glossary: Dict[str,Any], gidx: Dict[str,Dict[str,Any]], tools: Dict[str,Any]) -> Optional[str]:
     if p.type=='glossary-term':
         term=gidx.get(p.url)
         if not term:
@@ -354,13 +444,14 @@ def render_page(root: Path, p: Page, recs: Dict[str,Page], glossary: Dict[str,An
     c=content(root,p)
     if c.get('__preserve_existing__'): return None
     t=template_for(p)
+    allowed = published(recs, glossary, tools)
     if p.url==norm('/glossary/'):
         main=render_glossary_hub(root,p,c,glossary)
     elif t=='homepage.html': main=render_home(root,p,c)
     elif t=='diagnostic.html': main=render_diag(root,p,c)
     elif t=='acquisition.html': main=render_acq(root,p,c)
     elif t=='state_page.html': main=render_state(root,p,c)
-    else: main=render_reference(root,p,c)
+    else: main=render_reference(root,p,c,allowed)
     return render_base(root,p,c,main,related(p,recs,glossary))
 
 def render_glossary_term_document(root: Path, reg: Page, term: Dict[str,Any], recs: Dict[str,Page], glossary: Dict[str,Any]) -> str:
@@ -416,7 +507,7 @@ def main(argv: Optional[Sequence[str]]=None) -> int:
         registry_glossary_urls={p.url for p in recs.values() if p.type=='glossary-term'}
         for p in recs.values():
             if p.status!=PUBLISHED or not p.indexable: continue
-            doc=render_page(root,p,recs,glossary,gidx)
+            doc=render_page(root,p,recs,glossary,gidx,tools)
             actions.append(('would generate '+p.url) if args.dry_run else ('preserved existing '+str(outpath(root,p.url).relative_to(root)) if doc is None else write(root,p.url,doc,args.overwrite)))
         for term in glossary.get('terms', []):
             if term.get('status')!=PUBLISHED: continue

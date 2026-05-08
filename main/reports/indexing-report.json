@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T17:50:35.718268+00:00",
+  "generated_at": "2026-05-08T17:58:55.409037+00:00",
   "url_count": 31,
   "errors": [],
   "warnings": [],
@@ -261,7 +261,7 @@
       "url_path": "/monetary-truth-chain-of-custody/",
       "loc": "https://accountccy.com/monetary-truth-chain-of-custody/",
       "title": "The Chain of Custody for Monetary Truth — AccountCcy.com",
-      "description": "Money does not become accounting truth automatically — it becomes truth through custody. AccountCcy.com maps the institutional chain.",
+      "description": "Monetary truth is custody across currency states, ledger rules, FX, translation, and audit evidence—not isolated figures. AccountCcy.com maps enterprise lineage.",
       "canonical": "https://accountccy.com/monetary-truth-chain-of-custody/",
       "robots": "index, follow",
       "h1_count": 1,
