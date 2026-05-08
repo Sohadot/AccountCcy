@@ -30,6 +30,45 @@ It should record decisions that affect the asset’s meaning, structure, monetiz
 
 ---
 
+## 2026-05-08 — WebP Identity Assets Integrated
+
+### Decision
+
+AccountCcy.com adopted WebP-based identity assets for the public site.
+
+The following assets were added and integrated:
+
+- `assets/icons/favicon.webp`
+- `assets/icons/favicon-192.webp`
+- `assets/img/logo-accountccy.webp`
+- `assets/img/social-preview.webp`
+- `assets/img/social-preview-square.webp`
+
+### Strategic Meaning
+
+The asset now has a visual identity layer aligned with the AccountCcy doctrine: monetary truth, chain of custody, control, and audit defensibility.
+
+The logo is treated as a sovereign visual mark, not as decorative branding.
+
+### Technical Changes
+
+- `index.html` now references `favicon.webp` and `social-preview.webp`.
+- `main/templates/base.html` now references `favicon.webp` and `social-preview.webp`.
+- `assets/css/main.css` now includes hero logo layout rules.
+- `validate_assets.py` now validates WebP identity assets.
+- `apple-touch-icon` was removed until a dedicated icon file exists.
+- generated reports were moved out of `main/data` into `main/reports`.
+
+### Governance Implication
+
+`main/data` remains reserved for governing registries only.
+
+Reports belong in `main/reports`.
+
+Scripts remain executable-only except where root-level documentation is explicitly maintained.
+
+---
+
 ## 2026-05-07 — Foundation Doctrine Adopted
 
 ### Decision
