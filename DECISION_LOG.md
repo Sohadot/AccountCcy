@@ -108,6 +108,58 @@ The lexicon now names **monetary defensibility** in institutional language: reco
 
 ---
 
+## 2026-05-08 — FX Reporting Mechanics Layer Integrated
+
+### Decision
+
+**Glossary Cluster 04 — FX, Translation & Reporting Mechanics** is **complete** as eight published terms, grouped on `/glossary/` under the **FX, Translation & Reporting Mechanics** authority cluster; that vocabulary is **integrated** into the framework pillar, CCY State Chain, CFO decision layer, canonical State 04, primary definition entry, and doctrine pillar so FX mechanics operate as an explicit reference layer—not implicit jargon scattered across ERP commentary.
+
+### Published Terms (Cluster 04)
+
+| Term | Path |
+|------|------|
+| Remeasurement | `/glossary/remeasurement/` |
+| Realized FX | `/glossary/realized-fx/` |
+| Unrealized FX | `/glossary/unrealized-fx/` |
+| Exchange rate source | `/glossary/exchange-rate-source/` |
+| Period-end revaluation | `/glossary/period-end-revaluation/` |
+| Translation adjustment | `/glossary/translation-adjustment/` |
+| Consolidation adjustment | `/glossary/consolidation-adjustment/` |
+| Currency exposure | `/glossary/currency-exposure/` |
+
+### Strategic Meaning
+
+The lexicon now names **operational FX and reporting transformation** in institutional language: how balances **remeasure**, how **realized** versus **unrealized** FX separates settlement economics from mark-to-model drift, why **exchange rate source** and **period-end revaluation** discipline anchor defensible closes, how **translation** and **consolidation adjustments** preserve group reporting integrity, and how **currency exposure** must be read against custody—not headline FX noise. Pillar integration keeps these mechanics adjacent to state progression and monetary-truth custody without converting core pages into glossary inventories.
+
+### Integration Surface (Verified)
+
+| Surface | Path |
+|---------|------|
+| Framework pillar | `/framework/` |
+| State sequence | `/ccy-state-chain/` |
+| CFO decision layer | `/cfo-guide/` |
+| State 04 | `/states/account-currency/` |
+| Definition entry | `/what-is-account-currency/` |
+| Doctrine pillar | `/monetary-truth-chain-of-custody/` |
+
+### Custody Consequences Strengthened
+
+- FX revaluation discipline and **remeasurement** logic
+- **Realized** versus **unrealized** FX distinction at period boundaries
+- **Exchange rate source** governance and **period-end** control
+- **Translation adjustment** and **consolidation adjustment** clarity for group reporting paths
+- **Currency exposure** interpretation tied to account and consolidation context
+- Reinforcement of **reporting integrity** and **audit defensibility** where mechanics meet custody
+
+### Technical State (Verified)
+
+- **Glossary hub:** **32** published defined terms across **five** authority clusters on `/glossary/`.
+- **Sitemap:** **47** published URLs after Cluster 04 publication and pillar integration pass.
+- **Quality discipline:** sovereign quality gate passed after integration (`scripts/quality_gate.py`).
+- **Link safety:** unchanged—`required_links` alignment and published-URL validation during generation.
+
+---
+
 ## 2026-05-08 — Royal Institutional Masthead Adopted
 
 ### Decision
