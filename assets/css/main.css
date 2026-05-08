@@ -1447,3 +1447,66 @@ button {
   outline: 2px solid var(--ccy-color-gold);
   outline-offset: 3px;
 }
+
+/* Homepage — sovereign reference pathway */
+.ccy-sovereign-pathway {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ccy-space-6);
+  max-width: var(--ccy-container-md);
+}
+
+.ccy-sovereign-pathway-step {
+  padding: var(--ccy-space-5) var(--ccy-space-6);
+  border: 1px solid var(--ccy-color-rule-soft);
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.42);
+}
+
+.ccy-sovereign-pathway-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--ccy-space-4);
+  text-decoration: none;
+  color: var(--ccy-color-ink);
+  margin-bottom: var(--ccy-space-2);
+}
+
+.ccy-sovereign-pathway-link:hover .ccy-sovereign-pathway-heading {
+  color: var(--ccy-color-gold-dark, var(--ccy-color-gold));
+}
+
+.ccy-sovereign-pathway-link:focus-visible {
+  outline: 2px solid var(--ccy-color-gold);
+  outline-offset: 3px;
+}
+
+.ccy-sovereign-pathway-num {
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-wider);
+  text-transform: uppercase;
+  color: var(--ccy-color-gold);
+  flex-shrink: 0;
+}
+
+.ccy-sovereign-pathway-heading {
+  font-family: var(--ccy-font-heading);
+  font-size: var(--ccy-font-size-md);
+  line-height: var(--ccy-line-heading);
+}
+
+.ccy-sovereign-pathway-step .ccy-small {
+  margin: 0;
+  padding-left: calc(var(--ccy-font-size-2xs) + var(--ccy-space-4) + 0.25rem);
+}
+
+@media (max-width: 36rem) {
+  .ccy-sovereign-pathway-step .ccy-small {
+    padding-left: 0;
+  }
+}
