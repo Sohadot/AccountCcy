@@ -222,6 +222,97 @@ def related(p: Page, records: Dict[str,Page], glossary: Dict[str,Any]) -> str:
         '</div></section>'
     )
 
+def term_card_blurb(term: Dict[str, Any]) -> str:
+    md = (term.get('meta_description') or '').strip()
+    if md:
+        return md
+    d = (term.get('definition') or '').strip()
+    if len(d) <= 240:
+        return d
+    return d[:237].rstrip() + '…'
+
+
+def authority_sections_html(sections: Any, slug_idx: Dict[str, Dict[str, Any]]) -> str:
+    if not isinstance(sections, list) or not sections:
+        raise GenerationError('glossary.json must define authority_sections for /glossary/')
+    chunks: List[str] = []
+    for i, sec in enumerate(sections):
+        sid_raw = sec.get('section_id') or f'glossary-cluster-{i + 1}'
+        sid = esc(str(sid_raw))
+        eyebrow = esc(sec.get('eyebrow', 'Reference cluster'))
+        title = esc(sec.get('title', ''))
+        paras_src = sec.get('paragraphs')
+        if paras_src is None:
+            paras_src = sec.get('body') or []
+        if isinstance(paras_src, str):
+            paras_src = [paras_src]
+        paras_html = '\n'.join(f'<p class="ccy-body">{esc(x)}</p>' for x in paras_src)
+        cream = ' ccy-surface-cream' if i % 2 else ''
+        cards: List[str] = []
+        for slug in sec.get('term_slugs', []):
+            if not isinstance(slug, str):
+                raise GenerationError(f'Invalid glossary authority slug entry: {slug!r}')
+            su = slug.strip()
+            t = slug_idx.get(su)
+            if not t:
+                raise GenerationError(f'Glossary authority map references unknown or draft slug: {su}')
+            blurb = esc(term_card_blurb(t))
+            tu = norm(t['url'])
+            cards.append(
+                f'<a class="ccy-glossary-authority-card" href="{esc(tu)}">'
+                '<span class="ccy-glossary-authority-card-label">Defined term</span>'
+                f'<span class="ccy-glossary-authority-card-title">{esc(t["term"])}</span>'
+                f'<span class="ccy-glossary-authority-card-desc">{blurb}</span></a>'
+            )
+        for pc in sec.get('pillar_cards') or []:
+            if not isinstance(pc, dict) or not pc.get('url'):
+                raise GenerationError('pillar_cards entries require url, title, and body')
+            u = norm(pc['url'])
+            cards.append(
+                f'<a class="ccy-glossary-authority-card is-pillar" href="{esc(u)}">'
+                f'<span class="ccy-glossary-authority-card-label">{esc(pc.get("label", "Reference"))}</span>'
+                f'<span class="ccy-glossary-authority-card-title">{esc(pc.get("title", ""))}</span>'
+                f'<span class="ccy-glossary-authority-card-desc">{esc(pc.get("body", ""))}</span></a>'
+            )
+        grid_inner = '\n'.join(cards)
+        chunks.append(
+            f'<section class="ccy-section ccy-glossary-authority-cluster{cream}" aria-labelledby="{sid}-heading">'
+            '<div class="ccy-container">'
+            f'<p class="ccy-eyebrow">{eyebrow}</p>'
+            f'<h2 id="{sid}-heading" class="ccy-title">{title}</h2>'
+            f'<div class="ccy-glossary-authority-intro">{paras_html}</div>'
+            f'<div class="ccy-glossary-authority-grid">{grid_inner}</div>'
+            '</div></section>'
+        )
+    return '\n'.join(chunks)
+
+
+def render_glossary_hub(root: Path, p: Page, c: Dict[str, Any], glossary: Dict[str, Any]) -> str:
+    slug_idx = {t['slug']: t for t in glossary.get('terms', []) if t.get('status') == PUBLISHED}
+    auth = authority_sections_html(c.get('authority_sections'), slug_idx)
+    return repl(
+        tmpl(root, 'glossary_hub.html'),
+        {
+            'PAGE_EYEBROW': esc(c.get('page_eyebrow', p.type.title())),
+            'H1': esc(c.get('h1', p.title.replace(' — AccountCcy.com', ''))),
+            'INTRO': esc(c.get('intro', p.meta_description)),
+            'DOCTRINE_EYEBROW': esc(c.get('doctrine_eyebrow', 'AccountCcy Doctrine')),
+            'DOCTRINE_STATEMENT': raw(c.get('doctrine_statement', 'Money becomes accounting truth through custody.')),
+            'DOCTRINE_ATTRIBUTION': esc(c.get('doctrine_attribution', 'The Currency State Control Framework · AccountCcy.com')),
+            'PRIMARY_SECTION_EYEBROW': esc(c.get('primary_section_eyebrow', 'Reference')),
+            'PRIMARY_SECTION_TITLE': esc(c.get('primary_section_title', p.title)),
+            'PRIMARY_SECTION_BODY': paras(c.get('primary_section_body', [])),
+            'AUTHORITY_MAP_HTML': auth,
+            'CONTROL_LABEL': esc(c.get('control_label', 'Control Discipline')),
+            'CONTROL_TITLE': esc(c.get('control_title', '')),
+            'CONTROL_BODY': esc(c.get('control_body', '')),
+            'RISK_LABEL': esc(c.get('risk_label', 'Risk Discipline')),
+            'RISK_TITLE': esc(c.get('risk_title', '')),
+            'RISK_BODY': esc(c.get('risk_body', '')),
+        },
+    )
+
+
 def render_reference(root: Path, p: Page, c: Dict[str,Any]) -> str:
     name='reference-page.html' if (root/'main/templates/reference-page.html').exists() else 'reference_page.html'
     return repl(tmpl(root,name), {
@@ -263,7 +354,9 @@ def render_page(root: Path, p: Page, recs: Dict[str,Page], glossary: Dict[str,An
     c=content(root,p)
     if c.get('__preserve_existing__'): return None
     t=template_for(p)
-    if t=='homepage.html': main=render_home(root,p,c)
+    if p.url==norm('/glossary/'):
+        main=render_glossary_hub(root,p,c,glossary)
+    elif t=='homepage.html': main=render_home(root,p,c)
     elif t=='diagnostic.html': main=render_diag(root,p,c)
     elif t=='acquisition.html': main=render_acq(root,p,c)
     elif t=='state_page.html': main=render_state(root,p,c)

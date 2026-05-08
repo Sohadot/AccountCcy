@@ -1284,3 +1284,76 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+/* Glossary hub — conceptual authority clusters */
+.ccy-glossary-authority-cluster {
+  padding-block: var(--ccy-section-y-compact);
+}
+
+.ccy-glossary-authority-intro {
+  max-width: var(--ccy-container-sm);
+  margin-bottom: var(--ccy-space-8);
+}
+
+.ccy-glossary-authority-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--ccy-space-4);
+}
+
+@media (max-width: 48rem) {
+  .ccy-glossary-authority-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ccy-glossary-authority-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ccy-space-2);
+  padding: var(--ccy-space-5);
+  border: 1px solid var(--ccy-color-rule-soft);
+  background: rgba(245, 240, 232, 0.38);
+  text-decoration: none;
+  border-radius: 2px;
+  min-height: 7.5rem;
+  transition:
+    border-color var(--ccy-duration-standard, 180ms) var(--ccy-ease-standard, ease),
+    transform var(--ccy-duration-standard, 180ms) var(--ccy-ease-standard, ease);
+}
+
+.ccy-glossary-authority-card:hover {
+  border-color: var(--ccy-color-gold);
+  transform: translateY(-1px);
+}
+
+.ccy-glossary-authority-card:focus-visible {
+  outline: 2px solid var(--ccy-color-gold);
+  outline-offset: 3px;
+}
+
+.ccy-glossary-authority-card.is-pillar {
+  background: rgba(184, 148, 31, 0.09);
+}
+
+.ccy-glossary-authority-card-label {
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-wider);
+  text-transform: uppercase;
+  color: var(--ccy-color-gold);
+}
+
+.ccy-glossary-authority-card-title {
+  font-family: var(--ccy-font-heading);
+  font-size: var(--ccy-font-size-md);
+  line-height: var(--ccy-line-heading);
+  color: var(--ccy-color-ink);
+}
+
+.ccy-glossary-authority-card-desc {
+  font-family: var(--ccy-font-body);
+  font-size: var(--ccy-font-size-sm);
+  line-height: 1.55;
+  color: var(--ccy-color-slate-mid);
+}
