@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-08",
+  "url": "/states/quoted-currency/",
+  "type": "state",
+  "status": "published",
+  "h1": "Quoted Currency",
+  "intro": "Quoted currency is the currency in which a rate or price is expressed before any transaction creates obligation. State 01 is pure signal — market context prior to accounting custody.",
+  "state_number": "01",
+  "state_name": "Quoted Currency",
+  "state_summary": "Quoted currency names the FX or price lens applied before commerce crystallizes into a denominated event. Treasury desks live here hourly; accounting custody does not begin until later states give the movement institutional identity inside books.",
+  "state_role_label": "Market Signal",
+  "state_role_title": "Rate visibility without ledger obligation.",
+  "state_role_body": "Screens, curves, vendor feeds, and negotiation packets quote possibilities. No GL line yet owes its existence solely to a quote — obligation and posting identity emerge only after transition toward transaction currency.",
+  "custody_question": "Which currency prism prices this exposure before any obligation posts?",
+  "chain_position_body": "Quoted currency anchors scenario analytics and hedge design yet must not be mistaken for transaction, settlement, or account discipline. Confusing a trader’s quote currency with the account currency that will ultimately carry balances seeds reconciliation fiction downstream.",
+  "state_rail": [
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": "/states/settlement-currency/"},
+    {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
+    {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
+    {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
+    {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
+    {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
+  ],
+  "state_risk_title": "Quote anchoring without transition governance",
+  "state_risk_body": "Organizations hedge curves brilliantly yet never document how quoted lenses translate into transaction postings — producing mismatch surprises when obligation differs from the quoting convention traders memorized.",
+  "state_control_title": "Quote catalog discipline",
+  "state_control_body": "Maintain authoritative mappings from pricing sources to instrument categories with explicit hand-off rules into contracting and ERP capture templates.",
+  "receives_from": "External market infrastructure — feeds, brokers, exchanges — prior to internal obligation.",
+  "passes_to": "Transaction currency once commercial documents denominate the financial event."
+}

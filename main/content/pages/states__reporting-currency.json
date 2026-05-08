@@ -13,9 +13,9 @@
   "custody_question": "Which presentation currency tells the authoritative story to governance bodies — and does it trace cleanly to ledger custody?",
   "chain_position_body": "Reporting currency consumes disciplined ledger output from State 05 and hands coherent packages toward consolidation engines at State 07. Confusing reporting currency with account currency invites boards to misread operational exposure versus presentation noise.",
   "state_rail": [
-    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
-    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
-    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": "/states/settlement-currency/"},
     {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
     {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
     {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},

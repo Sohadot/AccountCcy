@@ -13,9 +13,9 @@
   "custody_question": "Which currency identity anchors how journals, trial balances, and systematic postings accumulate for this entity?",
   "chain_position_body": "Ledger currency receives disciplined postings from accounts governed at State 04 and feeds reporting translations at State 06. Misalignment between account assignments and ledger architecture surfaces as recurring FX differences during reconciliation bridges.",
   "state_rail": [
-    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
-    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
-    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": "/states/settlement-currency/"},
     {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
     {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
     {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},

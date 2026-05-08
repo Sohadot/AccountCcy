@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-08T16:17:56.439500+00:00",
-  "url_count": 12,
+  "generated_at": "2026-05-08T16:30:18.678109+00:00",
+  "url_count": 15,
   "errors": [],
   "warnings": [],
   "audits": [
@@ -125,12 +125,48 @@
       "warnings": []
     },
     {
+      "source_path": "states/quoted-currency/index.html",
+      "url_path": "/states/quoted-currency/",
+      "loc": "https://accountccy.com/states/quoted-currency/",
+      "title": "Quoted Currency — State 01 of the CCY State Chain",
+      "description": "Quoted currency expresses market prices before obligation — State 01 before accounting custody in the CCY State Chain.",
+      "canonical": "https://accountccy.com/states/quoted-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "states/reporting-currency/index.html",
       "url_path": "/states/reporting-currency/",
       "loc": "https://accountccy.com/states/reporting-currency/",
       "title": "Reporting Currency — State 06 of the CCY State Chain",
       "description": "Reporting currency presents financial results for management, regulators, or investors. State 06 — translation gains and losses emerge in visibility layers.",
       "canonical": "https://accountccy.com/states/reporting-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "states/settlement-currency/index.html",
+      "url_path": "/states/settlement-currency/",
+      "loc": "https://accountccy.com/states/settlement-currency/",
+      "title": "Settlement Currency — State 03 of the CCY State Chain",
+      "description": "Settlement currency is cash-movement currency — State 03; divergence from transaction FX seeds downstream consequences.",
+      "canonical": "https://accountccy.com/states/settlement-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "states/transaction-currency/index.html",
+      "url_path": "/states/transaction-currency/",
+      "loc": "https://accountccy.com/states/transaction-currency/",
+      "title": "Transaction Currency — State 02 of the CCY State Chain",
+      "description": "Transaction currency denominates the financial event — State 02 where obligation identity forms before custody assignment.",
+      "canonical": "https://accountccy.com/states/transaction-currency/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],

@@ -119,6 +119,36 @@ State rails must not hyperlink unpublished targets; expanding the chain requires
 
 ---
 
+## 2026-05-08 — Foundation Publication Cluster 04 (Eight-State Chain Complete)
+
+### Decision
+
+AccountCcy.com published the three upstream CCY State Chain pages so the public reference chain runs continuously from State 01 through State 08:
+
+- `/states/quoted-currency/` (State 01)
+- `/states/transaction-currency/` (State 02)
+- `/states/settlement-currency/` (State 03)
+
+The hub pillar `/ccy-state-chain/` now requires links to all eight state URLs. Every state content file’s `state_rail` carries working URLs for all eight positions.
+
+### Strategic Meaning
+
+The site exposes a complete, sequenced custody narrative — improving internal linking, glossary alignment, and future diagnostic tooling without fragmenting the chain mid-stream.
+
+### Technical Changes
+
+- Added `states__quoted-currency.json`, `states__transaction-currency.json`, and `states__settlement-currency.json` under `main/content/pages/`.
+- Promoted the three registry rows in `main/data/pages.json` to `published` with `required_links` limited to already-published targets (no individual glossary term URLs).
+- Expanded `/ccy-state-chain/` `required_links` to enumerate States 01–08; added `/states/settlement-currency/` to State 04’s registry links for upstream continuity.
+- Updated `state_rail` entries across all eight state JSON files so earlier positions resolve to live URLs.
+- Regenerated HTML, `sitemap.xml`, and reports — **sovereign quality gate passed**.
+
+### Governance Implication
+
+The eight-state chain is now the canonical navigable spine for currency-state doctrine; further clusters (e.g. glossary term pages) must preserve `link_safety` and strict sitemap discipline.
+
+---
+
 ## 2026-05-08 — WebP Identity Assets Integrated
 
 ### Decision

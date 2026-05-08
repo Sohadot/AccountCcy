@@ -13,9 +13,9 @@
   "custody_question": "Which currency identity governs how this account may record, revalue, reconcile, and defend its balances?",
   "chain_position_body": "Account currency sits between settlement reality and ledger architecture. It translates cash and obligation narratives into account-level truth that ERP postings, subledgers, and trial balances must honour. Confusing it with transaction currency or reporting currency collapses three distinct institutional questions into one misleading ISO code.",
   "state_rail": [
-    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
-    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
-    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": "/states/settlement-currency/"},
     {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
     {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
     {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},

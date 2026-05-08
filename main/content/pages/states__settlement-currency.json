@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-08",
+  "url": "/states/settlement-currency/",
+  "type": "state",
+  "status": "published",
+  "h1": "Settlement Currency",
+  "intro": "Settlement currency is the currency of cash or clearing-house movement — where liquidity friction converts negotiated obligations into bank-statement reality.",
+  "state_number": "03",
+  "state_name": "Settlement Currency",
+  "state_summary": "State 03 captures wires, ACH-style rails, on-behalf payments, and netting settlements. When settlement diverges from transaction denomination, FX gains or losses begin their journey toward postings defenders must later narrate.",
+  "state_role_label": "Cash Reality",
+  "state_role_title": "Liquidity execution intersecting accounting recognition.",
+  "state_role_body": "Treasury executes here daily while controllers await mirrored postings. Misalignment between banking cutoff calendars and ERP value dates produces phantom breaks controllers mistaken attribute purely to rate noise.",
+  "custody_question": "Which currency actually clears cash — and does documentation tie every movement back to its originating obligation currency?",
+  "chain_position_body": "Settlement bridges commercial obligation identity toward accounting custody. Weak handshake between TMS feeds and ERP cash modules fractures traceability before accounts ever assign custody identities.",
+  "state_rail": [
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": "/states/settlement-currency/"},
+    {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
+    {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
+    {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
+    {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
+    {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
+  ],
+  "state_risk_title": "Invisible netting or corridor splits",
+  "state_risk_body": "Partial settlements and FX netting obscure which currency truly extinguished obligation fragments — leaving account assignments guessing.",
+  "state_control_title": "Settlement attestations",
+  "state_control_body": "Pair bank confirmations with obligation references and mandate dual-sign reconciliation between treasury and accounting before period locks.",
+  "receives_from": "Transaction obligations authorized for payment.",
+  "passes_to": "Account currency custody once monetary movement posts into governed balances."
+}

@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-08",
+  "url": "/states/transaction-currency/",
+  "type": "state",
+  "status": "published",
+  "h1": "Transaction Currency",
+  "intro": "Transaction currency is the currency in which a financial event is denominated — where enterprise finance first assigns obligation identity that downstream postings must honour.",
+  "state_number": "02",
+  "state_name": "Transaction Currency",
+  "state_summary": "State 02 captures invoices, contracts, purchase orders, loans, and treasury deals at the currency of the obligation itself. It is not yet account custody, but it constrains what accounting must eventually recognize.",
+  "state_role_label": "Obligation Identity",
+  "state_role_title": "Formal denomination before custody assignment.",
+  "state_role_body": "Commercial teams negotiate transaction currency; controllers inherit its constraints when configuring postings and allocations. Divergence between negotiated denomination and settlement mechanics surfaces FX deltas accounting must explain.",
+  "custody_question": "In which currency does this counterparty legally measure receivable or payable performance?",
+  "chain_position_body": "Transaction currency receives narrative pressure from quoted markets yet precedes settlement cash rails and account assignments. Treating it interchangeably with settlement currency erodes traceability when cash splits across corridors.",
+  "state_rail": [
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": "/states/settlement-currency/"},
+    {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
+    {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
+    {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
+    {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
+    {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
+  ],
+  "state_risk_title": "Silent multi-currency contracts",
+  "state_risk_body": "Side letters or annexes alter denomination assumptions ERP templates never captured — exposing auditors to obligations booked under ghost currencies.",
+  "state_control_title": "Contract-to-posting traceability",
+  "state_control_body": "Require structured metadata tying each obligation line to transaction currency declarations before ERP ingestion automation fires.",
+  "receives_from": "Quoted exposure narratives once commerce selects denomination.",
+  "passes_to": "Settlement currency when treasury executes funding or counterparties pay."
+}

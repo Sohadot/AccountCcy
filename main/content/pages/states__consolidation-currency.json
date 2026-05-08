@@ -13,9 +13,9 @@
   "custody_question": "Which group currency converts diverse entity packs into a single defensible group statement — and how are translation reserves governed?",
   "chain_position_body": "Consolidation currency consumes reporting outputs from State 06 and prepares the unified posture examined during audit reality at State 08. Weak lineage between entity account discipline and consolidation bridges produces unexplained CTA swings.",
   "state_rail": [
-    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
-    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
-    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": "/states/settlement-currency/"},
     {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
     {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
     {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},

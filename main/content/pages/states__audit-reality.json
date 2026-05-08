@@ -13,9 +13,9 @@
   "custody_question": "Can every material figure survive traceability from economic event through account, ledger, reporting, and consolidation layers without narrative gaps?",
   "chain_position_body": "Audit reality integrates consolidation outputs from State 07 with evidence repositories, control attestations, and governance oversight. It loops backward to doctrine: monetary truth is custody realized, not rhetoric sustained.",
   "state_rail": [
-    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": ""},
-    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": ""},
-    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": ""},
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": "/states/settlement-currency/"},
     {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
     {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
     {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
