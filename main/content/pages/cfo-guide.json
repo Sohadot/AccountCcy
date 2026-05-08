@@ -5,63 +5,135 @@
   "type": "pillar",
   "status": "published",
   "quality_gate": "sovereign",
-  "page_eyebrow": "Executive Governance · Account Currency",
+  "page_eyebrow": "Executive Governance · Monetary Truth",
   "h1": "The CFO Guide to Hidden Account Currency Risk",
-  "intro": "The greatest currency risk inside enterprise finance is not always market volatility. Sometimes it is the hidden fragmentation of monetary truth across transaction, account, ledger, reporting, consolidation, and audit states — visible only when reconciliation friction spikes, close timelines slip, or audit trails strain.",
+  "intro": "Account currency is not a clerical label tucked beside an ISO code. For CFOs and finance leadership it is part of the control surface where monetary truth lives—or silently fractures—across accounts, ledgers, FX revaluation mechanics, translation methodology, outward reporting narration, consolidation altitude, and the evidentiary trail assurance depends upon. Treasury may hedge liquidity exposure brilliantly while custody vocabulary collapses inside ERP postings—distorting reporting integrity long before markets move sharply.",
   "doctrine_eyebrow": "Executive Thesis",
-  "doctrine_statement": "Treasury may hedge rates brilliantly while accounting custody quietly decays.<br>Without naming currency states, CFOs cannot see where truth fractures before it becomes reporting or audit consequence.",
+  "doctrine_statement": "Board-facing confidence requires reconstructable monetary lineage—not optimism layered atop dashboards.<br>CFO discipline demands naming where currency identity changes hands inside enterprise finance systems.",
   "doctrine_attribution": "CFO Governance Lens · AccountCcy.com",
-  "primary_section_eyebrow": "Who This Serves",
-  "primary_section_title": "Leaders responsible for numbers that must survive scrutiny — not quotes, but custody.",
+  "primary_section_eyebrow": "Decision Layer Mandate",
+  "primary_section_title": "Translate doctrine into governance questions finance can defend under scrutiny.",
   "primary_section_body": [
-    "Chief Financial Officers, Group Controllers, Finance Directors, Treasury executives who touch hedge accounting interfaces, Audit Committee members reviewing multi-currency narratives, and heads of financial close who feel unexplained FX noise despite disciplined markets teams.",
-    "Your organization already manages liquidity FX. The subtler risk lives where ERP configuration, account assignments, functional currency policy, translation methodology, and consolidation design intersect — often discovered late.",
-    "AccountCcy.com does not replace GAAP/IFRS manuals or vendor documentation. It names the institutional passage so leadership can ask sharper questions before distortion compounds across periods."
+    "Chief Financial Officers, Group Controllers, Finance Directors, Audit Committee members, and heads of financial close inherit accountability for figures that must survive regulator, investor, lender, and auditor reconstruction—not treasury commentary alone.",
+    "AccountCcy maps custody transitions across the CCY State Chain and Currency State Control Framework so leadership interrogates configuration, subsystem handoffs, translation policy, and consolidation design before variance narratives harden into credibility risk.",
+    "This briefing does not replace GAAP/IFRS, ERP manuals, or vendor playbooks—it supplies sovereign vocabulary so executives redirect debates from generic ‘FX noise’ toward accountable custody transitions."
   ],
-  "graph_eyebrow": "Where Fragmentation Hides",
-  "graph_title": "Six pressure surfaces CFOs should map explicitly.",
-  "graph_intro": "Each surface corresponds to a currency state or transition in the CCY State Chain. Weakness rarely announces itself at treasury dashboards; it surfaces in reconciliation exceptions, unexplained translation swings, or consolidation adjustments that resist intuitive narration.",
-  "grid_eyebrow": "Where Fragmentation Hides",
-  "grid_title": "Six pressure surfaces CFOs should map explicitly.",
-  "grid_intro": "Each surface corresponds to a currency state or transition in the CCY State Chain. Weakness rarely announces itself at treasury dashboards; it surfaces in reconciliation exceptions, unexplained translation swings, or consolidation adjustments that resist intuitive narration.",
+  "pillar_sections": [
+    {
+      "section_id": "why-cfos-care-account-currency",
+      "eyebrow": "Executive consequence",
+      "title": "Why CFOs should treat account currency as strategic infrastructure",
+      "paragraphs": [
+        "Reporting integrity rests on whether balances, bridges, and disclosures tie back to documented custody—not merely balanced sub-ledgers.",
+        "Multi-currency exposure compounds when obligation denomination, ERP assignment, ledger measurement, and presentation narration interchange informally behind identical symbols.",
+        "ERP and ledger control determines which populations post through revaluation batches, translation engines, and consolidation eliminations—silent misclassification surfaces as recurring management-pack variance.",
+        "FX revaluation discipline separates period-boundary restatement governed by rate lineage from narrative substitutes controllers rehearse each quarter.",
+        "Currency translation discipline distinguishes measured ledger outcomes from disclosure-facing conversions—collapsing the two invites unexplained bridge swings leadership cannot narrate calmly.",
+        "Audit defensibility fails when assurance requests lineage artifacts finance retrieves through improvisation rather than configuration-backed replay.",
+        "Board and investor confidence erodes when FX explanations contradict forensic replay—even modest numerical misses carry reputational weight once scrutiny intensifies.",
+        "Preventing monetary ambiguity upstream preserves optionality downstream: fewer heroic closes, fewer qualitative audit concessions, fewer credibility shocks inside committees already skeptical of opaque bridges."
+      ]
+    },
+    {
+      "section_id": "cfo-level-risk-surfaces",
+      "eyebrow": "Failure visibility",
+      "title": "Where CFO-level risk accumulates before dashboards admit distress",
+      "paragraphs": [
+        "Account currency confused with transaction currency reroutes reconciliation ownership—collections clears while controllers inherit unexplained obligation mismatches.",
+        "Ledger currency mistaken for functional currency governance misaligns policy committees with postings obeying divergent operational conventions.",
+        "Revaluation batches framed as generic ‘FX adjustments’ strip population accountability—auditors cannot tie rates to balances leadership verbally defends.",
+        "Translation methodology hides earlier custody transformations—management packs polish outputs lacking reconstructable account-level hops.",
+        "Reporting currency narration masks original chart context—investors hear fluent totals lacking forensic scaffolding beneath.",
+        "Audit teams cannot reconstruct monetary paths—independence shifts toward qualitative storytelling instead of artifact-backed replay.",
+        "Finance relies on system output without custody evidence—automation amplifies silent fracture velocity until close or assurance forces daylight."
+      ]
+    },
+    {
+      "section_id": "cfo-architecture-bridge",
+      "eyebrow": "Reference continuity",
+      "title": "Connecting executive oversight to AccountCcy architecture",
+      "paragraphs": [
+        "Primary definitional entry anchors plain-language custody intent; State 04 canonical reference crystallizes account-level monetary posture inside the chain.",
+        "CCY State Chain sequencing exposes where identity transitions belong; Currency State Control Framework layers operational custody zones across ERP-led stacks.",
+        "Doctrine articulates why monetary truth demands lineage—not slogans—before glossary vocabulary stabilizes shared institutional objects across treasury, controllers, systems owners, consolidation hubs, and assurance leads."
+      ],
+      "reference_strip": [
+        { "href": "/what-is-account-currency/", "label": "Definition entry" },
+        { "href": "/states/account-currency/", "label": "State 04 reference" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/framework/", "label": "Framework pillar" },
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/glossary/account-currency/", "label": "Defined: Account currency" },
+        { "href": "/glossary/account-currency-control/", "label": "Account currency control" },
+        { "href": "/glossary/currency-state/", "label": "Currency state" },
+        { "href": "/glossary/functional-currency/", "label": "Functional currency" },
+        { "href": "/glossary/fx-revaluation/", "label": "FX revaluation" },
+        { "href": "/glossary/currency-translation/", "label": "Currency translation" },
+        { "href": "/glossary/reporting-currency/", "label": "Reporting currency" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    },
+    {
+      "section_id": "cfo-control-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "CFO-level custody questions",
+      "paragraphs": [
+        "Pose these in steering committees, audit readiness reviews, and ERP retrospectives—delegated ambiguity invites recurring executive-grade surprises."
+      ],
+      "questions": [
+        "Can we identify which currency is authoritative at each custody boundary—obligation, ERP assignment, ledger measurement, translation output, disclosure?",
+        "Can finance reconstruct the monetary path from transactional inception through postings to outward reporting without improvised spreadsheets?",
+        "Are revaluation populations and translation methodologies explicitly separated—with documented ownership for each engine?",
+        "Which systems own each currency state transition—ERP core, treasury workstation, tax engine, consolidation hub—and where is custody signed off?",
+        "Can audit verify evidence bundles behind reported currency values—rates, policies, postings, reconciliations—not anecdotal variance commentary?",
+        "Are account-level currency contexts preserved across interfaces—or flattened silently into reporting outputs leadership cannot replay?"
+      ]
+    }
+  ],
+  "graph_eyebrow": "Pressure Cartography",
+  "graph_title": "Six fragmentation surfaces mapped to custody transitions.",
+  "graph_intro": "Each surface below mirrors transitions along the CCY State Chain where weak vocabulary converts configuration drift into executive-facing credibility exposure.",
+  "grid_eyebrow": "Pressure Cartography",
+  "grid_title": "Six fragmentation surfaces mapped to custody transitions.",
+  "grid_intro": "Each surface below mirrors transitions along the CCY State Chain where weak vocabulary converts configuration drift into executive-facing credibility exposure.",
   "cards": [
     {
       "label": "Surface 01",
-      "title": "Transaction vs Account Identity Drift",
-      "body": "Events booked in one denomination while accounts maintain balances under another identity confuse controllers reconciling subledger to GL unless custody boundaries are explicit."
+      "title": "Transaction vs account identity drift",
+      "body": "Events denominated one way while chart custody assigns another fracture reconciliation unless forensic bridges tie obligation postings to maintained balances."
     },
     {
       "label": "Surface 02",
-      "title": "Settlement Divergence Stories",
-      "body": "Cash Treasury sees may not match accounting obligation currency — unmanaged narratives create latent FX gains/losses that appear \"suddenly\" in ledger reviews."
+      "title": "Settlement divergence narratives",
+      "body": "Treasury liquidity wins mask ledger mismatches when cash rails clear differently than accounting obligation currency—FX realization storytelling arrives late."
     },
     {
       "label": "Surface 03",
-      "title": "Functional vs Operational Ledger Tension",
-      "body": "Policy determination may be sound yet drift from how subsidiaries operationalize accounts — producing persistent translation noise leadership rounds away until audits sharpen questions."
+      "title": "Functional versus operational ledger tension",
+      "body": "Policy sound on paper yet subsidiaries operationalize accounts inconsistently—translation noise accumulates until audits sharpen reconstruction demands."
     },
     {
       "label": "Surface 04",
-      "title": "Reporting Layer Translation Shock",
-      "body": "Management packs flip currencies without tracing custody lineage — surprises emerge when bridge analyses cannot tie movement to account-level discipline."
+      "title": "Reporting-layer translation shock",
+      "body": "Management packs pivot visibility without tracing custody lineage—surprises surface when bridges cannot anchor swings to account discipline."
     },
     {
       "label": "Surface 05",
-      "title": "Consolidation Altitude Complexity",
-      "body": "Group currency choices amplify tiny entity-level ambiguities — elimination journals mask underlying account assignments until variance analytics collapse."
+      "title": "Consolidation altitude complexity",
+      "body": "Group methodologies amplify tiny entity ambiguities—elimination narratives obscure upstream assignments until variance analytics collapse."
     },
     {
       "label": "Surface 06",
-      "title": "Audit Trail Narrative Gaps",
-      "body": "When traceability from quoted exposure through account postings to final consolidated disclosure fragments, audit committees hear confidence tones finance teams cannot operationalize under detail questions."
+      "title": "Audit trail narrative gaps",
+      "body": "Traceability from exposure through postings to disclosure fragments—committees hear confidence tones operators cannot substantiate under detail questioning."
     }
   ],
   "control_label": "Executive Control",
-  "control_title": "Demand a named chain before approving blanket FX explanations.",
-  "control_body": "Ask leaders to diagram monetary movement across states quarterly — not bank balances alone, but custody transitions: where obligation forms, where accounts assign identity, where translation fires, where consolidation reunifies narrative.",
+  "control_title": "Demand custody diagrams—not blanket FX variance speeches.",
+  "control_body": "Quarterly, require named transitions across quotation, obligation, settlement, account assignment, ledger measurement, translation, consolidation, and assurance artifacts—then delegate remediation with ownership attached per boundary.",
   "risk_label": "Executive Risk",
-  "risk_title": "Misdiagnosing volatility disguises custody decay.",
-  "risk_body": "Blaming macro moves for recurring operational variance burns credibility with boards already skeptical of opaque FX bridges — disciplined vocabulary exposes whether markets moved or internal custody fractured.",
+  "risk_title": "Macro explanations disguise custody decay.",
+  "risk_body": "Blaming volatility for recurring structural variance exhausts board patience—disciplined vocabulary exposes whether markets moved or internal monetary identity collapsed beneath polished totals.",
   "schema_notes": {
     "primary_schema": "Article",
     "secondary_schema": ["FAQPage", "WebPage", "BreadcrumbList"],
