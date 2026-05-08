@@ -15,7 +15,7 @@
   "primary_section_title": "Enterprise finance collapses unlike meanings into the same ISO symbol unless currency states are named.",
   "primary_section_body": [
     "Two balances may both display USD while answering different custody questions — quotation versus obligation, settlement rail versus account assignment, ledger measurement versus reporting translation. AccountCcy publishes both the Currency State Control Framework and the CCY State Chain so those distinctions remain navigable instead of tribal.",
-    "The clusters below map twenty-four published defined terms into four conceptual authorities. Each card links to the sovereign term page where doctrine, operational meaning, distinctions, custody questions, and evidence posture are stated without thinning content into slogans."
+    "The clusters below map thirty-two published defined terms into five conceptual authorities. Each card links to the sovereign term page where doctrine, operational meaning, distinctions, custody questions, and evidence posture are stated without thinning content into slogans."
   ],
   "authority_sections": [
     {
@@ -75,6 +75,26 @@
       "pillar_cards": []
     },
     {
+      "section_id": "fx-translation-reporting-mechanics",
+      "eyebrow": "FX & reporting mechanics",
+      "title": "FX, Translation & Reporting Mechanics",
+      "paragraphs": [
+        "This cluster names how monetary values change across measurement, settlement, translation, consolidation, and disclosure—rate sources, remeasurement versus translation discipline, realized versus unrealized FX, and adjustments living in equity or group journals.",
+        "It complements foundational FX revaluation, translation, reporting-currency, and consolidation-currency entries by supplying operational mechanics vocabulary CFOs, controllers, treasury, and auditors use when defending lineage—not generic FX commentary."
+      ],
+      "term_slugs": [
+        "remeasurement",
+        "realized-fx",
+        "unrealized-fx",
+        "exchange-rate-source",
+        "period-end-revaluation",
+        "translation-adjustment",
+        "consolidation-adjustment",
+        "currency-exposure"
+      ],
+      "pillar_cards": []
+    },
+    {
       "section_id": "audit-evidence-control-discipline",
       "eyebrow": "Evidence & control",
       "title": "Audit, Evidence & Control Discipline",
@@ -107,6 +127,6 @@
   "schema_notes": {
     "primary_schema": "DefinedTermSet",
     "secondary_schema": ["WebPage", "BreadcrumbList"],
-    "framework_status": "Glossary hub renders twenty-four published term URLs grouped into conceptual authority clusters."
+    "framework_status": "Glossary hub renders thirty-two published term URLs grouped into five conceptual authority clusters."
   }
 }

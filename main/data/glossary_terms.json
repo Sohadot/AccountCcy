@@ -961,6 +961,344 @@
       "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
     },
     {
+      "slug": "remeasurement",
+      "term": "Remeasurement",
+      "url": "/glossary/remeasurement/",
+      "ccy_state": 5,
+      "ccy_state_name": "Ledger Currency — State 05",
+      "status": "published",
+      "meta_description": "Remeasurement restates monetary items when measurement currency or accounting basis changes—not presentation translation dressed as operational FX hygiene.",
+      "definition": "Remeasurement is the process of restating monetary assets and liabilities denominated in a non-functional currency into the functional currency using applicable exchange rates—distinct from translating whole financial statements into a reporting currency. It answers which balances must be re-valued as monetary items under the entity’s measurement framework before outward presentation layers engage.",
+      "institutional_context": "Treasury and controllers collide when ERP postings label runs ‘translation’ while standards-informed reviewers expect remeasurement logic for certain populations (for example foreign entities with divergent functional versus reporting currencies under IFRS/US GAAP paradigms AccountCcy cites only as contextual vocabulary—not advice). Misrouting remeasurement versus translation seeds equity-bridge fractures auditors reopen quarterly.",
+      "position_in_chain": "Remeasurement mechanics concentrate around ledger measurement (State 05) where monetary populations receive rate discipline distinct from pure reporting narration.",
+      "why_it_matters": "Without precise remeasurement vocabulary, teams debate variance using mislabeled engines—revaluation batches absorb populations that belong to different methodological buckets.",
+      "risk_if_misunderstood": "Confusing remeasurement with currency translation misroutes closing rates, mislabels adjustments, and destroys reconstructability across consolidation.",
+      "related_terms": [
+        "fx-revaluation",
+        "currency-translation",
+        "functional-currency",
+        "ledger-currency",
+        "period-end-revaluation"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/fx-revaluation/",
+        "/glossary/currency-translation/",
+        "/glossary/functional-currency/",
+        "/glossary/ledger-currency/",
+        "/states/ledger-currency/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "financial close platforms",
+        "ERP consultants"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Remeasurement is not currency translation of financial statements for presentation—those mechanics operate once ledger measurement exists with governed methodology.",
+      "custody_question": "Which engine applies remeasurement versus translation—and what artifact proves the population classification?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "realized-fx",
+      "term": "Realized FX",
+      "url": "/glossary/realized-fx/",
+      "ccy_state": null,
+      "ccy_state_name": "Mechanics · Realized FX",
+      "status": "published",
+      "meta_description": "Realized FX names exchange differences crystallized through settlement, payment, receipt, or closure—not unrealized revaluation on still-open balances.",
+      "definition": "Realized foreign exchange is the gain or loss recognized when a monetary position converts across currencies through actual settlement, clearing, or extinguishment—locking the economic FX outcome tied to cash movement or obligation discharge rather than mark-to-model suspense alone.",
+      "institutional_context": "Treasury confirmations, bank statements, and netting agreements evidence realization timing; controllers tie postings to obligation versus settlement currency divergence noted earlier in the CCY chain. ERP often separates realized batches from revaluation suspense—governance names which hop finalized the FX outcome.",
+      "position_in_chain": "Realization surfaces prominently around settlement (State 03) and ledger recognition bridges—but downstream reporting still narrates cumulative realized/unrealized splits for disclosure discipline.",
+      "why_it_matters": "Mixing realized and unrealized commentary obscures whether FX outcomes stem from liquidity events or open-balance restatements—boards infer the wrong control narrative.",
+      "risk_if_misunderstood": "Labeling all FX variance ‘realized’ because cash moved ignores populations still carried at closing rates—audit reperformance breaks.",
+      "related_terms": [
+        "unrealized-fx",
+        "settlement-currency",
+        "transaction-currency",
+        "fx-revaluation"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/unrealized-fx/",
+        "/glossary/settlement-currency/",
+        "/glossary/transaction-currency/",
+        "/glossary/fx-revaluation/",
+        "/states/settlement-currency/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "treasury systems",
+        "controllers",
+        "CFO advisory"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Realized FX is not synonymous with period-end revaluation of unmoved balances—that terrain belongs to unrealized mechanics until settlement crystallizes outcomes.",
+      "custody_question": "Which banking or clearing artifact proves realization—and does the posting map tie back to obligation currency lineage?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "unrealized-fx",
+      "term": "Unrealized FX",
+      "url": "/glossary/unrealized-fx/",
+      "ccy_state": 5,
+      "ccy_state_name": "Ledger Currency — State 05",
+      "status": "published",
+      "meta_description": "Unrealized FX recognizes exchange movement before settlement—typically via period-end revaluation governed by rate lineage on monetary items.",
+      "definition": "Unrealized foreign exchange is the gain or loss recognized on open monetary balances still subject to remeasurement or revaluation before settlement closes the exposure—reflecting rate movement across reporting boundaries rather than finalized cash conversion.",
+      "institutional_context": "Close calendars batch unrealized postings from ERP valuation engines; hedge accounting overlays may defer portions—but custody vocabulary still distinguishes suspense awaiting realization from treasury execution outcomes.",
+      "position_in_chain": "Unrealized FX concentrates at ledger measurement intervals bridging States 04–05 until settlement or derecognition transfers economics toward realized classification.",
+      "why_it_matters": "Executive dashboards blending realized and unrealized confuse liquidity-driven FX with accounting measurement drift—escalations mis-target treasury versus controller remediation.",
+      "risk_if_misunderstood": "Calling unrealized outcomes ‘timing differences’ without naming populations invites auditors to reject bridge narratives lacking population lineage.",
+      "related_terms": [
+        "realized-fx",
+        "period-end-revaluation",
+        "fx-revaluation",
+        "exchange-rate-source"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/realized-fx/",
+        "/glossary/period-end-revaluation/",
+        "/glossary/fx-revaluation/",
+        "/glossary/exchange-rate-source/",
+        "/states/ledger-currency/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "financial close platforms",
+        "ERP consultants"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Unrealized FX is not hedge ineffectiveness terminology by default—population and policy still determine classification independent of derivative overlays.",
+      "custody_question": "Which balance sheet populations remain open—and which closing rate source governs their unrealized measurement?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "exchange-rate-source",
+      "term": "Exchange Rate Source",
+      "url": "/glossary/exchange-rate-source/",
+      "ccy_state": null,
+      "ccy_state_name": "Mechanics · Exchange Rate Source",
+      "status": "published",
+      "meta_description": "Exchange rate source names the governed authority for FX rates—revaluation, translation, consolidation—not informal screenshots or desk anecdotes.",
+      "definition": "Exchange rate source is the institutional designation of where FX rates originate—central bank fixing, treasury policy curve, ERP rate table, consolidation hub feed, or audited vendor curve—and how effective dating, rounding, and overrides are controlled. It is the evidentiary anchor tying mechanical transformations to policy.",
+      "institutional_context": "Multi-entity stacks frequently blend TMS curves with statutory fixings; without explicit source governance, subsidiaries submit packages carrying incompatible rates that explode reconciliation under group methodology reviews.",
+      "position_in_chain": "Rate sources underpin unrealized measurement, translation methodology, and consolidation translation layers—each hop should declare its authoritative feed.",
+      "why_it_matters": "Rate-source ambiguity is the silent multiplier behind FX misstatement—figures reconcile narratively while forensic replay fails.",
+      "risk_if_misunderstood": "Allowing traders or clerks to paste ad hoc rates without system lineage destroys audit defensibility regardless of balanced totals.",
+      "related_terms": [
+        "period-end-revaluation",
+        "fx-revaluation",
+        "currency-translation",
+        "consolidation-currency",
+        "control-evidence"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/period-end-revaluation/",
+        "/glossary/fx-revaluation/",
+        "/glossary/currency-translation/",
+        "/glossary/consolidation-currency/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/glossary/control-evidence/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "treasury systems",
+        "financial close platforms"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Exchange rate source is not the same as hedge designation documentation—sources govern raw inputs; hedge strategy governs accounting linkage separately.",
+      "custody_question": "Which published rate table version locked this close—and who approved overrides with retained evidence?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "period-end-revaluation",
+      "term": "Period-End Revaluation",
+      "url": "/glossary/period-end-revaluation/",
+      "ccy_state": 5,
+      "ccy_state_name": "Ledger Currency — State 05",
+      "status": "published",
+      "meta_description": "Period-end revaluation applies governed FX rates at reporting cut-off to open monetary balances—binding account custody to ledger measurement outcomes.",
+      "definition": "Period-end revaluation is the controlled batch process that restates foreign-denominated monetary balances to closing exchange rates at a reporting boundary—producing unrealized FX impacts until subsequent settlement or derecognition realizes outcomes.",
+      "institutional_context": "ERP valuation runs consume account-currency populations configured upstream; consolidation hubs may rerun alternate rates for group reporting—parity requires documented mappings between entity-close engineering and group methodology.",
+      "position_in_chain": "Period-end revaluation executes squarely in ledger measurement custody—downstream translation reframes visibility without replacing valuation lineage.",
+      "why_it_matters": "Close discipline collapses when revaluation populations inherit stale mappings—every variance committee inherits unexplained drift.",
+      "risk_if_misunderstood": "Treating revaluation as generic ‘FX plug’ strips accountability for population scope and exchange-rate-source governance.",
+      "related_terms": [
+        "fx-revaluation",
+        "unrealized-fx",
+        "exchange-rate-source",
+        "account-currency"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/fx-revaluation/",
+        "/glossary/unrealized-fx/",
+        "/glossary/exchange-rate-source/",
+        "/states/ledger-currency/",
+        "/states/account-currency/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "financial close platforms",
+        "ERP consultants"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Period-end revaluation is not currency translation of financial statements—those processes consume measured ledger outputs under distinct methodologies.",
+      "custody_question": "Which population extract feeds this revaluation batch—and does it reconcile back to State 04 assignments?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "translation-adjustment",
+      "term": "Translation Adjustment",
+      "url": "/glossary/translation-adjustment/",
+      "ccy_state": 6,
+      "ccy_state_name": "Reporting Currency — State 06",
+      "status": "published",
+      "meta_description": "Translation adjustment accumulates equity impacts when financial statements convert into reporting currency—distinct from ledger revaluation mechanics.",
+      "definition": "Translation adjustment is the cumulative accounting difference arising when measured financial statement amounts expressed in one currency are translated into another presentation currency under prescribed methodologies—often residing in equity components such as cumulative translation adjustments rather than conflating with transactional FX from operations.",
+      "institutional_context": "Group packs reference translation adjustments when subsidiaries contribute balances already measured functionally; auditors trace methodology memos, closing versus average rate choices, and reconciliation bridges across consolidation hubs.",
+      "position_in_chain": "Translation adjustments emerge at reporting visibility (State 06) once ledger measurement exists—prior custody hops must remain intact or adjustments absorb unexplained fractures.",
+      "why_it_matters": "Equity translation narratives anchor investor confidence; opaque adjustments signal governance decay even when net income appears stable.",
+      "risk_if_misunderstood": "Confusing translation adjustments with period-end revaluation misstates bridge explanations and invites regulatory challenge.",
+      "related_terms": [
+        "currency-translation",
+        "reporting-currency",
+        "reporting-integrity",
+        "consolidation-currency"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/currency-translation/",
+        "/glossary/reporting-currency/",
+        "/glossary/reporting-integrity/",
+        "/states/reporting-currency/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/monetary-truth-chain-of-custody/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "CFO advisory",
+        "financial close platforms"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Translation adjustment is not transactional FX on commercial invoices—it reflects methodology converting measured statements into presentation currency.",
+      "custody_question": "Which methodology memo ties this adjustment line to archived ledger packages—not slides alone?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "consolidation-adjustment",
+      "term": "Consolidation Adjustment",
+      "url": "/glossary/consolidation-adjustment/",
+      "ccy_state": 7,
+      "ccy_state_name": "Consolidation Currency — State 07",
+      "status": "published",
+      "meta_description": "Consolidation adjustment records group-level reshaping—eliminations, translation ties, ownership mechanics—after subsidiary proofs exist.",
+      "definition": "Consolidation adjustment is the journal-level correction applied when combining entities into group reporting—capturing intercompany eliminations, ownership changes, translation harmonization, and top-side entries not visible at standalone entity ledger maturity.",
+      "institutional_context": "Hyperion-class hubs, SAP consolidation modules, or statutory consolidation teams author adjustments with explicit tie-outs to entity packages; weak documentation converts adjustments into qualitative black boxes auditors escalate.",
+      "position_in_chain": "Adjustments sit chiefly at consolidation currency (State 07) after reporting submissions yet before audit reality freezes narratives.",
+      "why_it_matters": "Material consolidation adjustments without inbound lineage destroy group CFO credibility faster than subsidiary FX noise.",
+      "risk_if_misunderstood": "Treating consolidation adjustments as rounding corrections hides substantive custody fractures spanning entities.",
+      "related_terms": [
+        "consolidation-currency",
+        "translation-adjustment",
+        "currency-translation",
+        "monetary-reconstruction"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/consolidation-currency/",
+        "/glossary/translation-adjustment/",
+        "/glossary/currency-translation/",
+        "/states/consolidation-currency/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "CFO advisory",
+        "financial close platforms",
+        "accounting automation"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Consolidation adjustment is not synonymous with standalone FX revaluation—it responds to group assembly logic atop entity proofs.",
+      "custody_question": "Which entity package and elimination schedule anchors each adjustment line—and who owns sign-off?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "currency-exposure",
+      "term": "Currency Exposure",
+      "url": "/glossary/currency-exposure/",
+      "ccy_state": null,
+      "ccy_state_name": "Mechanics · Currency Exposure",
+      "status": "published",
+      "meta_description": "Currency exposure names monetary risk spanning quotation, obligation, settlement, and reporting—where custody ambiguity amplifies FX outcomes.",
+      "definition": "Currency exposure is the monetary risk arising when assets, liabilities, cash flows, or reported figures remain sensitive to exchange-rate movement across custody states—from quoted signals through settlement, ledger measurement, translation, and consolidation.",
+      "institutional_context": "Treasury sees liquidity-driven exposure; controllers see measurement populations; consolidation sees residual FX drift—without shared vocabulary, each team optimizes locally while aggregate monetary ambiguity compounds.",
+      "position_in_chain": "Exposure spans multiple CCY states; naming the governing state for each figure is prerequisite to rational hedging, measurement, and disclosure alignment.",
+      "why_it_matters": "Undisciplined exposure language produces hedge-accounting narratives disconnected from ledger realities—buyers and auditors price that asymmetry.",
+      "risk_if_misunderstood": "Collapsing all exposure into ‘net FX position’ erases visibility into which monetary items remain unrealized versus realized.",
+      "related_terms": [
+        "currency-state",
+        "quoted-currency",
+        "fx-revaluation",
+        "realized-fx",
+        "unrealized-fx"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/currency-state/",
+        "/glossary/quoted-currency/",
+        "/glossary/fx-revaluation/",
+        "/glossary/realized-fx/",
+        "/glossary/unrealized-fx/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "treasury systems",
+        "controllers",
+        "CFO advisory"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Currency exposure is not interchangeable with hedge ratio narratives unless postings reconcile to identifiable monetary items.",
+      "custody_question": "Which CCY state currently prices this exposure—and does treasury hedging documentation tie to that measurement population?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
       "slug": "reconciliation",
       "term": "Reconciliation",
       "url": "/glossary/reconciliation/",
