@@ -5,43 +5,170 @@
   "type": "pillar",
   "status": "published",
   "quality_gate": "sovereign",
-  "page_eyebrow": "Definition · Control Discipline",
+  "page_eyebrow": "Definition · Primary Entry",
   "h1": "What Is Account Currency?",
-  "intro": "Account currency is the currency assigned to an account for recording, maintaining, reconciling, and controlling financial balances inside an enterprise finance or ERP system.",
+  "intro": "Account currency is the monetary context ERP and accounting systems attach to an account, balance, obligation line, ledger position, or monetary record—not a cosmetic display label beside an ISO code like USD, EUR, or MAD. It governs how balances live inside charts of accounts: how postings accumulate, how reconciliations scope, how foreign amounts are restated during close, and how auditors replay custody without improvisational narrative.",
   "doctrine_eyebrow": "Definition Doctrine",
-  "doctrine_statement": "Account currency is not merely a configuration field.<br>It is the control point where external monetary movement enters accounting custody.",
+  "doctrine_statement": "Account currency is where currency identity becomes accounting custody.<br>Readers searching definition intent should leave this page oriented toward doctrine, framework mechanics, and the CCY State Chain—not isolated jargon.",
   "doctrine_attribution": "Account Currency Definition · AccountCcy.com",
-  "primary_section_eyebrow": "Reference Definition",
-  "primary_section_title": "Account currency governs how balances are held, controlled, revalued, and defended.",
+  "primary_section_eyebrow": "Precision Before Configuration",
+  "primary_section_title": "Definition intent meets architectural discipline.",
   "primary_section_body": [
-    "In enterprise finance, an account does not only hold a balance. It holds a balance under a currency identity. That identity governs how postings are recorded, how balances are maintained, how foreign currency amounts are revalued, and how the account can be reconciled and audited.",
-    "Account currency is therefore different from transaction currency, settlement currency, functional currency, ledger currency, reporting currency, and consolidation currency. These are related but distinct roles inside the currency state chain.",
-    "AccountCcy.com treats account currency as a control discipline because errors or weak governance at this layer can affect the ledger, reporting, consolidation, and audit reality downstream."
+    "Enterprise users often arrive seeking a plain-language anchor; AccountCcy treats that arrival as an entry ramp into custody vocabulary—how monetary truth earns lineage across systems rather than surviving as slogans.",
+    "Account currency sits at State 04 because external monetary movement must receive accountable ledger identity before ledger measurement, translation narratives, consolidation hubs, and audit scrutiny absorb downstream consequences.",
+    "Published glossary entries distinguish neighboring concepts transaction-by-transaction; this page summarizes distinctions while linking outward so finance, treasury, systems owners, and assurance leaders argue about the same institutional objects."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "why-account-currency-matters",
+      "eyebrow": "Operational consequence",
+      "title": "Why account currency matters inside enterprise finance",
+      "paragraphs": [
+        "Multi-currency accounting collapses when obligation denomination, ERP custody assignment, ledger measurement, and outward reporting narration interchange silently behind identical ISO symbols.",
+        "ERP account configuration encodes which balances reconcile inside which reconciliation scopes—misassignment propagates through subsystem postings before controllers debate variance.",
+        "Ledger interpretation depends on knowing whether a balance reflects transactional obligations locked historically versus ledger custody maintained presently versus translation-framed presentation.",
+        "Receivables and payables modules explode reconciliation friction when customer-facing denomination diverges from account custody without documented bridges.",
+        "FX revaluation applies where foreign-denominated monetary balances remain open across period boundaries—rate lineage ties directly to account-level custody clarity.",
+        "Reporting accuracy inherits whichever fractures controllers tolerated upstream—management packs cannot stabilize distorted ledger identities retroactively.",
+        "Audit reconstruction demands replayable paths from postings through policies—weak account currency governance destroys forensic coherence faster than dashboards admit variance.",
+        "Monetary truth—in AccountCcy doctrine—is reconstructable custody; account currency is the hinge where movement earns internal evidentiary discipline."
+      ]
+    },
+    {
+      "section_id": "distinct-from-neighboring-concepts",
+      "eyebrow": "Lexical separation",
+      "title": "Account currency versus neighboring currency identities",
+      "paragraphs": [
+        "Each comparison below references published AccountCcy terminology—never interchangeable synonyms inside governed finance organizations."
+      ],
+      "steps": [
+        {
+          "title": "Versus transaction currency",
+          "body": "Transaction currency denominates commercial obligation and measurable duties; account currency assigns ERP custody where balances reconcile. Confusion routes FX commentary to the wrong reconciliation owner.",
+          "link_url": "/glossary/transaction-currency/",
+          "link_label": "Transaction currency"
+        },
+        {
+          "title": "Versus quoted currency",
+          "body": "Quoted currency names market-facing rates before obligations crystallize; account currency governs postings after custody enters charts—bridging them requires explicit rate-lock evidence.",
+          "link_url": "/glossary/quoted-currency/",
+          "link_label": "Quoted currency"
+        },
+        {
+          "title": "Versus settlement currency",
+          "body": "Settlement currency governs cash rails clearing banks; account currency governs ledger retention—even aligned ISO codes answer different forensic questions.",
+          "link_url": "/glossary/settlement-currency/",
+          "link_label": "Settlement currency"
+        },
+        {
+          "title": "Versus ledger currency",
+          "body": "Ledger currency frames maintained trial-balance measurement posture; account currency configures custody assignments feeding that ledger—policy debates misfire when layers collapse.",
+          "link_url": "/glossary/ledger-currency/",
+          "link_label": "Ledger currency"
+        },
+        {
+          "title": "Versus functional currency",
+          "body": "Functional currency names economic-environment measurement lenses entity-wide; account currency localizes custody inside charts—alignment varies by ERP architecture yet meanings remain distinct.",
+          "link_url": "/glossary/functional-currency/",
+          "link_label": "Functional currency"
+        },
+        {
+          "title": "Versus reporting currency",
+          "body": "Reporting currency refracts visibility outward; account currency anchors inward ledger custody—presentation polish cannot substitute missing posting lineage.",
+          "link_url": "/glossary/reporting-currency/",
+          "link_label": "Reporting currency"
+        },
+        {
+          "title": "Versus currency translation",
+          "body": "Translation executes methodology converting measured ledger outcomes into presentation choices—distinct from custody assignments configuring where balances accumulate beforehand.",
+          "link_url": "/glossary/currency-translation/",
+          "link_label": "Currency translation"
+        },
+        {
+          "title": "Versus FX revaluation",
+          "body": "Revaluation restates foreign monetary balances across period boundaries using governed rates—account currency determines which balances qualify as foreign versus functional-measured.",
+          "link_url": "/glossary/fx-revaluation/",
+          "link_label": "FX revaluation"
+        }
+      ]
+    },
+    {
+      "section_id": "where-account-currency-confusion-happens",
+      "eyebrow": "Failure anatomy",
+      "title": "Where account currency confusion metastasizes",
+      "paragraphs": [
+        "Teams silently substitute transactional obligation currency for ERP custody assignment—sub-ledgers balance while forensic narratives diverge.",
+        "Ledger measurement languages bleed into functional currency governance debates—controls attach to wrong committees while postings obey conflicting conventions.",
+        "Reporting currency narration hides earlier account-level context—investors see polished totals lacking reconstructable custody hops.",
+        "Revaluation batches become generic ‘FX adjustments’ without naming account populations or rate lineage—audit evidence thins.",
+        "Translation runs merge rhetorically with remeasurement or revaluation—policy testers cannot trace which engine mutated balances.",
+        "Audit teams cannot reconstruct account-level currency paths—independence shifts toward qualitative storytelling instead of artifact replay."
+      ]
+    },
+    {
+      "section_id": "architecture-entry-bridge",
+      "eyebrow": "Site architecture",
+      "title": "How account currency connects across AccountCcy.com",
+      "paragraphs": [
+        "Doctrine explains why monetary figures demand custody lineage; the Currency State Control Framework layers governance vocabulary across ERP-led transitions; the CCY State Chain sequences navigable custody positions—including State 04 tiles tying quotation through audit reality.",
+        "Account currency control publishes explicit governance discipline over custody assignments; currency state explains why ‘currency’ behaves as operational state—not flat ISO decoration.",
+        "Functional currency, FX revaluation, currency translation, and reporting currency glossary entries anchor downstream mechanics once custody clarity stabilizes at account level.",
+        "Use the glossary hub as lexical spine tying clusters once architectural orientation completes."
+      ],
+      "reference_strip": [
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/framework/", "label": "Framework pillar" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/states/account-currency/", "label": "State 04 reference" },
+        { "href": "/glossary/account-currency-control/", "label": "Account currency control" },
+        { "href": "/glossary/currency-state/", "label": "Currency state" },
+        { "href": "/glossary/functional-currency/", "label": "Functional currency" },
+        { "href": "/glossary/fx-revaluation/", "label": "FX revaluation" },
+        { "href": "/glossary/currency-translation/", "label": "Currency translation" },
+        { "href": "/glossary/reporting-currency/", "label": "Reporting currency" },
+        { "href": "/glossary/account-currency/", "label": "Defined term: Account currency" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    },
+    {
+      "section_id": "account-currency-control-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Account currency control questions",
+      "paragraphs": [
+        "Controllers, systems owners, treasury partners, and auditors answer these jointly—delegated ambiguity invites recurring close theater."
+      ],
+      "questions": [
+        "What currency does this account carry—and does configuration evidence match reconciliation intent?",
+        "Is account currency identical to current transaction currency—or historically aligned yet presently divergent?",
+        "Which system owns account-level currency context—ERP core, subsystem, consolidation hub—and who signs custody transfers?",
+        "Is exposure revalued at period boundary, translated into presentation currency, settled via banking rails, or merely narrated differently externally?",
+        "Can reviewers reconstruct the account-level currency path using postings, rate tables, policies, and subsystem extracts alone?",
+        "Which currency remains authoritative for operational control versus regulatory disclosure versus audit replay at each boundary?"
+      ]
+    }
   ],
   "graph_eyebrow": "Position in Chain",
-  "graph_title": "Account currency is State 04 of the CCY State Chain.",
-  "graph_intro": "It is the central control point between external financial movement and internal accounting record. This is where AccountCcy.com lives conceptually and strategically.",
+  "graph_title": "State 04 custody gate inside the CCY State Chain.",
+  "graph_intro": "Account currency mediates external monetary movement into accountable ledger record—downstream readers graduate into doctrine, framework layers, state tiles, and glossary-defined neighboring identities.",
   "grid_eyebrow": "Position in Chain",
-  "grid_title": "Account currency is State 04 of the CCY State Chain.",
-  "grid_intro": "It is the central control point between external financial movement and internal accounting record. This is where AccountCcy.com lives conceptually and strategically.",
+  "grid_title": "State 04 custody gate inside the CCY State Chain.",
+  "grid_intro": "Account currency mediates external monetary movement into accountable ledger record—downstream readers graduate into doctrine, framework layers, state tiles, and glossary-defined neighboring identities.",
   "cards": [
-    {"label": "Not Transaction Currency", "title": "Transaction currency is the currency of the event.", "body": "It defines the currency in which the financial obligation is denominated. It does not necessarily define how an account balance is maintained."},
-    {"label": "Not Settlement Currency", "title": "Settlement currency is the currency of cash transfer.", "body": "It defines how payment occurs. It may differ from transaction currency and account currency, creating FX consequences."},
-    {"label": "Not Ledger Currency", "title": "Ledger currency is the currency of maintained books.", "body": "It often reflects functional currency policy and may require foreign currency account balances to be revalued."},
-    {"label": "Not Reporting Currency", "title": "Reporting currency is the currency of presentation.", "body": "It governs how results are shown to management, regulators, investors, or group reporting structures."},
-    {"label": "Control Point", "title": "Account currency is where movement becomes record.", "body": "It is the custody gate through which external monetary activity enters internal accounting control."},
-    {"label": "Audit Consequence", "title": "Account currency affects whether the final number can be defended.", "body": "Weak account currency governance can create downstream traceability, reconciliation, and audit problems."}
+    {"label": "Custody identity", "title": "Account currency configures ERP monetary custody.", "body": "Not cosmetic labeling—it scopes postings, reconciliations, revaluation populations, and forensic replay inside charts."},
+    {"label": "Neighbor vocabulary", "title": "Distinct from obligation, cash rail, ledger lens, or presentation.", "body": "Transaction, quoted, settlement, ledger, functional, reporting, translation, and revaluation roles remain lexically separate."},
+    {"label": "Architecture ramp", "title": "Definition intent feeds doctrine and framework mechanics.", "body": "Readers anchor here, then traverse custody pillar, Currency State Control Framework, CCY State Chain, and published glossary clusters."},
+    {"label": "Evidence hinge", "title": "Weak custody assignment destroys downstream defensibility.", "body": "Audit reconstruction collapses when account paths cannot replay independently without tribal spreadsheets."}
   ],
   "control_label": "Definition Control",
-  "control_title": "Account currency turns currency identity into accounting custody.",
-  "control_body": "A strong account currency layer clarifies what currency an account is allowed to maintain, how balances should be interpreted, and how foreign currency movements should be controlled through the close process.",
+  "control_title": "Treat account currency as configurable custody—not passive metadata.",
+  "control_body": "Govern configuration owners, reconciliation scopes, and subsystem postings explicitly—then FX batches, translation methodology, and disclosure narration inherit stable identities.",
   "risk_label": "Definition Risk",
-  "risk_title": "Misunderstanding account currency creates structural risk.",
-  "risk_body": "If account currency is confused with transaction currency, settlement currency, ledger currency, or reporting currency, the result can be revaluation errors, reconciliation breaks, reporting distortion, and audit-trail gaps.",
+  "risk_title": "Collapsed synonyms recreate silent monetary ambiguity.",
+  "risk_body": "When ERP custody assignments interchange with transactional denomination or reporting narration without naming transitions, finance optimizes symptoms while structural mismatch persists.",
   "faq": [
-    {"question": "Is account currency the same as transaction currency?", "answer": "No. Transaction currency is the currency in which the financial event is denominated. Account currency is the currency assigned to the account where balances are recorded or maintained."},
-    {"question": "Is account currency the same as functional currency?", "answer": "Not necessarily. Functional currency relates to the primary economic environment of the entity. Account currency is an account-level currency assignment inside the accounting or ERP system."},
-    {"question": "Why does account currency matter?", "answer": "It matters because it influences balance maintenance, revaluation, reconciliation, reporting, and audit defensibility."}
+    {"question": "Is account currency the same as transaction currency?", "answer": "No. Transaction currency denominates the obligation event; account currency assigns ERP ledger custody where balances reconcile—often aligned yet institutionally distinct."},
+    {"question": "Is account currency the same as functional currency?", "answer": "Not necessarily. Functional currency reflects economic-environment measurement policy entity-wide; account currency governs account-level custody assignments inside charts."},
+    {"question": "Why does account currency matter?", "answer": "It determines reconciliation scope, revaluation populations, subsystem coherence, reporting inheritance, and whether auditors can reconstruct custody paths using artifacts rather than storytelling."}
   ],
   "schema_notes": {
     "primary_schema": "DefinedTerm",
