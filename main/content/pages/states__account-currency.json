@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/states/account-currency/",
   "type": "state",
   "status": "published",
@@ -9,7 +9,7 @@
   "state_summary": "Account Currency is State 04—the monetary state ERP assigns to an account, balance, receivable, payable, obligation line, ledger position, or account-level monetary record. Currency becomes attached here to a governed chart context: how postings accumulate, reconciliations scope, foreign balances qualify for restatement, and auditors replay custody—not merely as an obligation denomination from a transaction event or a cosmetic ISO display field.",
   "state_role_label": "Custody Gate",
   "state_role_title": "Where monetary identity enters governed chart context.",
-  "state_role_body": "Upstream states narrate quotation, obligation, and settlement motion; State 04 freezes custody decisions inside charts—what currency balance lives inside this account, how controllers reconcile it, and how downstream ledger measurement, translation narratives, consolidation hubs, and assurance artifacts inherit identity. State ownership must be explicit: weak discipline here is structural—reconciliation theater replaces lineage finance could defend, and audit trails lose contiguous reconstruction paths.",
+  "state_role_body": "Upstream states narrate quotation, obligation, and settlement motion; State 04 freezes custody decisions inside charts—what currency balance lives inside this account, how controllers reconcile it, and how downstream ledger measurement, translation narratives, consolidation hubs, and assurance artifacts inherit identity. ERP currency configuration and currency master data silently dictate numeric behavior inherited by postings and valuation batches; account mapping and posting logic decide how subledger facts summarize into general ledger custody while system-of-record discipline declares where authoritative replay begins. State ownership must be explicit: weak discipline here is structural—reconciliation theater replaces lineage finance could defend, and audit trails lose contiguous reconstruction paths.",
   "custody_question": "Which currency identity governs how this account records, revalues, reconciles, and defends its balances—and who owns that assignment when postings span subsystems?",
   "chain_position_body": "State 04 sits between settlement-era narratives and ledger-era measurement. Readers anchor definition intent on the primary entry page, then traverse the CCY State Chain tiles, Currency State Control Framework layers, doctrine pillar, and glossary-defined neighboring identities—transaction through audit reconstruction—without collapsing distinct forensic questions into identical ISO symbols.",
   "state_rail": [
@@ -95,6 +95,8 @@
         "Account-level monetary control decides reconciliation scopes, subsystem postings, and controller accountability—without naming custody, automation rearranges symptoms.",
         "Receivables and payables fracture when customer-facing denomination diverges from chart custody without documented bridges tying proofs together.",
         "ERP account configuration encodes identity populations FX batches consume—misassignment cascades through valuation engines silently.",
+        "Posting logic and account mapping translate subsystem facts into general ledger lines—when mappings drift, FX narratives blame markets instead of structural routing faults.",
+        "Currency master data governs precision, rounding, and activation—the mundane foundation auditors reopen when bridges implode silently.",
         "Multi-currency ledgers amplify mismatch when local custody diverges from group methodology absent explicit governance.",
         "Revaluation eligibility depends on which balances qualify as foreign versus functional-measured—ambiguous assignments distort batch populations.",
         "Reporting integrity—in AccountCcy’s evidence vocabulary—inherits whichever fractures controllers tolerated at assignment time; investor packs cannot retrofit lineage absent upstream clarity.",
@@ -156,6 +158,13 @@
         { "href": "/glossary/realized-fx/", "label": "Realized FX" },
         { "href": "/glossary/exchange-rate-source/", "label": "Exchange rate source" },
         { "href": "/glossary/remeasurement/", "label": "Remeasurement" },
+        { "href": "/glossary/system-of-record/", "label": "System of record" },
+        { "href": "/glossary/subledger/", "label": "Subledger" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
+        { "href": "/glossary/posting-logic/", "label": "Posting logic" },
+        { "href": "/glossary/account-mapping/", "label": "Account mapping" },
+        { "href": "/glossary/currency-master-data/", "label": "Currency master data" },
+        { "href": "/glossary/erp-currency-configuration/", "label": "ERP currency configuration" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     }

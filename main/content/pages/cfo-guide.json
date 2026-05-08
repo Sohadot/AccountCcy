@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/cfo-guide/",
   "type": "pillar",
   "status": "published",
   "quality_gate": "sovereign",
   "page_eyebrow": "Executive Governance · Monetary Truth",
   "h1": "The CFO Guide to Hidden Account Currency Risk",
-  "intro": "Account currency is not a clerical label tucked beside an ISO code. For CFOs and finance leadership it is part of the control surface where monetary truth lives—or silently fractures—across accounts, ledgers, FX revaluation mechanics, currency translation, outward reporting narration, consolidation altitude, and the evidentiary trail assurance depends upon. Treasury may hedge currency exposure brilliantly while custody vocabulary collapses inside ERP postings—distorting reporting integrity long before markets move sharply. Distinguishing realized versus unrealized FX, governed exchange-rate sources, and material consolidation adjustments separates earnings-quality narratives finance can defend from optimism layered atop dashboards. Audit defensibility and control evidence remain the arbiter between replay-grade conviction and committee storytelling.",
+  "intro": "Account currency is not a clerical label tucked beside an ISO code. For CFOs and finance leadership it is part of the control surface where monetary truth lives—or silently fractures—across accounts, ledgers, FX revaluation mechanics, currency translation, outward reporting narration, consolidation altitude, and the evidentiary trail assurance depends upon. Executive posture requires naming systems of record for material populations, insisting general ledger and subledger accountability remains reconstructable, and treating ERP currency configuration plus currency master data as sovereign inputs—not background IT trivia. Treasury may hedge currency exposure brilliantly while custody vocabulary collapses inside ERP postings—distorting reporting integrity long before markets move sharply. Distinguishing realized versus unrealized FX, governed exchange-rate sources, and material consolidation adjustments separates earnings-quality narratives finance can defend from optimism layered atop dashboards. Audit defensibility and control evidence remain the arbiter between replay-grade conviction and committee storytelling.",
   "doctrine_eyebrow": "Executive Thesis",
   "doctrine_statement": "Board-facing confidence requires reconstructable monetary lineage—not optimism layered atop dashboards.<br>CFO discipline demands naming where currency identity changes hands inside enterprise finance systems.",
   "doctrine_attribution": "CFO Governance Lens · AccountCcy.com",
@@ -26,7 +26,7 @@
       "paragraphs": [
         "Reporting integrity rests on whether balances, bridges, and disclosures tie back to documented custody—not merely balanced sub-ledgers.",
         "Multi-currency exposure compounds when obligation denomination, ERP assignment, ledger measurement, and presentation narration interchange informally behind identical symbols.",
-        "ERP and ledger control determines which populations post through revaluation batches, translation engines, and consolidation eliminations—silent misclassification surfaces as recurring management-pack variance where consolidation adjustments lack inbound lineage.",
+        "ERP and ledger control determines which populations post through revaluation batches, translation engines, and consolidation eliminations—silent misclassification surfaces as recurring management-pack variance where consolidation adjustments lack inbound lineage or account mapping diverges from governed posting logic.",
         "FX revaluation discipline separates period-boundary restatement governed by rate lineage from narrative substitutes controllers rehearse each quarter.",
         "Currency translation discipline distinguishes measured ledger outcomes from disclosure-facing conversions—collapsing the two invites unexplained bridge swings leadership cannot narrate calmly.",
         "Audit defensibility fails when assurance requests lineage artifacts finance retrieves through improvisation rather than configuration-backed replay.",
@@ -79,6 +79,12 @@
         { "href": "/glossary/unrealized-fx/", "label": "Unrealized FX" },
         { "href": "/glossary/exchange-rate-source/", "label": "Exchange rate source" },
         { "href": "/glossary/consolidation-adjustment/", "label": "Consolidation adjustment" },
+        { "href": "/glossary/account-mapping/", "label": "Account mapping" },
+        { "href": "/glossary/currency-master-data/", "label": "Currency master data" },
+        { "href": "/glossary/erp-currency-configuration/", "label": "ERP currency configuration" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
+        { "href": "/glossary/subledger/", "label": "Subledger" },
+        { "href": "/glossary/system-of-record/", "label": "System of record" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     },

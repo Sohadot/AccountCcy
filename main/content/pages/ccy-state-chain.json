@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/ccy-state-chain/",
   "type": "pillar",
   "status": "published",
   "quality_gate": "sovereign",
   "page_eyebrow": "Framework · State-Sequence Pillar",
   "h1": "The CCY State Chain",
-  "intro": "Inside enterprise finance, currency is not a cosmetic ISO badge beside USD, EUR, MAD, or any code—it is a state carried through systems, postings, accounts, ledgers, settlement rails, functional measurement discipline, reporting lenses, translation mechanics, revaluation logic, and reconstructable audit trails auditors replay state-by-state. The CCY State Chain names those transitions so teams stop collapsing incompatible meanings behind identical symbols; weak state ownership or fragmented monetary reconstruction anywhere fractures lineage downstream.",
+  "intro": "Inside enterprise finance, currency is not a cosmetic ISO badge beside USD, EUR, MAD, or any code—it is a state carried through systems, postings, accounts, ledgers, settlement rails, functional measurement discipline, reporting lenses, translation mechanics, revaluation logic, and reconstructable audit trails auditors replay state-by-state. Source systems originate monetary signals; governed posting logic moves them across subledger detail into general ledger measurement; currency master data and ERP currency configuration constrain how each hop behaves numerically; systems of record designate where authoritative postings live when subsidiaries disagree. The CCY State Chain names those transitions so teams stop collapsing incompatible meanings behind identical symbols; weak state ownership or fragmented monetary reconstruction anywhere fractures lineage downstream.",
   "doctrine_eyebrow": "State Chain Doctrine",
   "doctrine_statement": "Doctrine asserts custody lineage.<br>The chain asserts sequential monetary identity—what changed, where it changed, and which artifact proves each transformation—not rhetoric layered atop dashboards.",
   "doctrine_attribution": "The CCY State Chain · AccountCcy.com",
@@ -15,7 +15,7 @@
   "primary_section_title": "The doctrine gates custody; the framework layers governance; the chain navigates reality.",
   "primary_section_body": [
     "Monetary truth on AccountCcy.com begins as anchored discourse—the custody pillar describes why figures demand lineage rather than optimism.",
-    "The Currency State Control Framework converts doctrine into operational custody zones spanning ERP cores, ledgers, close mechanics, translation narratives, and audit posture—not substituting standards or vendor logic, but exposing transitions finance must own.",
+    "The Currency State Control Framework converts doctrine into operational custody zones spanning ERP cores, source-system lineage, subledger and general ledger accountability, posting logic, close mechanics, translation narratives, and audit posture—not substituting standards or vendor logic, but exposing transitions finance must own.",
     "This page sequences glossary-published checkpoints finance routinely scrambles—especially settlement versus account custody, ledger versus functional identity, revaluation versus translation, and reporting narration versus ledger proofs.",
     "The eight numbered custody tiles below preserve canonical navigation toward quotation through consolidation into audit reality; the glossary-linked passage beneath complements them by spotlighting reconstruction-critical checkpoints ERP architects and controllers reconcile weekly."
   ],
@@ -97,7 +97,8 @@
         "Currency translation discipline demands separating measured ledger outcomes from presentation conversions CFO packs summarize.",
         "CFO reporting inherits whichever custody fractures controllers tolerated upstream—investor narratives amplify ambiguity unless sequencing clarity preceded disclosure drafting.",
         "Audit reconstruction fails when evidence bundles omit subsystem hops reviewers cannot replay independently.",
-        "Preventing monetary ambiguity is therefore preventative governance—not quarterly reconciliation heroics—because ambiguity metastasizes before dashboards admit variance, even when monetary reconstruction exercises remain theoretically possible yet prohibitively expensive."
+        "Preventing monetary ambiguity is therefore preventative governance—not quarterly reconciliation heroics—because ambiguity metastasizes before dashboards admit variance, even when monetary reconstruction exercises remain theoretically possible yet prohibitively expensive.",
+        "Architecture vocabulary matters as much as accounting vocabulary: naming systems of record, verifying currency master data inheritance inside valuation batches, and tracing ERP currency configuration snapshots prevents states from drifting inside automation rather than through deliberate policy."
       ]
     },
     {
@@ -156,6 +157,13 @@
         { "href": "/glossary/period-end-revaluation/", "label": "Period-end revaluation" },
         { "href": "/glossary/translation-adjustment/", "label": "Translation adjustment" },
         { "href": "/glossary/currency-exposure/", "label": "Currency exposure" },
+        { "href": "/glossary/currency-master-data/", "label": "Currency master data" },
+        { "href": "/glossary/erp-currency-configuration/", "label": "ERP currency configuration" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
+        { "href": "/glossary/posting-logic/", "label": "Posting logic" },
+        { "href": "/glossary/source-system/", "label": "Source system" },
+        { "href": "/glossary/subledger/", "label": "Subledger" },
+        { "href": "/glossary/system-of-record/", "label": "System of record" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     }

@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/monetary-truth-chain-of-custody/",
   "type": "pillar",
   "status": "published",
   "quality_gate": "sovereign",
   "page_eyebrow": "Doctrine · Supreme Thesis",
   "h1": "The Chain of Custody for Monetary Truth",
-  "intro": "Monetary truth in enterprise finance is not carried by the naked figure alone. The same numeric surface can answer incompatible custody questions unless finance preserves currency identity, source events, system postings, ledger measurement choices, control-framework ownership, FX mechanics, translation methodology, outward presentation, and the reconstructable evidentiary discipline auditors replay—not improvised narration dressed as certainty. Monetary reconstruction succeeds when audit trails and governed evidence trails bind postings to policy, declared exchange-rate sources, remeasurement versus translation logic—including translation-adjustment and consolidation-adjustment lineage—and currency exposure narratives anchored to identifiable populations.",
+  "intro": "Monetary truth in enterprise finance is not carried by the naked figure alone. The same numeric surface can answer incompatible custody questions unless finance preserves currency identity, source events, source-system lineage, system-of-record designation, subledger versus general ledger posting paths, governed posting logic and account mapping, ledger measurement choices, control-framework ownership, FX mechanics, translation methodology, outward presentation, and the reconstructable evidentiary discipline auditors replay—not improvised narration dressed as certainty. Monetary reconstruction succeeds when audit trails and governed evidence trails bind postings to policy, declared exchange-rate sources, remeasurement versus translation logic—including translation-adjustment and consolidation-adjustment lineage—and currency exposure narratives anchored to identifiable populations.",
   "doctrine_eyebrow": "Foundation Doctrine",
   "doctrine_statement": "AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.<br>The asset names where quotation becomes obligation, obligation becomes settlement, settlement becomes account custody, custody becomes ledger measurement, measurement becomes translation and consolidation, and consolidation becomes audit-defensible reality—not because automation guarantees truth, but because governance earns it.",
   "doctrine_attribution": "AccountCcy.com Foundation Doctrine",
@@ -16,7 +16,7 @@
   "primary_section_body": [
     "Enterprise finance stacks quotation, commercial obligation, banking settlement, ERP posting discipline, functional measurement, period-end revaluation, translation policy, group consolidation, and external reporting—often across different owners who speak overlapping jargon.",
     "When transaction currency, account currency, ledger currency, functional currency treatment, revaluation, translation, and reporting presentation are treated as interchangeable labels on ‘the FX line,’ monetary truth weakens long before fraud enters the picture: reconciliation breaks, close friction, and evidentiary gaps accumulate in silence.",
-    "Custody names those transitions so control can attach at boundaries—who locked the rate via governed exchange-rate sources, which obligation currency governs performance, which ERP assignment holds balances, which ledger rule measured results, how remeasurement differs from translation-adjustment mechanics, how consolidation-adjustment narratives tie to entity proofs, which artifacts prove each hop, and where currency exposure attaches without collapsing unlike risks.",
+    "Custody names those transitions so control can attach at boundaries—who locked the rate via governed exchange-rate sources, which obligation currency governs performance, which ERP assignment holds balances, which ledger rule measured results, how remeasurement differs from translation-adjustment mechanics, how consolidation-adjustment narratives tie to entity proofs, which artifacts prove each hop, where currency exposure attaches without collapsing unlike risks, and which application path—from source system through posting logic into general ledger accountability—finance can replay without ambiguity.",
     "Readers seeking named doctrine terms should begin with monetary truth and chain of custody as lexical anchors, then move through currency state vocabulary into framework mechanics."
   ],
   "pillar_sections": [
@@ -135,7 +135,13 @@
         { "href": "/glossary/remeasurement/", "label": "Remeasurement" },
         { "href": "/glossary/translation-adjustment/", "label": "Translation adjustment" },
         { "href": "/glossary/consolidation-adjustment/", "label": "Consolidation adjustment" },
-        { "href": "/glossary/currency-exposure/", "label": "Currency exposure" }
+        { "href": "/glossary/currency-exposure/", "label": "Currency exposure" },
+        { "href": "/glossary/source-system/", "label": "Source system" },
+        { "href": "/glossary/system-of-record/", "label": "System of record" },
+        { "href": "/glossary/subledger/", "label": "Subledger" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
+        { "href": "/glossary/posting-logic/", "label": "Posting logic" },
+        { "href": "/glossary/account-mapping/", "label": "Account mapping" }
       ]
     }
   ],

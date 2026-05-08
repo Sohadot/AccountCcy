@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/framework/",
   "type": "pillar",
   "status": "published",
   "quality_gate": "sovereign",
   "page_eyebrow": "Framework · Currency State Control",
   "h1": "The Currency State Control Framework",
-  "intro": "The Currency State Control Framework is not an accounting standard, not a substitute for ERP posting logic, and not a generic FX playbook. It is AccountCcy’s conceptual and operational control layer for tracing how monetary truth earns custody as figures move through enterprise finance—across currency identity, transactional context, account assignments, ledger measurement, functional discipline, revaluation, translation and outward presentation, and finally reconstructable audit evidence defended through reporting integrity, audit defensibility, explicit state ownership, and corpus-grade control evidence.",
+  "intro": "The Currency State Control Framework is not an accounting standard, not a substitute for ERP posting logic, and not a generic FX playbook. It is AccountCcy’s conceptual and operational control layer for tracing how monetary truth earns custody as figures move through enterprise finance—across currency identity, transactional context, account assignments, ledger measurement, functional discipline, revaluation, translation and outward presentation, and finally reconstructable audit evidence defended through reporting integrity, audit defensibility, explicit state ownership, and corpus-grade control evidence. Operational architecture sits underneath those transitions: source systems that originate monetary signals, systems of record that own replay-grade postings, subledger detail summarized into general ledger measurement, governed posting logic and account mapping, currency master data discipline, and ERP currency configuration that encodes how custody behaves inside live systems.",
   "doctrine_eyebrow": "Framework Doctrine",
   "doctrine_statement": "Doctrine names why monetary truth needs lineage.<br>This framework names how that lineage becomes governable inside multi-currency accounting machinery—not by overriding standards or vendors, but by assigning custody ownership per layer.",
   "doctrine_attribution": "The Currency State Control Framework · AccountCcy.com",
@@ -47,7 +47,7 @@
         },
         {
           "title": "4 · Ledger Treatment Layer",
-          "body": "Maintains entity trial-balance measurement—how balances accumulate until period discipline, allocations, and subsystem postings reshape what finance proves internally.",
+          "body": "Maintains entity trial-balance measurement—how balances accumulate until period discipline, allocations, and subsystem postings reshape what finance proves internally. Subledger populations roll into general ledger custody only when posting logic and account mapping preserve deterministic lineage; naming those mechanics prevents balanced totals that still fail forensic replay.",
           "link_url": "/glossary/ledger-currency/",
           "link_label": "Ledger currency"
         },
@@ -82,7 +82,7 @@
       "eyebrow": "Control charter",
       "title": "What the framework is engineered to control",
       "paragraphs": [
-        "The framework governs clarity across eight domains that repeatedly collide inside enterprise finance: currency identity; currency state transitions; account-level monetary context inside ERP; ledger measurement discipline; revaluation logic executed at close boundaries; translation logic governing presentation; reporting-layer narration aligned (or misaligned) with ledger proofs; and audit reconstruction—the requirement that finance can replay transformations using artifacts, not tribal explanation. State ownership assignments make each boundary auditable instead of tribal.",
+        "The framework governs clarity across eight domains that repeatedly collide inside enterprise finance: currency identity; currency state transitions; account-level monetary context inside ERP; ledger measurement discipline; revaluation logic executed at close boundaries; translation logic governing presentation; reporting-layer narration aligned (or misaligned) with ledger proofs; and audit reconstruction—the requirement that finance can replay transformations using artifacts, not tribal explanation. Currency master data and ERP currency configuration decide how numeric identity behaves inside engines; posting logic and account mapping decide how events become journals traversable upstream to downstream states. State ownership assignments make each boundary auditable instead of tribal.",
         "Reporting currency presentation carries its own governance burden distinct from translation mechanics—especially where disclosures reinterpret consolidated narratives.",
         "Consolidation adjustments absorb group-level reshaping once entity proofs exist; currency exposure vocabulary ties treasury liquidity narratives to ledger measurement populations without collapsing unlike risks into one ‘FX line.’",
         "Account currency control names explicit governance over custody assignments at State 04—the hinge where weak discipline propagates downstream through ledger, reporting, consolidation, and audit posture."
@@ -93,7 +93,7 @@
       "eyebrow": "Enterprise placement",
       "title": "Where this framework lives inside enterprise finance",
       "paragraphs": [
-        "ERP cores (SAP, Oracle, Microsoft Dynamics, NetSuite-class stacks and equivalents) materialize account assignments, posting rules, valuation runs, and close workflows—the operational substrate the framework describes.",
+        "ERP cores (SAP, Oracle, Microsoft Dynamics, NetSuite-class stacks and equivalents) materialize account assignments, posting rules, valuation runs, and close workflows—the operational substrate the framework describes. Source systems capture originating obligations and banking feeds while finance must designate systems of record per population so reconstruction knows where authoritative postings live.",
         "Accounting automation suites, sub-ledgers, lease engines, and revenue systems introduce parallel monetary contexts that must reconcile back into ledger truth.",
         "Multi-currency ledgers and consolidation hubs amplify identity mismatch when local measurement diverges from group methodology.",
         "Treasury workstations and banking integrations accelerate settlement and hedge linkage—often upstream of custody debates controllers inherit downstream.",
@@ -144,6 +144,14 @@
         { "href": "/glossary/translation-adjustment/", "label": "Translation adjustment" },
         { "href": "/glossary/consolidation-adjustment/", "label": "Consolidation adjustment" },
         { "href": "/glossary/currency-exposure/", "label": "Currency exposure" },
+        { "href": "/glossary/account-mapping/", "label": "Account mapping" },
+        { "href": "/glossary/currency-master-data/", "label": "Currency master data" },
+        { "href": "/glossary/erp-currency-configuration/", "label": "ERP currency configuration" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
+        { "href": "/glossary/posting-logic/", "label": "Posting logic" },
+        { "href": "/glossary/source-system/", "label": "Source system" },
+        { "href": "/glossary/subledger/", "label": "Subledger" },
+        { "href": "/glossary/system-of-record/", "label": "System of record" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     }

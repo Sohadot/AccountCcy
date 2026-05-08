@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/what-is-account-currency/",
   "type": "pillar",
   "status": "published",
@@ -16,7 +16,7 @@
   "primary_section_body": [
     "Enterprise users often arrive seeking a plain-language anchor; AccountCcy treats that arrival as an entry ramp into custody vocabulary—how monetary truth earns lineage across systems rather than surviving as slogans.",
     "Account currency sits at State 04 because external monetary movement must receive accountable ledger identity before ledger measurement, translation narratives, consolidation hubs, and audit scrutiny absorb downstream consequences.",
-    "Published glossary entries distinguish neighboring concepts transaction-by-transaction; this page summarizes distinctions while linking outward so finance, treasury, systems owners, and assurance leaders argue about the same institutional objects. Custody clarity decides which balances feed period-end revaluation populations, where unrealized FX still lives versus realized settlement outcomes, and how currency exposure narratives attach to identifiable postings—not blended FX rhetoric."
+    "Published glossary entries distinguish neighboring concepts transaction-by-transaction; this page summarizes distinctions while linking outward so finance, treasury, systems owners, and assurance leaders argue about the same institutional objects. Custody clarity decides which balances feed period-end revaluation populations, where unrealized FX still lives versus realized settlement outcomes, and how currency exposure narratives attach to identifiable postings—not blended FX rhetoric. Light architectural anchors still matter: ERP currency configuration encodes how charts behave, currency master data constrains numeric identity engines inherit, account mapping routes detail toward general ledger populations, and those mechanics deserve naming—not deferred to informal IT folklore."
   ],
   "pillar_sections": [
     {
@@ -112,7 +112,7 @@
       "paragraphs": [
         "Doctrine explains why monetary figures demand custody lineage; the Currency State Control Framework layers governance vocabulary across ERP-led transitions; the CCY State Chain sequences navigable custody positions—including State 04 tiles tying quotation through audit reality.",
         "Account currency control publishes explicit governance discipline over custody assignments; currency state explains why ‘currency’ behaves as operational state—not flat ISO decoration.",
-        "Functional currency, FX revaluation, currency translation, and reporting currency glossary entries anchor downstream mechanics once custody clarity stabilizes at account level.",
+        "Functional currency, FX revaluation, currency translation, and reporting currency glossary entries anchor downstream mechanics once custody clarity stabilizes at account level; ERP currency configuration, currency master data, account mapping, and general ledger vocabulary explain how configuration—not slogans—materializes custody.",
         "Use the glossary hub as lexical spine tying clusters once architectural orientation completes."
       ],
       "reference_strip": [
@@ -134,6 +134,10 @@
         { "href": "/glossary/unrealized-fx/", "label": "Unrealized FX" },
         { "href": "/glossary/realized-fx/", "label": "Realized FX" },
         { "href": "/glossary/currency-exposure/", "label": "Currency exposure" },
+        { "href": "/glossary/erp-currency-configuration/", "label": "ERP currency configuration" },
+        { "href": "/glossary/currency-master-data/", "label": "Currency master data" },
+        { "href": "/glossary/account-mapping/", "label": "Account mapping" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     },
