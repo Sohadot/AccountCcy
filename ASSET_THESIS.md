@@ -85,6 +85,23 @@ The asset is governed by the following hierarchy:
 
 This hierarchy must guide all content, page architecture, design, SEO, tools, monetization, and acquisition posture.
 
+### Locked Reference Spine (2026-05-08)
+
+The foundational reference architecture is locked as follows:
+
+| Layer | Route |
+|-------|-------|
+| Primary definition / SEO entry | `/what-is-account-currency/` |
+| Canonical State 04 | `/states/account-currency/` |
+| State model pillar | `/ccy-state-chain/` |
+| Framework pillar | `/framework/` |
+| Doctrine pillar | `/monetary-truth-chain-of-custody/` |
+| Glossary authority map | `/glossary/` |
+| Sovereign reading pathway | Homepage `#sovereign-pathway` |
+| CFO decision layer | `/cfo-guide/` |
+
+The public sitemap comprises **31 URLs**. Internal link integrity is enforced via `required_links` and published URL validation; the quality gate marks completion of the reinforcement sequence. Controlled expansion remains permitted via glossary clusters, additional state pages, executive guides, or audit/evidence layers—without altering this spine unless deliberately superseded.
+
 ---
 
 ## Primary Framework

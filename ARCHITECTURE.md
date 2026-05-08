@@ -44,6 +44,25 @@ The architecture must make this hierarchy visible to users, search engines, and 
 
 ---
 
+## Locked Reference Spine (2026-05-08)
+
+The foundational **published reference architecture** is locked as a coherent custody stack:
+
+1. **`/glossary/`** — Glossary Authority Map: terminology arranged as conceptual clusters (monetary custody, currency-state architecture, enterprise accounting controls, audit/reporting language).
+2. **`/monetary-truth-chain-of-custody/`** — Doctrine pillar: monetary truth through custody lineage inside enterprise finance.
+3. **`/framework/`** — Framework pillar: operational control layers across identity, transaction context, account custody, ledger treatment, functional lens, revaluation, translation/reporting, and evidence.
+4. **`/ccy-state-chain/`** — State-sequence pillar: currency as institutional states across the eight-position CCY chain.
+5. **`/what-is-account-currency/`** — Primary definitional entry and SEO ramp into custody vocabulary.
+6. **`/states/account-currency/`** — Canonical State 04 reference node for account-level monetary context.
+7. **Homepage (`/` → `#sovereign-pathway`)** — Sovereign Navigation Pathway surfacing the executive reading order through the spine above.
+8. **`/cfo-guide/`** — CFO decision layer translating architecture into reporting integrity, FX/translation discipline, ERP control, audit reconstruction, and monetary truth accountability.
+
+**Operational facts at lock:** public sitemap enumerates **31** URLs; sovereign quality gate passes on the scripted validation path; outbound registry discipline (`required_links` + published URL checks) enforces link safety during generation.
+
+**Expansion:** future glossary clusters, additional state depth, executive guides, or audit/evidence layers may extend the spine only through governed publication—not ad hoc URL sprawl.
+
+---
+
 ## Core Page System
 
 The initial sovereign build should include thirteen primary pages.
@@ -262,7 +281,9 @@ Path:
 
 Role:
 
-This is the reference depth page.
+This is the reference depth page and **lexical authority hub**.
+
+The hub renders as a **conceptual authority map**—clustered vocabulary—not a flat glossary index.
 
 It should define key terms with precision.
 
@@ -353,15 +374,19 @@ It should explain what the asset represents:
 
 ## Navigation Architecture
 
-Primary navigation should initially include:
+Primary navigation (masthead) currently surfaces a **controlled hierarchy** aligned with the locked spine:
 
-- Doctrine
-- Framework
-- State Chain
-- Account Currency
-- CFO Guide
-- Glossary
-- Diagnostic
+- Definition (`/what-is-account-currency/`)
+- State Chain (`/ccy-state-chain/`)
+- Framework (`/framework/`)
+- Doctrine (`/monetary-truth-chain-of-custody/`)
+- Glossary (`/glossary/`)
+- CFO Guide (`/cfo-guide/`)
+
+The homepage additionally exposes the **Sovereign Navigation Pathway** (`#sovereign-pathway`):  
+Definition → Account Currency State → CCY State Chain → Framework → Monetary Truth Custody → Glossary.
+
+Future tooling (e.g. Currency State Diagnostic) should integrate without overcrowding the masthead—prefer secondary placement until publication-ready.
 
 Acquisition should be visible but restrained.
 

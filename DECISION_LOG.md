@@ -30,6 +30,41 @@ It should record decisions that affect the asset’s meaning, structure, monetiz
 
 ---
 
+## 2026-05-08 — Core Reference Architecture Locked
+
+### Decision
+
+The foundational AccountCcy.com reference architecture is **locked** after the reinforcement sequence completed across the glossary hub, doctrine pillar, framework pillar, CCY State Chain pillar, primary definitional entry, canonical State 04 page, homepage sovereign pathway, and CFO decision layer.
+
+### Strategic Meaning
+
+The public surface now reads as a single governed reference system—not a loose collection of articles. Visitors can follow an explicit custody vocabulary pathway from definition through state mechanics, operational framework layers, doctrinal thesis, and lexicon authority.
+
+### Published Spine (Authoritative)
+
+| Layer | Path | Role |
+|-------|------|------|
+| Glossary Authority Map | `/glossary/` | Controlled vocabulary grouped into conceptual clusters—not a flat dictionary index. |
+| Doctrine Pillar | `/monetary-truth-chain-of-custody/` | Core thesis: AccountCcy.com is the chain of custody for monetary truth inside enterprise finance. |
+| Framework Pillar | `/framework/` | Operational control framing for currency states, ledger treatment, FX revaluation, translation, reporting, and audit evidence. |
+| State Model Pillar | `/ccy-state-chain/` | Currency as a sequence of enterprise finance states—not a static ISO code. |
+| Primary Entry | `/what-is-account-currency/` | Accessible definition and SEO entry point into custody language. |
+| Canonical State 04 | `/states/account-currency/` | Account-level monetary state inside the CCY State Chain. |
+| Sovereign Pathway | Homepage (`/` → `#sovereign-pathway`) | Reading path: Definition → Account Currency State → CCY State Chain → Framework → Monetary Truth Custody → Glossary. |
+| CFO Decision Layer | `/cfo-guide/` | Executive translation: reporting integrity, FX discipline, ERP control, audit reconstruction, monetary truth governance. |
+
+### Technical State (Verified)
+
+- **Sitemap:** 31 published URLs at lock.
+- **Quality discipline:** sovereign quality gate passed after the reinforcement sequence (`scripts/quality_gate.py`).
+- **Link safety:** internal URLs remain constrained through `required_links` registry alignment and published-URL validation during generation.
+
+### Expansion Posture
+
+The spine is ready for **controlled expansion**—additional glossary clusters, state-depth pages, executive-facing guides, or audit/evidence layers—provided each increment preserves doctrine alignment, `link_safety`, strict sitemap discipline, and institutional tone.
+
+---
+
 ## 2026-05-08 — Royal Institutional Masthead Adopted
 
 ### Decision
