@@ -106,29 +106,121 @@ def template_for(p: Page) -> str:
     if p.type in {'diagnostic','tool'}: return 'diagnostic.html'
     if p.type=='acquisition': return 'acquisition.html'
     if p.type=='state': return 'state_page.html'
+    if p.type=='glossary-term': return 'glossary_term.html'
     return 'reference-page.html'
+
+def related_link_category(link_url: str, tp: Optional[Page]) -> str:
+    lu = norm(link_url)
+    if lu == '/glossary/':
+        return 'Glossary'
+    if lu.startswith('/glossary/') and lu != '/glossary/':
+        return 'Glossary Term'
+    if tp:
+        if tp.type == 'state':
+            m = re.search(r'State\s+(\d+)', tp.title or '')
+            return f'State {int(m.group(1)):02d}' if m else 'CCY State'
+        if tp.type == 'glossary-term':
+            return 'Glossary Term'
+        if tp.type == 'pillar':
+            if lu in {'/framework/', '/ccy-state-chain/'}:
+                return 'Framework'
+            if lu == '/cfo-guide/':
+                return 'Executive Guide'
+            if lu == '/what-is-account-currency/':
+                return 'Definition'
+            if lu == '/monetary-truth-chain-of-custody/':
+                return 'Doctrine'
+            return 'Reference'
+    return 'Reference'
+
+
+def related_card_title(title: str) -> str:
+    t = (title or '').strip()
+    for suf in (' — AccountCcy.com', ' — AccountCcy.com Glossary'):
+        if t.endswith(suf):
+            t = t[: -len(suf)].strip()
+    return t
+
+
+def glossary_depth_sections_html(term: Dict[str, Any]) -> str:
+    chunks: List[str] = []
+    nc = (term.get('not_confused_with') or '').strip()
+    if nc:
+        chunks.append(
+            '<section class="ccy-section ccy-surface-cream" aria-labelledby="distinctions-title">'
+            '<div class="ccy-container"><div style="max-width: var(--ccy-container-sm);">'
+            '<p class="ccy-eyebrow">Distinctions</p>'
+            '<h2 id="distinctions-title" class="ccy-title">Do not confuse this term with adjacent currency identities.</h2>'
+            f'<p class="ccy-body">{esc(nc)}</p></div></div></section>'
+        )
+    cq = (term.get('custody_question') or '').strip()
+    if cq:
+        chunks.append(
+            '<section class="ccy-section" aria-labelledby="custody-q-title">'
+            '<div class="ccy-container">'
+            '<div class="ccy-panel-gold" style="max-width: var(--ccy-container-sm);">'
+            '<p class="ccy-label">Custody question</p>'
+            f'<p id="custody-q-title" class="ccy-body" style="font-family: var(--ccy-font-heading); font-size: var(--ccy-font-size-lg); line-height: var(--ccy-line-heading); margin:0;">{esc(cq)}</p>'
+            '</div></div></section>'
+        )
+    ev = (term.get('evidence_discipline_disclaimer') or '').strip()
+    if ev:
+        chunks.append(
+            '<section class="ccy-section ccy-surface-cream" aria-labelledby="evidence-title">'
+            '<div class="ccy-container"><div style="max-width: var(--ccy-container-sm);">'
+            '<p class="ccy-eyebrow">Evidence discipline</p>'
+            '<h2 id="evidence-title" class="ccy-title">Reference posture — not professional advice.</h2>'
+            f'<p class="ccy-body">{esc(ev)}</p></div></div></section>'
+        )
+    return '\n'.join(chunks)
+
+
+def glossary_term_by_url(glossary: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
+    return {norm(t['url']): t for t in glossary.get('terms', [])}
+
 
 def breadcrumb(p: Page) -> str:
     if p.url=='/': return ''
     parts=p.url.strip('/').split('/'); items=['<li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li>']; path_acc=''
     for idx, part in enumerate(parts):
         path_acc += f'/{part}/'
-        label=p.title if idx==len(parts)-1 else part.replace('-',' ').title()
         items.append('<li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li>')
         if idx==len(parts)-1:
+            if parts[0]=='glossary' and len(parts)>=2:
+                label=parts[-1].replace('-',' ').title()
+            else:
+                label=p.title
             items.append(f'<li aria-current="page" style="color: var(--ccy-color-slate-mid);">{esc(label)}</li>')
         else:
+            label=part.replace('-',' ').title()
             href = '/ccy-state-chain/' if parts[0]=='states' and idx==0 else path_acc
             items.append(f'<li><a href="{esc(href)}" style="color: var(--ccy-color-gold); text-decoration:none;">{esc(label)}</a></li>')
     return '<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);">'+''.join(items)+'</ol></nav></div>'
 
 def related(p: Page, records: Dict[str,Page], glossary: Dict[str,Any]) -> str:
-    titles={norm(t['url']):t['term'] for t in glossary.get('terms', [])}
+    term_titles={norm(t['url']): t['term'] for t in glossary.get('terms', [])}
     blocks=[]
     for l in p.required_links:
-        title=records[l].title if l in records else titles.get(l,l)
-        blocks.append(f'<div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="{esc(l)}">{esc(title)}</a></div>')
-    return '' if not blocks else '<section class="ccy-section" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-nav-links">'+''.join(blocks)+'</div></div></section>'
+        lu=norm(l)
+        tp=records.get(lu)
+        title=tp.title if tp else term_titles.get(lu, lu)
+        label=related_link_category(lu, tp)
+        display=related_card_title(title)
+        blocks.append(
+            f'<a class="ccy-related-card" href="{esc(lu)}">'
+            f'<span class="ccy-related-label">{esc(label)}</span>'
+            f'<span class="ccy-related-title">{esc(display)}</span></a>'
+        )
+    inner=''.join(blocks)
+    if not inner:
+        return ''
+    return (
+        '<section class="ccy-related-links" aria-labelledby="related-title">'
+        '<div class="ccy-container">'
+        '<p class="ccy-eyebrow" id="related-title">Continue Reading</p>'
+        f'<div class="ccy-related-grid">{inner}</div>'
+        '</div></section>'
+    )
 
 def render_reference(root: Path, p: Page, c: Dict[str,Any]) -> str:
     name='reference-page.html' if (root/'main/templates/reference-page.html').exists() else 'reference_page.html'
@@ -160,7 +252,14 @@ def render_state(root: Path, p: Page, c: Dict[str,Any]) -> str:
 def render_base(root: Path, p: Page, c: Dict[str,Any], main: str, rel: str) -> str:
     return repl(tmpl(root,'base.html'), {'PAGE_TITLE':esc(p.title),'META_DESCRIPTION':esc(p.meta_description),'ROBOTS_DIRECTIVE':'index, follow' if p.indexable else 'noindex, follow','CANONICAL_URL':canon(p.url),'OG_TYPE':'website' if p.type=='homepage' else 'article','OG_TITLE':esc(p.title),'OG_DESCRIPTION':esc(p.meta_description),'JSON_LD':schema_for_registered_page(p.raw,c,BASE_URL),'BODY_CLASS':esc('page-'+p.type),'TEMPLATE_NAME':esc(template_for(p)),'PAGE_TYPE':esc(p.type),'BREADCRUMB_HTML':breadcrumb(p),'MAIN_CONTENT':main,'RELATED_LINKS_HTML':rel})
 
-def render_page(root: Path, p: Page, recs: Dict[str,Page], glossary: Dict[str,Any]) -> Optional[str]:
+def render_page(root: Path, p: Page, recs: Dict[str,Page], glossary: Dict[str,Any], gidx: Dict[str,Dict[str,Any]]) -> Optional[str]:
+    if p.type=='glossary-term':
+        term=gidx.get(p.url)
+        if not term:
+            raise GenerationError(f'No glossary_terms.json entry for registry page {p.url}')
+        if term.get('status')!=PUBLISHED:
+            raise GenerationError(f'Glossary corpus for {p.url} must be published')
+        return render_glossary_term_document(root,p,term,recs,glossary)
     c=content(root,p)
     if c.get('__preserve_existing__'): return None
     t=template_for(p)
@@ -171,11 +270,43 @@ def render_page(root: Path, p: Page, recs: Dict[str,Page], glossary: Dict[str,An
     else: main=render_reference(root,p,c)
     return render_base(root,p,c,main,related(p,recs,glossary))
 
-def render_term(root: Path, term: Dict[str,Any], recs: Dict[str,Page], glossary: Dict[str,Any]) -> str:
+def render_glossary_term_document(root: Path, reg: Page, term: Dict[str,Any], recs: Dict[str,Page], glossary: Dict[str,Any]) -> str:
     related_terms='\n'.join(f'<span class="ccy-badge ccy-badge-gold">{esc(str(x).replace("-"," ").title())}</span>' for x in term.get('related_terms', []))
-    main=repl(tmpl(root,'glossary_term.html'), {'TERM_CATEGORY':esc(term.get('ccy_state_name','Reference Term')),'TERM':esc(term['term']),'DEFINITION':esc(term['definition']),'INSTITUTIONAL_CONTEXT':esc(term.get('institutional_context','')),'POSITION_IN_CHAIN':esc(term.get('position_in_chain','')),'WHY_IT_MATTERS':esc(term.get('why_it_matters','')),'RISK_IF_MISUNDERSTOOD':esc(term.get('risk_if_misunderstood','')),'RELATED_TERMS_HTML':related_terms})
-    pseudo=Page(norm(term['url']),'glossary-term','glossary_term.html',PUBLISHED,f"{term['term']} — AccountCcy.com Glossary",term['definition'][:155],list(term.get('related_pages',[])),['DefinedTerm'],True,term)
-    return repl(tmpl(root,'base.html'), {'PAGE_TITLE':esc(pseudo.title),'META_DESCRIPTION':esc(pseudo.meta_description),'ROBOTS_DIRECTIVE':'index, follow','CANONICAL_URL':canon(pseudo.url),'OG_TYPE':'article','OG_TITLE':esc(pseudo.title),'OG_DESCRIPTION':esc(pseudo.meta_description),'JSON_LD':schema_for_glossary_term(term,BASE_URL),'BODY_CLASS':'page-glossary-term','TEMPLATE_NAME':'glossary_term.html','PAGE_TYPE':'glossary-term','BREADCRUMB_HTML':breadcrumb(pseudo),'MAIN_CONTENT':main,'RELATED_LINKS_HTML':related(pseudo,recs,glossary)})
+    main=repl(tmpl(root,'glossary_term.html'), {
+        'TERM_CATEGORY':esc(term.get('ccy_state_name','Reference Term')),
+        'TERM':esc(term['term']),
+        'DEFINITION':esc(term['definition']),
+        'INSTITUTIONAL_CONTEXT':esc(term.get('institutional_context','')),
+        'POSITION_IN_CHAIN':esc(term.get('position_in_chain','')),
+        'WHY_IT_MATTERS':esc(term.get('why_it_matters','')),
+        'RISK_IF_MISUNDERSTOOD':esc(term.get('risk_if_misunderstood','')),
+        'OPTIONAL_SECTIONS_HTML':glossary_depth_sections_html(term),
+        'RELATED_TERMS_HTML':related_terms,
+    })
+    meta=reg.meta_description.strip() if reg.meta_description else (term.get('meta_description') or term['definition'])[:170]
+    return repl(tmpl(root,'base.html'), {
+        'PAGE_TITLE':esc(reg.title),
+        'META_DESCRIPTION':esc(meta),
+        'ROBOTS_DIRECTIVE':'index, follow' if reg.indexable else 'noindex, follow',
+        'CANONICAL_URL':canon(reg.url),
+        'OG_TYPE':'article',
+        'OG_TITLE':esc(reg.title),
+        'OG_DESCRIPTION':esc(meta),
+        'JSON_LD':schema_for_glossary_term(term,BASE_URL),
+        'BODY_CLASS':'page-glossary-term',
+        'TEMPLATE_NAME':'glossary_term.html',
+        'PAGE_TYPE':'glossary-term',
+        'BREADCRUMB_HTML':breadcrumb(reg),
+        'MAIN_CONTENT':main,
+        'RELATED_LINKS_HTML':related(reg,recs,glossary),
+    })
+
+
+def render_term(root: Path, term: Dict[str,Any], recs: Dict[str,Page], glossary: Dict[str,Any]) -> str:
+    u=norm(term['url'])
+    meta_raw=(term.get('meta_description') or term['definition'])[:170]
+    pseudo=Page(u,'glossary-term','glossary_term.html',PUBLISHED,f"{term['term']} — AccountCcy.com Glossary",meta_raw,list(term.get('related_pages',[])),['DefinedTerm'],True,term)
+    return render_glossary_term_document(root,pseudo,term,recs,glossary)
 
 def write(root: Path, url: str, doc: str, overwrite: bool) -> str:
     p=outpath(root,url); p.parent.mkdir(parents=True, exist_ok=True)
@@ -188,12 +319,16 @@ def main(argv: Optional[Sequence[str]]=None) -> int:
     try:
         pages=load(root/'main/data/pages.json'); glossary=load(root/'main/data/glossary_terms.json'); tools=load(root/'main/data/tools.json'); load(root/'main/data/link_graph.json')
         recs=records(pages); link_safety(recs, glossary, tools); actions=[]
+        gidx=glossary_term_by_url(glossary)
+        registry_glossary_urls={p.url for p in recs.values() if p.type=='glossary-term'}
         for p in recs.values():
             if p.status!=PUBLISHED or not p.indexable: continue
-            doc=render_page(root,p,recs,glossary)
+            doc=render_page(root,p,recs,glossary,gidx)
             actions.append(('would generate '+p.url) if args.dry_run else ('preserved existing '+str(outpath(root,p.url).relative_to(root)) if doc is None else write(root,p.url,doc,args.overwrite)))
         for term in glossary.get('terms', []):
             if term.get('status')!=PUBLISHED: continue
+            if norm(term['url']) in registry_glossary_urls:
+                continue
             doc=render_term(root,term,recs,glossary); actions.append(('would generate '+term['url']) if args.dry_run else write(root,norm(term['url']),doc,args.overwrite))
         print('AccountCcy sovereign page generation complete.'); [print('- '+a) for a in actions]; return 0
     except GenerationError as e:

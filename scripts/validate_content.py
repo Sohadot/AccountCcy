@@ -48,7 +48,7 @@ def validate_pages(root: Path) -> List[str]:
             if found:
                 c=load(found)
                 if has_placeholder(c): errors.append(f'{u}: content contains placeholder language')
-                if page.get('type') not in {'homepage','acquisition','diagnostic','state'}:
+                if page.get('type') not in {'homepage','acquisition','diagnostic','state','glossary-term'}:
                     for f in REQ_CONTENT:
                         if not c.get(f): errors.append(f'{u}: content missing {f}')
     return errors
