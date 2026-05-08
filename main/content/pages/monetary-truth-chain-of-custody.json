@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-08",
+  "url": "/monetary-truth-chain-of-custody/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "sovereign",
+  "page_eyebrow": "Doctrine · Supreme Thesis",
+  "h1": "The Chain of Custody for Monetary Truth",
+  "intro": "Money does not become accounting truth automatically. It becomes truth through custody. Inside enterprise finance, monetary movement passes through controlled states — from quotation and transaction through settlement, account assignment, ledger maintenance, reporting, consolidation, and audit-defensible reality.",
+  "doctrine_eyebrow": "Foundation Doctrine",
+  "doctrine_statement": "AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.<br>The asset maps where monetary movement becomes recorded, assigned, reconciled, translated, consolidated, reported, and defensible.",
+  "doctrine_attribution": "AccountCcy.com Foundation Doctrine",
+  "primary_section_eyebrow": "Why Custody Matters",
+  "primary_section_title": "Currency gains institutional meaning only through governed transitions.",
+  "primary_section_body": [
+    "Enterprise finance does not treat currency as a single static flag on a transaction. The same monetary event can carry multiple identities — quotation, obligation, settlement, account custody, ledger maintenance, reporting presentation, group consolidation, and audit scrutiny.",
+    "Without naming those transitions, finance organizations inherit fragmentation: reconciliation burden, FX distortion, close-cycle friction, and audit exposure long before misconduct enters the picture.",
+    "Custody is the institutional discipline through which movement becomes record — not magically at posting time, but through deliberate assignment, reconciliation, and defensibility across systems."
+  ],
+  "graph_eyebrow": "Doctrine Layer",
+  "graph_title": "The supreme thesis anchors the reference architecture.",
+  "graph_intro": "Every pillar — framework definition, CCY State Chain, account currency discipline — unfolds downstream from this thesis. The doctrine page exists so readers grasp custody before navigating mechanics.",
+  "grid_eyebrow": "Doctrine Layer",
+  "grid_title": "The supreme thesis anchors the reference architecture.",
+  "grid_intro": "Every pillar — framework definition, CCY State Chain, account currency discipline — unfolds downstream from this thesis. The doctrine page exists so readers grasp custody before navigating mechanics.",
+  "cards": [
+    {
+      "label": "Thesis",
+      "title": "Monetary truth is earned through custody, not asserted by rates.",
+      "body": "Market prices quote possibilities; custody converts obligations into reconciled balances defensible under review."
+    },
+    {
+      "label": "Chain",
+      "title": "The passage has discernible institutional states.",
+      "body": "Each state carries a different meaning — identity risk emerges when states blur."
+    },
+    {
+      "label": "Control",
+      "title": "Account currency is the pivotal custody gate.",
+      "body": "External monetary movement enters internal accounting discipline primarily through assigned account currency."
+    },
+    {
+      "label": "Defense",
+      "title": "Terminal custody is audit-defensible reality.",
+      "body": "Truth survives traceability, support documentation, reconciliation, and independent scrutiny."
+    }
+  ],
+  "control_label": "Doctrine Discipline",
+  "control_title": "Articulate custody before optimizing mechanics.",
+  "control_body": "Policies and ERP configurations matter — after governance articulates where custody transfers occur and who owns each boundary.",
+  "risk_label": "Doctrine Risk",
+  "risk_title": "Organizations confuse liquidity FX exposure with accounting custody decay.",
+  "risk_body": "Treasury hedges rates while fragmented currency identities distort ledger balances reporting consolidation audit narratives downstream.",
+  "schema_notes": {
+    "primary_schema": "Article",
+    "secondary_schema": ["WebPage", "BreadcrumbList"],
+    "framework_status": "Foundational AccountCcy doctrine — conceptual positioning."
+  }
+}

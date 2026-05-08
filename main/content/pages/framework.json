@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-05-08",
   "url": "/framework/",
   "type": "pillar",
-  "status": "ready-for-published-cluster",
+  "status": "published",
   "quality_gate": "sovereign",
   "page_eyebrow": "Framework · Currency State Control",
   "h1": "The Currency State Control Framework",
