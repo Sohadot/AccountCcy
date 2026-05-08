@@ -45,7 +45,7 @@
         },
         {
           "title": "Settlement currency — cash rail denomination",
-          "body": "Governs clearing banks move liquidity; diverges from transactional denomination while postings still require accountable account assignments tying banking proofs back to balances.",
+          "body": "Governs clearing banks that move liquidity; divergence from transactional denomination crystallizes FX outcomes controllers must classify as realized once postings absorb banking proofs tied back to State 04 assignments.",
           "link_url": "/glossary/settlement-currency/",
           "link_label": "Settlement currency"
         },
@@ -69,7 +69,7 @@
         },
         {
           "title": "FX revaluation — period-boundary restatement",
-          "body": "Restates foreign monetary populations account configurations expose across closes—ownership ambiguity destroys audit bundles.",
+          "body": "Period-end revaluation consumes foreign monetary populations account configurations expose—unrealized FX accumulates on open items until settlement realizes outcomes; remeasurement discipline must stay explicit when functional contexts diverge; exchange-rate-source governance proves which curve locked the batch.",
           "link_url": "/glossary/fx-revaluation/",
           "link_label": "FX revaluation"
         },
@@ -151,6 +151,11 @@
         { "href": "/glossary/control-evidence/", "label": "Control evidence" },
         { "href": "/glossary/audit-trail/", "label": "Audit trail" },
         { "href": "/glossary/monetary-reconstruction/", "label": "Monetary reconstruction" },
+        { "href": "/glossary/period-end-revaluation/", "label": "Period-end revaluation" },
+        { "href": "/glossary/unrealized-fx/", "label": "Unrealized FX" },
+        { "href": "/glossary/realized-fx/", "label": "Realized FX" },
+        { "href": "/glossary/exchange-rate-source/", "label": "Exchange rate source" },
+        { "href": "/glossary/remeasurement/", "label": "Remeasurement" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     }

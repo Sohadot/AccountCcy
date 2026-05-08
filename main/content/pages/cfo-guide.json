@@ -7,7 +7,7 @@
   "quality_gate": "sovereign",
   "page_eyebrow": "Executive Governance · Monetary Truth",
   "h1": "The CFO Guide to Hidden Account Currency Risk",
-  "intro": "Account currency is not a clerical label tucked beside an ISO code. For CFOs and finance leadership it is part of the control surface where monetary truth lives—or silently fractures—across accounts, ledgers, FX revaluation mechanics, translation methodology, outward reporting narration, consolidation altitude, and the evidentiary trail assurance depends upon. Treasury may hedge liquidity exposure brilliantly while custody vocabulary collapses inside ERP postings—distorting reporting integrity long before markets move sharply. Audit defensibility and control evidence separate conviction finance can replay from storytelling committees tolerate briefly.",
+  "intro": "Account currency is not a clerical label tucked beside an ISO code. For CFOs and finance leadership it is part of the control surface where monetary truth lives—or silently fractures—across accounts, ledgers, FX revaluation mechanics, currency translation, outward reporting narration, consolidation altitude, and the evidentiary trail assurance depends upon. Treasury may hedge currency exposure brilliantly while custody vocabulary collapses inside ERP postings—distorting reporting integrity long before markets move sharply. Distinguishing realized versus unrealized FX, governed exchange-rate sources, and material consolidation adjustments separates earnings-quality narratives finance can defend from optimism layered atop dashboards. Audit defensibility and control evidence remain the arbiter between replay-grade conviction and committee storytelling.",
   "doctrine_eyebrow": "Executive Thesis",
   "doctrine_statement": "Board-facing confidence requires reconstructable monetary lineage—not optimism layered atop dashboards.<br>CFO discipline demands naming where currency identity changes hands inside enterprise finance systems.",
   "doctrine_attribution": "CFO Governance Lens · AccountCcy.com",
@@ -26,7 +26,7 @@
       "paragraphs": [
         "Reporting integrity rests on whether balances, bridges, and disclosures tie back to documented custody—not merely balanced sub-ledgers.",
         "Multi-currency exposure compounds when obligation denomination, ERP assignment, ledger measurement, and presentation narration interchange informally behind identical symbols.",
-        "ERP and ledger control determines which populations post through revaluation batches, translation engines, and consolidation eliminations—silent misclassification surfaces as recurring management-pack variance.",
+        "ERP and ledger control determines which populations post through revaluation batches, translation engines, and consolidation eliminations—silent misclassification surfaces as recurring management-pack variance where consolidation adjustments lack inbound lineage.",
         "FX revaluation discipline separates period-boundary restatement governed by rate lineage from narrative substitutes controllers rehearse each quarter.",
         "Currency translation discipline distinguishes measured ledger outcomes from disclosure-facing conversions—collapsing the two invites unexplained bridge swings leadership cannot narrate calmly.",
         "Audit defensibility fails when assurance requests lineage artifacts finance retrieves through improvisation rather than configuration-backed replay.",
@@ -74,6 +74,11 @@
         { "href": "/glossary/audit-defensibility/", "label": "Audit defensibility" },
         { "href": "/glossary/monetary-ambiguity/", "label": "Monetary ambiguity" },
         { "href": "/glossary/control-evidence/", "label": "Control evidence" },
+        { "href": "/glossary/currency-exposure/", "label": "Currency exposure" },
+        { "href": "/glossary/realized-fx/", "label": "Realized FX" },
+        { "href": "/glossary/unrealized-fx/", "label": "Unrealized FX" },
+        { "href": "/glossary/exchange-rate-source/", "label": "Exchange rate source" },
+        { "href": "/glossary/consolidation-adjustment/", "label": "Consolidation adjustment" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     },

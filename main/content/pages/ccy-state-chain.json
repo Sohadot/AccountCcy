@@ -43,7 +43,7 @@
         },
         {
           "title": "3 · Settlement currency",
-          "body": "Governs cash rails clearing counterparties—rates diverge from transactional obligation when corridors net differently; treasury proves settlement artifacts while controllers tie postings back to obligation currency.",
+          "body": "Governs cash rails clearing counterparties—rates diverge from transactional obligation when corridors net differently; treasury proves settlement artifacts while controllers tie postings back to obligation currency where FX differences crystallize into realized outcomes.",
           "link_url": "/glossary/settlement-currency/",
           "link_label": "Settlement currency"
         },
@@ -61,19 +61,19 @@
         },
         {
           "title": "6 · Reporting currency",
-          "body": "Frames outward management, investor, or regulatory lenses—presentation choices can diverge sharply from ledger custody without naming where translation policy intervened.",
+          "body": "Frames outward management, investor, or regulatory lenses—presentation choices can diverge sharply from ledger custody without naming where translation policy intervened; currency exposure narratives amplify when visibility layers detach from measurement lineage.",
           "link_url": "/glossary/reporting-currency/",
           "link_label": "Reporting currency"
         },
         {
           "title": "7 · Currency translation",
-          "body": "Executes methodology converting measured results into presentation currencies—distinct mechanical discipline from rate-driven restatements at period boundaries if teams mislabel translation runs as ‘just FX.’",
+          "body": "Executes methodology converting measured results into presentation currencies—translation adjustments memorialize equity-side governance distinct from rate-driven restatements at period boundaries when teams mislabel translation runs as ‘just FX.’",
           "link_url": "/glossary/currency-translation/",
           "link_label": "Currency translation"
         },
         {
           "title": "8 · FX revaluation",
-          "body": "Restates monetary balances still denominated foreign at period ends—rate lineage and policy ownership surface here before consolidation absorbs residual drift.",
+          "body": "Restates monetary balances still denominated foreign at period ends—period-end revaluation governs unrealized FX on open monetary items until settlement or derecognition shifts economics toward realized classification.",
           "link_url": "/glossary/fx-revaluation/",
           "link_label": "FX revaluation"
         },
@@ -107,7 +107,7 @@
       "paragraphs": [
         "Treat transactional obligation currency as ERP account assignment—or reverse them—and reconciliation scopes detach before cash settles.",
         "Treat ledger measurement currency as interchangeable with functional currency governance—or vice versa—and policy debates mis-target controls while postings obey opposing conventions.",
-        "Confuse revaluation mechanics with translation methodology—classic vocabulary drift—and teams debate variance narratives disconnected from actual pipeline transforms.",
+        "Confuse revaluation mechanics, remeasurement populations, and translation methodology—classic vocabulary drift—and teams debate variance narratives disconnected from actual pipeline transforms.",
         "Allow reporting currency narration to obscure earlier custody hops—management packs polish outcomes while auditors hunt lineage upstream.",
         "Leave audit teams unable to reconstruct originating obligation currencies through settlements into postings—assurance escalates into qualitative storytelling instead of artifact replay.",
         "Preserve numeric balances while shedding subsystem state context—values survive while forensic narrative collapses—the silent precursor to material weakness conversations."
@@ -150,6 +150,12 @@
         { "href": "/glossary/monetary-reconstruction/", "label": "Monetary reconstruction" },
         { "href": "/glossary/monetary-ambiguity/", "label": "Monetary ambiguity" },
         { "href": "/glossary/audit-trail/", "label": "Audit trail" },
+        { "href": "/glossary/remeasurement/", "label": "Remeasurement" },
+        { "href": "/glossary/realized-fx/", "label": "Realized FX" },
+        { "href": "/glossary/unrealized-fx/", "label": "Unrealized FX" },
+        { "href": "/glossary/period-end-revaluation/", "label": "Period-end revaluation" },
+        { "href": "/glossary/translation-adjustment/", "label": "Translation adjustment" },
+        { "href": "/glossary/currency-exposure/", "label": "Currency exposure" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     }

@@ -59,13 +59,13 @@
         },
         {
           "title": "6 · FX Revaluation Layer",
-          "body": "Restates foreign-denominated monetary amounts through governed rates and methodologies at period boundaries—where lineage replaces intuition.",
+          "body": "Restates foreign-denominated monetary amounts through governed exchange-rate sources and period-end revaluation batches—where remeasurement discipline must stay distinct from translation mechanics unless vocabulary collapses.",
           "link_url": "/glossary/fx-revaluation/",
           "link_label": "FX revaluation"
         },
         {
           "title": "7 · Translation & Reporting Layer",
-          "body": "Converts measured results into presentation choices and outward narratives—distinct from the custody assignments that held balances upstream.",
+          "body": "Converts measured results into presentation choices and outward narratives—translation adjustments accumulate governance commitments distinct from the custody assignments that held balances upstream.",
           "link_url": "/glossary/currency-translation/",
           "link_label": "Currency translation"
         },
@@ -84,6 +84,7 @@
       "paragraphs": [
         "The framework governs clarity across eight domains that repeatedly collide inside enterprise finance: currency identity; currency state transitions; account-level monetary context inside ERP; ledger measurement discipline; revaluation logic executed at close boundaries; translation logic governing presentation; reporting-layer narration aligned (or misaligned) with ledger proofs; and audit reconstruction—the requirement that finance can replay transformations using artifacts, not tribal explanation. State ownership assignments make each boundary auditable instead of tribal.",
         "Reporting currency presentation carries its own governance burden distinct from translation mechanics—especially where disclosures reinterpret consolidated narratives.",
+        "Consolidation adjustments absorb group-level reshaping once entity proofs exist; currency exposure vocabulary ties treasury liquidity narratives to ledger measurement populations without collapsing unlike risks into one ‘FX line.’",
         "Account currency control names explicit governance over custody assignments at State 04—the hinge where weak discipline propagates downstream through ledger, reporting, consolidation, and audit posture."
       ]
     },
@@ -137,6 +138,12 @@
         { "href": "/glossary/control-evidence/", "label": "Control evidence" },
         { "href": "/glossary/reporting-integrity/", "label": "Reporting integrity" },
         { "href": "/glossary/audit-defensibility/", "label": "Audit defensibility" },
+        { "href": "/glossary/exchange-rate-source/", "label": "Exchange rate source" },
+        { "href": "/glossary/period-end-revaluation/", "label": "Period-end revaluation" },
+        { "href": "/glossary/remeasurement/", "label": "Remeasurement" },
+        { "href": "/glossary/translation-adjustment/", "label": "Translation adjustment" },
+        { "href": "/glossary/consolidation-adjustment/", "label": "Consolidation adjustment" },
+        { "href": "/glossary/currency-exposure/", "label": "Currency exposure" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     }
