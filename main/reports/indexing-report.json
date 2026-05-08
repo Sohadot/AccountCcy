@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T17:58:55.409037+00:00",
+  "generated_at": "2026-05-08T18:05:05.742533+00:00",
   "url_count": 31,
   "errors": [],
   "warnings": [],
@@ -33,7 +33,7 @@
       "url_path": "/framework/",
       "loc": "https://accountccy.com/framework/",
       "title": "The Currency State Control Framework — AccountCcy.com",
-      "description": "The Currency State Control Framework defines account currency as a financial control discipline from monetary movement to accounting truth in enterprise finance.",
+      "description": "Layered custody map for multi-currency accounting—identity through ledger, FX, translation, reporting, audit reconstruction. AccountCcy Framework.",
       "canonical": "https://accountccy.com/framework/",
       "robots": "index, follow",
       "h1_count": 1,

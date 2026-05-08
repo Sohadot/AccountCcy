@@ -7,51 +7,170 @@
   "quality_gate": "sovereign",
   "page_eyebrow": "Framework · Currency State Control",
   "h1": "The Currency State Control Framework",
-  "intro": "The Currency State Control Framework defines currency as a state-bearing object inside enterprise finance. It maps how monetary movement passes from market price to accounting custody, ledger maintenance, reporting presentation, consolidation, and audit-defensible truth.",
+  "intro": "The Currency State Control Framework is not an accounting standard, not a substitute for ERP posting logic, and not a generic FX playbook. It is AccountCcy’s conceptual and operational control layer for tracing how monetary truth earns custody as figures move through enterprise finance—across currency identity, transactional context, account assignments, ledger measurement, functional discipline, revaluation, translation and outward presentation, and finally reconstructable audit evidence.",
   "doctrine_eyebrow": "Framework Doctrine",
-  "doctrine_statement": "Currency is not a static unit inside enterprise finance.<br>It changes institutional meaning as it moves through systems, accounts, ledgers, reports, consolidations, and audit trails.",
+  "doctrine_statement": "Doctrine names why monetary truth needs lineage.<br>This framework names how that lineage becomes governable inside multi-currency accounting machinery—not by overriding standards or vendors, but by assigning custody ownership per layer.",
   "doctrine_attribution": "The Currency State Control Framework · AccountCcy.com",
-  "primary_section_eyebrow": "Why The Framework Exists",
-  "primary_section_title": "Enterprise finance needs a language for the states currency passes through before it becomes truth.",
+  "primary_section_eyebrow": "What This Framework Is—and Is Not",
+  "primary_section_title": "A custody map over systems—not a replacement for them.",
   "primary_section_body": [
-    "Most finance systems treat currency as a field: a code, a rate, a transaction attribute, a reporting parameter, or a ledger configuration. But the same currency code can carry different meanings depending on where it appears in the enterprise finance chain.",
-    "A currency in a market quote is not the same institutional object as a currency in a transaction, a settlement, an account, a ledger, a report, a consolidation, or an audit trail. Each position carries different control obligations and different consequences if misunderstood.",
-    "The Currency State Control Framework provides a disciplined structure for naming these positions, governing their transitions, and identifying the point at which monetary movement enters accounting custody: account currency."
+    "Standards bodies publish measurement and disclosure rules; ERP vendors encode postings, valuations, and close routines; treasury platforms manage liquidity and execution risk. The Currency State Control Framework sits adjacent to all three as an accountable vocabulary for where monetary meaning changes hands—and who must defend each transition.",
+    "Multi-currency accounting collapses when teams interchange obligation currency, account custody, ledger measurement, functional treatment, revaluation methodology, translation policy, and reporting narration without naming states. The framework supplies disciplined layers so fragmentation surfaces before misstatement hardens.",
+    "Readers anchor doctrine first through the chain of custody for monetary truth, then traverse ordered currency states in the CCY State Chain and lexical definitions in the glossary—including monetary truth, chain of custody, currency state, and account currency control."
   ],
-  "graph_eyebrow": "Reference Graph Position",
-  "graph_title": "The framework is the structural layer beneath the AccountCcy reference system.",
-  "graph_intro": "The framework connects the supreme thesis, the CCY State Chain, account currency control, glossary definitions, risk pages, CFO guidance, diagnostic tools, and future acquisition logic.",
-  "grid_eyebrow": "Reference Graph Position",
-  "grid_title": "The framework is the structural layer beneath the AccountCcy reference system.",
-  "grid_intro": "The framework connects the supreme thesis, the CCY State Chain, account currency control, glossary definitions, risk pages, CFO guidance, diagnostic tools, and future acquisition logic.",
+  "pillar_sections": [
+    {
+      "section_id": "framework-operational-layers",
+      "eyebrow": "Layered control surface",
+      "title": "Eight operational layers of currency-state custody",
+      "paragraphs": [
+        "Each layer below corresponds to a zone where monetary identity or measurement can shift without a visible headline change. Controls attach when finance names the layer, assigns ownership, and preserves evidence across handoffs."
+      ],
+      "steps": [
+        {
+          "title": "1 · Currency Identity Layer",
+          "body": "Names what ‘currency’ means institutionally at a given hop—not merely an ISO code, but the monetary object carrying quotation risk, obligation denomination, or custody assignment.",
+          "link_url": "/glossary/currency-state/",
+          "link_label": "Currency state"
+        },
+        {
+          "title": "2 · Transaction Context Layer",
+          "body": "Captures commercial and obligation-bearing context—how counterparties, confirmations, and contracts establish measurable duties before ERP postings freeze balances.",
+          "link_url": "/glossary/transaction-currency/",
+          "link_label": "Transaction currency"
+        },
+        {
+          "title": "3 · Account Currency Layer",
+          "body": "Assigns ERP custody inside charts of accounts—where external movement enters governed ledger identity and reconciliation scope.",
+          "link_url": "/what-is-account-currency/",
+          "link_label": "What Is Account Currency?"
+        },
+        {
+          "title": "4 · Ledger Treatment Layer",
+          "body": "Maintains entity trial-balance measurement—how balances accumulate until period discipline, allocations, and subsystem postings reshape what finance proves internally.",
+          "link_url": "/glossary/ledger-currency/",
+          "link_label": "Ledger currency"
+        },
+        {
+          "title": "5 · Functional Currency Layer",
+          "body": "Determines the economic-environment lens that treats certain monetary amounts as primary measurement currency before translation refracts visibility outward.",
+          "link_url": "/glossary/functional-currency/",
+          "link_label": "Functional currency"
+        },
+        {
+          "title": "6 · FX Revaluation Layer",
+          "body": "Restates foreign-denominated monetary amounts through governed rates and methodologies at period boundaries—where lineage replaces intuition.",
+          "link_url": "/glossary/fx-revaluation/",
+          "link_label": "FX revaluation"
+        },
+        {
+          "title": "7 · Translation & Reporting Layer",
+          "body": "Converts measured results into presentation choices and outward narratives—distinct from the custody assignments that held balances upstream.",
+          "link_url": "/glossary/currency-translation/",
+          "link_label": "Currency translation"
+        },
+        {
+          "title": "8 · Evidence & Audit Layer",
+          "body": "Terminal posture where monetary truth must reconstruct without improvised storytelling—rates, policies, postings, reconciliations, sign-offs, and scrutiny artifacts aligned.",
+          "link_url": "/glossary/audit-reality/",
+          "link_label": "Audit reality"
+        }
+      ]
+    },
+    {
+      "section_id": "what-framework-controls",
+      "eyebrow": "Control charter",
+      "title": "What the framework is engineered to control",
+      "paragraphs": [
+        "The framework governs clarity across eight domains that repeatedly collide inside enterprise finance: currency identity; currency state transitions; account-level monetary context inside ERP; ledger measurement discipline; revaluation logic executed at close boundaries; translation logic governing presentation; reporting-layer narration aligned (or misaligned) with ledger proofs; and audit reconstruction—the requirement that finance can replay transformations using artifacts, not tribal explanation.",
+        "Reporting currency presentation carries its own governance burden distinct from translation mechanics—especially where disclosures reinterpret consolidated narratives.",
+        "Account currency control names explicit governance over custody assignments at State 04—the hinge where weak discipline propagates downstream through ledger, reporting, consolidation, and audit posture."
+      ]
+    },
+    {
+      "section_id": "where-framework-fits",
+      "eyebrow": "Enterprise placement",
+      "title": "Where this framework lives inside enterprise finance",
+      "paragraphs": [
+        "ERP cores (SAP, Oracle, Microsoft Dynamics, NetSuite-class stacks and equivalents) materialize account assignments, posting rules, valuation runs, and close workflows—the operational substrate the framework describes.",
+        "Accounting automation suites, sub-ledgers, lease engines, and revenue systems introduce parallel monetary contexts that must reconcile back into ledger truth.",
+        "Multi-currency ledgers and consolidation hubs amplify identity mismatch when local measurement diverges from group methodology.",
+        "Treasury workstations and banking integrations accelerate settlement and hedge linkage—often upstream of custody debates controllers inherit downstream.",
+        "Consolidation environments absorb elimination logic, ownership changes, and currency reshaping before CFO packs finalize outward narratives.",
+        "CFO reporting cycles translate disciplined—or undisciplined—custody into investor-grade disclosures.",
+        "Audit review converts framework clarity into evidence tests: can independent reviewers trace rates, policies, postings, and reconciliations across every layer without heroic spreadsheets?"
+      ]
+    },
+    {
+      "section_id": "framework-control-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Framework questions operators must answer jointly",
+      "paragraphs": [
+        "These questions collapse tribal debates into accountable checkpoints spanning treasury, accounting, systems owners, consolidation teams, and assurance leaders."
+      ],
+      "questions": [
+        "Which system owns the monetary state at this boundary—and who signed off when custody transferred?",
+        "Which currency is authoritative at this stage: quotation signal, obligation denomination, ERP custody assignment, ledger measurement, functional lens, translation output, or disclosure presentation?",
+        "Where does value transformation occur (subsystem posting, revaluation run, translation rule, consolidation elimination)—and which artifact proves it?",
+        "Which FX rate source, accounting policy, ledger rule, or consolidation methodology altered the reported value?",
+        "What evidence bundle explains the transformation—not variance commentary layered afterward?",
+        "Can finance, treasury, and audit independently reconstruct the same monetary path without incompatible assumptions?"
+      ]
+    },
+    {
+      "section_id": "framework-reference-anchors",
+      "eyebrow": "Internal continuity",
+      "title": "Doctrine, chain mechanics, and lexical anchors",
+      "paragraphs": [
+        "The framework inherits doctrinal intent from monetary truth and chain-of-custody language, operationalizes sequence through the CCY State Chain, and stabilizes vocabulary through published glossary entries—including reporting currency where presentation diverges from ledger measurement."
+      ],
+      "reference_strip": [
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/glossary/monetary-truth/", "label": "Monetary truth" },
+        { "href": "/glossary/chain-of-custody/", "label": "Chain of custody" },
+        { "href": "/glossary/account-currency-control/", "label": "Account currency control" },
+        { "href": "/states/account-currency/", "label": "State 04 reference" },
+        { "href": "/glossary/account-currency/", "label": "Account currency (defined)" },
+        { "href": "/glossary/reporting-currency/", "label": "Reporting currency" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference Position",
+  "graph_title": "The framework binds doctrine to navigable mechanics.",
+  "graph_intro": "Downstream readers move from this custody map into the CCY State Chain, account currency definitions, glossary clusters, and CFO-facing guidance—without losing sight of evidence-grade reconstruction discipline.",
+  "grid_eyebrow": "Reference Position",
+  "grid_title": "The framework binds doctrine to navigable mechanics.",
+  "grid_intro": "Downstream readers move from this custody map into the CCY State Chain, account currency definitions, glossary clusters, and CFO-facing guidance—without losing sight of evidence-grade reconstruction discipline.",
   "cards": [
     {
-      "label": "State Identity",
-      "title": "Currency carries different institutional identities at different points in the chain.",
-      "body": "A transaction currency, account currency, ledger currency, and reporting currency may all use the same ISO code while representing different control realities."
+      "label": "Doctrine tie-in",
+      "title": "Framework executes custody doctrine without diluting standards tone.",
+      "body": "It clarifies institutional transitions—never pretending to replace GAAP/IFRS mechanics or vendor-native posting engines."
     },
     {
-      "label": "Custody Transfer",
-      "title": "Monetary movement becomes accounting record through controlled transition.",
-      "body": "The key transition occurs when external financial movement enters the account layer and becomes part of the internal accounting system."
+      "label": "Layer discipline",
+      "title": "Eight layers expose hidden handoffs across finance stacks.",
+      "body": "Identity, transaction context, account custody, ledger measurement, functional lens, revaluation, translation and reporting, then audit reconstruction."
     },
     {
-      "label": "Downstream Propagation",
-      "title": "Weak account currency governance propagates into ledger, reporting, consolidation, and audit.",
-      "body": "A configuration or interpretation problem at State 04 can create downstream distortion that only appears during close, reporting, consolidation, or audit review."
+      "label": "State 04 hinge",
+      "title": "Account currency remains the pivotal custody gate.",
+      "body": "Misassignment here propagates through ledger close, translation narratives, consolidation, and assurance scrutiny."
     },
     {
-      "label": "Audit Defensibility",
-      "title": "The terminal state is not a report. It is defensible monetary truth.",
-      "body": "The framework exists to make the full path from monetary event to audit reality traceable, reconcilable, and defendable."
+      "label": "Terminal proof",
+      "title": "Audit reconstruction closes the loop.",
+      "body": "Truth is demonstrated when every transformation restates from artifacts treasury, accounting, and auditors can mutually replay."
     }
   ],
   "control_label": "Control Discipline",
-  "control_title": "Account currency is the framework’s critical control point.",
-  "control_body": "The framework identifies State 04 — Account Currency — as the gate where external monetary activity enters accounting custody. Before this state, currency belongs primarily to market, transaction, and settlement behavior. After this state, it propagates into ledger, reporting, consolidation, and audit layers.",
+  "control_title": "Assign ownership per layer before tuning rates or postings.",
+  "control_body": "Optimization without layer ownership rearranges symptoms: revaluation scripts heal numbers while identity mismatch persists beneath them. Governance states who controls each monetary transition—then mechanics follow.",
   "risk_label": "Risk Discipline",
-  "risk_title": "The framework exposes structural currency risk before it becomes reporting distortion.",
-  "risk_body": "When currency states are treated as interchangeable, finance teams may face reconciliation breaks, revaluation errors, translation inconsistencies, consolidation mismatches, and audit-trail gaps. The framework turns that hidden risk into a governed map.",
+  "risk_title": "Undocumented layer drift becomes silent misstatement fuel.",
+  "risk_body": "When ERP, treasury, consolidation, and disclosure teams speak adjacent synonyms instead of explicit currency states, reconciliation burden metastasizes into reporting and audit exposure.",
   "schema_notes": {
     "primary_schema": "Article",
     "secondary_schema": ["WebPage", "BreadcrumbList"],
