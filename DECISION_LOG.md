@@ -30,6 +30,34 @@ It should record decisions that affect the asset’s meaning, structure, monetiz
 
 ---
 
+## 2026-05-08 — Royal Institutional Masthead Adopted
+
+### Decision
+
+AccountCcy.com adopted a responsive royal institutional masthead system.
+
+The masthead now uses a deep royal navy background, the AccountCcy visual mark as the primary identity element, and responsive behavior across desktop, tablet, and mobile screens.
+
+### Strategic Meaning
+
+The masthead establishes the asset’s sovereign visual identity at the top of the interface.
+
+The logo is no longer treated as page imagery inside the hero section. It functions as the official identity mark of the asset.
+
+### Technical Changes
+
+- The hero logo block was removed.
+- The masthead now contains the AccountCcy logo image only.
+- Legacy masthead CSS conflicts were removed.
+- A responsive masthead system was added at the end of `assets/css/main.css`.
+- Navigation remains available on larger screens and is hidden on smaller screens to preserve visual discipline.
+
+### Governance Implication
+
+The masthead is now part of the asset’s institutional identity layer and should not be changed casually.
+
+---
+
 ## 2026-05-08 — WebP Identity Assets Integrated
 
 ### Decision
