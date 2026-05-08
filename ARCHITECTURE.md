@@ -48,7 +48,7 @@ The architecture must make this hierarchy visible to users, search engines, and 
 
 The foundational **published reference architecture** is locked as a coherent custody stack:
 
-1. **`/glossary/`** — Glossary Authority Map: terminology arranged as conceptual clusters (monetary custody, currency-state architecture, enterprise accounting controls, **Audit / Evidence / Control Discipline** — Cluster 03 — and **FX, Translation & Reporting Mechanics** — Cluster 04 — remeasurement, realized/unrealized FX, exchange-rate sourcing, period-end revaluation, translation and consolidation adjustments, and currency exposure).
+1. **`/glossary/`** — Glossary Authority Map: terminology arranged as conceptual clusters (monetary custody, currency-state architecture, enterprise accounting controls, **Audit / Evidence / Control Discipline** (Cluster 03), **FX, Translation & Reporting Mechanics** (Cluster 04), and **ERP, Ledger & System Control** (Cluster 05)—systems of record, source systems, subledger/GL, posting logic, currency master data, account mapping, ERP currency configuration).
 2. **`/monetary-truth-chain-of-custody/`** — Doctrine pillar: monetary truth through custody lineage inside enterprise finance.
 3. **`/framework/`** — Framework pillar: operational control layers across identity, transaction context, account custody, ledger treatment, functional lens, revaluation, translation/reporting, and evidence.
 4. **`/ccy-state-chain/`** — State-sequence pillar: currency as institutional states across the eight-position CCY chain.
@@ -57,7 +57,7 @@ The foundational **published reference architecture** is locked as a coherent cu
 7. **Homepage (`/` → `#sovereign-pathway`)** — Sovereign Navigation Pathway surfacing the executive reading order through the spine above.
 8. **`/cfo-guide/`** — CFO decision layer translating architecture into reporting integrity, FX/translation discipline, ERP control, audit reconstruction, and monetary truth accountability.
 
-**Operational facts at lock (updated post–Cluster 04 integration):** public sitemap enumerates **47** URLs; sovereign quality gate passes on the scripted validation path; outbound registry discipline (`required_links` + published URL checks) enforces link safety during generation. Doctrine, framework, CCY State Chain, State 04, CFO guide, and definition entry **reference** Cluster 03 vocabulary where custody demands reconstructability and evidence, and Cluster 04 vocabulary where custody demands FX mechanics, translation/consolidation discipline, and exposure interpretation—not flat link dumps.
+**Operational facts at lock (updated post–Cluster 05 integration):** public sitemap enumerates **55** URLs; sovereign quality gate passes on the scripted validation path; outbound registry discipline (`required_links` + published URL checks) enforces link safety during generation. Doctrine, framework, CCY State Chain, State 04, CFO guide, and definition entry reference Cluster 03–05 vocabulary where custody demands evidence, FX mechanics, and **enterprise system-path reconstruction**—not flat link dumps.
 
 **Expansion:** future glossary clusters, additional state depth, executive guides, or further audit/evidence articulation may extend the spine only through governed publication—not ad hoc URL sprawl.
 
@@ -285,7 +285,7 @@ This is the reference depth page and **lexical authority hub**.
 
 The hub renders as a **conceptual authority map**—clustered vocabulary—not a flat glossary index.
 
-As of Cluster 04 integration, **thirty-two** published defined terms populate **five** clusters; **Audit, Evidence & Control Discipline** (Cluster 03) publishes reconstruction, evidence-trail, audit-trail, control-evidence, state-ownership, reporting-integrity, audit-defensibility, and monetary-ambiguity language aligned to assurance posture. **FX, Translation & Reporting Mechanics** (Cluster 04) publishes remeasurement, realized/unrealized FX, exchange-rate source, period-end revaluation, translation adjustment, consolidation adjustment, and currency exposure—woven into core pillars as an active mechanics layer for reporting integrity and audit defensibility.
+As of Cluster 05 integration, **forty** published defined terms populate **six** clusters; **Audit, Evidence & Control Discipline** (Cluster 03) and **FX, Translation & Reporting Mechanics** (Cluster 04) remain as prior. **ERP, Ledger & System Control** (Cluster 05) publishes system-of-record, source-system, subledger, general-ledger, posting-logic, currency-master-data, account-mapping, and ERP-currency-configuration vocabulary—woven into core pillars as the active **enterprise architecture control layer** beneath custody doctrine.
 
 It should define key terms with precision.
 

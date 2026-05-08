@@ -160,6 +160,57 @@ The lexicon now names **operational FX and reporting transformation** in institu
 
 ---
 
+## 2026-05-08 — ERP Ledger Control Layer Integrated
+
+### Decision
+
+**Glossary Cluster 05 — ERP, Ledger & System Control** is **complete** as eight published terms, grouped on `/glossary/` under the **ERP, Ledger & System Control** authority cluster; that vocabulary is **integrated** into the framework pillar, CCY State Chain, CFO decision layer, canonical State 04, primary definition entry, and doctrine pillar so enterprise finance architecture—systems of record, source lineage, ledger accountability, posting mechanics, master data, mapping, and ERP currency configuration—reads as an explicit control layer alongside doctrine and FX mechanics.
+
+### Published Terms (Cluster 05)
+
+| Term | Path |
+|------|------|
+| System of record | `/glossary/system-of-record/` |
+| Source system | `/glossary/source-system/` |
+| Subledger | `/glossary/subledger/` |
+| General ledger | `/glossary/general-ledger/` |
+| Posting logic | `/glossary/posting-logic/` |
+| Currency master data | `/glossary/currency-master-data/` |
+| Account mapping | `/glossary/account-mapping/` |
+| ERP currency configuration | `/glossary/erp-currency-configuration/` |
+
+### Strategic Meaning
+
+The lexicon now names **where monetary truth is instantiated inside applications**: which **source system** captured the obligation, which **system of record** owns replay-grade postings, how **subledger** detail rolls into **general ledger** measurement under governed **posting logic** and **account mapping**, how **currency master data** constrains numeric engines, and how **ERP currency configuration** operationalizes State 04–06 behavior. Integration keeps pillars readable—referencing architecture vocabulary where custody demands system-path reconstruction, not vendor blogging.
+
+### Integration Surface (Verified)
+
+| Surface | Path |
+|---------|------|
+| Framework pillar | `/framework/` |
+| State sequence | `/ccy-state-chain/` |
+| CFO decision layer | `/cfo-guide/` |
+| State 04 | `/states/account-currency/` |
+| Definition entry | `/what-is-account-currency/` |
+| Doctrine pillar | `/monetary-truth-chain-of-custody/` |
+
+### System-Control Consequences Strengthened
+
+- **System-of-record** discipline and **source-system** traceability
+- **Subledger** to **general ledger** continuity under explicit **posting logic**
+- **Currency master data** governance and **account mapping** defensibility
+- **ERP currency configuration** alignment with custody and close evidence
+- **Monetary reconstruction** across identifiable application paths—not dashboards alone
+
+### Technical State (Verified)
+
+- **Glossary hub:** **40** published defined terms across **six** authority clusters on `/glossary/`.
+- **Sitemap:** **55** published URLs after Cluster 05 publication, pillar integration pass, and registry alignment.
+- **Quality discipline:** sovereign quality gate passed after integration (`scripts/quality_gate.py`).
+- **Link safety:** unchanged—`required_links` alignment and published-URL validation during generation.
+
+---
+
 ## 2026-05-08 — Royal Institutional Masthead Adopted
 
 ### Decision
