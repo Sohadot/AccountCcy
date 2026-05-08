@@ -1,19 +1,19 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/states/settlement-currency/",
   "type": "state",
   "status": "published",
   "h1": "Settlement Currency",
-  "intro": "Settlement currency is the currency of cash or clearing-house movement — where liquidity friction converts negotiated obligations into bank-statement reality.",
+  "intro": "Settlement currency is State 03—the denomination of liquidity movement where cash, nostro credits, clearing-house settlements, or netting events extinguish or reshape obligations. It converts negotiated duties into bank-statement reality; when it diverges from transaction currency, realized FX economics begins its governed journey toward postings controllers must defend.",
   "state_number": "03",
   "state_name": "Settlement Currency",
-  "state_summary": "State 03 captures wires, ACH-style rails, on-behalf payments, and netting settlements. When settlement diverges from transaction denomination, FX gains or losses begin their journey toward postings defenders must later narrate.",
-  "state_role_label": "Cash Reality",
-  "state_role_title": "Liquidity execution intersecting accounting recognition.",
-  "state_role_body": "Treasury executes here daily while controllers await mirrored postings. Misalignment between banking cutoff calendars and ERP value dates produces phantom breaks controllers mistaken attribute purely to rate noise.",
-  "custody_question": "Which currency actually clears cash — and does documentation tie every movement back to its originating obligation currency?",
-  "chain_position_body": "Settlement bridges commercial obligation identity toward accounting custody. Weak handshake between TMS feeds and ERP cash modules fractures traceability before accounts ever assign custody identities.",
+  "state_summary": "State 03 captures wires, ACH-class rails, treasury-managed corridors, and netting programs. Liquidity truth lives here: confirmations, statements, and TMS extracts become primary evidence treasury and accounting must reconcile before account custody narratives stabilize.",
+  "state_role_label": "Liquidity State",
+  "state_role_title": "Cash and clearing reality intersecting accounting recognition.",
+  "state_role_body": "Treasury executes settlement daily while controllers await mirrored postings. Subledger cash applications and general ledger cash accounts must absorb banking proofs under posting logic that preserves denomination lineage—otherwise balanced ledgers still fail audit defensibility when artifacts disagree.",
+  "custody_question": "Which currency cleared banking rails—and does every confirmation tie obligation currency from State 02 to liquidity outcomes without ambiguity?",
+  "chain_position_body": "Settlement consumes denominated obligations from State 02 and passes liquidity-evidenced outcomes toward State 04 assignments and ledger aggregation. Weak TMS-to-ERP handshake fractures lineage before charts ever assign custody.",
   "state_rail": [
     {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
     {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
@@ -24,10 +24,84 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
-  "state_risk_title": "Invisible netting or corridor splits",
-  "state_risk_body": "Partial settlements and FX netting obscure which currency truly extinguished obligation fragments — leaving account assignments guessing.",
-  "state_control_title": "Settlement attestations",
-  "state_control_body": "Pair bank confirmations with obligation references and mandate dual-sign reconciliation between treasury and accounting before period locks.",
-  "receives_from": "Transaction obligations authorized for payment.",
-  "passes_to": "Account currency custody once monetary movement posts into governed balances."
+  "pillar_sections": [
+    {
+      "section_id": "state03-position",
+      "eyebrow": "Monetary state thesis",
+      "title": "Settlement currency as liquidity and clearing state",
+      "paragraphs": [
+        "State 03 names the currency banking rails actually move—not the narration spreadsheets prefer.",
+        "Receives transaction-currency obligations authorized for payment or collection plus treasury execution decisions governing corridors and netting.",
+        "Controls liquidity evidence: bank confirmations, SWIFT references, clearing statements, and TMS approvals comprise control evidence portfolios assurance tests.",
+        "Passes forward monetary outcomes that postings must classify—including realized FX when denomination diverges—into account assignments and general ledger lines."
+      ]
+    },
+    {
+      "section_id": "state03-why-matters",
+      "eyebrow": "Institutional consequence",
+      "title": "Why settlement discipline governs downstream integrity",
+      "paragraphs": [
+        "Realized FX recognition hinges on distinguishing liquidity crystallization from unrealized ledger remeasurement—confusion invites misclassified bridges.",
+        "Subledger cash modules and GL cash accounts must reconcile to identical banking artifacts—silent splits destroy monetary reconstruction.",
+        "ERP currency configuration determines how settlement deltas flow into accounts—misconfiguration propagates through period-end batches unseen.",
+        "Audit defensibility demands treasury and accounting co-own confirmations—not anecdotal variance decks divorced from bank proofs."
+      ]
+    },
+    {
+      "section_id": "state03-breaks",
+      "eyebrow": "Failure anatomy",
+      "title": "Where settlement currency fractures",
+      "paragraphs": [
+        "Partial settlements and corridor netting obscure which currency extinguished obligation fragments—account assignments inherit guesses.",
+        "Value-date mismatches between banking calendars and ERP postings simulate FX noise unrelated to markets.",
+        "On-behalf structures hide settlement currency behind third-party rails—custody narratives detach from performing entities.",
+        "Manual bridge spreadsheets replace governed postings—balanced totals mask missing confirmations.",
+        "Intercompany settlement netting merges denominations without documentary lineage—group reviewers cannot replay custody."
+      ]
+    },
+    {
+      "section_id": "state03-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Settlement currency control questions",
+      "paragraphs": [
+        "Treasury, controllers, ERP architects, and assurance leads answer jointly—handoffs cannot defer evidence ownership."
+      ],
+      "questions": [
+        "Which bank or clearing artifact proves the settlement currency for each material movement?",
+        "When settlement diverges from transaction currency, where is realized FX recognized—and does posting logic align with policy?",
+        "Do TMS extracts feed ERP cash modules without dropping denomination metadata?",
+        "Which subledger population mirrors bank balances before summarization hits the general ledger?",
+        "Can reviewers tie each cleared movement back to obligation currency documentation from State 02?",
+        "Where does control evidence reside when netting agreements alter economics independent of invoice faces?"
+      ]
+    },
+    {
+      "section_id": "state03-bridge",
+      "eyebrow": "Reference continuity",
+      "title": "Connect State 03 to AccountCcy architecture",
+      "paragraphs": [
+        "Anchor liquidity narratives to published terminology—realized FX, control evidence, ledger accountability—not informal treasury slang."
+      ],
+      "reference_strip": [
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/framework/", "label": "Framework pillar" },
+        { "href": "/cfo-guide/", "label": "CFO guide" },
+        { "href": "/states/account-currency/", "label": "State 04 reference" },
+        { "href": "/glossary/settlement-currency/", "label": "Settlement currency (defined)" },
+        { "href": "/glossary/transaction-currency/", "label": "Transaction currency" },
+        { "href": "/glossary/realized-fx/", "label": "Realized FX" },
+        { "href": "/glossary/control-evidence/", "label": "Control evidence" },
+        { "href": "/glossary/audit-defensibility/", "label": "Audit defensibility" },
+        { "href": "/glossary/subledger/", "label": "Subledger" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "state_risk_title": "Liquidity opacity",
+  "state_risk_body": "Netting and corridor banking obscure obligation lineage—finance reconciles numbers while auditors hunt confirmations that never consolidated.",
+  "state_control_title": "Dual-attested liquidity bridges",
+  "state_control_body": "Pair treasury confirmations with accounting postings before period lock; mandate dispute protocols when TMS and ERP disagree on denomination or value dates.",
+  "receives_from": "Authorized obligations denominated in transaction currency awaiting liquidity execution.",
+  "passes_to": "Account currency postings, cash-controlled subledgers, general ledger recognition, and realized FX narratives downstream."
 }

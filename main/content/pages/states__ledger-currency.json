@@ -1,17 +1,19 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/states/ledger-currency/",
   "type": "state",
   "status": "published",
+  "h1": "Ledger Currency",
+  "intro": "Ledger currency is State 05—the currency in which an entity’s general ledger accumulates journals, trial balances, and systematic postings after account-level custody locks. It is where monetary positions become structured accounting measurement inside ERP architecture—not merely presentation gloss applied for investors.",
   "state_number": "05",
   "state_name": "Ledger Currency",
-  "state_summary": "Ledger currency is the currency in which an entity maintains its general ledger and core accounting books. State 05 translates account-level custody into systemic ledger truth — the operational backbone ERP teams configure and controllers defend during close.",
-  "state_role_label": "Books Reality",
-  "state_role_title": "Where balances live between accounts and reporting packs.",
-  "state_role_body": "Functional currency policy (under accounting standards) often aligns with ledger currency, yet alignment is not automatic across subsidiaries, carve-outs, or hybrid ledgers. Ledger currency answers how journals accumulate before reporting translation reshapes visibility for stakeholders.",
-  "custody_question": "Which currency identity anchors how journals, trial balances, and systematic postings accumulate for this entity?",
-  "chain_position_body": "Ledger currency receives disciplined postings from accounts governed at State 04 and feeds reporting translations at State 06. Misalignment between account assignments and ledger architecture surfaces as recurring FX differences during reconciliation bridges.",
+  "state_summary": "State 05 translates disciplined State 04 postings into books governed entities defend during close. Functional currency determinations (under IFRS/US GAAP contexts AccountCcy cites illustratively—not advice) typically align with ledger currency, yet carve-outs, acquisitions, and hybrid stacks frequently strain that alignment unless explicitly governed.",
+  "state_role_label": "Measurement Books",
+  "state_role_title": "Systematic postings converging into trial-balance truth.",
+  "state_role_body": "General ledger custody absorbs subledger summaries when account mapping and posting logic remain deterministic; currency master data quietly constrains rounding and precision engines consume during valuation. Period-end revaluation and unrealized FX attach here on open monetary populations account configurations expose—exchange-rate-source governance proves which curve governed each batch.",
+  "custody_question": "Which currency anchors journals and trial balances—and does forensic replay tie each line to subsystem payloads plus functional-measurement policy?",
+  "chain_position_body": "Ledger currency receives governed postings from State 04 and supplies measured packages reporting translation consumes at State 06. Confusing ledger discipline with presentation narration invites boards to misread operational exposure versus visibility overlays.",
   "state_rail": [
     {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
     {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
@@ -22,10 +24,138 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
-  "state_risk_title": "Silent divergence from functional policy",
-  "state_risk_body": "Operational shortcuts — merged ledgers, legacy charts, acquisition overlays — can maintain books in a currency that no longer matches documented functional determinations.",
-  "state_control_title": "Ledger integrity reviews",
-  "state_control_body": "Schedule periodic proofs tying ledger currency declarations to statutory filings, management packs, and ERP configuration exports.",
-  "receives_from": "Account currency postings once balances enter systematic journals.",
-  "passes_to": "Reporting translations, management narratives, and consolidation ingestion pipelines."
+  "pillar_sections": [
+    {
+      "section_id": "state05-position",
+      "eyebrow": "Monetary state thesis",
+      "title": "Ledger currency as accounting-posting and measurement state",
+      "paragraphs": [
+        "State 05 answers how systematic postings accumulate before outward reporting reshapes narratives.",
+        "Receives account-assigned balances, settlement-absorbed cash flows, and subsystem summaries routed through posting logic.",
+        "Controls valuation batches, allocation engines, and tax integrations that mutate balances while preserving—or betraying—custody lineage.",
+        "Passes measured ledger packages toward reporting translation, management commentary, and consolidation ingestion."
+      ]
+    },
+    {
+      "section_id": "state05-functional-alignment",
+      "eyebrow": "Measurement lens",
+      "title": "Functional currency alignment inside State 05",
+      "paragraphs": [
+        "AccountCcy does not publish a standalone `/states/functional-currency/` URL—the functional lens is an accounting-measurement discipline tightly coupled to ledger books. State 05 is where functional policy meets postings auditors reperformance-test.",
+        "Entities determine functional currency under applicable standards; misalignment between documented determinations and live ledger configuration produces recurring bridge shocks finance narrates as opaque FX noise.",
+        "Remeasurement and FX revaluation consume populations classified against functional context—exchange-rate-source artifacts must tie batches to policy."
+      ],
+      "steps": [
+        {
+          "title": "Functional currency vocabulary",
+          "body": "Defines the economic-environment measurement baseline entities apply before translation refracts disclosure.",
+          "link_url": "/glossary/functional-currency/",
+          "link_label": "Functional currency"
+        },
+        {
+          "title": "Remeasurement discipline",
+          "body": "Separates monetary-item restatement mechanics from presentation translation—essential vocabulary at ledger close.",
+          "link_url": "/glossary/remeasurement/",
+          "link_label": "Remeasurement"
+        },
+        {
+          "title": "FX revaluation batches",
+          "body": "Ledger engines restate foreign monetary balances using governed rates—population scope depends on account assignments upstream.",
+          "link_url": "/glossary/fx-revaluation/",
+          "link_label": "FX revaluation"
+        },
+        {
+          "title": "Period-end revaluation control",
+          "body": "Closing-rate discipline binds unrealized FX suspense until settlement realizes economics.",
+          "link_url": "/glossary/period-end-revaluation/",
+          "link_label": "Period-end revaluation"
+        },
+        {
+          "title": "Exchange rate source governance",
+          "body": "Artifacts prove which curve locked each valuation—not trader anecdotes.",
+          "link_url": "/glossary/exchange-rate-source/",
+          "link_label": "Exchange rate source"
+        },
+        {
+          "title": "Unrealized FX posture",
+          "body": "Separates open-balance measurement drift from liquidity-realized outcomes settled at State 03.",
+          "link_url": "/glossary/unrealized-fx/",
+          "link_label": "Unrealized FX"
+        },
+        {
+          "title": "Audit trail continuity",
+          "body": "Ledger postings must replay to confirmations, configurations, and subsystem extracts—functional debates included.",
+          "link_url": "/glossary/audit-trail/",
+          "link_label": "Audit trail"
+        }
+      ]
+    },
+    {
+      "section_id": "state05-why-matters",
+      "eyebrow": "Institutional consequence",
+      "title": "Why ledger architecture matters for monetary truth",
+      "paragraphs": [
+        "Posting logic and account mapping decide whether automation preserves custody—silent mapping drift surfaces as FX investigations unrelated to markets.",
+        "Currency master data determines precision behavior millions of lines inherit—minor inconsistencies explode into material bridges.",
+        "Reporting integrity downstream cannot retrofit broken ledger lineage—investor packs amplify fractures conceived here.",
+        "Monetary reconstruction succeeds only when general ledger balances drill to identifiable subledger payloads and banking proofs."
+      ]
+    },
+    {
+      "section_id": "state05-breaks",
+      "eyebrow": "Failure anatomy",
+      "title": "Where ledger currency fractures",
+      "paragraphs": [
+        "Shadow spreadsheets reconcile GL totals while bypassing posting engines—forensic replay fails despite balanced trial balances.",
+        "Merged ledgers from acquisitions maintain legacy currencies contradicting current functional memos.",
+        "Hybrid tax or statistical ledgers diverge without documented bridges—audit committees hear qualitative excuses.",
+        "Valuation batches apply stale mappings—open populations misclassified between realized and unrealized buckets.",
+        "Functional currency debates occur in committee while postings obey contradictory ERP configuration."
+      ]
+    },
+    {
+      "section_id": "state05-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Ledger currency control questions",
+      "paragraphs": [
+        "Controllers, ERP architects, tax partners, and auditors resolve jointly—ledger shortcuts age into material weaknesses."
+      ],
+      "questions": [
+        "Does documented functional currency determination match live ERP ledger configuration exports?",
+        "Which posting logic version produced this close—and where is change control evidence?",
+        "Can each GL balance drill to subsystem transactions without improvised spreadsheets?",
+        "Which exchange-rate-source tables locked valuation batches—and who approved overrides?",
+        "How does account mapping route operational detail into GL accounts shown on trial balance?",
+        "Where do unrealized FX populations reconcile between GL, subledgers, and banking proofs?"
+      ]
+    },
+    {
+      "section_id": "state05-bridge",
+      "eyebrow": "Reference continuity",
+      "title": "Connect State 05 to AccountCcy architecture",
+      "paragraphs": [
+        "Ledger discipline binds framework layers to forensic replay—reference ERP and mechanics vocabulary deliberately."
+      ],
+      "reference_strip": [
+        { "href": "/framework/", "label": "Framework pillar" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/what-is-account-currency/", "label": "Definition entry" },
+        { "href": "/states/account-currency/", "label": "State 04 reference" },
+        { "href": "/states/reporting-currency/", "label": "State 06 reference" },
+        { "href": "/glossary/ledger-currency/", "label": "Ledger currency (defined)" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
+        { "href": "/glossary/subledger/", "label": "Subledger" },
+        { "href": "/glossary/posting-logic/", "label": "Posting logic" },
+        { "href": "/glossary/account-mapping/", "label": "Account mapping" },
+        { "href": "/glossary/currency-master-data/", "label": "Currency master data" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "state_risk_title": "Ledger-policy divergence",
+  "state_risk_body": "Operational shortcuts maintain books in currencies contradicting documented functional determinations—bridges explode under scrutiny.",
+  "state_control_title": "Close-ready ledger attestations",
+  "state_control_body": "Require configuration snapshots, valuation run logs, and mapping matrices archived each period—tie functional memos to ERP extracts explicitly.",
+  "receives_from": "Account currency postings and subsystem summaries entering systematic journals.",
+  "passes_to": "Reporting translations, management narratives, CFO packs, and consolidation ingestion pipelines."
 }

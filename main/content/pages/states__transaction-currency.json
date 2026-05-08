@@ -1,19 +1,19 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/states/transaction-currency/",
   "type": "state",
   "status": "published",
   "h1": "Transaction Currency",
-  "intro": "Transaction currency is the currency in which a financial event is denominated — where enterprise finance first assigns obligation identity that downstream postings must honour.",
+  "intro": "Transaction currency is State 02—the monetary identity attached when enterprise finance records a commercial, contractual, or treasury obligation: invoicing, purchase orders, loans, intercompany charges, or negotiated cash commitments. It is not an ERP chart assignment yet; it is the denomination counterparties and statutes recognize before postings freeze custody.",
   "state_number": "02",
   "state_name": "Transaction Currency",
-  "state_summary": "State 02 captures invoices, contracts, purchase orders, loans, and treasury deals at the currency of the obligation itself. It is not yet account custody, but it constrains what accounting must eventually recognize.",
+  "state_summary": "State 02 locks obligation denomination—the measurable duty invoices and confirmations encode—upstream of settlement rails and account-level ERP custody. Misreading it collapses monetary reconstruction because auditors cannot tie postings back to the currency commercial participants believed governed performance.",
   "state_role_label": "Obligation Identity",
-  "state_role_title": "Formal denomination before custody assignment.",
-  "state_role_body": "Commercial teams negotiate transaction currency; controllers inherit its constraints when configuring postings and allocations. Divergence between negotiated denomination and settlement mechanics surfaces FX deltas accounting must explain.",
-  "custody_question": "In which currency does this counterparty legally measure receivable or payable performance?",
-  "chain_position_body": "Transaction currency receives narrative pressure from quoted markets yet precedes settlement cash rails and account assignments. Treating it interchangeably with settlement currency erodes traceability when cash splits across corridors.",
+  "state_role_title": "Source-event denomination before chart custody.",
+  "state_role_body": "Commercial teams select transaction currency in contracting and operational systems; finance inherits that signal when obligations hit ERP boundaries. Source systems must preserve obligation currency lineage so downstream assignments cannot silently substitute synonyms. Naming which application remains system of record for obligation extracts separates disciplined reconstruction from spreadsheet folklore.",
+  "custody_question": "In which currency does this counterparty legally measure receivable or payable performance—and which governed artifact proves it before postings absorb the exposure?",
+  "chain_position_body": "Transaction currency receives quotation narratives yet precedes liquidity execution and chart assignments. It passes denominated obligations toward settlement flows and, ultimately, toward State 04 custody—never interchangeable with cash rails or ledger lenses despite aligned ISO codes.",
   "state_rail": [
     {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
     {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
@@ -24,10 +24,83 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
-  "state_risk_title": "Silent multi-currency contracts",
-  "state_risk_body": "Side letters or annexes alter denomination assumptions ERP templates never captured — exposing auditors to obligations booked under ghost currencies.",
-  "state_control_title": "Contract-to-posting traceability",
-  "state_control_body": "Require structured metadata tying each obligation line to transaction currency declarations before ERP ingestion automation fires.",
-  "receives_from": "Quoted exposure narratives once commerce selects denomination.",
-  "passes_to": "Settlement currency when treasury executes funding or counterparties pay."
+  "pillar_sections": [
+    {
+      "section_id": "state02-position",
+      "eyebrow": "Monetary state thesis",
+      "title": "Transaction currency as obligation-bearing enterprise state",
+      "paragraphs": [
+        "State 02 answers which currency measures legal and economic performance of an obligation—not merely which ISO badge appears on dashboards.",
+        "From quotation pressure: commercial desks inherit quoted-currency discipline before obligation crystallizes—rates locked upstream constrain downstream narratives.",
+        "Controls here: finance validates obligation extracts, interface mappings, and contractual annexes so ERP ingestion cannot drift denomination silently.",
+        "Passes forward: denominated duties feed settlement execution, account assignments, ledger measurement, and custody reconstruction—each hop must reference this baseline."
+      ]
+    },
+    {
+      "section_id": "state02-why-matters",
+      "eyebrow": "Institutional consequence",
+      "title": "Why transaction currency discipline anchors monetary truth",
+      "paragraphs": [
+        "ERP configuration at State 04 inherits obligation currency whether teams acknowledge it—ambiguous obligation signals distort reconciliation scopes and FX commentary.",
+        "Currency exposure narratives attach to identifiable obligation populations; collapsing transaction currency with account custody erases visibility into where risk truly lives.",
+        "Audit trails and monetary reconstruction demand linkage from postings back to obligation extracts—weak State 02 lineage invites qualitative variance storytelling.",
+        "Source-system integrity matters: procurement, billing, and treasury feeds must preserve denomination metadata controllers can replay under scrutiny."
+      ]
+    },
+    {
+      "section_id": "state02-breaks",
+      "eyebrow": "Failure anatomy",
+      "title": "Where transaction currency fractures",
+      "paragraphs": [
+        "Side letters or annexes alter denomination assumptions ERP templates never captured—ghost currencies lurk beneath balanced dashboards.",
+        "Middleware converts currencies opportunistically without documenting policy—obligation currency arriving at ERP differs from counterpart expectations.",
+        "Teams treat display currencies inside portals as authoritative—while contractual denomination remains elsewhere—breaking forensic coherence.",
+        "Intercompany engines batch translations before obligation identity stabilizes—downstream custody inherits unexplained drift.",
+        "Settlement previews confuse treasury operators into believing obligation currency changed—when only corridor mechanics shifted."
+      ]
+    },
+    {
+      "section_id": "state02-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Transaction currency control questions",
+      "paragraphs": [
+        "Commercial, accounting, systems, and treasury owners resolve jointly—delegated ambiguity metastasizes before audit committees intervene."
+      ],
+      "questions": [
+        "Which contract clause or statutory instrument fixes obligation denomination—and where is that artifact archived?",
+        "Which source system remains authoritative for obligation extracts fed into ERP—and does metadata survive integrations?",
+        "Does interface logic alter denomination between operational capture and finance ingestion?",
+        "How do teams prove obligation currency when counterparties dispute performance measurement currency?",
+        "Where does transaction currency appear on audit trail extracts tying postings back to commercial truth?",
+        "How does currency exposure reporting identify populations still governed by State 02 versus States 04–06?"
+      ]
+    },
+    {
+      "section_id": "state02-bridge",
+      "eyebrow": "Reference continuity",
+      "title": "Connect State 02 to AccountCcy architecture",
+      "paragraphs": [
+        "Use published glossary language alongside CCY sequencing and framework layers—never improvised synonyms."
+      ],
+      "reference_strip": [
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/framework/", "label": "Framework pillar" },
+        { "href": "/states/account-currency/", "label": "State 04 reference" },
+        { "href": "/glossary/transaction-currency/", "label": "Transaction currency (defined)" },
+        { "href": "/glossary/quoted-currency/", "label": "Quoted currency" },
+        { "href": "/glossary/source-system/", "label": "Source system" },
+        { "href": "/glossary/system-of-record/", "label": "System of record" },
+        { "href": "/glossary/audit-trail/", "label": "Audit trail" },
+        { "href": "/glossary/monetary-reconstruction/", "label": "Monetary reconstruction" },
+        { "href": "/glossary/currency-exposure/", "label": "Currency exposure" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "state_risk_title": "Silent obligation drift",
+  "state_risk_body": "Operational shortcuts rename denominations during ingestion—balances reconcile cosmetically while statutory obligations remain denominated elsewhere.",
+  "state_control_title": "Contract-to-system lineage",
+  "state_control_body": "Institutionalize obligation currency metadata on every interface specification; pair legal review with ERP architects before automation scales ambiguous payloads.",
+  "receives_from": "Quoted commercial narratives once counterparties commit to measurable obligations.",
+  "passes_to": "Settlement execution, ERP custody assignments, ledger postings, and forensic replay obligations downstream."
 }

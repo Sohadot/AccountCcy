@@ -1,17 +1,19 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/states/reporting-currency/",
   "type": "state",
   "status": "published",
+  "h1": "Reporting Currency",
+  "intro": "Reporting currency is State 06—the presentation lens through which regulated filings, investor communications, board packs, and internal scorecards narrate performance after ledger measurement stabilizes. Translation methodology converts measured facts into visibility choices; it must not substitute for custody clarity earned upstream.",
   "state_number": "06",
   "state_name": "Reporting Currency",
-  "state_summary": "Reporting currency is the currency in which financial results are presented for management review, regulatory filings, investor communications, or internal performance packs. State 06 is where translation policy visibly reshapes enterprise narratives built from ledger truth.",
-  "state_role_label": "Presentation Layer",
-  "state_role_title": "How leadership sees performance after translation.",
-  "state_role_body": "Ledger balances may remain stable while reporting packs swing because of methodology choices, equity carve-outs, hyperinflation contexts, or hybrid reporting regimes. CFO offices experience State 06 as bridge schedules, translation adjustments, and commentary obligations.",
-  "custody_question": "Which presentation currency tells the authoritative story to governance bodies — and does it trace cleanly to ledger custody?",
-  "chain_position_body": "Reporting currency consumes disciplined ledger output from State 05 and hands coherent packages toward consolidation engines at State 07. Confusing reporting currency with account currency invites boards to misread operational exposure versus presentation noise.",
+  "state_summary": "State 06 is where translation adjustments accumulate governance commitments distinct from transactional FX or ledger revaluation mechanics. CFO offices experience bridges, equity translation components, and commentary duties—each demanding lineage back to ledger proofs when monetary ambiguity threatens credibility.",
+  "state_role_label": "Presentation State",
+  "state_role_title": "Stakeholder-facing narratives anchored—or divorced—from ledger truth.",
+  "state_role_body": "Functional currency measurement precedes reporting translation; consolidation currency later absorbs group reshaping. Reporting integrity vocabulary insists disclosures preserve custody lineage across translation boundaries—polished totals lacking forensic scaffolding invite audit defensibility failures and monetary ambiguity accusations.",
+  "custody_question": "Which presentation currency tells the authoritative governance story—and does every headline reconcile to archived ledger packages with methodology explicit?",
+  "chain_position_body": "Reporting currency consumes disciplined State 05 outputs and forwards coherent packages toward consolidation currency engines and external audiences. Collapsing reporting narration with account custody invites boards to confuse operational exposure with presentation overlays.",
   "state_rail": [
     {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
     {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
@@ -22,10 +24,87 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
-  "state_risk_title": "Bridge narratives that cannot tie to accounts",
-  "state_risk_body": "When translation bridges omit custody lineage, finance explains swings using macro volatility alone — destroying credibility with audit committees.",
-  "state_control_title": "Document translation methodology",
-  "state_control_body": "Maintain living methodology memos linking reporting currency choices to ledger facts, equity treatments, and consolidation policies.",
-  "receives_from": "Ledger closes and systematic balances ready for presentation adjustments.",
-  "passes_to": "Consolidation currency layers, investor disclosures, and regulator-facing exhibits."
+  "pillar_sections": [
+    {
+      "section_id": "state06-position",
+      "eyebrow": "Monetary state thesis",
+      "title": "Reporting currency as presentation and disclosure state",
+      "paragraphs": [
+        "State 06 answers how measured ledger facts refract for audiences needing narratives aligned to regulatory or investor conventions.",
+        "Receives closed ledger balances, equity structures, and management adjustments anchored in functional measurement discipline.",
+        "Controls translation policies, hyperinflation overlays where applicable, and CFO commentary tying bridges to artifacts—not rhetoric alone.",
+        "Passes coherent reporting packages toward consolidation currency absorption and outward filings."
+      ]
+    },
+    {
+      "section_id": "state06-why-matters",
+      "eyebrow": "Institutional consequence",
+      "title": "Why reporting discipline completes—or breaks—custody credibility",
+      "paragraphs": [
+        "Translation adjustments memorialize equity-side governance; misunderstanding them misstates how FX touched shareholders versus operations.",
+        "Consolidation adjustments arriving next inherit whichever fractures reporting teams tolerated—opaque bridges compound at group altitude.",
+        "Audit defensibility demands CFO-ready documentation tying presentation lines to ledger extracts controllers sign.",
+        "Monetary ambiguity emerges when reporting packs polish totals while lineage upstream remains contested."
+      ]
+    },
+    {
+      "section_id": "state06-breaks",
+      "eyebrow": "Failure anatomy",
+      "title": "Where reporting currency fractures",
+      "paragraphs": [
+        "Bridge schedules cite FX volatility without naming translation methodology—auditors cannot reperformance-test narratives.",
+        "Non-GAAP or management adjustments detach from ledger proofs—reporting integrity violations accumulate quietly.",
+        "Functional versus reporting currency debates confuse committees—policy ownership unclear while filings proceed.",
+        "Consolidation teams reinterpret subsidiary submissions without documentary lineage—group totals drift from entity proofs.",
+        "Investor decks reuse stale translation factors inconsistent with closed books—parallel truths emerge."
+      ]
+    },
+    {
+      "section_id": "state06-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Reporting currency control questions",
+      "paragraphs": [
+        "CFO offices, controllers, consolidation hubs, and auditors align—not sequential delegation into inbox limbo."
+      ],
+      "questions": [
+        "Which methodology memo authorizes translation rates and equity treatments visible externally?",
+        "How do bridge files tie each reported headline to ledger trial balances archived for the period?",
+        "Where do translation adjustments reconcile to statutory equity roll-forwards?",
+        "Which owner signs off when reporting currency diverges from ledger currency—and where is custody evidence stored?",
+        "How does consolidation currency ingestion validate reporting packages before eliminations fire?",
+        "What artifacts disprove monetary ambiguity claims if regulators challenge presentation choices?"
+      ]
+    },
+    {
+      "section_id": "state06-bridge",
+      "eyebrow": "Reference continuity",
+      "title": "Connect State 06 to AccountCcy architecture",
+      "paragraphs": [
+        "Use translation and consolidation vocabulary precisely—distinct from ledger revaluation mechanics handled at State 05."
+      ],
+      "reference_strip": [
+        { "href": "/framework/", "label": "Framework pillar" },
+        { "href": "/cfo-guide/", "label": "CFO guide" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/states/ledger-currency/", "label": "State 05 reference" },
+        { "href": "/states/consolidation-currency/", "label": "State 07 reference" },
+        { "href": "/glossary/reporting-currency/", "label": "Reporting currency (defined)" },
+        { "href": "/glossary/currency-translation/", "label": "Currency translation" },
+        { "href": "/glossary/translation-adjustment/", "label": "Translation adjustment" },
+        { "href": "/glossary/consolidation-currency/", "label": "Consolidation currency" },
+        { "href": "/glossary/consolidation-adjustment/", "label": "Consolidation adjustment" },
+        { "href": "/glossary/reporting-integrity/", "label": "Reporting integrity" },
+        { "href": "/glossary/audit-defensibility/", "label": "Audit defensibility" },
+        { "href": "/glossary/monetary-ambiguity/", "label": "Monetary ambiguity" },
+        { "href": "/glossary/functional-currency/", "label": "Functional currency" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "state_risk_title": "Narrative-first reporting",
+  "state_risk_body": "Leadership packs prioritize storytelling while ledger proofs lag—external scrutiny exposes parallel truths incompatible with custody doctrine.",
+  "state_control_title": "Bridge archives with CFO attestation",
+  "state_control_body": "Mandate synchronized bridge binders linking translation methodology, ledger extracts, and consolidation feeder validations each quarter.",
+  "receives_from": "Closed ledger measurement packages ready for presentation translation.",
+  "passes_to": "Consolidation currency processing, investor disclosures, regulatory exhibits, and assurance scrutiny artifacts."
 }
