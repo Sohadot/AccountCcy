@@ -628,24 +628,31 @@
       "url": "/glossary/audit-trail/",
       "ccy_state": 8,
       "ccy_state_name": "Audit Reality — State 08",
-      "status": "draft",
-      "definition": "An audit trail is the complete, traceable record of financial transactions, accounting entries, system configurations, and control activities that supports the verification and defensibility of financial statements and accounting records.",
-      "institutional_context": "In multi-currency enterprise finance, the audit trail must be sufficient to trace every material monetary figure from its source transaction — in its original transaction currency — through each state of the CCY State Chain to its final presentation in the consolidated reporting currency. A complete audit trail for currency-related entries includes: transaction currency, account currency, applicable exchange rates, revaluation adjustments, translation methods, and consolidation adjustments.",
-      "position_in_chain": "The audit trail is the documentary infrastructure that makes State 08 (Audit Reality) possible. Without a complete audit trail, monetary truth cannot be defended.",
-      "why_it_matters": "An incomplete or broken audit trail for foreign currency transactions prevents auditors from verifying the accuracy of reported amounts. This creates audit risk, potential findings, and restatement exposure.",
-      "risk_if_misunderstood": "Assuming the audit trail is automatically complete because a transaction was recorded is a common governance gap. Currency conversions, revaluations, translations, and consolidation adjustments all require explicit documentation in the audit trail.",
+      "status": "published",
+      "meta_description": "Audit trail names the reconstructable record across currency states, ledger treatment, FX, translation, reporting, and evidence—not passive system logs alone.",
+      "definition": "An audit trail is the structured, reconstructable record that connects monetary state changes—obligation, settlement, account assignment, ledger measurement, revaluation, translation, reporting, and consolidation—to the policies, rates, postings, and confirmations that justify each transition. It is the institutional substrate that lets finance, audit, and control teams replay custody rather than infer it.",
+      "institutional_context": "In sovereign-grade multi-currency environments, the audit trail is incomplete if it stops at journal IDs while omitting quotation lineage, configuration ownership, rate maps, remeasurement versus translation methodology, intercompany elimination bridges, or consolidation package lineage. Evidence must chain across ERP, subledgers, treasury confirmations, and close archives—not merely restate outcomes.",
+      "position_in_chain": "The audit trail is the evidentiary spine supporting State 08 (Audit Reality): without contiguous trails, terminal defensibility collapses into narrative.",
+      "why_it_matters": "Regulators, auditors, and boards challenge monetary figures through reconstruction. Trails that skip currency-state transitions produce contested balances even when period-end totals reconcile cosmetically.",
+      "risk_if_misunderstood": "Treating audit trails as synonymous with generic transaction logs invites fatal gaps—especially where FX logic, account assignments, or translation policies silently reshape figures between states.",
       "related_terms": [
         "audit-reality",
-        "reconciliation",
-        "multi-currency-accounting",
-        "fx-revaluation",
-        "currency-translation"
+        "evidence-trail",
+        "monetary-reconstruction",
+        "audit-defensibility",
+        "currency-translation",
+        "fx-revaluation"
       ],
       "related_pages": [
+        "/glossary/",
+        "/glossary/audit-reality/",
         "/states/audit-reality/",
-        "/monetary-truth-chain-of-custody/",
+        "/glossary/evidence-trail/",
+        "/glossary/chain-of-custody/",
         "/ccy-state-chain/",
-        "/risks/audit-trail-currency-gaps/"
+        "/framework/",
+        "/monetary-truth-chain-of-custody/",
+        "/cfo-guide/"
       ],
       "buyer_relevance": [
         "CFO advisory",
@@ -654,7 +661,304 @@
       ],
       "schema_types": [
         "DefinedTerm"
-      ]
+      ],
+      "not_confused_with": "Audit trail is not identical to SOX-style change logs or banking feeds alone—it must explain monetary identity across the CCY progression, not only that an entry existed.",
+      "custody_question": "Could an independent reviewer rebuild each material figure from source event through consolidation using only governed artifacts—without informal spreadsheets?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "control-evidence",
+      "term": "Control Evidence",
+      "url": "/glossary/control-evidence/",
+      "ccy_state": null,
+      "ccy_state_name": "Evidence Discipline · Control Evidence",
+      "status": "published",
+      "meta_description": "Control evidence is the corpus that proves currency states, transformations, rates, and reporting presentations can be defended—not merely asserted.",
+      "definition": "Control evidence is the documentary and systemic proof set showing that a monetary value, currency-state assignment, ERP transformation, rate application, or reporting presentation was authorized, executed under policy, and remains reconstructable. It operationalizes custody claims into artifacts auditors and controllers can test.",
+      "institutional_context": "Evidence spans commercial terms, treasury confirmations, configuration approvals, rate tables with effective dating, posting specifications, close binders, consolidation methodologies, and retention maps. Weak control evidence appears when teams rely on tribal reconciliation spreadsheets without tying them to ledger lineage.",
+      "position_in_chain": "Control evidence attaches to every custody transition; its density peaks where FX and translation logic silently re-measure monetary identity between states.",
+      "why_it_matters": "Without control evidence, sophisticated policy decks cannot substitute for defensibility when regulators or acquirers demand forensic replay.",
+      "risk_if_misunderstood": "Equating screenshots or dashboards with evidence invites findings—artifacts must bind to identifiable postings, rates, and approval chains.",
+      "related_terms": [
+        "audit-defensibility",
+        "audit-trail",
+        "audit-reality",
+        "monetary-truth",
+        "chain-of-custody"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/audit-defensibility/",
+        "/glossary/audit-reality/",
+        "/glossary/monetary-truth/",
+        "/glossary/chain-of-custody/",
+        "/framework/",
+        "/monetary-truth-chain-of-custody/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "CFO advisory",
+        "audit technology",
+        "financial close platforms"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Control evidence is broader than sign-offs on journals—it must explain why monetary identity changed across states, not only that a supervisor clicked approve.",
+      "custody_question": "Which artifact proves this posting map, rate choice, or translation adjustment was the governed one—not an ad hoc workaround?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "evidence-trail",
+      "term": "Evidence Trail",
+      "url": "/glossary/evidence-trail/",
+      "ccy_state": null,
+      "ccy_state_name": "Evidence Discipline · Evidence Trail",
+      "status": "published",
+      "meta_description": "Evidence trail is the governed path of supporting records finance, audit, and control teams use to reconstruct monetary truth across systems.",
+      "definition": "An evidence trail is the ordered set of corroborating records—contracts, confirmations, configurations, mappings, rates, postings, packages—that allows stakeholders to walk from economic event to disclosed figure without guessing interim custody decisions. It is the navigable counterpart to abstract custody doctrine.",
+      "institutional_context": "Trails fragment when subsidiaries submit reporting packages disconnected from ledger extracts, or when FX hedging documentation fails to reference measurement currency in books. Designing trails intentionally converts latent ambiguity into traceable lineage.",
+      "position_in_chain": "Evidence trails span all eight currency states; gaps typically surface where settlement diverges from obligation or where translation overlays ledger measurement.",
+      "why_it_matters": "Strong trails shorten audit cycles and reduce restatement probability; broken trails force expensive forensic reconstruction under deadline pressure.",
+      "risk_if_misunderstood": "Assuming ERP audit logs suffice ignores commercial and methodological evidence required to defend translation and consolidation judgments.",
+      "related_terms": [
+        "audit-trail",
+        "chain-of-custody",
+        "monetary-reconstruction",
+        "audit-reality"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/audit-trail/",
+        "/glossary/audit-reality/",
+        "/glossary/chain-of-custody/",
+        "/monetary-truth-chain-of-custody/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "audit technology",
+        "CFO advisory"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Evidence trail is not merely archive storage—it demands coherent sequencing tied to currency-state transitions.",
+      "custody_question": "Does every custody hop name both its immediate predecessor evidence artifact and the consumer of its output?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "monetary-reconstruction",
+      "term": "Monetary Reconstruction",
+      "url": "/glossary/monetary-reconstruction/",
+      "ccy_state": null,
+      "ccy_state_name": "Evidence Discipline · Monetary Reconstruction",
+      "status": "published",
+      "meta_description": "Monetary reconstruction rebuilds custody from source events through account currency, ledger FX, translation, reporting, and audit-ready evidence.",
+      "definition": "Monetary reconstruction is the disciplined replay exercise that rebuilds how a figure moved from originating economic signal through obligation, settlement, account assignment, ledger measurement, revaluation, translation, consolidation, and evidentiary closure. It is the operational definition of defensibility.",
+      "institutional_context": "Close teams perform informal reconstruction during investigations; sovereign finance institutionalizes it—standard packages, rate lineage tables, mapping matrices, and elimination tie-outs that anticipate scrutiny rather than improvising under subpoena.",
+      "position_in_chain": "Reconstruction follows the CCY State Chain ordering; failure at any state breaks the rebuild despite plausible headline totals.",
+      "why_it_matters": "Buyers and auditors price uncertainty when reconstruction is heroic; they reward entities where replay is boringly deterministic.",
+      "risk_if_misunderstood": "Treating reconstruction as a one-off forensic skill leaves recurring exposure—controls must embed reconstructability into routine operations.",
+      "related_terms": [
+        "audit-trail",
+        "evidence-trail",
+        "currency-state",
+        "audit-reality",
+        "fx-revaluation",
+        "currency-translation"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/monetary-truth-chain-of-custody/",
+        "/glossary/audit-trail/",
+        "/glossary/currency-state/",
+        "/states/account-currency/",
+        "/glossary/fx-revaluation/",
+        "/glossary/currency-translation/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "CFO advisory",
+        "financial close platforms",
+        "audit technology"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Monetary reconstruction is not identical to data lineage tagging in isolation—it must bind accounting policy choices at each currency state.",
+      "custody_question": "Could reconstruction proceed using only governed artifacts—without privileged oral history?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "state-ownership",
+      "term": "State Ownership",
+      "url": "/glossary/state-ownership/",
+      "ccy_state": null,
+      "ccy_state_name": "Control Discipline · State Ownership",
+      "status": "published",
+      "meta_description": "State ownership names which system, ledger, process, or control layer owns a currency state at a moment—preventing silent drift between teams.",
+      "definition": "State ownership is the governance answer to which organizational actor—system, ledger, operational process, or control forum—holds accountable custody of a currency state at a defined point in time. Ambiguous ownership produces unmanaged transitions where FX logic silently shifts.",
+      "institutional_context": "Ownership forums include treasury for quotation discipline, accounting for obligation recording, shared services for settlement matching, controllers for account assignments, consolidation hubs for group lenses. When ownership is tacit, handoffs fracture and evidence scatters.",
+      "position_in_chain": "Clear ownership assignments align each CCY state transition to an accountable party with documentary standards.",
+      "why_it_matters": "Audit committees increasingly probe not only balances but who governed each custody hop—ownership clarity is defensibility infrastructure.",
+      "risk_if_misunderstood": "Assuming IT owns currency states because ERP hosts data ignores business-policy custody that configuration alone cannot enforce.",
+      "related_terms": [
+        "currency-state",
+        "account-currency-control",
+        "currency-state-control-framework",
+        "audit-defensibility"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/glossary/currency-state/",
+        "/glossary/account-currency-control/",
+        "/states/account-currency/",
+        "/what-is-account-currency/",
+        "/glossary/monetary-truth/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "CFO advisory",
+        "ERP consultants"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "State ownership is not the same as database administrator rights—it names business accountability for monetary identity at each custody phase.",
+      "custody_question": "Which forum signs off when custody crosses from settlement into account assignment—and where is that approval archived?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "reporting-integrity",
+      "term": "Reporting Integrity",
+      "url": "/glossary/reporting-integrity/",
+      "ccy_state": 6,
+      "ccy_state_name": "Reporting Currency — State 06",
+      "status": "published",
+      "meta_description": "Reporting integrity preserves monetary lineage so reporting currency cannot flatten or conceal prior currency-state transformations.",
+      "definition": "Reporting integrity is the control posture that ensures outward reporting reflects—not obscures—the custody history embedded in ledger measurement, revaluation choices, and translation methodology. It rejects presentations that rename figures without preserving reconstructable lineage.",
+      "institutional_context": "Integrity fractures when management packs round translated metrics detached from equity translation adjustments, or when disclosure narratives omit rate regimes applied between States 05 and 06. Integrity demands synchronized artifacts tying disclosure lines to ledger proofs.",
+      "position_in_chain": "Reporting integrity culminates at State 06 but depends on disciplined upstream custody through States 04–05.",
+      "why_it_matters": "Markets and regulators infer credibility from reporting coherence; silent flattening of currency-state history invites enforcement and litigation asymmetry.",
+      "risk_if_misunderstood": "Treating reporting integrity as cosmetic formatting ignores that translation policy is an evidentiary commitment.",
+      "related_terms": [
+        "reporting-currency",
+        "currency-translation",
+        "audit-reality",
+        "fx-revaluation"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/reporting-currency/",
+        "/glossary/currency-translation/",
+        "/glossary/audit-reality/",
+        "/states/reporting-currency/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "CFO advisory",
+        "financial close platforms"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Reporting integrity is not mere non-GAAP reconciliation hygiene—it is custody fidelity across translation boundaries.",
+      "custody_question": "Does each reported headline reconcile to an archived ledger package with translation methodology explicit?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "audit-defensibility",
+      "term": "Audit Defensibility",
+      "url": "/glossary/audit-defensibility/",
+      "ccy_state": 8,
+      "ccy_state_name": "Audit Reality — State 08",
+      "status": "published",
+      "meta_description": "Audit defensibility asks whether reported monetary values withstand evidence, policy, rate logic, ledger context, and state-history scrutiny.",
+      "definition": "Audit defensibility is the outcome-oriented standard asking whether monetary figures could survive independent challenge using corroborated evidence chains—policy, rates, postings, configurations, translation methodology, and consolidation ties—not merely whether balances tie superficially.",
+      "institutional_context": "External auditors test defensibility by reperformance and tracing; internal audit by thematic reviews. Defensibility collapses when rate logic contradicts configuration or when consolidation adjustments lack inbound lineage.",
+      "position_in_chain": "Defensibility is the evaluative lens applied once States 01–07 have executed; it crystallizes as Audit Reality at State 08.",
+      "why_it_matters": "Acquisition multiples and debt covenants implicitly price defensibility gaps—ambiguous monetary lineage becomes contingent liability.",
+      "risk_if_misunderstood": "Confusing defensibility with audit friendship or clean opinions ignores that opinions rely on evidence sufficiency teams supply.",
+      "related_terms": [
+        "audit-reality",
+        "control-evidence",
+        "monetary-truth",
+        "audit-trail"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/audit-reality/",
+        "/states/audit-reality/",
+        "/glossary/control-evidence/",
+        "/monetary-truth-chain-of-custody/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/glossary/monetary-truth/"
+      ],
+      "buyer_relevance": [
+        "audit technology",
+        "CFO advisory",
+        "financial close platforms"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Audit defensibility is not a certificate—it is a property of evidence architecture across currency states.",
+      "custody_question": "Which sampling trail proves defensibility for material FX and translation populations—not anecdotal comfort letters?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "monetary-ambiguity",
+      "term": "Monetary Ambiguity",
+      "url": "/glossary/monetary-ambiguity/",
+      "ccy_state": null,
+      "ccy_state_name": "Risk Posture · Monetary Ambiguity",
+      "status": "published",
+      "meta_description": "Monetary ambiguity is custody risk when currency state, account context, FX logic, or reporting presentation cannot be clearly reconstructed.",
+      "definition": "Monetary ambiguity arises when stakeholders cannot determine which currency state currently governs a figure, which system owns the transition, which rate regime applies, or how reporting presentation relates to ledger measurement. Ambiguity is latent misstatement energy.",
+      "institutional_context": "Ambiguity surfaces after migrations, hurried acquisitions, decentralized TMS adoption, or unmanaged chart expansions—often masked until variance analytics spike or auditors request traces.",
+      "position_in_chain": "Ambiguity attacks custody continuity; resolving it requires explicit currency-state naming and evidence trails.",
+      "why_it_matters": "Ambiguous monetary figures consume executive attention under scrutiny and erode counterparty trust during diligence.",
+      "risk_if_misunderstood": "Dismissing ambiguity as communication noise ignores structural fractures that restatements later expose.",
+      "related_terms": [
+        "currency-state",
+        "audit-reality",
+        "monetary-truth",
+        "chain-of-custody",
+        "reporting-integrity"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/glossary/currency-state/",
+        "/glossary/audit-reality/",
+        "/glossary/monetary-truth/",
+        "/glossary/chain-of-custody/",
+        "/ccy-state-chain/",
+        "/framework/",
+        "/cfo-guide/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "CFO advisory",
+        "ERP consultants"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Monetary ambiguity is not identical to FX volatility—markets can be turbulent yet lineage clear.",
+      "custody_question": "Could two competent controllers independently name the governing currency state for this balance without debate?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
     },
     {
       "slug": "reconciliation",

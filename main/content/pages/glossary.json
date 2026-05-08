@@ -15,7 +15,7 @@
   "primary_section_title": "Enterprise finance collapses unlike meanings into the same ISO symbol unless currency states are named.",
   "primary_section_body": [
     "Two balances may both display USD while answering different custody questions — quotation versus obligation, settlement rail versus account assignment, ledger measurement versus reporting translation. AccountCcy publishes both the Currency State Control Framework and the CCY State Chain so those distinctions remain navigable instead of tribal.",
-    "The clusters below map sixteen published defined terms into four conceptual authorities. Each card links to the sovereign term page where doctrine, operational meaning, distinctions, custody questions, and evidence posture are stated without thinning content into slogans."
+    "The clusters below map twenty-four published defined terms into four conceptual authorities. Each card links to the sovereign term page where doctrine, operational meaning, distinctions, custody questions, and evidence posture are stated without thinning content into slogans."
   ],
   "authority_sections": [
     {
@@ -75,16 +75,24 @@
       "pillar_cards": []
     },
     {
-      "section_id": "evidence-audit-reporting",
-      "eyebrow": "Evidence & visibility",
-      "title": "Evidence, Audit & Reporting Reality",
+      "section_id": "audit-evidence-control-discipline",
+      "eyebrow": "Evidence & control",
+      "title": "Audit, Evidence & Control Discipline",
       "paragraphs": [
-        "Market quotation discipline, outward reporting lenses, and terminal audit posture belong in one cluster because weak evidence upstream invalidates polished narratives downstream.",
-        "Together they signal how AccountCcy expects monetary figures to survive scrutiny — not optimism, but reconstructable custody."
+        "This cluster defines the language of monetary evidence—trails, reconstruction, state ownership, reporting fidelity, defensibility, and ambiguity risk—so doctrine and framework claims survive independent scrutiny.",
+        "Quotation discipline and outward reporting lenses sit alongside audit posture because weak lineage upstream invalidates polished narratives downstream."
       ],
       "term_slugs": [
         "quoted-currency",
         "reporting-currency",
+        "reporting-integrity",
+        "audit-trail",
+        "evidence-trail",
+        "control-evidence",
+        "monetary-reconstruction",
+        "state-ownership",
+        "audit-defensibility",
+        "monetary-ambiguity",
         "audit-reality"
       ],
       "pillar_cards": []
@@ -99,6 +107,6 @@
   "schema_notes": {
     "primary_schema": "DefinedTermSet",
     "secondary_schema": ["WebPage", "BreadcrumbList"],
-    "framework_status": "Glossary hub renders sixteen published term URLs grouped into conceptual authority clusters."
+    "framework_status": "Glossary hub renders twenty-four published term URLs grouped into conceptual authority clusters."
   }
 }

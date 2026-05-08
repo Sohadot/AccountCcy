@@ -43,7 +43,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://accountccy.com/glossary/audit-defensibility/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://accountccy.com/glossary/audit-reality/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accountccy.com/glossary/audit-trail/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -56,6 +68,12 @@
   </url>
   <url>
     <loc>https://accountccy.com/glossary/consolidation-currency/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accountccy.com/glossary/control-evidence/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -79,6 +97,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://accountccy.com/glossary/evidence-trail/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://accountccy.com/glossary/functional-currency/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -92,6 +116,18 @@
   </url>
   <url>
     <loc>https://accountccy.com/glossary/ledger-currency/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accountccy.com/glossary/monetary-ambiguity/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accountccy.com/glossary/monetary-reconstruction/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -115,7 +151,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://accountccy.com/glossary/reporting-integrity/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://accountccy.com/glossary/settlement-currency/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accountccy.com/glossary/state-ownership/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
