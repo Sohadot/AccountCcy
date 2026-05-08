@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Currency State Control Framework — AccountCcy.com</title>
+  <meta name="description" content="The Currency State Control Framework defines account currency as a financial control discipline from monetary movement to accounting truth in enterprise finance.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/framework/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Currency State Control Framework — AccountCcy.com">
+  <meta property="og:description" content="The Currency State Control Framework defines account currency as a financial control discipline from monetary movement to accounting truth in enterprise finance.">
+  <meta property="og:url" content="https://accountccy.com/framework/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Currency State Control Framework — AccountCcy.com">
+  <meta name="twitter:description" content="The Currency State Control Framework defines account currency as a financial control discipline from monetary movement to accounting truth in enterprise finance.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/framework/",
+            "url": "https://accountccy.com/framework/",
+            "name": "The Currency State Control Framework — AccountCcy.com",
+            "description": "The Currency State Control Framework defines account currency as a financial control discipline from monetary movement to accounting truth in enterprise finance.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "The Currency State Control Framework — AccountCcy.com",
+                    "item": "https://accountccy.com/framework/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "The Currency State Control Framework",
+            "description": "The Currency State Control Framework defines account currency as a financial control discipline from monetary movement to accounting truth in enterprise finance.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/framework/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-05-08"
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-pillar" data-template="reference-page.html" data-page-type="pillar">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/framework/">Framework</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/what-is-account-currency/">Account Currency</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">The Currency State Control Framework — AccountCcy.com</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Framework · Currency State Control</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">The Currency State Control Framework</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">The Currency State Control Framework defines currency as a state-bearing object inside enterprise finance. It maps how monetary movement passes from market price to accounting custody, ledger maintenance, reporting presentation, consolidation, and audit-defensible truth.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Framework Doctrine</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">Currency is not a static unit inside enterprise finance.<br>It changes institutional meaning as it moves through systems, accounts, ledgers, reports, consolidations, and audit trails.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      The Currency State Control Framework · AccountCcy.com
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Why The Framework Exists</p>
+        <h2 id="context-title" class="ccy-title">Enterprise finance needs a language for the states currency passes through before it becomes truth.</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">Most finance systems treat currency as a field: a code, a rate, a transaction attribute, a reporting parameter, or a ledger configuration. But the same currency code can carry different meanings depending on where it appears in the enterprise finance chain.</p>
+<p class="ccy-body">A currency in a market quote is not the same institutional object as a currency in a transaction, a settlement, an account, a ledger, a report, a consolidation, or an audit trail. Each position carries different control obligations and different consequences if misunderstood.</p>
+<p class="ccy-body">The Currency State Control Framework provides a disciplined structure for naming these positions, governing their transitions, and identifying the point at which monetary movement enters accounting custody: account currency.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Reference Graph Position</p>
+      <h2 id="graph-title" class="ccy-title">The framework is the structural layer beneath the AccountCcy reference system.</h2>
+      <p class="ccy-body">The framework connects the supreme thesis, the CCY State Chain, account currency control, glossary definitions, risk pages, CFO guidance, diagnostic tools, and future acquisition logic.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">State Identity</p><h3 class="ccy-section-title">Currency carries different institutional identities at different points in the chain.</h3><p class="ccy-small">A transaction currency, account currency, ledger currency, and reporting currency may all use the same ISO code while representing different control realities.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Custody Transfer</p><h3 class="ccy-section-title">Monetary movement becomes accounting record through controlled transition.</h3><p class="ccy-small">The key transition occurs when external financial movement enters the account layer and becomes part of the internal accounting system.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Downstream Propagation</p><h3 class="ccy-section-title">Weak account currency governance propagates into ledger, reporting, consolidation, and audit.</h3><p class="ccy-small">A configuration or interpretation problem at State 04 can create downstream distortion that only appears during close, reporting, consolidation, or audit review.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Audit Defensibility</p><h3 class="ccy-section-title">The terminal state is not a report. It is defensible monetary truth.</h3><p class="ccy-small">The framework exists to make the full path from monetary event to audit reality traceable, reconcilable, and defendable.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Control Discipline</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Account currency is the framework’s critical control point.</h2>
+        <p class="ccy-consequence-body">The framework identifies State 04 — Account Currency — as the gate where external monetary activity enters accounting custody. Before this state, currency belongs primarily to market, transaction, and settlement behavior. After this state, it propagates into ledger, reporting, consolidation, and audit layers.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk Discipline</p>
+        <h2 class="ccy-consequence-heading">The framework exposes structural currency risk before it becomes reporting distortion.</h2>
+        <p class="ccy-consequence-body">When currency states are treated as interchangeable, finance teams may face reconciliation breaks, revaluation errors, translation inconsistencies, consolidation mismatches, and audit-trail gaps. The framework turns that hidden risk into a governed map.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-section" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-nav-links"><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/monetary-truth-chain-of-custody/">The Chain of Custody for Monetary Truth — AccountCcy.com</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/ccy-state-chain/">The CCY State Chain — From Quoted Price to Audit Reality</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/what-is-account-currency/">What Is Account Currency? — Definition and Control Discipline</a></div></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-05-08T16:02:12.151475+00:00",
+  "url_count": 5,
+  "errors": [],
+  "warnings": [],
+  "audits": [
+    {
+      "source_path": "ccy-state-chain/index.html",
+      "url_path": "/ccy-state-chain/",
+      "loc": "https://accountccy.com/ccy-state-chain/",
+      "title": "The CCY State Chain — From Quoted Price to Audit Reality",
+      "description": "The CCY State Chain maps eight currency states inside enterprise finance — from quoted price to audit reality. Account Currency is the critical control point at State 04.",
+      "canonical": "https://accountccy.com/ccy-state-chain/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "framework/index.html",
+      "url_path": "/framework/",
+      "loc": "https://accountccy.com/framework/",
+      "title": "The Currency State Control Framework — AccountCcy.com",
+      "description": "The Currency State Control Framework defines account currency as a financial control discipline from monetary movement to accounting truth in enterprise finance.",
+      "canonical": "https://accountccy.com/framework/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "index.html",
+      "url_path": "/",
+      "loc": "https://accountccy.com/",
+      "title": "AccountCcy.com — The Chain of Custody for Monetary Truth",
+      "description": "Sovereign reference for account currency control and the custody chain from monetary movement to accounting truth in enterprise finance.",
+      "canonical": "https://accountccy.com/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "monetary-truth-chain-of-custody/index.html",
+      "url_path": "/monetary-truth-chain-of-custody/",
+      "loc": "https://accountccy.com/monetary-truth-chain-of-custody/",
+      "title": "The Chain of Custody for Monetary Truth — AccountCcy.com",
+      "description": "Money does not become accounting truth automatically — it becomes truth through custody. AccountCcy.com maps the institutional chain.",
+      "canonical": "https://accountccy.com/monetary-truth-chain-of-custody/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "what-is-account-currency/index.html",
+      "url_path": "/what-is-account-currency/",
+      "loc": "https://accountccy.com/what-is-account-currency/",
+      "title": "What Is Account Currency? — Definition and Control Discipline",
+      "description": "Account currency is the currency assigned to an account for recording and controlling balances in enterprise finance — the State 04 control point.",
+      "canonical": "https://accountccy.com/what-is-account-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

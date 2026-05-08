@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Chain of Custody for Monetary Truth — AccountCcy.com</title>
+  <meta name="description" content="Money does not become accounting truth automatically — it becomes truth through custody. AccountCcy.com maps the institutional chain.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/monetary-truth-chain-of-custody/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Chain of Custody for Monetary Truth — AccountCcy.com">
+  <meta property="og:description" content="Money does not become accounting truth automatically — it becomes truth through custody. AccountCcy.com maps the institutional chain.">
+  <meta property="og:url" content="https://accountccy.com/monetary-truth-chain-of-custody/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Chain of Custody for Monetary Truth — AccountCcy.com">
+  <meta name="twitter:description" content="Money does not become accounting truth automatically — it becomes truth through custody. AccountCcy.com maps the institutional chain.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/monetary-truth-chain-of-custody/",
+            "url": "https://accountccy.com/monetary-truth-chain-of-custody/",
+            "name": "The Chain of Custody for Monetary Truth — AccountCcy.com",
+            "description": "Money does not become accounting truth automatically — it becomes truth through custody. AccountCcy.com maps the institutional chain.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "The Chain of Custody for Monetary Truth — AccountCcy.com",
+                    "item": "https://accountccy.com/monetary-truth-chain-of-custody/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "The Chain of Custody for Monetary Truth",
+            "description": "Money does not become accounting truth automatically — it becomes truth through custody. AccountCcy.com maps the institutional chain.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/monetary-truth-chain-of-custody/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-05-08"
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-pillar" data-template="reference-page.html" data-page-type="pillar">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/framework/">Framework</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/what-is-account-currency/">Account Currency</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">The Chain of Custody for Monetary Truth — AccountCcy.com</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Doctrine · Supreme Thesis</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">The Chain of Custody for Monetary Truth</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">Money does not become accounting truth automatically. It becomes truth through custody. Inside enterprise finance, monetary movement passes through controlled states — from quotation and transaction through settlement, account assignment, ledger maintenance, reporting, consolidation, and audit-defensible reality.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Foundation Doctrine</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.<br>The asset maps where monetary movement becomes recorded, assigned, reconciled, translated, consolidated, reported, and defensible.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      AccountCcy.com Foundation Doctrine
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Why Custody Matters</p>
+        <h2 id="context-title" class="ccy-title">Currency gains institutional meaning only through governed transitions.</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">Enterprise finance does not treat currency as a single static flag on a transaction. The same monetary event can carry multiple identities — quotation, obligation, settlement, account custody, ledger maintenance, reporting presentation, group consolidation, and audit scrutiny.</p>
+<p class="ccy-body">Without naming those transitions, finance organizations inherit fragmentation: reconciliation burden, FX distortion, close-cycle friction, and audit exposure long before misconduct enters the picture.</p>
+<p class="ccy-body">Custody is the institutional discipline through which movement becomes record — not magically at posting time, but through deliberate assignment, reconciliation, and defensibility across systems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Doctrine Layer</p>
+      <h2 id="graph-title" class="ccy-title">The supreme thesis anchors the reference architecture.</h2>
+      <p class="ccy-body">Every pillar — framework definition, CCY State Chain, account currency discipline — unfolds downstream from this thesis. The doctrine page exists so readers grasp custody before navigating mechanics.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Thesis</p><h3 class="ccy-section-title">Monetary truth is earned through custody, not asserted by rates.</h3><p class="ccy-small">Market prices quote possibilities; custody converts obligations into reconciled balances defensible under review.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Chain</p><h3 class="ccy-section-title">The passage has discernible institutional states.</h3><p class="ccy-small">Each state carries a different meaning — identity risk emerges when states blur.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Control</p><h3 class="ccy-section-title">Account currency is the pivotal custody gate.</h3><p class="ccy-small">External monetary movement enters internal accounting discipline primarily through assigned account currency.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Defense</p><h3 class="ccy-section-title">Terminal custody is audit-defensible reality.</h3><p class="ccy-small">Truth survives traceability, support documentation, reconciliation, and independent scrutiny.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Doctrine Discipline</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Articulate custody before optimizing mechanics.</h2>
+        <p class="ccy-consequence-body">Policies and ERP configurations matter — after governance articulates where custody transfers occur and who owns each boundary.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Doctrine Risk</p>
+        <h2 class="ccy-consequence-heading">Organizations confuse liquidity FX exposure with accounting custody decay.</h2>
+        <p class="ccy-consequence-body">Treasury hedges rates while fragmented currency identities distort ledger balances reporting consolidation audit narratives downstream.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-section" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-nav-links"><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/framework/">The Currency State Control Framework — AccountCcy.com</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/ccy-state-chain/">The CCY State Chain — From Quoted Price to Audit Reality</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/what-is-account-currency/">What Is Account Currency? — Definition and Control Discipline</a></div></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

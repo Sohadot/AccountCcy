@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>What Is Account Currency? — Definition and Control Discipline</title>
+  <meta name="description" content="Account currency is the currency assigned to an account for recording and controlling balances in enterprise finance — the State 04 control point.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/what-is-account-currency/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="What Is Account Currency? — Definition and Control Discipline">
+  <meta property="og:description" content="Account currency is the currency assigned to an account for recording and controlling balances in enterprise finance — the State 04 control point.">
+  <meta property="og:url" content="https://accountccy.com/what-is-account-currency/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What Is Account Currency? — Definition and Control Discipline">
+  <meta name="twitter:description" content="Account currency is the currency assigned to an account for recording and controlling balances in enterprise finance — the State 04 control point.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/what-is-account-currency/",
+            "url": "https://accountccy.com/what-is-account-currency/",
+            "name": "What Is Account Currency? — Definition and Control Discipline",
+            "description": "Account currency is the currency assigned to an account for recording and controlling balances in enterprise finance — the State 04 control point.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "What Is Account Currency? — Definition and Control Discipline",
+                    "item": "https://accountccy.com/what-is-account-currency/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "What Is Account Currency?",
+            "description": "Account currency is the currency assigned to an account for recording and controlling balances in enterprise finance — the State 04 control point.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/what-is-account-currency/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-05-08"
+        },
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Is account currency the same as transaction currency?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No. Transaction currency is the currency in which the financial event is denominated. Account currency is the currency assigned to the account where balances are recorded or maintained."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is account currency the same as functional currency?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Not necessarily. Functional currency relates to the primary economic environment of the entity. Account currency is an account-level currency assignment inside the accounting or ERP system."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why does account currency matter?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "It matters because it influences balance maintenance, revaluation, reconciliation, reporting, and audit defensibility."
+                    }
+                }
+            ]
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-pillar" data-template="reference-page.html" data-page-type="pillar">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/framework/">Framework</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/what-is-account-currency/">Account Currency</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">What Is Account Currency? — Definition and Control Discipline</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Definition · Control Discipline</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">What Is Account Currency?</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">Account currency is the currency assigned to an account for recording, maintaining, reconciling, and controlling financial balances inside an enterprise finance or ERP system.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Definition Doctrine</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">Account currency is not merely a configuration field.<br>It is the control point where external monetary movement enters accounting custody.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      Account Currency Definition · AccountCcy.com
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Reference Definition</p>
+        <h2 id="context-title" class="ccy-title">Account currency governs how balances are held, controlled, revalued, and defended.</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">In enterprise finance, an account does not only hold a balance. It holds a balance under a currency identity. That identity governs how postings are recorded, how balances are maintained, how foreign currency amounts are revalued, and how the account can be reconciled and audited.</p>
+<p class="ccy-body">Account currency is therefore different from transaction currency, settlement currency, functional currency, ledger currency, reporting currency, and consolidation currency. These are related but distinct roles inside the currency state chain.</p>
+<p class="ccy-body">AccountCcy.com treats account currency as a control discipline because errors or weak governance at this layer can affect the ledger, reporting, consolidation, and audit reality downstream.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Position in Chain</p>
+      <h2 id="graph-title" class="ccy-title">Account currency is State 04 of the CCY State Chain.</h2>
+      <p class="ccy-body">It is the central control point between external financial movement and internal accounting record. This is where AccountCcy.com lives conceptually and strategically.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Not Transaction Currency</p><h3 class="ccy-section-title">Transaction currency is the currency of the event.</h3><p class="ccy-small">It defines the currency in which the financial obligation is denominated. It does not necessarily define how an account balance is maintained.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Not Settlement Currency</p><h3 class="ccy-section-title">Settlement currency is the currency of cash transfer.</h3><p class="ccy-small">It defines how payment occurs. It may differ from transaction currency and account currency, creating FX consequences.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Not Ledger Currency</p><h3 class="ccy-section-title">Ledger currency is the currency of maintained books.</h3><p class="ccy-small">It often reflects functional currency policy and may require foreign currency account balances to be revalued.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Not Reporting Currency</p><h3 class="ccy-section-title">Reporting currency is the currency of presentation.</h3><p class="ccy-small">It governs how results are shown to management, regulators, investors, or group reporting structures.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Control Point</p><h3 class="ccy-section-title">Account currency is where movement becomes record.</h3><p class="ccy-small">It is the custody gate through which external monetary activity enters internal accounting control.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Audit Consequence</p><h3 class="ccy-section-title">Account currency affects whether the final number can be defended.</h3><p class="ccy-small">Weak account currency governance can create downstream traceability, reconciliation, and audit problems.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Definition Control</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Account currency turns currency identity into accounting custody.</h2>
+        <p class="ccy-consequence-body">A strong account currency layer clarifies what currency an account is allowed to maintain, how balances should be interpreted, and how foreign currency movements should be controlled through the close process.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Definition Risk</p>
+        <h2 class="ccy-consequence-heading">Misunderstanding account currency creates structural risk.</h2>
+        <p class="ccy-consequence-body">If account currency is confused with transaction currency, settlement currency, ledger currency, or reporting currency, the result can be revaluation errors, reconciliation breaks, reporting distortion, and audit-trail gaps.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-section" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-nav-links"><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/monetary-truth-chain-of-custody/">The Chain of Custody for Monetary Truth — AccountCcy.com</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/ccy-state-chain/">The CCY State Chain — From Quoted Price to Audit Reality</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/framework/">The Currency State Control Framework — AccountCcy.com</a></div></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
