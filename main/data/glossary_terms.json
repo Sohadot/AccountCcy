@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "governing_framework": "Currency State Control Framework — AccountCcy.com",
   "terms": [
     {
@@ -1296,6 +1296,368 @@
       ],
       "not_confused_with": "Currency exposure is not interchangeable with hedge ratio narratives unless postings reconcile to identifiable monetary items.",
       "custody_question": "Which CCY state currently prices this exposure—and does treasury hedging documentation tie to that measurement population?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "system-of-record",
+      "term": "System of Record",
+      "url": "/glossary/system-of-record/",
+      "ccy_state": null,
+      "ccy_state_name": "System Control · System of Record",
+      "status": "published",
+      "meta_description": "System of record names the authoritative finance application owning monetary balances, currency assignments, and posting truth for custody.",
+      "definition": "System of record designates the finance application, ledger, or controlled subsystem that institutionally owns the authoritative version of a monetary balance, currency-state assignment, posting, or control-relevant monetary artifact. It answers where replay begins when reconstruction is demanded—not which dashboard highlights a KPI.",
+      "institutional_context": "Multi-instance ERP estates, bolt-on subledgers, and consolidation hubs routinely disagree until governance names systems of record per population—open AR in the operational subledger versus trial balance in the general ledger versus group adjustments in the consolidation engine. Ambiguity here fractures evidence trails and duplicates reconciliation labor.",
+      "position_in_chain": "Custody spans the CCY State Chain; systems of record anchor where each population legally lives before translation and consolidation narratives absorb figures downstream.",
+      "why_it_matters": "Without explicit system-of-record discipline, teams argue reconciliations across copies—each defensible locally yet collectively incapable of audit replay.",
+      "risk_if_misunderstood": "Treating spreadsheets, data lakes, or treasury workstations as implicit systems of record invites divergent truths that collapse under independent reperformance.",
+      "related_terms": [
+        "general-ledger",
+        "source-system",
+        "state-ownership",
+        "audit-trail",
+        "control-evidence"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/monetary-truth-chain-of-custody/",
+        "/cfo-guide/",
+        "/glossary/general-ledger/",
+        "/glossary/state-ownership/",
+        "/glossary/control-evidence/",
+        "/glossary/audit-trail/",
+        "/glossary/monetary-truth/",
+        "/glossary/chain-of-custody/"
+      ],
+      "buyer_relevance": [
+        "ERP consultants",
+        "controllers",
+        "financial close platforms"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "System of record is not whichever screen executives prefer—it is the governed application whose postings and configurations forensic reviewers are instructed to trust.",
+      "custody_question": "If auditors demanded authoritative replay tonight, which system ID—not narrative deck—owns this balance lineage?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "source-system",
+      "term": "Source System",
+      "url": "/glossary/source-system/",
+      "ccy_state": null,
+      "ccy_state_name": "System Control · Source System",
+      "status": "published",
+      "meta_description": "Source system is where monetary events first enter enterprise finance—before governed posting, mapping, and ledger summarization.",
+      "definition": "Source system is the originating application or regulated intake where a transaction, obligation, banking event, or operational finance signal first becomes available for enterprise finance architecture—before summarization, enrichment, or posting into controlled ledgers.",
+      "institutional_context": "Procurement suites, TMS platforms, billing engines, logistics applications, and banking feeds typically act as sources; middleware and ERP connectors translate payloads into finance-ready events. Custody demands naming sources because FX identity often crystallizes at capture—not merely at GL posting.",
+      "position_in_chain": "Source-system lineage precedes State 04 account assignment yet constrains how obligations and settlement proofs enter ERP custody.",
+      "why_it_matters": "Weak source attribution produces journals that balance while remaining irreconcilable to economic reality—especially across currencies.",
+      "risk_if_misunderstood": "Assuming ERP is always the source ignores upstream capture errors that posting logic cannot ethically overwrite.",
+      "related_terms": [
+        "system-of-record",
+        "posting-logic",
+        "subledger",
+        "monetary-reconstruction",
+        "audit-trail"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/monetary-truth-chain-of-custody/",
+        "/what-is-account-currency/",
+        "/states/account-currency/",
+        "/cfo-guide/",
+        "/glossary/system-of-record/",
+        "/glossary/posting-logic/",
+        "/glossary/subledger/",
+        "/glossary/monetary-reconstruction/",
+        "/glossary/audit-trail/"
+      ],
+      "buyer_relevance": [
+        "ERP consultants",
+        "controllers",
+        "accounting automation"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Source system is not automatically the general ledger—often subledgers or operational modules originate detail that GL summarizes later.",
+      "custody_question": "Which payload version from which source application locks obligation currency before finance accepts posting?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "subledger",
+      "term": "Subledger",
+      "url": "/glossary/subledger/",
+      "ccy_state": null,
+      "ccy_state_name": "System Control · Subledger",
+      "status": "published",
+      "meta_description": "Subledger holds detailed receivable, payable, asset, or inventory accounting before controlled roll-up into the general ledger.",
+      "definition": "Subledger names the detailed operational ledger layer—often accounts receivable, accounts payable, fixed assets, inventory, project accounting, or lease modules—where granular monetary events are captured and validated before periodic summarization posts into the general ledger.",
+      "institutional_context": "ERP architectures isolate operational detail in subledgers to preserve audit granularity while keeping GL trial balances concise; currency-specific postings frequently originate in subledgers with distinct account-currency rules before consolidation into GL populations.",
+      "position_in_chain": "Subledger discipline bridges upstream source signals into State 04 assignments and State 05 ledger measurement without losing transactional fidelity.",
+      "why_it_matters": "When subledger-to-GL mappings drift, controllers reconcile phantom variances—often mislabeled FX noise—that trace to mapping—not markets.",
+      "risk_if_misunderstood": "Treating subledger as informal staging invites silent summarization errors that GL tie-outs mask until audits demand drill-through.",
+      "related_terms": [
+        "general-ledger",
+        "account-mapping",
+        "posting-logic",
+        "ledger-currency",
+        "account-currency"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/monetary-truth-chain-of-custody/",
+        "/states/account-currency/",
+        "/cfo-guide/",
+        "/glossary/general-ledger/",
+        "/glossary/account-mapping/",
+        "/glossary/posting-logic/",
+        "/glossary/ledger-currency/",
+        "/glossary/account-currency/"
+      ],
+      "buyer_relevance": [
+        "ERP consultants",
+        "controllers",
+        "financial close platforms"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Subledger detail is not interchangeable with banking statements alone—bank feeds remain corroboration unless policy designates them sources of record.",
+      "custody_question": "Which subledger extract proves open balances before GL summarization—and who owns mapping changes?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "general-ledger",
+      "term": "General Ledger",
+      "url": "/glossary/general-ledger/",
+      "ccy_state": 5,
+      "ccy_state_name": "System Control · General Ledger",
+      "status": "published",
+      "meta_description": "General ledger is the central ledger where posted balances, account currency context, functional measurement, and period FX discipline converge.",
+      "definition": "General ledger is the institutionally authoritative accounting ledger where journals accumulate into trial balance integrity—integrating account currency assignments, functional measurement conventions, period-end FX processing, and dimensional reporting structures prior to outward translation.",
+      "institutional_context": "Modern ERP platforms maintain GL as the consolidation point for subledger summaries and manual adjustments; GL configuration encodes chart structures, posting blocks, and valuation routines that downstream reporting and consolidation inherit.",
+      "position_in_chain": "General ledger operationalizes State 05 ledger custody—the measurable container foreign balances must traverse before reporting translation narrates outcomes.",
+      "why_it_matters": "GL weakness upstream invalidates sophisticated treasury or consolidation rhetoric—truth demands ledger proofs remain reconstructable.",
+      "risk_if_misunderstood": "Confusing GL with presentation layers invites applying narrative rates to ledger populations never measured under those conventions.",
+      "related_terms": [
+        "ledger-currency",
+        "subledger",
+        "posting-logic",
+        "fx-revaluation",
+        "erp-currency-configuration"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/monetary-truth-chain-of-custody/",
+        "/states/ledger-currency/",
+        "/cfo-guide/",
+        "/glossary/ledger-currency/",
+        "/glossary/functional-currency/",
+        "/glossary/fx-revaluation/",
+        "/glossary/subledger/",
+        "/glossary/posting-logic/",
+        "/glossary/erp-currency-configuration/"
+      ],
+      "buyer_relevance": [
+        "controllers",
+        "ERP consultants",
+        "financial close platforms"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "General ledger is not the consolidation hub—group assemblies operate atop entity GL packages under separate methodologies.",
+      "custody_question": "Which GL chart version and valuation run produced this trial balance—and does drill-down land on identifiable subledger payloads?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "posting-logic",
+      "term": "Posting Logic",
+      "url": "/glossary/posting-logic/",
+      "ccy_state": null,
+      "ccy_state_name": "System Control · Posting Logic",
+      "status": "published",
+      "meta_description": "Posting logic defines how monetary events become journals across accounts, currencies, periods, dimensions, and downstream reporting paths.",
+      "definition": "Posting logic is the configured and procedural rule set determining how monetary events transform into journal entries—selecting accounts, currencies, valuation treatments, periods, profit centers, intercompany pairs, and downstream visibility dimensions consistent with policy.",
+      "institutional_context": "ERP posting engines combine mapping tables, workflow approvals, automated clearing rules, and tax determination routines; multi-currency postings additionally inherit currency-master-data constraints and rate schedules—making posting logic the mechanical spine beneath custody narratives.",
+      "position_in_chain": "Posting logic executes transitions between currency states inside systems—especially where obligations become account-assigned balances measurable at ledger close.",
+      "why_it_matters": "Opaque posting logic produces superficially balanced closes that fail forensic reconstruction—auditors escalate when journals lack deterministic lineage.",
+      "risk_if_misunderstood": "Assuming posting equals manual journal entry ignores automated populations where silent rule drift dominates FX variance.",
+      "related_terms": [
+        "account-mapping",
+        "general-ledger",
+        "erp-currency-configuration",
+        "currency-state",
+        "state-ownership",
+        "control-evidence"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/states/account-currency/",
+        "/cfo-guide/",
+        "/glossary/account-mapping/",
+        "/glossary/general-ledger/",
+        "/glossary/erp-currency-configuration/",
+        "/glossary/currency-state/",
+        "/glossary/state-ownership/",
+        "/glossary/control-evidence/"
+      ],
+      "buyer_relevance": [
+        "ERP consultants",
+        "controllers",
+        "accounting automation"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Posting logic is broader than individual journal approvals—it includes deterministic automation whose evidence must remain inspectable.",
+      "custody_question": "Which rule version—not operator memory—selected account, currency, and period for this posting population?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "currency-master-data",
+      "term": "Currency Master Data",
+      "url": "/glossary/currency-master-data/",
+      "ccy_state": null,
+      "ccy_state_name": "System Control · Currency Master Data",
+      "status": "published",
+      "meta_description": "Currency master data governs codes, precision, rounding, activation rules, and ERP treatment inherited by posting and FX routines.",
+      "definition": "Currency master data is the governed reference catalog defining each currency’s identifiers, decimal precision, rounding behavior, activation status, implicit versus explicit usage policies, and systemic coupling to rate tables and valuation programs inside ERP finance stacks.",
+      "institutional_context": "Controllers gate currency activation alongside treasury and IT—preventing clerks from enabling exotic codes without documented policy; master-data drift silently corrupts postings when precision or rounding diverges between subsidiaries.",
+      "position_in_chain": "Master data constrains every custody hop touching denomination—from transactional capture through period-end revaluation inputs.",
+      "why_it_matters": "Minor precision mismatches compound across millions of lines into material FX bridges auditors classify as control deficiencies.",
+      "risk_if_misunderstood": "Treating currency codes as cosmetic labels ignores that ERP engines enforce numerical behavior from master data—not operator intent.",
+      "related_terms": [
+        "erp-currency-configuration",
+        "exchange-rate-source",
+        "account-currency",
+        "period-end-revaluation"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/what-is-account-currency/",
+        "/cfo-guide/",
+        "/glossary/exchange-rate-source/",
+        "/glossary/erp-currency-configuration/",
+        "/glossary/account-currency/",
+        "/glossary/period-end-revaluation/"
+      ],
+      "buyer_relevance": [
+        "ERP consultants",
+        "controllers",
+        "treasury systems"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Currency master data is not the same as treasury hedging master agreements—it governs systemic numerical identity, not derivative economics.",
+      "custody_question": "Which approved master-data record—including precision—did this posting engine consume at capture time?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "account-mapping",
+      "term": "Account Mapping",
+      "url": "/glossary/account-mapping/",
+      "ccy_state": null,
+      "ccy_state_name": "System Control · Account Mapping",
+      "status": "published",
+      "meta_description": "Account mapping connects source events and subledger detail to GL accounts, reporting lines, and consolidation schedules.",
+      "definition": "Account mapping is the disciplined correspondence layer linking originating transactions or subledger populations to general ledger accounts, management reporting structures, consolidation schedules, and elimination bridges—preserving deterministic lineage as monetary signals traverse custody.",
+      "institutional_context": "Mapping matrices, alternate account schemes, and chart-of-accounts translation tables operationalize mapping; acquisitions stress mappings when legacy charts integrate under tight close deadlines.",
+      "position_in_chain": "Mappings decide how States 02–04 identities survive summarization into ledger measurement and later translation narratives.",
+      "why_it_matters": "Broken mappings masquerade as FX noise—burning analyst cycles until forensic tracing exposes structural—not market—failure.",
+      "risk_if_misunderstood": "Ad hoc spreadsheet mappings outside governed ERP tables destroy reconstructability even when totals reconcile cosmetically.",
+      "related_terms": [
+        "posting-logic",
+        "general-ledger",
+        "subledger",
+        "consolidation-adjustment",
+        "reporting-integrity",
+        "currency-translation"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/monetary-truth-chain-of-custody/",
+        "/cfo-guide/",
+        "/glossary/consolidation-adjustment/",
+        "/glossary/reporting-integrity/",
+        "/glossary/posting-logic/",
+        "/glossary/general-ledger/",
+        "/glossary/subledger/",
+        "/glossary/currency-translation/"
+      ],
+      "buyer_relevance": [
+        "ERP consultants",
+        "controllers",
+        "financial close platforms"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "Account mapping is not identical to narrative chart rationalization decks—live ERP mapping artifacts must exist for replay.",
+      "custody_question": "Which governed mapping table—not slide—routes this population into consolidation-ready accounts?",
+      "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
+    },
+    {
+      "slug": "erp-currency-configuration",
+      "term": "ERP Currency Configuration",
+      "url": "/glossary/erp-currency-configuration/",
+      "ccy_state": null,
+      "ccy_state_name": "System Control · ERP Currency Configuration",
+      "status": "published",
+      "meta_description": "ERP currency configuration governs account currency, ledger currency, revaluation rules, rate consumption, and translation-ready behavior.",
+      "definition": "ERP currency configuration is the collective system settings—entity books, chart assignments, valuation profiles, translation methods, open-item management, and rate consumption hooks—that determine how account currency, ledger currency, revaluation eligibility, and downstream translation behave inside an enterprise finance stack.",
+      "institutional_context": "Implementation waves encode configuration decisions often undocumented after go-live; forensic reviewers reopen configuration tables when FX variance narratives contradict ledger mechanics.",
+      "position_in_chain": "Configuration operationalizes custody doctrine inside software—misconfiguration at State 04 propagates irreversible distortion through States 05–07.",
+      "why_it_matters": "Strategic CFO narratives collapse when configuration debt contradicts asserted reporting integrity.",
+      "risk_if_misunderstood": "Treating configuration as IT housekeeping ignores that controllers remain accountable for monetary outcomes configuration dictates.",
+      "related_terms": [
+        "currency-master-data",
+        "account-currency-control",
+        "exchange-rate-source",
+        "period-end-revaluation",
+        "fx-revaluation",
+        "posting-logic"
+      ],
+      "related_pages": [
+        "/glossary/",
+        "/framework/",
+        "/ccy-state-chain/",
+        "/what-is-account-currency/",
+        "/states/account-currency/",
+        "/cfo-guide/",
+        "/glossary/account-currency-control/",
+        "/glossary/currency-master-data/",
+        "/glossary/exchange-rate-source/",
+        "/glossary/period-end-revaluation/",
+        "/glossary/fx-revaluation/"
+      ],
+      "buyer_relevance": [
+        "ERP consultants",
+        "controllers",
+        "CFO advisory"
+      ],
+      "schema_types": [
+        "DefinedTerm"
+      ],
+      "not_confused_with": "ERP currency configuration is not generic spreadsheet policy—it is live parameterization auditors can reperformance-test.",
+      "custody_question": "Which configuration snapshot—including valuation profile—matches the close under audit—and who approved changes?",
       "evidence_discipline_disclaimer": "AccountCcy.com glossary entries are reference material only—not accounting, legal, tax, audit, or systems advice. Evidence sufficiency remains your organization's responsibility."
     },
     {

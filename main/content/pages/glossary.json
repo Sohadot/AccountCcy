@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "url": "/glossary/",
   "type": "pillar",
   "status": "published",
@@ -15,7 +15,7 @@
   "primary_section_title": "Enterprise finance collapses unlike meanings into the same ISO symbol unless currency states are named.",
   "primary_section_body": [
     "Two balances may both display USD while answering different custody questions — quotation versus obligation, settlement rail versus account assignment, ledger measurement versus reporting translation. AccountCcy publishes both the Currency State Control Framework and the CCY State Chain so those distinctions remain navigable instead of tribal.",
-    "The clusters below map thirty-two published defined terms into five conceptual authorities. Each card links to the sovereign term page where doctrine, operational meaning, distinctions, custody questions, and evidence posture are stated without thinning content into slogans."
+    "The clusters below map forty published defined terms into six conceptual authorities. Each card links to the sovereign term page where doctrine, operational meaning, distinctions, custody questions, and evidence posture are stated without thinning content into slogans."
   ],
   "authority_sections": [
     {
@@ -95,6 +95,26 @@
       "pillar_cards": []
     },
     {
+      "section_id": "erp-ledger-system-control",
+      "eyebrow": "ERP & ledger discipline",
+      "title": "ERP, Ledger & System Control",
+      "paragraphs": [
+        "Monetary truth is instantiated inside applications: sources capture obligations, subledgers hold operational detail, general ledgers crystallize trial balance custody, posting logic executes policy, currency master data constrains numeric behavior, mappings bridge populations into reporting and consolidation, and ERP currency configuration encodes how States 04–06 behave under stress.",
+        "This cluster supplies system vocabulary that complements custody doctrine and FX mechanics—without collapsing architecture into vendor commentary."
+      ],
+      "term_slugs": [
+        "system-of-record",
+        "source-system",
+        "subledger",
+        "general-ledger",
+        "posting-logic",
+        "currency-master-data",
+        "account-mapping",
+        "erp-currency-configuration"
+      ],
+      "pillar_cards": []
+    },
+    {
       "section_id": "audit-evidence-control-discipline",
       "eyebrow": "Evidence & control",
       "title": "Audit, Evidence & Control Discipline",
@@ -127,6 +147,6 @@
   "schema_notes": {
     "primary_schema": "DefinedTermSet",
     "secondary_schema": ["WebPage", "BreadcrumbList"],
-    "framework_status": "Glossary hub renders thirty-two published term URLs grouped into five conceptual authority clusters."
+    "framework_status": "Glossary hub renders forty published term URLs grouped into six conceptual authority clusters."
   }
 }
