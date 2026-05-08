@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The CFO Guide to Hidden Account Currency Risk — AccountCcy.com</title>
+  <meta name="description" content="Hidden account currency risk lives in ERP custody and currency-state fragmentation — not only treasury FX. A governance guide for CFOs and finance leaders.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/cfo-guide/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The CFO Guide to Hidden Account Currency Risk — AccountCcy.com">
+  <meta property="og:description" content="Hidden account currency risk lives in ERP custody and currency-state fragmentation — not only treasury FX. A governance guide for CFOs and finance leaders.">
+  <meta property="og:url" content="https://accountccy.com/cfo-guide/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The CFO Guide to Hidden Account Currency Risk — AccountCcy.com">
+  <meta name="twitter:description" content="Hidden account currency risk lives in ERP custody and currency-state fragmentation — not only treasury FX. A governance guide for CFOs and finance leaders.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/cfo-guide/",
+            "url": "https://accountccy.com/cfo-guide/",
+            "name": "The CFO Guide to Hidden Account Currency Risk — AccountCcy.com",
+            "description": "Hidden account currency risk lives in ERP custody and currency-state fragmentation — not only treasury FX. A governance guide for CFOs and finance leaders.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "The CFO Guide to Hidden Account Currency Risk — AccountCcy.com",
+                    "item": "https://accountccy.com/cfo-guide/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "The CFO Guide to Hidden Account Currency Risk",
+            "description": "Hidden account currency risk lives in ERP custody and currency-state fragmentation — not only treasury FX. A governance guide for CFOs and finance leaders.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/cfo-guide/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-05-08"
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-pillar" data-template="reference-page.html" data-page-type="pillar">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/framework/">Framework</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/what-is-account-currency/">Account Currency</a>
+        <a href="/cfo-guide/">CFO Guide</a>
+        <a href="/glossary/">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">The CFO Guide to Hidden Account Currency Risk — AccountCcy.com</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Executive Governance · Account Currency</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">The CFO Guide to Hidden Account Currency Risk</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">The greatest currency risk inside enterprise finance is not always market volatility. Sometimes it is the hidden fragmentation of monetary truth across transaction, account, ledger, reporting, consolidation, and audit states — visible only when reconciliation friction spikes, close timelines slip, or audit trails strain.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Executive Thesis</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">Treasury may hedge rates brilliantly while accounting custody quietly decays.<br>Without naming currency states, CFOs cannot see where truth fractures before it becomes reporting or audit consequence.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      CFO Governance Lens · AccountCcy.com
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Who This Serves</p>
+        <h2 id="context-title" class="ccy-title">Leaders responsible for numbers that must survive scrutiny — not quotes, but custody.</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">Chief Financial Officers, Group Controllers, Finance Directors, Treasury executives who touch hedge accounting interfaces, Audit Committee members reviewing multi-currency narratives, and heads of financial close who feel unexplained FX noise despite disciplined markets teams.</p>
+<p class="ccy-body">Your organization already manages liquidity FX. The subtler risk lives where ERP configuration, account assignments, functional currency policy, translation methodology, and consolidation design intersect — often discovered late.</p>
+<p class="ccy-body">AccountCcy.com does not replace GAAP/IFRS manuals or vendor documentation. It names the institutional passage so leadership can ask sharper questions before distortion compounds across periods.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Where Fragmentation Hides</p>
+      <h2 id="graph-title" class="ccy-title">Six pressure surfaces CFOs should map explicitly.</h2>
+      <p class="ccy-body">Each surface corresponds to a currency state or transition in the CCY State Chain. Weakness rarely announces itself at treasury dashboards; it surfaces in reconciliation exceptions, unexplained translation swings, or consolidation adjustments that resist intuitive narration.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Surface 01</p><h3 class="ccy-section-title">Transaction vs Account Identity Drift</h3><p class="ccy-small">Events booked in one denomination while accounts maintain balances under another identity confuse controllers reconciling subledger to GL unless custody boundaries are explicit.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Surface 02</p><h3 class="ccy-section-title">Settlement Divergence Stories</h3><p class="ccy-small">Cash Treasury sees may not match accounting obligation currency — unmanaged narratives create latent FX gains/losses that appear &quot;suddenly&quot; in ledger reviews.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Surface 03</p><h3 class="ccy-section-title">Functional vs Operational Ledger Tension</h3><p class="ccy-small">Policy determination may be sound yet drift from how subsidiaries operationalize accounts — producing persistent translation noise leadership rounds away until audits sharpen questions.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Surface 04</p><h3 class="ccy-section-title">Reporting Layer Translation Shock</h3><p class="ccy-small">Management packs flip currencies without tracing custody lineage — surprises emerge when bridge analyses cannot tie movement to account-level discipline.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Surface 05</p><h3 class="ccy-section-title">Consolidation Altitude Complexity</h3><p class="ccy-small">Group currency choices amplify tiny entity-level ambiguities — elimination journals mask underlying account assignments until variance analytics collapse.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Surface 06</p><h3 class="ccy-section-title">Audit Trail Narrative Gaps</h3><p class="ccy-small">When traceability from quoted exposure through account postings to final consolidated disclosure fragments, audit committees hear confidence tones finance teams cannot operationalize under detail questions.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Executive Control</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Demand a named chain before approving blanket FX explanations.</h2>
+        <p class="ccy-consequence-body">Ask leaders to diagram monetary movement across states quarterly — not bank balances alone, but custody transitions: where obligation forms, where accounts assign identity, where translation fires, where consolidation reunifies narrative.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Executive Risk</p>
+        <h2 class="ccy-consequence-heading">Misdiagnosing volatility disguises custody decay.</h2>
+        <p class="ccy-consequence-body">Blaming macro moves for recurring operational variance burns credibility with boards already skeptical of opaque FX bridges — disciplined vocabulary exposes whether markets moved or internal custody fractured.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-section" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-nav-links"><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/monetary-truth-chain-of-custody/">The Chain of Custody for Monetary Truth — AccountCcy.com</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/framework/">The Currency State Control Framework — AccountCcy.com</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/ccy-state-chain/">The CCY State Chain — From Quoted Price to Audit Reality</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/what-is-account-currency/">What Is Account Currency? — Definition and Control Discipline</a></div><div class="ccy-nav-link-item"><span class="ccy-nav-link-label">Reference</span><a class="ccy-nav-link-title" href="/glossary/">Account Currency Glossary — Enterprise Finance Reference</a></div></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

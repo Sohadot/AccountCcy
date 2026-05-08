@@ -58,6 +58,34 @@ The masthead is now part of the asset’s institutional identity layer and shoul
 
 ---
 
+## 2026-05-08 — Foundation Publication Cluster 02 (Glossary & CFO Guide)
+
+### Decision
+
+AccountCcy.com published two additional sovereign reference pillars:
+
+- `/glossary/` — a terminology constitution anchoring AccountCcy language (hub page; term URLs staged later).
+- `/cfo-guide/` — **The CFO Guide to Hidden Account Currency Risk**, addressing fragmentation of monetary truth across currency states for executive governance audiences.
+
+### Strategic Meaning
+
+Temporary removal of masthead links to unpublished targets was replaced by publishing real pages — not reintroducing broken navigation.
+
+The glossary owns lexical discipline; the CFO guide bridges conceptual doctrine to high-value institutional buyers without reducing content to thin SEO filler.
+
+### Technical Changes
+
+- Added `main/content/pages/glossary.json` and `main/content/pages/cfo-guide.json`.
+- Set both URLs to `published` / indexable in `main/data/pages.json` with `required_links` constrained to the published graph only.
+- Restored `CFO Guide` and `Glossary` entries in `main/templates/base.html` primary navigation after generation readiness.
+- Regenerated HTML outputs, `sitemap.xml`, `robots.txt`, and indexing/schema reports; **sovereign quality gate passed**.
+
+### Governance Implication
+
+Reference navigation must never point to non-existent URLs; expanding the graph requires publishing or withholding links until `link_safety` and strict sitemap audits succeed.
+
+---
+
 ## 2026-05-08 — WebP Identity Assets Integrated
 
 ### Decision
