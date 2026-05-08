@@ -7,7 +7,7 @@
   "quality_gate": "sovereign",
   "page_eyebrow": "Doctrine · Supreme Thesis",
   "h1": "The Chain of Custody for Monetary Truth",
-  "intro": "Monetary truth in enterprise finance is not carried by the naked figure alone. The same numeric surface can answer incompatible custody questions unless finance preserves currency identity, source events, system postings, ledger measurement choices, control-framework ownership, FX mechanics, translation methodology, outward presentation, and the evidentiary trail that lets an outsider reconstruct lineage. AccountCcy.com exists to map that chain—not as commentary, but as an accountable vocabulary tied to institutional behavior.",
+  "intro": "Monetary truth in enterprise finance is not carried by the naked figure alone. The same numeric surface can answer incompatible custody questions unless finance preserves currency identity, source events, system postings, ledger measurement choices, control-framework ownership, FX mechanics, translation methodology, outward presentation, and the reconstructable evidentiary discipline auditors replay—not improvised narration dressed as certainty. Monetary reconstruction succeeds only when audit trails and governed evidence trails bind postings to policy and rates across custody hops.",
   "doctrine_eyebrow": "Foundation Doctrine",
   "doctrine_statement": "AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.<br>The asset names where quotation becomes obligation, obligation becomes settlement, settlement becomes account custody, custody becomes ledger measurement, measurement becomes translation and consolidation, and consolidation becomes audit-defensible reality—not because automation guarantees truth, but because governance earns it.",
   "doctrine_attribution": "AccountCcy.com Foundation Doctrine",
@@ -78,8 +78,8 @@
           "link_label": "Reporting currency"
         },
         {
-          "title": "9 · Audit and control evidence",
-          "body": "Terminal monetary truth is reconstructable lineage—rates, postings, reconciliations, sign-offs, and independent scrutiny—not optimism layered after the fact.",
+          "title": "9 · Audit trail and reconstructable evidence",
+          "body": "Terminal monetary truth demands contiguous audit trails, governed evidence trails, and repeatable monetary reconstruction—rates, postings, reconciliations, configuration lineage, and control evidence—not optimism layered after the fact.",
           "link_url": "/glossary/audit-reality/",
           "link_label": "Audit reality"
         }
@@ -92,7 +92,7 @@
       "paragraphs": [
         "Monetary truth fractures when organizations silently interchange obligation currency (transaction currency), ERP custody assignment (account currency), measurement currency (ledger currency aligned to functional currency discipline), mechanical restatement (revaluation), presentation translation, and reporting narration.",
         "Interfaces—banks, TMS, procurement, tax engines, consolidation hubs—accelerate handoffs. Without explicit custody ownership per transition, teams reconcile symptoms while the underlying identity mismatch persists.",
-        "Weak custody produces ‘balanced’ sub-ledgers that still fail reconstruction tests: an auditor or regulator asks which rate, which policy, which subsystem transformation produced the figure—and finance reaches for manual storytelling instead of artifacts.",
+        "Weak custody produces ‘balanced’ sub-ledgers that still fail reconstruction tests: an auditor or regulator asks which rate, which policy, which subsystem transformation produced the figure—and finance reaches for manual storytelling instead of artifacts aligned as control evidence. Monetary ambiguity hardens when teams cannot narrate custody lineage without debating vocabulary.",
         "Account currency control names governance over State 04 custody assignments; currency state vocabulary explains why ‘currency’ is an operational state—not an interchangeable flag."
       ]
     },
@@ -125,7 +125,12 @@
         { "href": "/glossary/account-currency-control/", "label": "Account currency control" },
         { "href": "/glossary/account-currency/", "label": "Account currency (defined)" },
         { "href": "/states/account-currency/", "label": "State 04 reference" },
-        { "href": "/ccy-state-chain/", "label": "CCY State Chain" }
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/glossary/audit-trail/", "label": "Audit trail" },
+        { "href": "/glossary/evidence-trail/", "label": "Evidence trail" },
+        { "href": "/glossary/monetary-reconstruction/", "label": "Monetary reconstruction" },
+        { "href": "/glossary/control-evidence/", "label": "Control evidence" },
+        { "href": "/glossary/monetary-ambiguity/", "label": "Monetary ambiguity" }
       ]
     }
   ],

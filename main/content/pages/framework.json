@@ -7,7 +7,7 @@
   "quality_gate": "sovereign",
   "page_eyebrow": "Framework · Currency State Control",
   "h1": "The Currency State Control Framework",
-  "intro": "The Currency State Control Framework is not an accounting standard, not a substitute for ERP posting logic, and not a generic FX playbook. It is AccountCcy’s conceptual and operational control layer for tracing how monetary truth earns custody as figures move through enterprise finance—across currency identity, transactional context, account assignments, ledger measurement, functional discipline, revaluation, translation and outward presentation, and finally reconstructable audit evidence.",
+  "intro": "The Currency State Control Framework is not an accounting standard, not a substitute for ERP posting logic, and not a generic FX playbook. It is AccountCcy’s conceptual and operational control layer for tracing how monetary truth earns custody as figures move through enterprise finance—across currency identity, transactional context, account assignments, ledger measurement, functional discipline, revaluation, translation and outward presentation, and finally reconstructable audit evidence defended through reporting integrity, audit defensibility, explicit state ownership, and corpus-grade control evidence.",
   "doctrine_eyebrow": "Framework Doctrine",
   "doctrine_statement": "Doctrine names why monetary truth needs lineage.<br>This framework names how that lineage becomes governable inside multi-currency accounting machinery—not by overriding standards or vendors, but by assigning custody ownership per layer.",
   "doctrine_attribution": "The Currency State Control Framework · AccountCcy.com",
@@ -24,7 +24,7 @@
       "eyebrow": "Layered control surface",
       "title": "Eight operational layers of currency-state custody",
       "paragraphs": [
-        "Each layer below corresponds to a zone where monetary identity or measurement can shift without a visible headline change. Controls attach when finance names the layer, assigns ownership, and preserves evidence across handoffs."
+        "Each layer below corresponds to a zone where monetary identity or measurement can shift without a visible headline change. Controls attach when finance names the layer, assigns state ownership, and preserves evidence across handoffs."
       ],
       "steps": [
         {
@@ -71,7 +71,7 @@
         },
         {
           "title": "8 · Evidence & Audit Layer",
-          "body": "Terminal posture where monetary truth must reconstruct without improvised storytelling—rates, policies, postings, reconciliations, sign-offs, and scrutiny artifacts aligned.",
+          "body": "Terminal posture where monetary truth must reconstruct without improvised storytelling—rates, policies, postings, reconciliations, and scrutiny artifacts aligned. Reporting integrity preserves lineage across translation boundaries; audit defensibility tests whether leadership could withstand reperformance; control evidence proves each transformation belonged to policy—not rhetoric.",
           "link_url": "/glossary/audit-reality/",
           "link_label": "Audit reality"
         }
@@ -82,7 +82,7 @@
       "eyebrow": "Control charter",
       "title": "What the framework is engineered to control",
       "paragraphs": [
-        "The framework governs clarity across eight domains that repeatedly collide inside enterprise finance: currency identity; currency state transitions; account-level monetary context inside ERP; ledger measurement discipline; revaluation logic executed at close boundaries; translation logic governing presentation; reporting-layer narration aligned (or misaligned) with ledger proofs; and audit reconstruction—the requirement that finance can replay transformations using artifacts, not tribal explanation.",
+        "The framework governs clarity across eight domains that repeatedly collide inside enterprise finance: currency identity; currency state transitions; account-level monetary context inside ERP; ledger measurement discipline; revaluation logic executed at close boundaries; translation logic governing presentation; reporting-layer narration aligned (or misaligned) with ledger proofs; and audit reconstruction—the requirement that finance can replay transformations using artifacts, not tribal explanation. State ownership assignments make each boundary auditable instead of tribal.",
         "Reporting currency presentation carries its own governance burden distinct from translation mechanics—especially where disclosures reinterpret consolidated narratives.",
         "Account currency control names explicit governance over custody assignments at State 04—the hinge where weak discipline propagates downstream through ledger, reporting, consolidation, and audit posture."
       ]
@@ -133,6 +133,10 @@
         { "href": "/states/account-currency/", "label": "State 04 reference" },
         { "href": "/glossary/account-currency/", "label": "Account currency (defined)" },
         { "href": "/glossary/reporting-currency/", "label": "Reporting currency" },
+        { "href": "/glossary/state-ownership/", "label": "State ownership" },
+        { "href": "/glossary/control-evidence/", "label": "Control evidence" },
+        { "href": "/glossary/reporting-integrity/", "label": "Reporting integrity" },
+        { "href": "/glossary/audit-defensibility/", "label": "Audit defensibility" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     }

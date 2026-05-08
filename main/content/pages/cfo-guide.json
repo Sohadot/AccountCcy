@@ -7,7 +7,7 @@
   "quality_gate": "sovereign",
   "page_eyebrow": "Executive Governance · Monetary Truth",
   "h1": "The CFO Guide to Hidden Account Currency Risk",
-  "intro": "Account currency is not a clerical label tucked beside an ISO code. For CFOs and finance leadership it is part of the control surface where monetary truth lives—or silently fractures—across accounts, ledgers, FX revaluation mechanics, translation methodology, outward reporting narration, consolidation altitude, and the evidentiary trail assurance depends upon. Treasury may hedge liquidity exposure brilliantly while custody vocabulary collapses inside ERP postings—distorting reporting integrity long before markets move sharply.",
+  "intro": "Account currency is not a clerical label tucked beside an ISO code. For CFOs and finance leadership it is part of the control surface where monetary truth lives—or silently fractures—across accounts, ledgers, FX revaluation mechanics, translation methodology, outward reporting narration, consolidation altitude, and the evidentiary trail assurance depends upon. Treasury may hedge liquidity exposure brilliantly while custody vocabulary collapses inside ERP postings—distorting reporting integrity long before markets move sharply. Audit defensibility and control evidence separate conviction finance can replay from storytelling committees tolerate briefly.",
   "doctrine_eyebrow": "Executive Thesis",
   "doctrine_statement": "Board-facing confidence requires reconstructable monetary lineage—not optimism layered atop dashboards.<br>CFO discipline demands naming where currency identity changes hands inside enterprise finance systems.",
   "doctrine_attribution": "CFO Governance Lens · AccountCcy.com",
@@ -70,6 +70,10 @@
         { "href": "/glossary/fx-revaluation/", "label": "FX revaluation" },
         { "href": "/glossary/currency-translation/", "label": "Currency translation" },
         { "href": "/glossary/reporting-currency/", "label": "Reporting currency" },
+        { "href": "/glossary/reporting-integrity/", "label": "Reporting integrity" },
+        { "href": "/glossary/audit-defensibility/", "label": "Audit defensibility" },
+        { "href": "/glossary/monetary-ambiguity/", "label": "Monetary ambiguity" },
+        { "href": "/glossary/control-evidence/", "label": "Control evidence" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     },
@@ -125,7 +129,7 @@
     {
       "label": "Surface 06",
       "title": "Audit trail narrative gaps",
-      "body": "Traceability from exposure through postings to disclosure fragments—committees hear confidence tones operators cannot substantiate under detail questioning."
+      "body": "Traceability from exposure through postings to disclosure fragments—audit trails lose continuity while control evidence thins—committees hear confidence tones operators cannot substantiate under detail questioning."
     }
   ],
   "control_label": "Executive Control",

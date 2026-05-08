@@ -7,7 +7,7 @@
   "quality_gate": "sovereign",
   "page_eyebrow": "Framework · State-Sequence Pillar",
   "h1": "The CCY State Chain",
-  "intro": "Inside enterprise finance, currency is not a cosmetic ISO badge beside USD, EUR, MAD, or any code—it is a state carried through systems, postings, accounts, ledgers, settlement rails, functional measurement discipline, reporting lenses, translation mechanics, revaluation logic, and the evidentiary trail auditors reconstruct. The CCY State Chain names those transitions so teams stop collapsing incompatible meanings behind identical symbols.",
+  "intro": "Inside enterprise finance, currency is not a cosmetic ISO badge beside USD, EUR, MAD, or any code—it is a state carried through systems, postings, accounts, ledgers, settlement rails, functional measurement discipline, reporting lenses, translation mechanics, revaluation logic, and reconstructable audit trails auditors replay state-by-state. The CCY State Chain names those transitions so teams stop collapsing incompatible meanings behind identical symbols; weak state ownership or fragmented monetary reconstruction anywhere fractures lineage downstream.",
   "doctrine_eyebrow": "State Chain Doctrine",
   "doctrine_statement": "Doctrine asserts custody lineage.<br>The chain asserts sequential monetary identity—what changed, where it changed, and which artifact proves each transformation—not rhetoric layered atop dashboards.",
   "doctrine_attribution": "The CCY State Chain · AccountCcy.com",
@@ -78,8 +78,8 @@
           "link_label": "FX revaluation"
         },
         {
-          "title": "9 · Audit and control reconstruction",
-          "body": "Terminal posture requiring replayable monetary paths—rates, postings, reconciliations, subsystem extracts—without heroic spreadsheets storytelling audit committees tolerate briefly.",
+          "title": "9 · Audit reconstruction",
+          "body": "Terminal posture requiring replayable monetary paths governed by contiguous audit trails—rates, postings, reconciliations, subsystem extracts—so monetary reconstruction proceeds without heroic spreadsheets storytelling audit committees tolerate briefly.",
           "link_url": "/glossary/audit-reality/",
           "link_label": "Audit reality"
         }
@@ -91,13 +91,13 @@
       "title": "Why sequencing monetary states matters",
       "paragraphs": [
         "Multi-currency accounting breaks silently when obligation currency, ERP custody, ledger measurement, functional determination, revaluation batch logic, translation methodology, and outward reporting narration collapse behind identical ISO symbols.",
-        "ERP and accounting platform architects encode postings, valuation engines, tax integrations, and consolidation pipelines—each hop preserves numeric fidelity yet may discard custody narrative unless configuration mirrors disciplined vocabulary.",
+        "ERP and accounting platform architects encode postings, valuation engines, tax integrations, and consolidation pipelines—each hop preserves numeric fidelity yet may discard custody narrative unless configuration mirrors disciplined vocabulary and named state ownership.",
         "Ledger interpretation depends on knowing whether balances reflect transactional obligations, settlement-clearing differences, account assignments, or close-restated valuations.",
         "FX revaluation discipline requires naming rate sources and boundary ownership before consolidation narratives absorb unexplained drift.",
         "Currency translation discipline demands separating measured ledger outcomes from presentation conversions CFO packs summarize.",
         "CFO reporting inherits whichever custody fractures controllers tolerated upstream—investor narratives amplify ambiguity unless sequencing clarity preceded disclosure drafting.",
         "Audit reconstruction fails when evidence bundles omit subsystem hops reviewers cannot replay independently.",
-        "Preventing monetary ambiguity is therefore preventative governance—not quarterly reconciliation heroics—because ambiguity metastasizes before dashboards admit variance."
+        "Preventing monetary ambiguity is therefore preventative governance—not quarterly reconciliation heroics—because ambiguity metastasizes before dashboards admit variance, even when monetary reconstruction exercises remain theoretically possible yet prohibitively expensive."
       ]
     },
     {
@@ -146,6 +146,10 @@
         { "href": "/states/account-currency/", "label": "State 04 reference" },
         { "href": "/glossary/account-currency/", "label": "Account currency (defined)" },
         { "href": "/glossary/consolidation-currency/", "label": "Consolidation currency" },
+        { "href": "/glossary/state-ownership/", "label": "State ownership" },
+        { "href": "/glossary/monetary-reconstruction/", "label": "Monetary reconstruction" },
+        { "href": "/glossary/monetary-ambiguity/", "label": "Monetary ambiguity" },
+        { "href": "/glossary/audit-trail/", "label": "Audit trail" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     }

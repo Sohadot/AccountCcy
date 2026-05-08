@@ -16,7 +16,7 @@
   "primary_section_body": [
     "Enterprise users often arrive seeking a plain-language anchor; AccountCcy treats that arrival as an entry ramp into custody vocabulary—how monetary truth earns lineage across systems rather than surviving as slogans.",
     "Account currency sits at State 04 because external monetary movement must receive accountable ledger identity before ledger measurement, translation narratives, consolidation hubs, and audit scrutiny absorb downstream consequences.",
-    "Published glossary entries distinguish neighboring concepts transaction-by-transaction; this page summarizes distinctions while linking outward so finance, treasury, systems owners, and assurance leaders argue about the same institutional objects."
+    "Published glossary entries distinguish neighboring concepts transaction-by-transaction; this page summarizes distinctions while linking outward so finance, treasury, systems owners, and assurance leaders argue about the same institutional objects. Where custody vocabulary collapses, monetary ambiguity rises—and audit trails plus control evidence thin before dashboards admit variance."
   ],
   "pillar_sections": [
     {
@@ -127,6 +127,9 @@
         { "href": "/glossary/currency-translation/", "label": "Currency translation" },
         { "href": "/glossary/reporting-currency/", "label": "Reporting currency" },
         { "href": "/glossary/account-currency/", "label": "Defined term: Account currency" },
+        { "href": "/glossary/monetary-ambiguity/", "label": "Monetary ambiguity" },
+        { "href": "/glossary/audit-trail/", "label": "Audit trail" },
+        { "href": "/glossary/control-evidence/", "label": "Control evidence" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     },

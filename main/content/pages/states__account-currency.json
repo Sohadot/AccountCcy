@@ -9,7 +9,7 @@
   "state_summary": "Account Currency is State 04—the monetary state ERP assigns to an account, balance, receivable, payable, obligation line, ledger position, or account-level monetary record. Currency becomes attached here to a governed chart context: how postings accumulate, reconciliations scope, foreign balances qualify for restatement, and auditors replay custody—not merely as an obligation denomination from a transaction event or a cosmetic ISO display field.",
   "state_role_label": "Custody Gate",
   "state_role_title": "Where monetary identity enters governed chart context.",
-  "state_role_body": "Upstream states narrate quotation, obligation, and settlement motion; State 04 freezes custody decisions inside charts—what currency balance lives inside this account, how controllers reconcile it, and how downstream ledger measurement, translation narratives, consolidation hubs, and assurance artifacts inherit identity. Weak discipline here is structural: reconciliation theater replaces lineage finance could defend.",
+  "state_role_body": "Upstream states narrate quotation, obligation, and settlement motion; State 04 freezes custody decisions inside charts—what currency balance lives inside this account, how controllers reconcile it, and how downstream ledger measurement, translation narratives, consolidation hubs, and assurance artifacts inherit identity. State ownership must be explicit: weak discipline here is structural—reconciliation theater replaces lineage finance could defend, and audit trails lose contiguous reconstruction paths.",
   "custody_question": "Which currency identity governs how this account records, revalues, reconciles, and defends its balances—and who owns that assignment when postings span subsystems?",
   "chain_position_body": "State 04 sits between settlement-era narratives and ledger-era measurement. Readers anchor definition intent on the primary entry page, then traverse the CCY State Chain tiles, Currency State Control Framework layers, doctrine pillar, and glossary-defined neighboring identities—transaction through audit reconstruction—without collapsing distinct forensic questions into identical ISO symbols.",
   "state_rail": [
@@ -80,8 +80,8 @@
           "link_label": "Currency translation"
         },
         {
-          "title": "Audit and control reconstruction — terminal proof",
-          "body": "Requires replayable custody lineage across postings, policies, rates—State 04 fractures propagate here regardless of polished disclosures.",
+          "title": "Audit trail discipline — reconstructability",
+          "body": "Contiguous audit trails, repeatable monetary reconstruction, and corpus-grade control evidence expose State 04 fractures regardless of polished disclosures downstream.",
           "link_url": "/glossary/audit-reality/",
           "link_label": "Audit reality"
         }
@@ -97,7 +97,7 @@
         "ERP account configuration encodes identity populations FX batches consume—misassignment cascades through valuation engines silently.",
         "Multi-currency ledgers amplify mismatch when local custody diverges from group methodology absent explicit governance.",
         "Revaluation eligibility depends on which balances qualify as foreign versus functional-measured—ambiguous assignments distort batch populations.",
-        "Reporting integrity inherits whichever fractures controllers tolerated at assignment time—investor packs cannot retrofit lineage absent upstream clarity.",
+        "Reporting integrity—in AccountCcy’s evidence vocabulary—inherits whichever fractures controllers tolerated at assignment time; investor packs cannot retrofit lineage absent upstream clarity.",
         "Audit reconstruction demands postings reconcile to documented custody decisions—not improvised spreadsheets reconciling numbers without narrative coherence.",
         "Monetary truth preservation—in doctrine terms—is reconstructable custody; State 04 is where external motion earns accountable internal identity."
       ]
@@ -147,6 +147,10 @@
         { "href": "/glossary/account-currency/", "label": "Defined term" },
         { "href": "/glossary/account-currency-control/", "label": "Account currency control" },
         { "href": "/glossary/currency-state/", "label": "Currency state" },
+        { "href": "/glossary/state-ownership/", "label": "State ownership" },
+        { "href": "/glossary/control-evidence/", "label": "Control evidence" },
+        { "href": "/glossary/audit-trail/", "label": "Audit trail" },
+        { "href": "/glossary/monetary-reconstruction/", "label": "Monetary reconstruction" },
         { "href": "/glossary/", "label": "Glossary hub" }
       ]
     }
