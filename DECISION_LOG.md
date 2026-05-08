@@ -65,6 +65,49 @@ The spine is ready for **controlled expansion**—additional glossary clusters, 
 
 ---
 
+## 2026-05-08 — Audit Evidence Control Layer Integrated
+
+### Decision
+
+**Glossary Cluster 03 — Audit, Evidence & Control Discipline** is **complete** as eight published terms, grouped on `/glossary/` under the **Audit, Evidence & Control Discipline** authority section; that vocabulary is **integrated** into doctrine, framework, state-sequence, State 04, CFO guidance, and the primary definition entry so audit reconstruction and evidence discipline operate as an explicit conceptual layer—not an implicit footnote.
+
+### Published Terms (Cluster 03)
+
+| Term | Path |
+|------|------|
+| Audit trail | `/glossary/audit-trail/` |
+| Control evidence | `/glossary/control-evidence/` |
+| Evidence trail | `/glossary/evidence-trail/` |
+| Monetary reconstruction | `/glossary/monetary-reconstruction/` |
+| State ownership | `/glossary/state-ownership/` |
+| Reporting integrity | `/glossary/reporting-integrity/` |
+| Audit defensibility | `/glossary/audit-defensibility/` |
+| Monetary ambiguity | `/glossary/monetary-ambiguity/` |
+
+### Strategic Meaning
+
+The lexicon now names **monetary defensibility** in institutional language: reconstructable trails, governed **control evidence**, accountable **state ownership**, **reporting integrity** across translation boundaries, explicit **audit defensibility**, and the custody risk of **monetary ambiguity**. Integration into core pillars tightens the thesis that monetary truth must survive independent replay—without turning pillars into glossary inventories.
+
+### Integration Surface (Verified)
+
+| Surface | Path |
+|---------|------|
+| Doctrine | `/monetary-truth-chain-of-custody/` |
+| Framework | `/framework/` |
+| State sequence | `/ccy-state-chain/` |
+| State 04 | `/states/account-currency/` |
+| Executive layer | `/cfo-guide/` |
+| Definition entry | `/what-is-account-currency/` |
+
+### Technical State (Verified)
+
+- **Glossary hub:** **24** published defined terms; Cluster 03 fills the audit/evidence/control discipline authority cluster alongside existing doctrine, architecture, accounting-control, and visibility clusters.
+- **Sitemap:** **39** published URLs after Cluster 03 publication and pillar integration pass.
+- **Quality discipline:** sovereign quality gate passed after integration (`scripts/quality_gate.py`).
+- **Link safety:** unchanged—`required_links` alignment and published-URL validation during generation.
+
+---
+
 ## 2026-05-08 — Royal Institutional Masthead Adopted
 
 ### Decision

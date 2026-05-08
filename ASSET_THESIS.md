@@ -100,7 +100,7 @@ The foundational reference architecture is locked as follows:
 | Sovereign reading pathway | Homepage `#sovereign-pathway` |
 | CFO decision layer | `/cfo-guide/` |
 
-The public sitemap comprises **31 URLs**. Internal link integrity is enforced via `required_links` and published URL validation; the quality gate marks completion of the reinforcement sequence. Controlled expansion remains permitted via glossary clusters, additional state pages, executive guides, or audit/evidence layers—without altering this spine unless deliberately superseded.
+The public sitemap comprises **39 URLs**. Cluster **03 — Audit, Evidence & Control Discipline** is published and woven into doctrine, framework, CCY State Chain, State 04, CFO guidance, and the definition entry—strengthening reconstruction discipline, evidence posture, state ownership, reporting integrity, monetary defensibility, and vocabulary for monetary ambiguity. Internal link integrity is enforced via `required_links` and published URL validation; the quality gate marks completion of reinforcement and integration passes. Controlled expansion remains permitted via further glossary clusters, additional state pages, executive guides, or audit/evidence layers—without altering this spine unless deliberately superseded.
 
 ---
 

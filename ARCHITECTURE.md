@@ -48,7 +48,7 @@ The architecture must make this hierarchy visible to users, search engines, and 
 
 The foundational **published reference architecture** is locked as a coherent custody stack:
 
-1. **`/glossary/`** — Glossary Authority Map: terminology arranged as conceptual clusters (monetary custody, currency-state architecture, enterprise accounting controls, audit/reporting language).
+1. **`/glossary/`** — Glossary Authority Map: terminology arranged as conceptual clusters (monetary custody, currency-state architecture, enterprise accounting controls, **Audit / Evidence / Control Discipline** — Cluster 03 terms for reconstruction, state ownership, reporting integrity, defensibility, and ambiguity risk).
 2. **`/monetary-truth-chain-of-custody/`** — Doctrine pillar: monetary truth through custody lineage inside enterprise finance.
 3. **`/framework/`** — Framework pillar: operational control layers across identity, transaction context, account custody, ledger treatment, functional lens, revaluation, translation/reporting, and evidence.
 4. **`/ccy-state-chain/`** — State-sequence pillar: currency as institutional states across the eight-position CCY chain.
@@ -57,9 +57,9 @@ The foundational **published reference architecture** is locked as a coherent cu
 7. **Homepage (`/` → `#sovereign-pathway`)** — Sovereign Navigation Pathway surfacing the executive reading order through the spine above.
 8. **`/cfo-guide/`** — CFO decision layer translating architecture into reporting integrity, FX/translation discipline, ERP control, audit reconstruction, and monetary truth accountability.
 
-**Operational facts at lock:** public sitemap enumerates **31** URLs; sovereign quality gate passes on the scripted validation path; outbound registry discipline (`required_links` + published URL checks) enforces link safety during generation.
+**Operational facts at lock (updated post–Cluster 03):** public sitemap enumerates **39** URLs; sovereign quality gate passes on the scripted validation path; outbound registry discipline (`required_links` + published URL checks) enforces link safety during generation. Doctrine, framework, CCY State Chain, State 04, CFO guide, and definition entry **reference** Cluster 03 vocabulary where custody demands reconstructability and evidence—not flat link dumps.
 
-**Expansion:** future glossary clusters, additional state depth, executive guides, or audit/evidence layers may extend the spine only through governed publication—not ad hoc URL sprawl.
+**Expansion:** future glossary clusters, additional state depth, executive guides, or further audit/evidence articulation may extend the spine only through governed publication—not ad hoc URL sprawl.
 
 ---
 
@@ -284,6 +284,8 @@ Role:
 This is the reference depth page and **lexical authority hub**.
 
 The hub renders as a **conceptual authority map**—clustered vocabulary—not a flat glossary index.
+
+As of Cluster 03 integration, **twenty-four** published defined terms populate four clusters; **Audit, Evidence & Control Discipline** publishes reconstruction, evidence-trail, audit-trail, control-evidence, state-ownership, reporting-integrity, audit-defensibility, and monetary-ambiguity language aligned to assurance and CFO-facing posture.
 
 It should define key terms with precision.
 
