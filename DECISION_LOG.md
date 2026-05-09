@@ -30,6 +30,32 @@ It should record decisions that affect the asset’s meaning, structure, monetiz
 
 ---
 
+## 2026-05-09 — ERP Ledger Control Layer Cluster Published
+
+Published the second controlled reference cluster for AccountCcy.com, extending the Currency State Control Framework from conceptual currency-state distinctions into ERP, ledger, reconciliation, FX revaluation, and institutional control behavior.
+
+The cluster added six indexable reference pages:
+
+- /erp-currency-configuration-control/
+- /ledger-currency-control/
+- /account-currency-control-point/
+- /multi-currency-reconciliation-control/
+- /fx-revaluation-control/
+- /currency-state-control-risk/
+
+The pages use the existing reference-page.html rendering path through render_reference and introduce no new template, renderer, unsupported JSON fields, ERP implementation guide, diagnostic tool, calculator, acquisition page, or vendor-specific advice.
+
+This cluster strengthens AccountCcy.com by showing how monetary identity becomes governed system behavior inside enterprise finance. It reinforces the asset thesis that AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.
+
+Validation completed successfully:
+
+- Generated pages through the existing pipeline.
+- Sitemap increased from 61 to 67 URLs.
+- Sovereign Quality Gate passed.
+- Commit: 12adbf0 — feat(site): erp ledger control layer cluster.
+
+---
+
 ## 2026-05-08 — Core Reference Architecture Locked
 
 ### Decision
