@@ -550,11 +550,10 @@
       "related_terms": [
         "account-currency",
         "ledger-currency",
-        "unrealized-fx-gain",
-        "unrealized-fx-loss",
+        "unrealized-fx",
         "currency-translation",
         "remeasurement",
-        "period-end-close"
+        "period-end-revaluation"
       ],
       "related_pages": [
         "/glossary/",
@@ -594,10 +593,9 @@
       "related_terms": [
         "fx-revaluation",
         "reporting-currency",
-        "presentation-currency",
         "translation-adjustment",
-        "cta",
-        "remeasurement"
+        "remeasurement",
+        "functional-currency"
       ],
       "related_pages": [
         "/glossary/",
