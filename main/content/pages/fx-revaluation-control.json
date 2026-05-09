@@ -1,0 +1,149 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/fx-revaluation-control/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "ERP Ledger Control · Cluster 02",
+  "h1": "FX Revaluation Control",
+  "intro": "FX revaluation control treats period-end remeasurement as governed custody—not a generic conversion keystroke. Foreign-monetary populations qualified inside account and ledger contexts meet exchange-rate source discipline, posting logic integrity, and rerun governance before unrealized outcomes narrate risk or feed disclosures. Confusing revaluation with translation—or realized FX—misroutes equity, P&L classification, and audit evidence.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Remeasurement reshapes accountable ledger measurement.<br>Translation reshapes presentation afterward—when vocabulary collapses, controls misfire.",
+  "doctrine_attribution": "ERP Ledger Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Govern exposure populations—not slogans about FX",
+  "primary_section_body": [
+    "AccountCcy cites IFRS IAS 21 / US GAAP ASC 830-class contexts only as institutional background—never as advice, endorsement, or interpretation.",
+    "Unrealized FX belongs to remeasurement narratives tied to open monetary items; realized FX belongs to settlement and derecognition stories—different evidence bundles.",
+    "Reporting currency translation operates downstream once ledger measurement earns integrity—functional versus reporting comparisons clarify lenses."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "remeasurement-discipline",
+      "eyebrow": "Operational anatomy",
+      "title": "What FX revaluation control must discipline",
+      "paragraphs": [
+        "Population identification (which balances qualify as foreign-monetary), rate selection lineage, batch segregation, reversal integrity, and linkage from ERP valuation profiles to posted journals.",
+        "Weak State 04 custody assignments corrupt populations upstream—revaluation cannot salvage ambiguous chart identity."
+      ],
+      "steps": [
+        {
+          "title": "Defined · FX revaluation",
+          "body": "Lexical anchor for remeasurement mechanics vocabulary.",
+          "link_url": "/glossary/fx-revaluation/",
+          "link_label": "FX revaluation (defined)"
+        },
+        {
+          "title": "Defined · period-end revaluation",
+          "body": "Close-boundary posture for rate application governance.",
+          "link_url": "/glossary/period-end-revaluation/",
+          "link_label": "Period-end revaluation"
+        },
+        {
+          "title": "Defined · unrealized FX",
+          "body": "Open monetary item remeasurement lens.",
+          "link_url": "/glossary/unrealized-fx/",
+          "link_label": "Unrealized FX"
+        },
+        {
+          "title": "Defined · realized FX",
+          "body": "Settlement-linked FX closure lens contrasted with remeasurement.",
+          "link_url": "/glossary/realized-fx/",
+          "link_label": "Realized FX"
+        },
+        {
+          "title": "Defined · remeasurement",
+          "body": "Remeasurement vocabulary distinct from translation framing.",
+          "link_url": "/glossary/remeasurement/",
+          "link_label": "Remeasurement"
+        },
+        {
+          "title": "Defined · exchange rate source",
+          "body": "Custody over rates consumed by engines.",
+          "link_url": "/glossary/exchange-rate-source/",
+          "link_label": "Exchange rate source"
+        },
+        {
+          "title": "Defined · currency translation",
+          "body": "Presentation-layer translation contrasted with ledger remeasurement.",
+          "link_url": "/glossary/currency-translation/",
+          "link_label": "Currency translation"
+        },
+        {
+          "title": "Comparison · functional vs reporting",
+          "body": "Measurement anchor versus presentation anchor.",
+          "link_url": "/functional-currency-vs-reporting-currency/",
+          "link_label": "Functional vs reporting currency"
+        },
+        {
+          "title": "Ledger currency control",
+          "body": "Measurement shell custody feeding revaluation coherence.",
+          "link_url": "/ledger-currency-control/",
+          "link_label": "Ledger currency control"
+        }
+      ]
+    },
+    {
+      "section_id": "revaluation-failure-modes",
+      "eyebrow": "Failure anatomy",
+      "title": "Where FX revaluation control collapses",
+      "paragraphs": [
+        "Duplicate valuation runs after leadership narratives freeze; manual journals bypass valuation engines; rate tables edited without dual control—each fractures reproducibility.",
+        "ERP symptom: unmatched variance between valuation simulator and posted journals.",
+        "Reporting symptom: translation decks cite averages where policy demanded closes—or vice versa—because vocabulary collapsed upstream."
+      ]
+    },
+    {
+      "section_id": "revaluation-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Questions proving remeasurement governance",
+      "questions": [
+        "Which documented population definition selects balances entering revaluation—and how was it tested post-configuration change?",
+        "Which rate source snapshot ties to each batch—and who approved overrides?",
+        "How does finance prove rerun integrity without overwriting audited postings silently?",
+        "Where does evidence distinguish unrealized remeasurement outcomes from settlement-realized FX narratives?"
+      ]
+    },
+    {
+      "section_id": "fx-cluster-strip",
+      "eyebrow": "Cluster continuity",
+      "title": "Hook remeasurement back into configuration, custody, reconciliation, risk",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/erp-currency-configuration-control/", "label": "ERP configuration control" },
+        { "href": "/account-currency-control-point/", "label": "Account currency control point" },
+        { "href": "/multi-currency-reconciliation-control/", "label": "Multi-currency reconciliation control" },
+        { "href": "/currency-state-control-risk/", "label": "Currency state control risk" },
+        { "href": "/states/ledger-currency/", "label": "Ledger currency state" },
+        { "href": "/cfo-guide/", "label": "CFO guide" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Remeasurement belongs to accountable ledger populations",
+  "graph_intro": "Preserve vocabulary separating ledger remeasurement from presentation translation—audit reconstruction depends on it.",
+  "cards": [
+    {
+      "label": "Population hygiene",
+      "title": "Custody assignments precede FX batches.",
+      "body": "Garbage populations produce eloquent variance commentary—and contested audits."
+    },
+    {
+      "label": "Rate lineage",
+      "title": "Treat rates as custody artifacts.",
+      "body": "Trace feeds into identifiable postings—not folklore spreadsheets."
+    },
+    {
+      "label": "Executive coupling",
+      "title": "FX committees inherit upstream fractures.",
+      "body": "Risk narratives collapse when populations were ambiguous before commentary began."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Dual approval on rates, populations, and rerun windows",
+  "control_body": "Segregate valuation preparation from posting approval; archive population extracts alongside batch IDs; rehearse reopen scenarios before auditors request reperformance.",
+  "risk_label": "Risk if FX is treated as treasury intuition alone",
+  "risk_title": "Misclassified FX with equity and P&L distortion",
+  "risk_body": "Collapsed vocabulary routes adjustments through wrong lenses—restatements follow when reconstruction fails regulatory scrutiny."
+}

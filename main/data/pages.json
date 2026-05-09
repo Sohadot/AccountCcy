@@ -1145,6 +1145,108 @@
     },
 
     {
+      "url": "/erp-currency-configuration-control/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "ERP Currency Configuration Control — Reference",
+      "meta_description": "ERP currency configuration encodes currency-state behavior inside posting engines—custody infrastructure, not implementation advice.",
+      "seo_intent": "reference intent — ERP currency configuration, custody discipline",
+      "buyer_relevance": ["ERP consultants", "controllers", "financial close platforms"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/glossary/erp-currency-configuration/", "/glossary/currency-master-data/", "/glossary/account-mapping/", "/states/transaction-currency/", "/states/account-currency/", "/states/ledger-currency/", "/ledger-currency-control/", "/account-currency-control-point/", "/fx-revaluation-control/", "/currency-state-control-risk/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/ledger-currency-control/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "Ledger Currency Control — Reference",
+      "meta_description": "Ledger currency control proves trial balance coherence, posting lineage, and close discipline before translation narrates outward visibility.",
+      "seo_intent": "reference intent — ledger currency control, trial balance custody",
+      "buyer_relevance": ["controllers", "ERP consultants", "financial close platforms"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/glossary/ledger-currency/", "/glossary/general-ledger/", "/glossary/subledger/", "/glossary/posting-logic/", "/glossary/fx-revaluation/", "/states/ledger-currency/", "/account-currency-vs-ledger-currency/", "/ledger-currency-vs-reporting-currency/", "/erp-currency-configuration-control/", "/fx-revaluation-control/", "/multi-currency-reconciliation-control/", "/account-currency-control-point/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/account-currency-control-point/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "Account Currency Control Point — Reference",
+      "meta_description": "Account currency is State 04 custody—chart assignments decide reconciliation scopes and FX populations, not cosmetic ISO labels.",
+      "seo_intent": "reference intent — account currency control point, State 04 custody",
+      "buyer_relevance": ["controllers", "ERP consultants", "audit technology"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/what-is-account-currency/", "/states/account-currency/", "/glossary/account-currency-control/", "/glossary/account-currency/", "/account-currency-vs-transaction-currency/", "/account-currency-vs-settlement-currency/", "/account-currency-vs-ledger-currency/", "/erp-currency-configuration-control/", "/ledger-currency-control/", "/multi-currency-reconciliation-control/", "/fx-revaluation-control/", "/currency-state-control-risk/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/multi-currency-reconciliation-control/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "Multi-Currency Reconciliation Control — Reference",
+      "meta_description": "Multi-currency reconciliation must reconcile currency-state lineage, not only totals—obligation, liquidity, custody, measurement, visibility.",
+      "seo_intent": "reference intent — multi-currency reconciliation, currency-state lineage",
+      "buyer_relevance": ["controllers", "treasury systems", "audit technology"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/states/transaction-currency/", "/states/settlement-currency/", "/states/account-currency/", "/states/ledger-currency/", "/states/reporting-currency/", "/account-currency-vs-settlement-currency/", "/ledger-currency-vs-reporting-currency/", "/glossary/control-evidence/", "/glossary/audit-trail/", "/glossary/monetary-reconstruction/", "/glossary/realized-fx/", "/erp-currency-configuration-control/", "/account-currency-control-point/", "/ledger-currency-control/", "/fx-revaluation-control/", "/currency-state-control-risk/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/fx-revaluation-control/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "FX Revaluation Control — Reference",
+      "meta_description": "FX revaluation control governs remeasurement populations, rate lineage, and batch integrity—distinct from translation or realized FX narratives.",
+      "seo_intent": "reference intent — FX revaluation control, remeasurement governance",
+      "buyer_relevance": ["controllers", "financial close platforms", "CFO advisory"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/glossary/fx-revaluation/", "/glossary/period-end-revaluation/", "/glossary/unrealized-fx/", "/glossary/realized-fx/", "/glossary/remeasurement/", "/glossary/exchange-rate-source/", "/glossary/currency-translation/", "/functional-currency-vs-reporting-currency/", "/ledger-currency-control/", "/states/ledger-currency/", "/erp-currency-configuration-control/", "/account-currency-control-point/", "/multi-currency-reconciliation-control/", "/currency-state-control-risk/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/currency-state-control-risk/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "Currency State Control Risk — Reference",
+      "meta_description": "Currency-state confusion accumulates assurance debt across ERP, reconciliation, FX, and reporting—this synthesizes institutional failure modes.",
+      "seo_intent": "reference intent — currency state control risk, assurance synthesis",
+      "buyer_relevance": ["CFO advisory", "audit technology", "controllers"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/glossary/monetary-ambiguity/", "/glossary/audit-defensibility/", "/glossary/reporting-integrity/", "/states/audit-reality/", "/glossary/currency-state/", "/glossary/currency-state-control-framework/", "/erp-currency-configuration-control/", "/ledger-currency-control/", "/account-currency-control-point/", "/multi-currency-reconciliation-control/", "/fx-revaluation-control/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
       "url": "/risks/account-currency-misconfiguration/",
       "type": "risk",
       "status": "draft",

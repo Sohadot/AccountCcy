@@ -331,7 +331,8 @@
         "/framework/",
         "/ccy-state-chain/",
         "/monetary-truth-chain-of-custody/",
-        "/cfo-guide/"
+        "/cfo-guide/",
+        "/account-currency-control-point/"
       ],
       "not_confused_with": "Account currency control is not identical to hedge accounting design nor treasury dealing policies—those intersect but do not replace custody over postings.",
       "custody_question": "Who may change account currency assignments—and what evidence proves balances still reconcile afterward?",
@@ -411,7 +412,8 @@
         "/framework/",
         "/monetary-truth-chain-of-custody/",
         "/account-currency-vs-ledger-currency/",
-        "/ledger-currency-vs-reporting-currency/"
+        "/ledger-currency-vs-reporting-currency/",
+        "/ledger-currency-control/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -575,7 +577,8 @@
         "/framework/",
         "/monetary-truth-chain-of-custody/",
         "/glossary/currency-translation/",
-        "/glossary/functional-currency/"
+        "/glossary/functional-currency/",
+        "/fx-revaluation-control/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -956,7 +959,8 @@
         "/glossary/chain-of-custody/",
         "/ccy-state-chain/",
         "/framework/",
-        "/cfo-guide/"
+        "/cfo-guide/",
+        "/currency-state-control-risk/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -1656,7 +1660,8 @@
         "/glossary/currency-master-data/",
         "/glossary/exchange-rate-source/",
         "/glossary/period-end-revaluation/",
-        "/glossary/fx-revaluation/"
+        "/glossary/fx-revaluation/",
+        "/erp-currency-configuration-control/"
       ],
       "buyer_relevance": [
         "ERP consultants",

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Account Currency Control Point — Reference</title>
+  <meta name="description" content="Account currency is State 04 custody—chart assignments decide reconciliation scopes and FX populations, not cosmetic ISO labels.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/account-currency-control-point/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Account Currency Control Point — Reference">
+  <meta property="og:description" content="Account currency is State 04 custody—chart assignments decide reconciliation scopes and FX populations, not cosmetic ISO labels.">
+  <meta property="og:url" content="https://accountccy.com/account-currency-control-point/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Account Currency Control Point — Reference">
+  <meta name="twitter:description" content="Account currency is State 04 custody—chart assignments decide reconciliation scopes and FX populations, not cosmetic ISO labels.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/account-currency-control-point/",
+            "url": "https://accountccy.com/account-currency-control-point/",
+            "name": "Account Currency Control Point — Reference",
+            "description": "Account currency is State 04 custody—chart assignments decide reconciliation scopes and FX populations, not cosmetic ISO labels.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Account Currency Control Point — Reference",
+                    "item": "https://accountccy.com/account-currency-control-point/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "Account Currency Control Point",
+            "description": "Account currency is State 04 custody—chart assignments decide reconciliation scopes and FX populations, not cosmetic ISO labels.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/account-currency-control-point/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-05-09"
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-pillar" data-template="reference-page.html" data-page-type="pillar">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/what-is-account-currency/">Definition</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/framework/">Framework</a>
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/cfo-guide/">CFO Guide</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">Account Currency Control Point — Reference</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">ERP Ledger Control · Cluster 02</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">Account Currency Control Point</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">Account currency is a control point—not an ISO decoration beside a GL line. At State 04 it decides how balances live inside charts: reconciliation scopes, open-item treatments, foreign-monetary populations feeding revaluation, and the forensic stories auditors replay when FX variance escalates. Treating account currency as stylistic guarantees downstream distortion invisible until close or audit depth.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Custody thesis</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">Custody enters accountable ledger identity here.<br>Weak State 04 governance poisons every downstream measurement narrative.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      ERP Ledger Control Layer · AccountCcy.com
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Reference posture</p>
+        <h2 id="context-title" class="ccy-title">Chart custody as choke-point discipline</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">ERP postings combine document currencies with account assignments—finance must govern both conversations separately yet jointly.</p>
+<p class="ccy-body">Intercompany and shared-service models amplify drift when custody matrices lag organizational reality.</p>
+<p class="ccy-body">Comparison pages isolate adjacent identities so forums argue about objects—not slogans.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-point-mechanics-heading"><div class="ccy-container"><p class="ccy-eyebrow">Operational anatomy</p><h2 id="control-point-mechanics-heading" class="ccy-title">What the control point decides</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Authorization workflows for assignment changes, migration replay evidence, reconciliation scope definitions, and linkage between commercial obligations and ledger retention currencies.</p>
+<p class="ccy-body">Account currency control glossary discipline names governance expectations explicitly—not heroic month-end heroics.</p>
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Primary definition entry</p><p class="ccy-body">Accessible anchor into account currency custody vocabulary.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/what-is-account-currency/">What Is Account Currency?</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">State 04 canonical reference</p><p class="ccy-body">Enterprise posture for account monetary state inside the chain.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/states/account-currency/">Account currency state</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Defined governance term</p><p class="ccy-body">Lexical specification for account currency control discipline.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/account-currency-control/">Account currency control (defined)</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Versus transaction currency</p><p class="ccy-body">Obligation denomination contrasted with ERP custody.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/account-currency-vs-transaction-currency/">Account vs transaction currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Versus settlement currency</p><p class="ccy-body">Liquidity rails contrasted with ledger retention custody.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/account-currency-vs-settlement-currency/">Account vs settlement currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Versus ledger currency</p><p class="ccy-body">Chart custody contrasted with measurement shell.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/account-currency-vs-ledger-currency/">Account vs ledger currency</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="control-point-failures-heading"><div class="ccy-container"><p class="ccy-eyebrow">Failure anatomy</p><h2 id="control-point-failures-heading" class="ccy-title">Symptoms of weak account currency control</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Receivables balances reconcile locally yet fail group scrutiny when custody scopes disagree with contractual denomination.</p>
+<p class="ccy-body">Revaluation batches ingest wrong populations because foreign versus functional assignments blurred.</p>
+<p class="ccy-body">Migration retrospectives lack approvals tying old assignments to restated balances—audit evidence thins exactly when regulators demand replay.</p></div></div></section>
+<section class="ccy-section" aria-labelledby="control-point-questions-heading"><div class="ccy-container"><p class="ccy-eyebrow">Custody interrogation</p><h2 id="control-point-questions-heading" class="ccy-title">Questions proving State 04 governance</h2><div class="ccy-pillar-section-body">
+<ul class="ccy-custody-questions"><li><p class="ccy-body">Which matrix pairs entity, account range, and custody assignment—and who certifies exceptions?</p></li>
+<li><p class="ccy-body">How does finance prove postings still reconcile after assignment changes retroactively?</p></li>
+<li><p class="ccy-body">Which reconciliation dashboard scopes strictly honor account currency—not blended FX rhetoric?</p></li>
+<li><p class="ccy-body">Where do commercial confirmations tie into custody assignments before auditors ask?</p></li></ul></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="account-cluster-strip-heading"><div class="ccy-container"><p class="ccy-eyebrow">Cluster continuity</p><h2 id="account-cluster-strip-heading" class="ccy-title">Bridge into configuration, ledger, reconciliation, FX, and risk synthesis</h2><div class="ccy-pillar-section-body">
+<nav class="ccy-pillar-reference-strip" aria-label="Related AccountCcy definitions"><a class="ccy-pillar-strip-link" href="/erp-currency-configuration-control/">ERP configuration control</a><a class="ccy-pillar-strip-link" href="/ledger-currency-control/">Ledger currency control</a><a class="ccy-pillar-strip-link" href="/multi-currency-reconciliation-control/">Multi-currency reconciliation control</a><a class="ccy-pillar-strip-link" href="/fx-revaluation-control/">FX revaluation control</a><a class="ccy-pillar-strip-link" href="/currency-state-control-risk/">Currency state control risk</a><a class="ccy-pillar-strip-link" href="/glossary/account-currency/">Account currency (defined)</a></nav></div></div></section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Reference continuity</p>
+      <h2 id="graph-title" class="ccy-title">State 04 governs accountable ledger identity</h2>
+      <p class="ccy-body">Strengthen custody vocabulary before debating FX outputs that inherited silent fractures.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Custody charter</p><h3 class="ccy-section-title">Assignments belong to policy—not informal spreadsheets.</h3><p class="ccy-small">Exceptions demand signatures and replay scripts.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Lexical clarity</p><h3 class="ccy-section-title">Comparison pages reduce ambiguous debates.</h3><p class="ccy-small">Isolate identities before merging narratives.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">ERP coupling</p><h3 class="ccy-section-title">Engines expose custody fields deliberately.</h3><p class="ccy-small">Bypassing them trades short-term speed for long-term assurance debt.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Practical control implication</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Written custody matrices plus migration replay packs</h2>
+        <p class="ccy-consequence-body">Publish assignment authority matrices; require documented replay after migrations; pair reconciliations to explicit custody scopes embedded in close checklist.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if account currency stays ‘just configuration’</p>
+        <h2 class="ccy-consequence-heading">Structural distortion masked by localized balancing</h2>
+        <p class="ccy-consequence-body">Teams celebrate subsystem zeros while group controllers discover unreconciled monetary identities—remediation costs spike nonlinearly.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-related-links" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-related-grid"><a class="ccy-related-card" href="/glossary/"><span class="ccy-related-label">Glossary</span><span class="ccy-related-title">Account Currency Glossary — Enterprise Finance Reference</span></a><a class="ccy-related-card" href="/framework/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The Currency State Control Framework</span></a><a class="ccy-related-card" href="/ccy-state-chain/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The CCY State Chain — From Quoted Price to Audit Reality</span></a><a class="ccy-related-card" href="/monetary-truth-chain-of-custody/"><span class="ccy-related-label">Doctrine</span><span class="ccy-related-title">The Chain of Custody for Monetary Truth</span></a><a class="ccy-related-card" href="/cfo-guide/"><span class="ccy-related-label">Executive Guide</span><span class="ccy-related-title">The CFO Guide to Hidden Account Currency Risk</span></a><a class="ccy-related-card" href="/what-is-account-currency/"><span class="ccy-related-label">Definition</span><span class="ccy-related-title">What Is Account Currency? — Definition and Control Discipline</span></a><a class="ccy-related-card" href="/states/account-currency/"><span class="ccy-related-label">State 04</span><span class="ccy-related-title">Account Currency — State 04 — The Critical Control Point</span></a><a class="ccy-related-card" href="/glossary/account-currency-control/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Account Currency Control</span></a><a class="ccy-related-card" href="/glossary/account-currency/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Account Currency</span></a><a class="ccy-related-card" href="/account-currency-vs-transaction-currency/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Account Currency vs Transaction Currency — Comparison</span></a><a class="ccy-related-card" href="/account-currency-vs-settlement-currency/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Account Currency vs Settlement Currency — Comparison</span></a><a class="ccy-related-card" href="/account-currency-vs-ledger-currency/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Account Currency vs Ledger Currency — Comparison</span></a><a class="ccy-related-card" href="/erp-currency-configuration-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">ERP Currency Configuration Control — Reference</span></a><a class="ccy-related-card" href="/ledger-currency-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Ledger Currency Control — Reference</span></a><a class="ccy-related-card" href="/multi-currency-reconciliation-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Multi-Currency Reconciliation Control — Reference</span></a><a class="ccy-related-card" href="/fx-revaluation-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">FX Revaluation Control — Reference</span></a><a class="ccy-related-card" href="/currency-state-control-risk/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Currency State Control Risk — Reference</span></a></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/ledger-currency-control/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "ERP Ledger Control · Cluster 02",
+  "h1": "Ledger Currency Control",
+  "intro": "Ledger currency control is the custody discipline ensuring measurable postings, subsystem rolls, period boundaries, and trial balance coherence align before visibility layers translate outcomes outward. It is where finance proves internal monetary truth—not merely balances that foot—inside governed ledger shells aligned with functional measurement posture.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Ledger currency holds the trial balance contract.<br>Control names who proves it—and how auditors replay it.",
+  "doctrine_attribution": "ERP Ledger Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Accountable postings beneath stakeholder narratives",
+  "primary_section_body": [
+    "Subledger detail must deterministically traverse posting logic and account mapping into general ledger populations—balanced totals without lineage still fail audit reconstruction.",
+    "Close calendars lock ledger snapshots that downstream reporting and consolidation inherit; rushing translation before ledger integrity forfeits defensibility.",
+    "Ledger currency is frequently confused with reporting currency or individual account assignments—control vocabulary must keep measurement shell distinct from chart custody and presentation lenses."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "ledger-control-layers",
+      "eyebrow": "Operational anatomy",
+      "title": "What ledger currency control governs",
+      "paragraphs": [
+        "Posting completeness, valuation batch integrity after period-end revaluation windows, intercompany absorption timing, and segregation between remeasurement mechanics versus translation narratives.",
+        "Evidence bundles tie journals to configuration snapshots—especially where foreign account currencies interact with functional ledger shells."
+      ],
+      "steps": [
+        {
+          "title": "Ledger currency state reference",
+          "body": "Institutional meaning of State 05 inside the CCY State Chain.",
+          "link_url": "/states/ledger-currency/",
+          "link_label": "Ledger currency state"
+        },
+        {
+          "title": "Account custody versus ledger measurement",
+          "body": "Contrast chart assignments against trial balance measurement posture.",
+          "link_url": "/account-currency-vs-ledger-currency/",
+          "link_label": "Account currency vs ledger currency"
+        },
+        {
+          "title": "Ledger measurement versus reporting visibility",
+          "body": "Contrast internal TB proofs against outward presentation currency.",
+          "link_url": "/ledger-currency-vs-reporting-currency/",
+          "link_label": "Ledger currency vs reporting currency"
+        },
+        {
+          "title": "Defined term — ledger currency",
+          "body": "Lexical anchor for measurement shell vocabulary.",
+          "link_url": "/glossary/ledger-currency/",
+          "link_label": "Ledger currency (defined)"
+        }
+      ]
+    },
+    {
+      "section_id": "ledger-break-patterns",
+      "eyebrow": "Failure anatomy",
+      "title": "Where ledger control silently breaks",
+      "paragraphs": [
+        "Subsystem batches post after ledger freeze; duplicate valuation runs overwrite prior rates; manual top-side journals bypass mapping governance—all readable as ‘minor close fixes’ until reconciliation warehouses explode.",
+        "ERP symptom: TB ties yet forensic replay disagrees with bank or intercompany confirmations.",
+        "Reporting symptom: translated packs diverge from archived ledger exports leadership assumed identical."
+      ]
+    },
+    {
+      "section_id": "ledger-control-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Questions proving ledger custody",
+      "questions": [
+        "Which immutable ledger snapshot supports every disclosure line tied to measurement—not translation alone?",
+        "Which posting logic paths prove subsystem detail joined GL without discretionary overrides?",
+        "How does finance demonstrate valuation batches reconciled to exchange-rate source governance?",
+        "Who owns escalation when trial balance integrity conflicts with consolidation hub timelines?"
+      ]
+    },
+    {
+      "section_id": "ledger-cluster-strip",
+      "eyebrow": "Cluster continuity",
+      "title": "Upstream and downstream custody hooks",
+      "paragraphs": [
+        "Ledger discipline inherits configuration and account custody; it feeds FX remeasurement and reconciliation attestations."
+      ],
+      "reference_strip": [
+        { "href": "/erp-currency-configuration-control/", "label": "ERP configuration control" },
+        { "href": "/account-currency-control-point/", "label": "Account currency control point" },
+        { "href": "/fx-revaluation-control/", "label": "FX revaluation control" },
+        { "href": "/multi-currency-reconciliation-control/", "label": "Multi-currency reconciliation control" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
+        { "href": "/glossary/subledger/", "label": "Subledger" },
+        { "href": "/glossary/posting-logic/", "label": "Posting logic" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Trial balance truth precedes translation polish",
+  "graph_intro": "Ledger currency control keeps measurement authoritative before CFO packs reinterpret outcomes.",
+  "cards": [
+    {
+      "label": "Subsystem coupling",
+      "title": "Posting logic is part of custody—not plumbing trivia.",
+      "body": "Silent mapping drift destroys forensic coherence faster than FX commentary admits."
+    },
+    {
+      "label": "Close integrity",
+      "title": "Freeze windows are custody events.",
+      "body": "Document who unlocked freeze—and why—when journals appear afterward."
+    },
+    {
+      "label": "Audit replay",
+      "title": "Independent reperformance starts at ledger proofs.",
+      "body": "Collapsed ledger vocabulary invites contested balances beneath attractive charts."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Ledger integrity checkpoints paired with immutable exports",
+  "control_body": "Archive TB extracts with hash or seal metadata after each close; reconcile subsystem roll totals to GL before unlocking translation runs; segregate valuation operator from posting approver where material.",
+  "risk_label": "Risk if ledger collapses into ‘whatever TB ties’",
+  "risk_title": "Invisible fractures beneath balanced totals",
+  "risk_body": "Leadership signs statements while auditors discover journals nobody can tie to policy-approved configuration—material weakness narratives follow."
+}

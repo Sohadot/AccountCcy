@@ -1,9 +1,21 @@
 {
-  "generated_at": "2026-05-09T06:50:26.158473+00:00",
-  "url_count": 61,
+  "generated_at": "2026-05-09T10:29:50.896187+00:00",
+  "url_count": 67,
   "errors": [],
   "warnings": [],
   "audits": [
+    {
+      "source_path": "account-currency-control-point/index.html",
+      "url_path": "/account-currency-control-point/",
+      "loc": "https://accountccy.com/account-currency-control-point/",
+      "title": "Account Currency Control Point — Reference",
+      "description": "Account currency is State 04 custody—chart assignments decide reconciliation scopes and FX populations, not cosmetic ISO labels.",
+      "canonical": "https://accountccy.com/account-currency-control-point/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
     {
       "source_path": "account-currency-vs-ledger-currency/index.html",
       "url_path": "/account-currency-vs-ledger-currency/",
@@ -65,6 +77,30 @@
       "warnings": []
     },
     {
+      "source_path": "currency-state-control-risk/index.html",
+      "url_path": "/currency-state-control-risk/",
+      "loc": "https://accountccy.com/currency-state-control-risk/",
+      "title": "Currency State Control Risk — Reference",
+      "description": "Currency-state confusion accumulates assurance debt across ERP, reconciliation, FX, and reporting—this synthesizes institutional failure modes.",
+      "canonical": "https://accountccy.com/currency-state-control-risk/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "erp-currency-configuration-control/index.html",
+      "url_path": "/erp-currency-configuration-control/",
+      "loc": "https://accountccy.com/erp-currency-configuration-control/",
+      "title": "ERP Currency Configuration Control — Reference",
+      "description": "ERP currency configuration encodes currency-state behavior inside posting engines—custody infrastructure, not implementation advice.",
+      "canonical": "https://accountccy.com/erp-currency-configuration-control/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "framework/index.html",
       "url_path": "/framework/",
       "loc": "https://accountccy.com/framework/",
@@ -83,6 +119,18 @@
       "title": "Functional Currency vs Reporting Currency — Comparison",
       "description": "Functional currency anchors measurement; reporting currency frames presentation—mixing them misroutes translation equity, rates, and disclosure bridges.",
       "canonical": "https://accountccy.com/functional-currency-vs-reporting-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "fx-revaluation-control/index.html",
+      "url_path": "/fx-revaluation-control/",
+      "loc": "https://accountccy.com/fx-revaluation-control/",
+      "title": "FX Revaluation Control — Reference",
+      "description": "FX revaluation control governs remeasurement populations, rate lineage, and batch integrity—distinct from translation or realized FX narratives.",
+      "canonical": "https://accountccy.com/fx-revaluation-control/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],
@@ -593,6 +641,18 @@
       "warnings": []
     },
     {
+      "source_path": "ledger-currency-control/index.html",
+      "url_path": "/ledger-currency-control/",
+      "loc": "https://accountccy.com/ledger-currency-control/",
+      "title": "Ledger Currency Control — Reference",
+      "description": "Ledger currency control proves trial balance coherence, posting lineage, and close discipline before translation narrates outward visibility.",
+      "canonical": "https://accountccy.com/ledger-currency-control/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "ledger-currency-vs-reporting-currency/index.html",
       "url_path": "/ledger-currency-vs-reporting-currency/",
       "loc": "https://accountccy.com/ledger-currency-vs-reporting-currency/",
@@ -611,6 +671,18 @@
       "title": "The Chain of Custody for Monetary Truth — AccountCcy.com",
       "description": "Monetary truth is custody across currency states, ledger rules, FX, translation, and audit evidence—not isolated figures. AccountCcy.com maps enterprise lineage.",
       "canonical": "https://accountccy.com/monetary-truth-chain-of-custody/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "multi-currency-reconciliation-control/index.html",
+      "url_path": "/multi-currency-reconciliation-control/",
+      "loc": "https://accountccy.com/multi-currency-reconciliation-control/",
+      "title": "Multi-Currency Reconciliation Control — Reference",
+      "description": "Multi-currency reconciliation must reconcile currency-state lineage, not only totals—obligation, liquidity, custody, measurement, visibility.",
+      "canonical": "https://accountccy.com/multi-currency-reconciliation-control/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],

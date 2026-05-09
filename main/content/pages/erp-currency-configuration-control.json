@@ -1,0 +1,122 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/erp-currency-configuration-control/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "ERP Ledger Control · Cluster 02",
+  "h1": "ERP Currency Configuration Control",
+  "intro": "ERP currency configuration is where doctrine meets executable behavior: parameter choices translate quotation, obligation, settlement, account custody, ledger measurement, reporting visibility, and consolidation readiness into live posting engines. AccountCcy treats configuration as custody infrastructure—not implementation consulting—because auditors and boards ultimately challenge monetary outcomes configuration silently encodes.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Monetary truth must replay across systems.<br>Currency configuration decides whether that replay is trivial—or heroic.",
+  "doctrine_attribution": "ERP Ledger Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "When monetary identity becomes machine behavior",
+  "primary_section_body": [
+    "Vendor-neutral framing matters: SAP-, Oracle-, Dynamics-, NetSuite-class stacks and equivalents encode comparable custody tensions even when menu paths differ.",
+    "Configuration binds currency master data, chart assignments, valuation profiles, rate consumption, translation hooks, and ledger shells—each knob inherits accountability downstream.",
+    "Weak governance converts ERP into a black box: totals reconcile cosmetically while lineage fractures beneath configurable surfaces referenced only during crises."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "configuration-as-signal-chain",
+      "eyebrow": "Governed signals",
+      "title": "How currency states enter ERP behavior",
+      "paragraphs": [
+        "Transaction currency, settlement currency, account currency, ledger currency, reporting currency, and consolidation currency are not cosmetic labels once encoded—they schedule validations, open-item scopes, revaluation populations, translation batches, and intercompany bridges.",
+        "Finance owns monetary outcomes; IT owns change mechanics—yet joint forums must prove configuration snapshots match signed policies."
+      ],
+      "steps": [
+        {
+          "title": "Upstream states feed postings",
+          "body": "Obligation and liquidity identities collide with chart custody assignments inside posting routines.",
+          "link_url": "/states/transaction-currency/",
+          "link_label": "Transaction currency state"
+        },
+        {
+          "title": "Custody assignment anchors reconciliation scope",
+          "body": "Account currency gates how balances accumulate before ledger measurement absorbs them.",
+          "link_url": "/states/account-currency/",
+          "link_label": "Account currency state"
+        },
+        {
+          "title": "Ledger shells close measurement loops",
+          "body": "Ledger currency frames trial balance integrity feeding visibility layers.",
+          "link_url": "/states/ledger-currency/",
+          "link_label": "Ledger currency state"
+        },
+        {
+          "title": "Lexical anchor — ERP currency configuration",
+          "body": "Defined vocabulary for the collective configuration posture controlling monetary engines.",
+          "link_url": "/glossary/erp-currency-configuration/",
+          "link_label": "ERP currency configuration (defined)"
+        }
+      ]
+    },
+    {
+      "section_id": "misalignment-anatomy",
+      "eyebrow": "Failure anatomy",
+      "title": "Where configuration silently fractures custody",
+      "paragraphs": [
+        "Chart migrations rename currencies without replay evidence; valuation profiles diverge between subsidiaries; translation methods mismatch consolidation hubs—all readable as ‘small IT tweaks’ until variance committees escalate.",
+        "ERP consequence: postings obey stale configuration while leadership narrates aspirational policy decks.",
+        "Audit consequence: reviewers demand screenshots and transport logs—not narratives—to reperformance-test custody hops."
+      ]
+    },
+    {
+      "section_id": "configuration-control-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Control questions configuration forums must answer",
+      "questions": [
+        "Which configuration snapshot—including entity books, valuation profile, and translation hooks—is authoritative for the audited period?",
+        "Who approves configuration drift affecting currency populations—and where is that approval archived?",
+        "Do sandbox refreshes overwrite governed currency master data without finance sign-off?",
+        "Which subsystem consumes exchange-rate sources—and does lineage tie rates to identifiable postings?"
+      ]
+    },
+    {
+      "section_id": "erp-cluster-reference-strip",
+      "eyebrow": "Cluster continuity",
+      "title": "Adjacent custody layers inside Cluster 02",
+      "paragraphs": [
+        "Move from configuration signals into ledger accountability, account custody choke points, reconciliation discipline, FX remeasurement governance, and synthesized currency-state risk."
+      ],
+      "reference_strip": [
+        { "href": "/ledger-currency-control/", "label": "Ledger currency control" },
+        { "href": "/account-currency-control-point/", "label": "Account currency control point" },
+        { "href": "/fx-revaluation-control/", "label": "FX revaluation control" },
+        { "href": "/currency-state-control-risk/", "label": "Currency state control risk" },
+        { "href": "/framework/", "label": "Currency State Control Framework" },
+        { "href": "/glossary/currency-master-data/", "label": "Currency master data" },
+        { "href": "/glossary/account-mapping/", "label": "Account mapping" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Configuration discipline anchors forensic replay",
+  "graph_intro": "Vendor references appear only as illustrative context—never affiliation, endorsement, or implementation prescription.",
+  "cards": [
+    {
+      "label": "Evidence coupling",
+      "title": "Treat configuration exports as custody artifacts.",
+      "body": "Diff logs and approval packets belong beside journal lineage—not buried in ticket archives."
+    },
+    {
+      "label": "State fidelity",
+      "title": "Every knob implies a currency-state transition.",
+      "body": "Name the state before accepting automated postings across entities."
+    },
+    {
+      "label": "Executive visibility",
+      "title": "CFO attestations inherit configuration debt.",
+      "body": "Polished disclosures collapse when configuration contradicts asserted integrity."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Dual-control configuration changes touching currency identity",
+  "control_body": "Pair finance authorization with technical release discipline; freeze golden snapshots per close; rehearse rollback paths before migrations touch charts or valuation profiles.",
+  "risk_label": "Risk if treated as IT housekeeping",
+  "risk_title": "Silent custody drift across entities",
+  "risk_body": "Undocumented configuration churn produces FX populations controllers cannot explain—auditors reconstruct truth while leadership discovers policy decks never matched engines."
+}

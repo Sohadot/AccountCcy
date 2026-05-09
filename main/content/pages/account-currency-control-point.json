@@ -1,0 +1,131 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/account-currency-control-point/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "ERP Ledger Control · Cluster 02",
+  "h1": "Account Currency Control Point",
+  "intro": "Account currency is a control point—not an ISO decoration beside a GL line. At State 04 it decides how balances live inside charts: reconciliation scopes, open-item treatments, foreign-monetary populations feeding revaluation, and the forensic stories auditors replay when FX variance escalates. Treating account currency as stylistic guarantees downstream distortion invisible until close or audit depth.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Custody enters accountable ledger identity here.<br>Weak State 04 governance poisons every downstream measurement narrative.",
+  "doctrine_attribution": "ERP Ledger Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Chart custody as choke-point discipline",
+  "primary_section_body": [
+    "ERP postings combine document currencies with account assignments—finance must govern both conversations separately yet jointly.",
+    "Intercompany and shared-service models amplify drift when custody matrices lag organizational reality.",
+    "Comparison pages isolate adjacent identities so forums argue about objects—not slogans."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "control-point-mechanics",
+      "eyebrow": "Operational anatomy",
+      "title": "What the control point decides",
+      "paragraphs": [
+        "Authorization workflows for assignment changes, migration replay evidence, reconciliation scope definitions, and linkage between commercial obligations and ledger retention currencies.",
+        "Account currency control glossary discipline names governance expectations explicitly—not heroic month-end heroics."
+      ],
+      "steps": [
+        {
+          "title": "Primary definition entry",
+          "body": "Accessible anchor into account currency custody vocabulary.",
+          "link_url": "/what-is-account-currency/",
+          "link_label": "What Is Account Currency?"
+        },
+        {
+          "title": "State 04 canonical reference",
+          "body": "Enterprise posture for account monetary state inside the chain.",
+          "link_url": "/states/account-currency/",
+          "link_label": "Account currency state"
+        },
+        {
+          "title": "Defined governance term",
+          "body": "Lexical specification for account currency control discipline.",
+          "link_url": "/glossary/account-currency-control/",
+          "link_label": "Account currency control (defined)"
+        },
+        {
+          "title": "Versus transaction currency",
+          "body": "Obligation denomination contrasted with ERP custody.",
+          "link_url": "/account-currency-vs-transaction-currency/",
+          "link_label": "Account vs transaction currency"
+        },
+        {
+          "title": "Versus settlement currency",
+          "body": "Liquidity rails contrasted with ledger retention custody.",
+          "link_url": "/account-currency-vs-settlement-currency/",
+          "link_label": "Account vs settlement currency"
+        },
+        {
+          "title": "Versus ledger currency",
+          "body": "Chart custody contrasted with measurement shell.",
+          "link_url": "/account-currency-vs-ledger-currency/",
+          "link_label": "Account vs ledger currency"
+        }
+      ]
+    },
+    {
+      "section_id": "control-point-failures",
+      "eyebrow": "Failure anatomy",
+      "title": "Symptoms of weak account currency control",
+      "paragraphs": [
+        "Receivables balances reconcile locally yet fail group scrutiny when custody scopes disagree with contractual denomination.",
+        "Revaluation batches ingest wrong populations because foreign versus functional assignments blurred.",
+        "Migration retrospectives lack approvals tying old assignments to restated balances—audit evidence thins exactly when regulators demand replay."
+      ]
+    },
+    {
+      "section_id": "control-point-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Questions proving State 04 governance",
+      "questions": [
+        "Which matrix pairs entity, account range, and custody assignment—and who certifies exceptions?",
+        "How does finance prove postings still reconcile after assignment changes retroactively?",
+        "Which reconciliation dashboard scopes strictly honor account currency—not blended FX rhetoric?",
+        "Where do commercial confirmations tie into custody assignments before auditors ask?"
+      ]
+    },
+    {
+      "section_id": "account-cluster-strip",
+      "eyebrow": "Cluster continuity",
+      "title": "Bridge into configuration, ledger, reconciliation, FX, and risk synthesis",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/erp-currency-configuration-control/", "label": "ERP configuration control" },
+        { "href": "/ledger-currency-control/", "label": "Ledger currency control" },
+        { "href": "/multi-currency-reconciliation-control/", "label": "Multi-currency reconciliation control" },
+        { "href": "/fx-revaluation-control/", "label": "FX revaluation control" },
+        { "href": "/currency-state-control-risk/", "label": "Currency state control risk" },
+        { "href": "/glossary/account-currency/", "label": "Account currency (defined)" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "State 04 governs accountable ledger identity",
+  "graph_intro": "Strengthen custody vocabulary before debating FX outputs that inherited silent fractures.",
+  "cards": [
+    {
+      "label": "Custody charter",
+      "title": "Assignments belong to policy—not informal spreadsheets.",
+      "body": "Exceptions demand signatures and replay scripts."
+    },
+    {
+      "label": "Lexical clarity",
+      "title": "Comparison pages reduce ambiguous debates.",
+      "body": "Isolate identities before merging narratives."
+    },
+    {
+      "label": "ERP coupling",
+      "title": "Engines expose custody fields deliberately.",
+      "body": "Bypassing them trades short-term speed for long-term assurance debt."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Written custody matrices plus migration replay packs",
+  "control_body": "Publish assignment authority matrices; require documented replay after migrations; pair reconciliations to explicit custody scopes embedded in close checklist.",
+  "risk_label": "Risk if account currency stays ‘just configuration’",
+  "risk_title": "Structural distortion masked by localized balancing",
+  "risk_body": "Teams celebrate subsystem zeros while group controllers discover unreconciled monetary identities—remediation costs spike nonlinearly."
+}

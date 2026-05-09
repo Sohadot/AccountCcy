@@ -1,0 +1,154 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/currency-state-control-risk/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "ERP Ledger Control · Cluster 02",
+  "h1": "Currency State Control Risk",
+  "intro": "Currency-state confusion is institutional risk—not vocabulary pedantry. When quotation, obligation, liquidity, account custody, ledger measurement, reporting visibility, and consolidation assembly interchange silently, organizations accumulate assurance debt: reconciliations tie cosmetically, FX commentary persuades transiently, yet auditors and regulators cannot replay monetary lineage. AccountCcy maps that failure mode so governance forums intervene before misstatement hardens.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.<br>Broken currency-state vocabulary breaks that chain.",
+  "doctrine_attribution": "ERP Ledger Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Synthesize custody failures crossing ERP and assurance boundaries",
+  "primary_section_body": [
+    "Risk concentrates where configuration, postings, reconciliation rituals, and FX storytelling diverge without explicit state ownership assignments.",
+    "This synthesis page does not replace enterprise risk registers—it supplies controlled vocabulary linking technical posture to assurance consequences.",
+    "Vendor names and standards references appear only as contextual illustration—never affiliation or professional guidance."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "risk-archetypes",
+      "eyebrow": "Failure archetypes",
+      "title": "How currency-state confusion materializes",
+      "paragraphs": [
+        "Archetype · Identity substitution: matching ISO codes assumed to erase custody hops—forensic replay fails.",
+        "Archetype · Layer collapse: reporting narration substituted for ledger proofs—disclosures contested.",
+        "Archetype · Configuration amnesia: migrations alter currency behavior without archived approvals—period comparisons lie.",
+        "Archetype · Reconciliation theater: totals reconcile while state-labelled scopes absent—variance meetings argue personalities not artifacts.",
+        "Archetype · FX vocabulary drift: remeasurement batches interpreted as translation—or vice versa—equity misclassified."
+      ],
+      "steps": [
+        {
+          "title": "Monetary ambiguity",
+          "body": "Lexical anchor where ambiguous currency language invites misstatement.",
+          "link_url": "/glossary/monetary-ambiguity/",
+          "link_label": "Monetary ambiguity (defined)"
+        },
+        {
+          "title": "Audit defensibility",
+          "body": "Posture where leadership withstands reperformance scrutiny.",
+          "link_url": "/glossary/audit-defensibility/",
+          "link_label": "Audit defensibility (defined)"
+        },
+        {
+          "title": "Reporting integrity",
+          "body": "Lineage obligations across visibility layers.",
+          "link_url": "/glossary/reporting-integrity/",
+          "link_label": "Reporting integrity (defined)"
+        },
+        {
+          "title": "Terminal state · audit reality",
+          "body": "Where custody claims face evidentiary closure.",
+          "link_url": "/states/audit-reality/",
+          "link_label": "Audit reality state"
+        }
+      ]
+    },
+    {
+      "section_id": "cluster-pages-strip",
+      "eyebrow": "Cluster 02 anchors",
+      "title": "Controlled reference pages composing the ERP ledger control layer",
+      "paragraphs": [
+        "Traverse configuration signals, ledger accountability, account custody choke points, reconciliation discipline, and FX remeasurement governance—then escalate systemic synthesis here for committees spanning finance, systems, and assurance."
+      ],
+      "steps": [
+        {
+          "title": "ERP currency configuration control",
+          "body": "Where monetary identity becomes executable ERP behavior.",
+          "link_url": "/erp-currency-configuration-control/",
+          "link_label": "ERP currency configuration control"
+        },
+        {
+          "title": "Ledger currency control",
+          "body": "Trial balance coherence and posting lineage accountability.",
+          "link_url": "/ledger-currency-control/",
+          "link_label": "Ledger currency control"
+        },
+        {
+          "title": "Account currency control point",
+          "body": "State 04 choke point—not a cosmetic ISO label.",
+          "link_url": "/account-currency-control-point/",
+          "link_label": "Account currency control point"
+        },
+        {
+          "title": "Multi-currency reconciliation control",
+          "body": "State-aware reconciliation—not numeric theater.",
+          "link_url": "/multi-currency-reconciliation-control/",
+          "link_label": "Multi-currency reconciliation control"
+        },
+        {
+          "title": "FX revaluation control",
+          "body": "Governed remeasurement populations and rate lineage.",
+          "link_url": "/fx-revaluation-control/",
+          "link_label": "FX revaluation control"
+        }
+      ]
+    },
+    {
+      "section_id": "risk-governance-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Board- and audit-ready synthesis questions",
+      "questions": [
+        "Can finance name the owning currency state for every material line—and produce artifacts proving transitions?",
+        "Where does configuration governance intersect assurance calendars—and who escalates drift?",
+        "Which reconciliation packs prove lineage across obligation, liquidity, custody, measurement, and visibility—not isolated totals?",
+        "Could independent reviewers reperformance-test FX outcomes without improvisational spreadsheets?",
+        "Does reporting integrity vocabulary match actual ledger archives—not aspiration decks?"
+      ]
+    },
+    {
+      "section_id": "risk-framework-strip",
+      "eyebrow": "Doctrine continuity",
+      "title": "Anchor risk synthesis to framework and doctrine pillars",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/framework/", "label": "Currency State Control Framework" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/cfo-guide/", "label": "CFO guide" },
+        { "href": "/glossary/currency-state/", "label": "Currency state (defined)" },
+        { "href": "/glossary/currency-state-control-framework/", "label": "Currency State Control Framework (defined)" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Risk synthesis without sensationalism",
+  "graph_intro": "Institutional posture only—not audit opinions, ERP implementation prescriptions, or vendor guidance.",
+  "cards": [
+    {
+      "label": "Assurance coupling",
+      "title": "Risk vocabulary aligns committees.",
+      "body": "Finance, systems, internal audit, and external auditors argue about identical custody objects."
+    },
+    {
+      "label": "Early signal",
+      "title": "Ambiguity precedes materiality headlines.",
+      "body": "Govern vocabulary while variances still instructional—not reputational."
+    },
+    {
+      "label": "Strategic asset",
+      "title": "Controlled doctrine differentiates AccountCcy.",
+      "body": "Readers recognize judgment architecture—not dictionary sprawl."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Institutionalize currency-state ownership registers",
+  "control_body": "Maintain accountable ownership per state transition; rehearse cross-functional tabletop exercises using published comparisons; archive remediation narratives tying configuration to assurance outcomes.",
+  "risk_label": "Risk if synthesis stays anecdotal",
+  "risk_title": "Repeated crises without structural vocabulary",
+  "risk_body": "Organizations oscillate between heroic closes and procurement searches—never fixing custody lineage eroding monetary truth."
+}

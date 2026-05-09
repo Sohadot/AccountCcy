@@ -1,0 +1,156 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/multi-currency-reconciliation-control/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "ERP Ledger Control · Cluster 02",
+  "h1": "Multi-Currency Reconciliation Control",
+  "intro": "Multi-currency reconciliation fails when teams reconcile numeric totals without reconciling currency-state lineage. Each monetary lens—transaction obligation, settlement liquidity, account custody, ledger measurement, reporting visibility—carries distinct forensic questions. Collapsing them invites phantom breaks where banks agree, subsystems tie, yet auditors cannot replay how identities migrated across hops.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Reconciliation proves lineage—not only arithmetic.<br>Currency-state clarity decides whether proofs compose—or contradict.",
+  "doctrine_attribution": "ERP Ledger Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Align reconciliation scopes to currency states",
+  "primary_section_body": [
+    "Operational dashboards displaying balanced FX buckets obscure fractured custody when scope definitions omit explicit state ownership.",
+    "Treasury confirmations, ERP postings, and GL totals must bridge across named transitions—not improvised spreadsheets welded monthly.",
+    "Evidence disciplines referenced below belong inside forensic bundles—not rhetorical footnotes."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "state-aware-reconciliation",
+      "eyebrow": "Operational anatomy",
+      "title": "Reconcile identities—not blended totals",
+      "paragraphs": [
+        "Transaction currency proofs cite contractual denomination; settlement currency proofs cite banking rails; account currency proofs cite ERP custody scopes; ledger currency proofs cite TB coherence; reporting currency proofs cite translation bridges archived beside disclosures.",
+        "Skipping state naming invites reconciliation theater—figures tie without proving lineage auditors reperformance-test."
+      ],
+      "steps": [
+        {
+          "title": "States · obligation through liquidity",
+          "body": "Trace measurable duties before cash rails reshape exposures.",
+          "link_url": "/states/transaction-currency/",
+          "link_label": "Transaction currency"
+        },
+        {
+          "title": "States · liquidity execution",
+          "body": "Tie confirmations to ledger custody assignments deliberately.",
+          "link_url": "/states/settlement-currency/",
+          "link_label": "Settlement currency"
+        },
+        {
+          "title": "States · ERP custody",
+          "body": "Define reconciliation scopes anchored to chart assignments.",
+          "link_url": "/states/account-currency/",
+          "link_label": "Account currency"
+        },
+        {
+          "title": "States · measurement",
+          "body": "Anchor subsystem proofs feeding ledger coherence.",
+          "link_url": "/states/ledger-currency/",
+          "link_label": "Ledger currency"
+        },
+        {
+          "title": "States · outward visibility",
+          "body": "Bridge ledger proofs into disclosure narration deliberately.",
+          "link_url": "/states/reporting-currency/",
+          "link_label": "Reporting currency"
+        },
+        {
+          "title": "Comparison · settlement vs account",
+          "body": "Liquidity versus ledger custody forensic split.",
+          "link_url": "/account-currency-vs-settlement-currency/",
+          "link_label": "Account vs settlement currency"
+        },
+        {
+          "title": "Comparison · ledger vs reporting",
+          "body": "Measurement shell versus presentation shell.",
+          "link_url": "/ledger-currency-vs-reporting-currency/",
+          "link_label": "Ledger vs reporting currency"
+        }
+      ]
+    },
+    {
+      "section_id": "reconciliation-evidence",
+      "eyebrow": "Evidence coupling",
+      "title": "Evidence disciplines reconciliation inherits",
+      "paragraphs": [
+        "Control evidence, audit trails, and monetary reconstruction vocabulary describe how artifacts—not slogans—compose defensibility.",
+        "Without contiguous trails across currency-state transitions, reconciliation escalations degrade into tribal negotiation."
+      ],
+      "steps": [
+        {
+          "title": "Control evidence",
+          "body": "Artifacts proving custody belonged to policy—not rhetoric.",
+          "link_url": "/glossary/control-evidence/",
+          "link_label": "Control evidence (defined)"
+        },
+        {
+          "title": "Audit trail",
+          "body": "Structured reconstructability across custody hops.",
+          "link_url": "/glossary/audit-trail/",
+          "link_label": "Audit trail (defined)"
+        },
+        {
+          "title": "Monetary reconstruction",
+          "body": "Forensic replay demand framing monetary truth.",
+          "link_url": "/glossary/monetary-reconstruction/",
+          "link_label": "Monetary reconstruction (defined)"
+        }
+      ]
+    },
+    {
+      "section_id": "reconciliation-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Questions exposing shallow reconciliation",
+      "questions": [
+        "Which currency-state lens owns each reconciliation variance—and who escalates cross-state mismatches?",
+        "Do bank confirmations tie to obligation currency, settlement currency, or both—and how do postings prove transitions?",
+        "Which reconciliation package proves subsystem detail rolled into ledger populations matching custody scopes?",
+        "Are translation bridges archived beside TB snapshots feeding outward narratives?"
+      ]
+    },
+    {
+      "section_id": "reconciliation-cluster-strip",
+      "eyebrow": "Cluster continuity",
+      "title": "Hook reconciliation discipline back into configuration and custody",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/erp-currency-configuration-control/", "label": "ERP configuration control" },
+        { "href": "/account-currency-control-point/", "label": "Account currency control point" },
+        { "href": "/ledger-currency-control/", "label": "Ledger currency control" },
+        { "href": "/fx-revaluation-control/", "label": "FX revaluation control" },
+        { "href": "/currency-state-control-risk/", "label": "Currency state control risk" },
+        { "href": "/glossary/realized-fx/", "label": "Realized FX" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Reconciliation is custody QA—not spreadsheet theater",
+  "graph_intro": "Reference materials only—organizations retain responsibility for evidence sufficiency and professional judgments.",
+  "cards": [
+    {
+      "label": "Scope naming",
+      "title": "Define reconciliation universe per currency state.",
+      "body": "Ambiguous scopes hide fractures until audits deepen."
+    },
+    {
+      "label": "Cross-functional rhythm",
+      "title": "Treasury and accounting own bridges jointly.",
+      "body": "Siloed heroes produce brittle tie-outs."
+    },
+    {
+      "label": "Artifact discipline",
+      "title": "Bundles—not decks—prove lineage.",
+      "body": "Audit committees challenge reconstruction—not fonts."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "State-labelled reconciliation packs each cycle",
+  "control_body": "Template reconciliation binders with explicit currency-state tabs; require sign-off when scopes span multiple states; forbid consolidated commentary substituting for missing bridges.",
+  "risk_label": "Risk if reconciliation stays numeric-only",
+  "risk_title": "Balanced totals with contested lineage",
+  "risk_body": "Organizations celebrate zeros while regulators challenge replay—material weakness risk concentrates where custody vocabulary collapsed."
+}
