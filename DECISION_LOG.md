@@ -30,6 +30,34 @@ It should record decisions that affect the asset’s meaning, structure, monetiz
 
 ---
 
+## 2026-05-09 — Audit Evidence & Close Control Cluster Published
+
+Published the third controlled reference cluster for AccountCcy.com, extending the Currency State Control Framework from ERP and ledger control into audit evidence, period-end close discipline, control exceptions, FX control evidence, monetary truth governance, and currency-state audit trails.
+
+The cluster added six indexable reference pages:
+
+- /audit-evidence-for-currency-state-control/
+- /period-end-currency-close-control/
+- /currency-control-exceptions/
+- /fx-control-evidence/
+- /monetary-truth-close-discipline/
+- /currency-state-audit-trail/
+
+The pages use the existing reference-page.html rendering path through render_reference and introduce no new template, renderer, unsupported JSON fields, tool, calculator, diagnostic workflow, acquisition page, ERP implementation guide, or vendor-specific advice.
+
+This cluster strengthens AccountCcy.com by showing how currency-state control becomes audit-defensible evidence at period-end. It reinforces the asset thesis that AccountCcy.com is the chain of custody for monetary truth inside enterprise finance.
+
+Validation completed successfully:
+
+- Generated pages through the existing pipeline.
+- Sitemap increased from 67 to 73 URLs.
+- Sovereign Quality Gate passed.
+- Production verification passed for all six Cluster 03 routes.
+- sitemap.xml returned 73 <loc> entries and includes all six Cluster 03 routes.
+- Commit: 2338357 — feat(site): audit evidence close control cluster.
+
+---
+
 ## 2026-05-09 — ERP Ledger Control Layer Cluster Published
 
 Published the second controlled reference cluster for AccountCcy.com, extending the Currency State Control Framework from conceptual currency-state distinctions into ERP, ledger, reconciliation, FX revaluation, and institutional control behavior.
