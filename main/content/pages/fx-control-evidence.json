@@ -1,0 +1,146 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/fx-control-evidence/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "Audit Evidence & Close · Cluster 03",
+  "h1": "FX Control Evidence",
+  "intro": "FX control evidence names reconstructable custody—not treasury swagger nor rhetorical variance decks. Defensibility arises when rate sourcing, timing discipline, exposure populations, realized versus unrealized segregation, approval lineage, posting linkage, and reporting interpretation each carries corroborating artifacts auditors reperformance-test alongside ledger proofs.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "FX narratives inherit lineage—or collapse.<br>Evidence distinguishes remeasurement from settlement realization from translation narration.",
+  "doctrine_attribution": "Audit Evidence & Close Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Conceptual FX evidence map—not hedge-accounting advice",
+  "primary_section_body": [
+    "Standards references remain contextual illustration—never endorsement or interpretation guidance.",
+    "Upstream ERP-cluster posture governs populations batches ingest—ambiguous custody assignments corrupt evidence regardless of rate sophistication.",
+    "Readers anchor ledger-cluster FX control preceding assurance overlays—not substitutes."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "fx-evidence-dimensions",
+      "eyebrow": "Operational anatomy",
+      "title": "Evidence dimensions informing FX control discipline",
+      "paragraphs": [
+        "Rate source lineage anchors identifiable feeds consumed per valuation cycle—not spreadsheets welded nightly.",
+        "Timing captures freeze choreography aligning confirmations, postings, valuation reruns per governance—not heroic improvisation.",
+        "Population extracts isolate balances qualifying foreign-monetary treatment feeding reruns.",
+        "Distinctions segregate unrealized remeasurement posture versus settlement-realized narratives versus translation methodologies reshaping presentation.",
+        "Approval trails tie overrides to accountable committees—not solitary keystrokes.",
+        "Posting impact reconciles valuation simulators to journals—not orphaned deltas.",
+        "Interpretation ties disclosures to archived ledger packages—not rhetorical variance decks."
+      ],
+      "steps": [
+        {
+          "title": "FX revaluation control precedent",
+          "body": "Population hygiene feeding valuation batches.",
+          "link_url": "/fx-revaluation-control/",
+          "link_label": "FX revaluation control"
+        },
+        {
+          "title": "Exchange rate source vocabulary",
+          "body": "Custody framing consumed feeds.",
+          "link_url": "/glossary/exchange-rate-source/",
+          "link_label": "Exchange rate source (defined)"
+        },
+        {
+          "title": "Unrealized FX vocabulary",
+          "body": "Open monetary remeasurement lens.",
+          "link_url": "/glossary/unrealized-fx/",
+          "link_label": "Unrealized FX (defined)"
+        },
+        {
+          "title": "Realized FX vocabulary",
+          "body": "Settlement-linked closure contrasting remeasurement.",
+          "link_url": "/glossary/realized-fx/",
+          "link_label": "Realized FX (defined)"
+        },
+        {
+          "title": "Currency translation vocabulary",
+          "body": "Presentation-layer translation contrast.",
+          "link_url": "/glossary/currency-translation/",
+          "link_label": "Currency translation (defined)"
+        },
+        {
+          "title": "Evidence trail vocabulary",
+          "body": "Artifact lineage reinforcing custody hops.",
+          "link_url": "/glossary/evidence-trail/",
+          "link_label": "Evidence trail (defined)"
+        },
+        {
+          "title": "Functional versus reporting comparison",
+          "body": "Measurement versus presentation lens clarity.",
+          "link_url": "/functional-currency-vs-reporting-currency/",
+          "link_label": "Functional vs reporting currency"
+        }
+      ]
+    },
+    {
+      "section_id": "fx-evidence-failure-anatomy",
+      "eyebrow": "Failure anatomy",
+      "title": "Where FX evidence collapses despite eloquent commentary",
+      "paragraphs": [
+        "Duplicate valuation reruns overwrite audited postings absent approvals.",
+        "Manual journals bypass engines leaving populations unexplained.",
+        "Reporting decks cite averages contradicting archived ledger closes.",
+        "Treasury decks cite liquidity narratives disconnected from ledger custody proofs.",
+        "Auditors discover spreadsheets—not ERP lineage—supporting material FX assertions."
+      ]
+    },
+    {
+      "section_id": "fx-evidence-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Evidence interrogations spanning treasury through assurance",
+      "questions": [
+        "Which feed snapshot—including timestamp—anchored each valuation batch?",
+        "Which extract proves populations qualifying foreign-monetary treatment?",
+        "Which approvals accompany overrides touching posting populations?",
+        "Which bundles segregate unrealized versus realized versus translation artifacts?",
+        "Which archived ledger export feeds disclosure lines—not rhetorical decks?"
+      ]
+    },
+    {
+      "section_id": "cluster-03-strip-fx",
+      "eyebrow": "Cluster continuity",
+      "title": "Pair FX evidence with close discipline, audit trails, exceptions",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/audit-evidence-for-currency-state-control/", "label": "Audit evidence for currency-state control" },
+        { "href": "/period-end-currency-close-control/", "label": "Period-end currency close control" },
+        { "href": "/currency-state-audit-trail/", "label": "Currency state audit trail" },
+        { "href": "/currency-control-exceptions/", "label": "Currency control exceptions" },
+        { "href": "/glossary/fx-revaluation/", "label": "FX revaluation (defined)" },
+        { "href": "/ledger-currency-control/", "label": "Ledger currency control" },
+        { "href": "/multi-currency-reconciliation-control/", "label": "Multi-currency reconciliation control" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "FX custody earns lineage—or forfeits assurance credibility",
+  "graph_intro": "Readers elevate artifact discipline eliminating treasury-accounting disconnect hallucinations.",
+  "cards": [
+    {
+      "label": "Population fidelity",
+      "title": "Custody clarity precedes rate sophistication.",
+      "body": "Misassigned populations corrupt eloquent FX narratives."
+    },
+    {
+      "label": "Simulator coupling",
+      "title": "Engines justify postings—not vibes.",
+      "body": "Variance bridges reconcile simulations against journals."
+    },
+    {
+      "label": "Reporting coupling",
+      "title": "Disclosures cite immutable ledger anchors.",
+      "body": "Translation decks rehearse archival fidelity monthly."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Bundle FX custody artifacts parallel valuation batches",
+  "control_body": "Archive extracts pairing feeds, populations, approvals, journals, simulator reconciliations; segregate duties preparing batches versus releasing postings.",
+  "risk_label": "Risk if FX stays treasury intuition divorced from ledger lineage",
+  "risk_title": "Contested FX assertions regulators dismantle",
+  "risk_body": "Collapsed vocabulary invites enforcement narratives destroying reputational capital overnight."
+}

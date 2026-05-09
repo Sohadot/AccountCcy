@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-09T10:29:50.896187+00:00",
-  "url_count": 67,
+  "generated_at": "2026-05-09T11:30:49.926333+00:00",
+  "url_count": 73,
   "errors": [],
   "warnings": [],
   "audits": [
@@ -53,6 +53,18 @@
       "warnings": []
     },
     {
+      "source_path": "audit-evidence-for-currency-state-control/index.html",
+      "url_path": "/audit-evidence-for-currency-state-control/",
+      "loc": "https://accountccy.com/audit-evidence-for-currency-state-control/",
+      "title": "Audit Evidence for Currency State Control — Reference",
+      "description": "Currency-state audit evidence proves which interpretation governed postings, reconciliations, FX batches, and disclosures—custody chains, not generic checklists.",
+      "canonical": "https://accountccy.com/audit-evidence-for-currency-state-control/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "ccy-state-chain/index.html",
       "url_path": "/ccy-state-chain/",
       "loc": "https://accountccy.com/ccy-state-chain/",
@@ -71,6 +83,30 @@
       "title": "The CFO Guide to Hidden Account Currency Risk — AccountCcy.com",
       "description": "CFO governance layer for monetary truth—ERP custody, FX revaluation vs translation, reporting integrity, audit reconstruction—not treasury FX alone.",
       "canonical": "https://accountccy.com/cfo-guide/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "currency-control-exceptions/index.html",
+      "url_path": "/currency-control-exceptions/",
+      "loc": "https://accountccy.com/currency-control-exceptions/",
+      "title": "Currency Control Exceptions — Reference",
+      "description": "Currency-control exceptions flag fractures—transaction vs settlement, ledger vs reporting, stale FX, lingering reconciliations—before assurance debt hardens.",
+      "canonical": "https://accountccy.com/currency-control-exceptions/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "currency-state-audit-trail/index.html",
+      "url_path": "/currency-state-audit-trail/",
+      "loc": "https://accountccy.com/currency-state-audit-trail/",
+      "title": "Currency State Audit Trail — Reference",
+      "description": "A currency-state audit trail reconstructs capture-through-consolidation custody—reproducible evidence paired with ledger exports.",
+      "canonical": "https://accountccy.com/currency-state-audit-trail/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],
@@ -119,6 +155,18 @@
       "title": "Functional Currency vs Reporting Currency — Comparison",
       "description": "Functional currency anchors measurement; reporting currency frames presentation—mixing them misroutes translation equity, rates, and disclosure bridges.",
       "canonical": "https://accountccy.com/functional-currency-vs-reporting-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "fx-control-evidence/index.html",
+      "url_path": "/fx-control-evidence/",
+      "loc": "https://accountccy.com/fx-control-evidence/",
+      "title": "FX Control Evidence — Reference",
+      "description": "FX control evidence reconstructs revaluation lineage: rates, timing, populations, realized vs unrealized split, approvals, postings, and reporting interpretation.",
+      "canonical": "https://accountccy.com/fx-control-evidence/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],
@@ -677,12 +725,36 @@
       "warnings": []
     },
     {
+      "source_path": "monetary-truth-close-discipline/index.html",
+      "url_path": "/monetary-truth-close-discipline/",
+      "loc": "https://accountccy.com/monetary-truth-close-discipline/",
+      "title": "Monetary Truth Close Discipline — Reference",
+      "description": "Close discipline turns monetary ambiguity into defensible truth via freeze choreography, contemporaneous evidence, and accountable custody transitions—not improvisation.",
+      "canonical": "https://accountccy.com/monetary-truth-close-discipline/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "multi-currency-reconciliation-control/index.html",
       "url_path": "/multi-currency-reconciliation-control/",
       "loc": "https://accountccy.com/multi-currency-reconciliation-control/",
       "title": "Multi-Currency Reconciliation Control — Reference",
       "description": "Multi-currency reconciliation must reconcile currency-state lineage, not only totals—obligation, liquidity, custody, measurement, visibility.",
       "canonical": "https://accountccy.com/multi-currency-reconciliation-control/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "period-end-currency-close-control/index.html",
+      "url_path": "/period-end-currency-close-control/",
+      "loc": "https://accountccy.com/period-end-currency-close-control/",
+      "title": "Period-End Currency Close Control — Reference",
+      "description": "Period-end close freezes ERP custody, ledger measurement, FX, reconciliation, and reporting translation together—immutable lineage and disciplined review.",
+      "canonical": "https://accountccy.com/period-end-currency-close-control/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],

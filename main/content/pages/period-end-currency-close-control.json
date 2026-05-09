@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/period-end-currency-close-control/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "Audit Evidence & Close · Cluster 03",
+  "h1": "Period-End Currency Close Control",
+  "intro": "Period-end close is where competing currency states must freeze simultaneously—obligation narratives anchored, liquidity confirmations squared, ERP custody reconciled, ledger measurement reperformed through valuation batches, reporting translations bridged to archival proofs. Weak freeze posture manufactures ambiguity currency committees disguise behind heroic spreadsheets.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Close is custody choreography—not a calendar slogan.<br>Currency discipline freezes lineage—not vibes.",
+  "doctrine_attribution": "Audit Evidence & Close Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "When temporal gates collide across custody shells",
+  "primary_section_body": [
+    "Freeze sequencing pits treasury confirmations versus subsystem ingestion calendars versus consolidation hubs—notoriously brittle absent documented choreography.",
+    "Ledger-cluster posture contextualizes configuration feeds—ERP snapshots dictate allowable postings preceding freezes.",
+    "AccountCcy offers conceptual scaffolding—not statutory accounting close prescriptions or vendor migration guides."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "close-currency-states",
+      "eyebrow": "Operational anatomy",
+      "title": "Currency-state obligations embedded inside period-end close",
+      "paragraphs": [
+        "Population freezes isolate foreign-monetary balances feeding remeasurement; translation calendars consume immutable ledger exports when visibility refracts.",
+        "Controllers certify coherence across ledger versus reporting lenses deliberately—not implicitly.",
+        "Escalation forums reconcile mismatched subsidiary freezes versus group mandates."
+      ],
+      "steps": [
+        {
+          "title": "Ledger currency control precedent",
+          "body": "Trial balance integrity checkpoints preceding visibility narration.",
+          "link_url": "/ledger-currency-control/",
+          "link_label": "Ledger currency control"
+        },
+        {
+          "title": "Reporting lens discipline",
+          "body": "State 06 posture bridging ledger proofs into outward narratives.",
+          "link_url": "/states/reporting-currency/",
+          "link_label": "Reporting currency state"
+        },
+        {
+          "title": "FX revaluation control precedent",
+          "body": "Population hygiene feeding valuation batches each freeze.",
+          "link_url": "/fx-revaluation-control/",
+          "link_label": "FX revaluation control"
+        },
+        {
+          "title": "Multi-currency reconciliation precedent",
+          "body": "State-labelled reconciliation packs validating lineage—not totals.",
+          "link_url": "/multi-currency-reconciliation-control/",
+          "link_label": "Multi-currency reconciliation control"
+        },
+        {
+          "title": "Defined · period-end revaluation",
+          "body": "Lexical anchor when calendars collide.",
+          "link_url": "/glossary/period-end-revaluation/",
+          "link_label": "Period-end revaluation (defined)"
+        },
+        {
+          "title": "Reporting integrity vocabulary",
+          "body": "Lineage obligations across disclosure translation boundaries.",
+          "link_url": "/glossary/reporting-integrity/",
+          "link_label": "Reporting integrity (defined)"
+        }
+      ]
+    },
+    {
+      "section_id": "close-failure-anatomy",
+      "eyebrow": "Failure anatomy",
+      "title": "Close choreography fractures quietly when custody unnamed",
+      "paragraphs": [
+        "Translation launches against provisional TB extracts while subsidiaries reopen ledger batches.",
+        "Consolidation hubs ingest stale subsidiary decks unaware ERP reopened valuations.",
+        "Executive summaries cite FX narratives detached from frozen ledger snapshots.",
+        "Auditors discover discretionary reopen journals lacking custody approvals."
+      ]
+    },
+    {
+      "section_id": "close-control-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Questions proving disciplined currency freeze",
+      "questions": [
+        "Which immutable ledger snapshot anchors each disclosure figure?",
+        "Which sequencing memo binds treasury confirmations before reconciliation freeze?",
+        "Who authorized reopen postings touching valuation populations post-freeze?",
+        "Which reconciliation binder proves translation bridges—not narratives?",
+        "How does consolidation prove subsidiary freezes aligned with group mandates?"
+      ]
+    },
+    {
+      "section_id": "cluster-03-strip-close",
+      "eyebrow": "Cluster continuity",
+      "title": "Pair period discipline with evidence, FX evidence, audit trails, exceptions",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/audit-evidence-for-currency-state-control/", "label": "Audit evidence for currency-state control" },
+        { "href": "/monetary-truth-close-discipline/", "label": "Monetary truth close discipline" },
+        { "href": "/currency-state-audit-trail/", "label": "Currency state audit trail" },
+        { "href": "/currency-control-exceptions/", "label": "Currency control exceptions" },
+        { "href": "/fx-control-evidence/", "label": "FX control evidence" },
+        { "href": "/account-currency-control-point/", "label": "Account currency control point" },
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Close calendars orchestrate custody—not isolate FX rhetoric",
+  "graph_intro": "Readers synchronize CFO attestations with ledger-cluster realities preceding disclosure polish.",
+  "cards": [
+    {
+      "label": "Freeze integrity",
+      "title": "Immutable snapshots deserve cryptographic seriousness.",
+      "body": "Hash archives deter silent reopen drift."
+    },
+    {
+      "label": "Cross-functional coupling",
+      "title": "Treasury–controller cadence prevents phantom freezes.",
+      "body": "Joint choreography documented—not hallway folklore."
+    },
+    {
+      "label": "Consolidation coupling",
+      "title": "Group timelines absorb subsidiary freeze proofs explicitly.",
+      "body": "Mismatch hides until audits escalate."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Publish signed freeze matrices sequencing custody hops",
+  "control_body": "Maintain authoritative sequencing tying confirmations to postings to valuations to translations; rehearse reopen drills documenting approvals.",
+  "risk_label": "Risk if close collapses into checklist theater",
+  "risk_title": "Certified closes lacking reproducible custody lineage",
+  "risk_body": "Board decks sparkle while auditors dismantle ambiguous freezes—material weakness narratives metastasize."
+}

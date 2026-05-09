@@ -1,0 +1,137 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/currency-control-exceptions/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "Audit Evidence & Close · Cluster 03",
+  "h1": "Currency Control Exceptions",
+  "intro": "Currency control exceptions surface when adjacent currency states diverge without documented bridges—transaction versus settlement corridors mismatch account custody, ledger measurement contradicts reporting narration, FX assumptions expire silently, reconciliation differences linger without accountable ownership. Exceptions become institutional hazards when organizations normalize heroic remediation instead of governed escalation vocabulary.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Exceptions disclose custody fractures sooner than misstatement headlines.<br>Treating them as operational noise forfeits assurance runway.",
+  "doctrine_attribution": "Audit Evidence & Close Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Catalog fractures crossing custody seams",
+  "primary_section_body": [
+    "Each archetype below inherits remediation choreography—not spreadsheet improvisation—from reconciliation discipline through ERP configuration posture.",
+    "Risk synthesis vocabulary contextualizes systemic recurrence versus isolated incidents.",
+    "Framework-only posture—never counseling regulated filings or audit opinions absent organizational judgment."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "exception-archetypes",
+      "eyebrow": "Operational anatomy",
+      "title": "Common currency-state exception archetypes",
+      "paragraphs": [
+        "Mismatch archetype · Obligation versus liquidity: invoices denominated differently than rails clearing banks absent reconciliation bridges.",
+        "Mismatch archetype · Custody versus ledger measurement: foreign account populations ambiguous feeding valuation batches.",
+        "Mismatch archetype · Ledger versus reporting: translation narratives cite averages while archived snapshots demanded closes.",
+        "Mismatch archetype · Stale FX assumptions: feeds silently outdated yet postings freeze pretending contemporaneous.",
+        "Ownership archetype · Unresolved differences lingering across closes lacking escalation charters.",
+        "Ownership archetype · Fragmented forums blaming treasury versus controllers absent custody-chain accountability."
+      ],
+      "steps": [
+        {
+          "title": "Comparison · account versus settlement",
+          "body": "Liquidity versus ERP custody forensic vocabulary.",
+          "link_url": "/account-currency-vs-settlement-currency/",
+          "link_label": "Account vs settlement currency"
+        },
+        {
+          "title": "Comparison · ledger versus reporting",
+          "body": "Measurement versus presentation disconnect archetypes.",
+          "link_url": "/ledger-currency-vs-reporting-currency/",
+          "link_label": "Ledger vs reporting currency"
+        },
+        {
+          "title": "Currency-state control risk synthesis",
+          "body": "Macroscopic consolidation of custody-confusion failure modes.",
+          "link_url": "/currency-state-control-risk/",
+          "link_label": "Currency state control risk"
+        },
+        {
+          "title": "State ownership vocabulary",
+          "body": "Explicit accountable jurisdiction across transitions.",
+          "link_url": "/glossary/state-ownership/",
+          "link_label": "State ownership (defined)"
+        },
+        {
+          "title": "Monetary ambiguity vocabulary",
+          "body": "Ambiguity as latent misstatement energy.",
+          "link_url": "/glossary/monetary-ambiguity/",
+          "link_label": "Monetary ambiguity (defined)"
+        },
+        {
+          "title": "Multi-currency reconciliation precedent",
+          "body": "State-labelled reconciliation discipline predecessor.",
+          "link_url": "/multi-currency-reconciliation-control/",
+          "link_label": "Multi-currency reconciliation control"
+        }
+      ]
+    },
+    {
+      "section_id": "exception-governance",
+      "eyebrow": "Governance posture",
+      "title": "Structuring exception handling without tribal improvisation",
+      "paragraphs": [
+        "Escalation charters tie archetypes to accountable committees spanning treasury, controllers, systems owners, consolidation hubs.",
+        "Evidence bundles accompany exceptions—not anecdotal emails hastily forwarded audit week.",
+        "Remediation narratives cite configuration lineage tying ERP posture to monetary outcomes."
+      ]
+    },
+    {
+      "section_id": "exception-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Questions distinguishing benign drift from structural fractures",
+      "questions": [
+        "Which recurring archetypes spike variance dashboards—and who sponsors custody remediation charters?",
+        "Which approvals authorize bridging postings contradicting standard custody mappings?",
+        "Which dashboards quantify unresolved differences aged beyond tolerance—with accountable owners?",
+        "Which configuration snapshots accompany exceptions referencing ERP behavior?",
+        "Does escalation vocabulary cite currency states—not blended FX rhetoric?"
+      ]
+    },
+    {
+      "section_id": "cluster-03-strip-exceptions",
+      "eyebrow": "Cluster continuity",
+      "title": "Pair exceptions with evidence, close discipline, FX evidence, audit trails",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/audit-evidence-for-currency-state-control/", "label": "Audit evidence for currency-state control" },
+        { "href": "/period-end-currency-close-control/", "label": "Period-end currency close control" },
+        { "href": "/fx-control-evidence/", "label": "FX control evidence" },
+        { "href": "/currency-state-audit-trail/", "label": "Currency state audit trail" },
+        { "href": "/ledger-currency-control/", "label": "Ledger currency control" },
+        { "href": "/erp-currency-configuration-control/", "label": "ERP currency configuration control" },
+        { "href": "/cfo-guide/", "label": "CFO guide" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Exceptions illuminate custody fractures early when vocabulary disciplined",
+  "graph_intro": "Readers escalate systematically—not rhetorically—preserving assurance runway.",
+  "cards": [
+    {
+      "label": "Early telemetry",
+      "title": "Dashboard archetypes reveal recurrence.",
+      "body": "Pattern detection beats heroic audit-week salvage."
+    },
+    {
+      "label": "Ownership coupling",
+      "title": "Chartered escalation avoids orphaned exceptions.",
+      "body": "Named committees dissolve tribal blame storms."
+    },
+    {
+      "label": "ERP linkage",
+      "title": "Configuration lineage anchors remediation narratives.",
+      "body": "Silent knobs invalidate heroic narratives absent snapshots."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Institutional exception taxonomy paired remediation playbook",
+  "control_body": "Publish taxonomy binding archetypes to accountable forums; archive remediation retrospectives citing custody hops healed—not totals patched.",
+  "risk_label": "Risk if exceptions stay anecdotal folklore",
+  "risk_title": "Repeated fractures metastasize into misstatement energy",
+  "risk_body": "Organizations oscillate crisis-to-crisis—never stabilizing vocabulary auditors eventually demand."
+}

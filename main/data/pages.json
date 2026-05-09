@@ -1247,6 +1247,108 @@
     },
 
     {
+      "url": "/audit-evidence-for-currency-state-control/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "Audit Evidence for Currency State Control — Reference",
+      "meta_description": "Currency-state audit evidence proves which interpretation governed postings, reconciliations, FX batches, and disclosures—custody chains, not generic checklists.",
+      "seo_intent": "reference intent — audit evidence, currency-state control, assurance lineage",
+      "buyer_relevance": ["controllers", "audit technology", "financial close platforms", "CFO advisory"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/states/account-currency/", "/states/ledger-currency/", "/states/reporting-currency/", "/erp-currency-configuration-control/", "/ledger-currency-control/", "/account-currency-control-point/", "/multi-currency-reconciliation-control/", "/fx-revaluation-control/", "/currency-state-control-risk/", "/period-end-currency-close-control/", "/currency-control-exceptions/", "/fx-control-evidence/", "/monetary-truth-close-discipline/", "/currency-state-audit-trail/", "/glossary/control-evidence/", "/glossary/audit-trail/", "/glossary/evidence-trail/", "/glossary/monetary-reconstruction/", "/states/audit-reality/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/period-end-currency-close-control/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "Period-End Currency Close Control — Reference",
+      "meta_description": "Period-end close freezes ERP custody, ledger measurement, FX, reconciliation, and reporting translation together—immutable lineage and disciplined review.",
+      "seo_intent": "reference intent — period-end close, currency freeze, multi-currency close control",
+      "buyer_relevance": ["controllers", "financial close platforms", "ERP consultants", "CFO advisory"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/states/account-currency/", "/states/ledger-currency/", "/states/reporting-currency/", "/erp-currency-configuration-control/", "/ledger-currency-control/", "/account-currency-control-point/", "/multi-currency-reconciliation-control/", "/fx-revaluation-control/", "/currency-state-control-risk/", "/audit-evidence-for-currency-state-control/", "/currency-control-exceptions/", "/fx-control-evidence/", "/monetary-truth-close-discipline/", "/currency-state-audit-trail/", "/glossary/period-end-revaluation/", "/glossary/reporting-integrity/", "/glossary/fx-revaluation/", "/glossary/currency-translation/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/currency-control-exceptions/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "Currency Control Exceptions — Reference",
+      "meta_description": "Currency-control exceptions flag fractures—transaction vs settlement, ledger vs reporting, stale FX, lingering reconciliations—before assurance debt hardens.",
+      "seo_intent": "reference intent — currency control exceptions, reconciliation fractures, custody governance",
+      "buyer_relevance": ["controllers", "treasury systems", "audit technology", "financial close platforms"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/states/account-currency/", "/states/ledger-currency/", "/states/reporting-currency/", "/erp-currency-configuration-control/", "/ledger-currency-control/", "/account-currency-control-point/", "/multi-currency-reconciliation-control/", "/fx-revaluation-control/", "/currency-state-control-risk/", "/audit-evidence-for-currency-state-control/", "/period-end-currency-close-control/", "/fx-control-evidence/", "/monetary-truth-close-discipline/", "/currency-state-audit-trail/", "/account-currency-vs-settlement-currency/", "/ledger-currency-vs-reporting-currency/", "/glossary/monetary-ambiguity/", "/glossary/state-ownership/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/fx-control-evidence/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "FX Control Evidence — Reference",
+      "meta_description": "FX control evidence reconstructs revaluation lineage: rates, timing, populations, realized vs unrealized split, approvals, postings, and reporting interpretation.",
+      "seo_intent": "reference intent — FX control evidence, revaluation lineage, FX governance artifacts",
+      "buyer_relevance": ["controllers", "financial close platforms", "treasury systems", "CFO advisory"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/states/account-currency/", "/states/ledger-currency/", "/states/reporting-currency/", "/erp-currency-configuration-control/", "/ledger-currency-control/", "/account-currency-control-point/", "/multi-currency-reconciliation-control/", "/fx-revaluation-control/", "/currency-state-control-risk/", "/audit-evidence-for-currency-state-control/", "/period-end-currency-close-control/", "/currency-control-exceptions/", "/monetary-truth-close-discipline/", "/currency-state-audit-trail/", "/functional-currency-vs-reporting-currency/", "/glossary/exchange-rate-source/", "/glossary/unrealized-fx/", "/glossary/realized-fx/", "/glossary/currency-translation/", "/glossary/fx-revaluation/", "/glossary/remeasurement/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/monetary-truth-close-discipline/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "Monetary Truth Close Discipline — Reference",
+      "meta_description": "Close discipline turns monetary ambiguity into defensible truth via freeze choreography, contemporaneous evidence, and accountable custody transitions—not improvisation.",
+      "seo_intent": "reference intent — close discipline, monetary truth governance, custody choreography",
+      "buyer_relevance": ["CFO advisory", "controllers", "financial close platforms", "audit technology"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/states/account-currency/", "/states/ledger-currency/", "/states/reporting-currency/", "/erp-currency-configuration-control/", "/ledger-currency-control/", "/account-currency-control-point/", "/multi-currency-reconciliation-control/", "/fx-revaluation-control/", "/currency-state-control-risk/", "/audit-evidence-for-currency-state-control/", "/period-end-currency-close-control/", "/currency-control-exceptions/", "/fx-control-evidence/", "/currency-state-audit-trail/", "/glossary/monetary-truth/", "/glossary/monetary-ambiguity/", "/glossary/chain-of-custody/", "/glossary/audit-defensibility/", "/glossary/reporting-integrity/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
+      "url": "/currency-state-audit-trail/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "reference-high",
+      "title": "Currency State Audit Trail — Reference",
+      "meta_description": "A currency-state audit trail reconstructs capture-through-consolidation custody—reproducible evidence paired with ledger exports.",
+      "seo_intent": "reference intent — currency-state audit trail, custody lineage, monetary reconstruction",
+      "buyer_relevance": ["controllers", "audit technology", "financial close platforms", "ERP consultants"],
+      "monetization_relevance": ["framework licensing", "premium briefings"],
+      "required_links": ["/glossary/", "/framework/", "/ccy-state-chain/", "/monetary-truth-chain-of-custody/", "/cfo-guide/", "/states/account-currency/", "/states/ledger-currency/", "/states/reporting-currency/", "/erp-currency-configuration-control/", "/ledger-currency-control/", "/account-currency-control-point/", "/multi-currency-reconciliation-control/", "/fx-revaluation-control/", "/currency-state-control-risk/", "/audit-evidence-for-currency-state-control/", "/period-end-currency-close-control/", "/currency-control-exceptions/", "/fx-control-evidence/", "/monetary-truth-close-discipline/", "/glossary/evidence-trail/", "/glossary/audit-trail/", "/glossary/control-evidence/", "/glossary/monetary-reconstruction/", "/glossary/currency-exposure/"],
+      "schema_types": ["Article", "FAQPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.71",
+      "changefreq": "monthly"
+    },
+
+    {
       "url": "/risks/account-currency-misconfiguration/",
       "type": "risk",
       "status": "draft",

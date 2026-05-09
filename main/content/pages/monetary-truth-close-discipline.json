@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/monetary-truth-close-discipline/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "Audit Evidence & Close · Cluster 03",
+  "h1": "Monetary Truth Close Discipline",
+  "intro": "Close discipline transforms ambient monetary ambiguity into bounded, reviewable monetary truth when currency states freeze coherently across custody hops—liquidity rails, account custody, ledger measurement, FX reruns, consolidation hubs, reporting narration. Without disciplined choreography, closes oscillate between heroic improvisation and brittle assertions auditors dismantle once custody lineage fractures surface.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Truth emerges through freeze choreography—not slogans.<br>Discipline names accountable transitions preserving reconstructability.",
+  "doctrine_attribution": "Audit Evidence & Close Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Close discipline as custody choreography—not accounting endorsement",
+  "primary_section_body": [
+    "Standards illustration contextualizes governance—but never substitutes regulated interpretation absent organizational judgment.",
+    "ERP-cluster lineage upstream stabilizes populations downstream controllers reconcile—not substitutes ledger-cluster posture.",
+    "Readers synthesize framework doctrine alongside Cluster 03 siblings—not substitutes statutory filings guidance."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "close-discipline-anatomy",
+      "eyebrow": "Operational anatomy",
+      "title": "Close choreography translating ambiguity into defensibility",
+      "paragraphs": [
+        "Freeze sequencing aligns transactional cutoff, valuation freezes, consolidation pulls—preventing asynchronous narratives.",
+        "Review ladders escalate anomalies crossing thresholds—not burying surprises beneath heroic spreadsheets.",
+        "Evidence bundles accumulate contemporaneously—not scavenger hunts audit week.",
+        "Governance forums cite custody terminology bridging treasury, controllers, consolidation hubs—not tribal jargon.",
+        "Remediation retrospectives capture fractures healed preserving assurance runway—not anecdotal lore lost turnover storms."
+      ],
+      "steps": [
+        {
+          "title": "Period-end currency close predecessor",
+          "body": "Operational sequencing bridging liquidity through consolidation.",
+          "link_url": "/period-end-currency-close-control/",
+          "link_label": "Period-end currency close control"
+        },
+        {
+          "title": "Account framework doctrine",
+          "body": "Custody thesis framing monetary interpretation literacy.",
+          "link_url": "/framework/",
+          "link_label": "Framework hub"
+        },
+        {
+          "title": "CCY state chain continuity",
+          "body": "Canonical custody sequencing vocabulary.",
+          "link_url": "/ccy-state-chain/",
+          "link_label": "CCY state chain"
+        },
+        {
+          "title": "Monetary ambiguity vocabulary",
+          "body": "Structured ambiguity literacy—not avoidance rhetoric.",
+          "link_url": "/glossary/monetary-ambiguity/",
+          "link_label": "Monetary ambiguity (defined)"
+        },
+        {
+          "title": "Chain-of-custody vocabulary",
+          "body": "Freeze choreography lens spanning hops.",
+          "link_url": "/glossary/chain-of-custody/",
+          "link_label": "Chain of custody (defined)"
+        },
+        {
+          "title": "Audit defensibility vocabulary",
+          "body": "Tamper-resistant lineage expectations.",
+          "link_url": "/glossary/audit-defensibility/",
+          "link_label": "Audit defensibility (defined)"
+        },
+        {
+          "title": "State ownership vocabulary",
+          "body": "Escalation literacy bridging committees.",
+          "link_url": "/glossary/state-ownership/",
+          "link_label": "State ownership (defined)"
+        },
+        {
+          "title": "ERP posture lineage anchor",
+          "body": "Silent knobs fracturing closes absent snapshots.",
+          "link_url": "/erp-currency-configuration-control/",
+          "link_label": "ERP currency configuration control"
+        }
+      ]
+    },
+    {
+      "section_id": "close-discipline-failure-anatomy",
+      "eyebrow": "Failure anatomy",
+      "title": "Where heroic improvisation fractures custody credibility",
+      "paragraphs": [
+        "Leaders celebrate aggressive deadlines prioritizing velocity over lineage literacy.",
+        "Variance dashboards bury unresolved FX deltas awaiting miraculous reversal.",
+        "Treasury liquidity narratives diverge from ledger proofs auditors reconcile.",
+        "Consolidation hubs rerun silently overwriting audited postings absent approvals.",
+        "Remediation tribal knowledge evaporates turnover storms crippling continuity."
+      ]
+    },
+    {
+      "section_id": "close-discipline-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Governance interrogations distinguishing choreography from theater",
+      "questions": [
+        "Which freeze checklist cites custody transitions—not blended FX shorthand?",
+        "Which dashboards escalate unresolved differences crossing thresholds—with accountable owners?",
+        "Which retrospectives capture fractures healed preserving lineage—not heroic anecdotes?",
+        "Which forums mandate contemporaneous evidence—not scavenger hunts?",
+        "Which KPIs reward lineage fidelity—not velocity masking ambiguity?"
+      ]
+    },
+    {
+      "section_id": "cluster-03-strip-discipline",
+      "eyebrow": "Cluster continuity",
+      "title": "Pair discipline with audit evidence, trails, exceptions, FX evidence",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/audit-evidence-for-currency-state-control/", "label": "Audit evidence for currency-state control" },
+        { "href": "/currency-state-audit-trail/", "label": "Currency state audit trail" },
+        { "href": "/fx-control-evidence/", "label": "FX control evidence" },
+        { "href": "/currency-control-exceptions/", "label": "Currency control exceptions" },
+        { "href": "/ledger-currency-control/", "label": "Ledger currency control" },
+        { "href": "/currency-state-control-risk/", "label": "Currency state control risk" },
+        { "href": "/cfo-guide/", "label": "CFO guide" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Discipline converts ambiguity into custody-backed monetary truth",
+  "graph_intro": "Readers institutionalize choreography auditors reperformance-test—not improvisation folklore celebrating heroic crunch.",
+  "cards": [
+    {
+      "label": "Freeze fidelity",
+      "title": "Sequencing eliminates asynchronous narratives.",
+      "body": "Liquidity through consolidation aligns—not surprises auditors."
+    },
+    {
+      "label": "Evidence contemporaneity",
+      "title": "Bundles accumulate during closes—not salvage missions.",
+      "body": "Lineage survives turnover storms intact."
+    },
+    {
+      "label": "Governance coupling",
+      "title": "Committees cite custody vocabulary.",
+      "body": "Treasury versus controller debates dissolve tribal wars."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Publish governed close charters coupling freezes with custody proofs",
+  "control_body": "Document sequencing tying checkpoints to archived snapshots; institutionalize retrospectives translating fractures into sustained remediation—not hero myths.",
+  "risk_label": "Risk if closes glamorize velocity absent lineage",
+  "risk_title": "Ambiguity metastasizes into contested assertions overnight",
+  "risk_body": "Organizations hemorrhage assurance credibility regulators dismantle publicly."
+}

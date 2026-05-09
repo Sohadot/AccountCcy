@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Currency Control Exceptions — Reference</title>
+  <meta name="description" content="Currency-control exceptions flag fractures—transaction vs settlement, ledger vs reporting, stale FX, lingering reconciliations—before assurance debt hardens.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/currency-control-exceptions/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Currency Control Exceptions — Reference">
+  <meta property="og:description" content="Currency-control exceptions flag fractures—transaction vs settlement, ledger vs reporting, stale FX, lingering reconciliations—before assurance debt hardens.">
+  <meta property="og:url" content="https://accountccy.com/currency-control-exceptions/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Currency Control Exceptions — Reference">
+  <meta name="twitter:description" content="Currency-control exceptions flag fractures—transaction vs settlement, ledger vs reporting, stale FX, lingering reconciliations—before assurance debt hardens.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/currency-control-exceptions/",
+            "url": "https://accountccy.com/currency-control-exceptions/",
+            "name": "Currency Control Exceptions — Reference",
+            "description": "Currency-control exceptions flag fractures—transaction vs settlement, ledger vs reporting, stale FX, lingering reconciliations—before assurance debt hardens.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Currency Control Exceptions — Reference",
+                    "item": "https://accountccy.com/currency-control-exceptions/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "Currency Control Exceptions",
+            "description": "Currency-control exceptions flag fractures—transaction vs settlement, ledger vs reporting, stale FX, lingering reconciliations—before assurance debt hardens.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/currency-control-exceptions/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-05-09"
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-pillar" data-template="reference-page.html" data-page-type="pillar">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/what-is-account-currency/">Definition</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/framework/">Framework</a>
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/cfo-guide/">CFO Guide</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">Currency Control Exceptions — Reference</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Audit Evidence &amp; Close · Cluster 03</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">Currency Control Exceptions</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">Currency control exceptions surface when adjacent currency states diverge without documented bridges—transaction versus settlement corridors mismatch account custody, ledger measurement contradicts reporting narration, FX assumptions expire silently, reconciliation differences linger without accountable ownership. Exceptions become institutional hazards when organizations normalize heroic remediation instead of governed escalation vocabulary.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Custody thesis</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">Exceptions disclose custody fractures sooner than misstatement headlines.<br>Treating them as operational noise forfeits assurance runway.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      Audit Evidence &amp; Close Control Layer · AccountCcy.com
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Reference posture</p>
+        <h2 id="context-title" class="ccy-title">Catalog fractures crossing custody seams</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">Each archetype below inherits remediation choreography—not spreadsheet improvisation—from reconciliation discipline through ERP configuration posture.</p>
+<p class="ccy-body">Risk synthesis vocabulary contextualizes systemic recurrence versus isolated incidents.</p>
+<p class="ccy-body">Framework-only posture—never counseling regulated filings or audit opinions absent organizational judgment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="exception-archetypes-heading"><div class="ccy-container"><p class="ccy-eyebrow">Operational anatomy</p><h2 id="exception-archetypes-heading" class="ccy-title">Common currency-state exception archetypes</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Mismatch archetype · Obligation versus liquidity: invoices denominated differently than rails clearing banks absent reconciliation bridges.</p>
+<p class="ccy-body">Mismatch archetype · Custody versus ledger measurement: foreign account populations ambiguous feeding valuation batches.</p>
+<p class="ccy-body">Mismatch archetype · Ledger versus reporting: translation narratives cite averages while archived snapshots demanded closes.</p>
+<p class="ccy-body">Mismatch archetype · Stale FX assumptions: feeds silently outdated yet postings freeze pretending contemporaneous.</p>
+<p class="ccy-body">Ownership archetype · Unresolved differences lingering across closes lacking escalation charters.</p>
+<p class="ccy-body">Ownership archetype · Fragmented forums blaming treasury versus controllers absent custody-chain accountability.</p>
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Comparison · account versus settlement</p><p class="ccy-body">Liquidity versus ERP custody forensic vocabulary.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/account-currency-vs-settlement-currency/">Account vs settlement currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Comparison · ledger versus reporting</p><p class="ccy-body">Measurement versus presentation disconnect archetypes.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/ledger-currency-vs-reporting-currency/">Ledger vs reporting currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Currency-state control risk synthesis</p><p class="ccy-body">Macroscopic consolidation of custody-confusion failure modes.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/currency-state-control-risk/">Currency state control risk</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">State ownership vocabulary</p><p class="ccy-body">Explicit accountable jurisdiction across transitions.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/state-ownership/">State ownership (defined)</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Monetary ambiguity vocabulary</p><p class="ccy-body">Ambiguity as latent misstatement energy.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/monetary-ambiguity/">Monetary ambiguity (defined)</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Multi-currency reconciliation precedent</p><p class="ccy-body">State-labelled reconciliation discipline predecessor.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/multi-currency-reconciliation-control/">Multi-currency reconciliation control</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="exception-governance-heading"><div class="ccy-container"><p class="ccy-eyebrow">Governance posture</p><h2 id="exception-governance-heading" class="ccy-title">Structuring exception handling without tribal improvisation</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Escalation charters tie archetypes to accountable committees spanning treasury, controllers, systems owners, consolidation hubs.</p>
+<p class="ccy-body">Evidence bundles accompany exceptions—not anecdotal emails hastily forwarded audit week.</p>
+<p class="ccy-body">Remediation narratives cite configuration lineage tying ERP posture to monetary outcomes.</p></div></div></section>
+<section class="ccy-section" aria-labelledby="exception-questions-heading"><div class="ccy-container"><p class="ccy-eyebrow">Custody interrogation</p><h2 id="exception-questions-heading" class="ccy-title">Questions distinguishing benign drift from structural fractures</h2><div class="ccy-pillar-section-body">
+<ul class="ccy-custody-questions"><li><p class="ccy-body">Which recurring archetypes spike variance dashboards—and who sponsors custody remediation charters?</p></li>
+<li><p class="ccy-body">Which approvals authorize bridging postings contradicting standard custody mappings?</p></li>
+<li><p class="ccy-body">Which dashboards quantify unresolved differences aged beyond tolerance—with accountable owners?</p></li>
+<li><p class="ccy-body">Which configuration snapshots accompany exceptions referencing ERP behavior?</p></li>
+<li><p class="ccy-body">Does escalation vocabulary cite currency states—not blended FX rhetoric?</p></li></ul></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="cluster-03-strip-exceptions-heading"><div class="ccy-container"><p class="ccy-eyebrow">Cluster continuity</p><h2 id="cluster-03-strip-exceptions-heading" class="ccy-title">Pair exceptions with evidence, close discipline, FX evidence, audit trails</h2><div class="ccy-pillar-section-body">
+<nav class="ccy-pillar-reference-strip" aria-label="Related AccountCcy definitions"><a class="ccy-pillar-strip-link" href="/audit-evidence-for-currency-state-control/">Audit evidence for currency-state control</a><a class="ccy-pillar-strip-link" href="/period-end-currency-close-control/">Period-end currency close control</a><a class="ccy-pillar-strip-link" href="/fx-control-evidence/">FX control evidence</a><a class="ccy-pillar-strip-link" href="/currency-state-audit-trail/">Currency state audit trail</a><a class="ccy-pillar-strip-link" href="/ledger-currency-control/">Ledger currency control</a><a class="ccy-pillar-strip-link" href="/erp-currency-configuration-control/">ERP currency configuration control</a><a class="ccy-pillar-strip-link" href="/cfo-guide/">CFO guide</a></nav></div></div></section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Reference continuity</p>
+      <h2 id="graph-title" class="ccy-title">Exceptions illuminate custody fractures early when vocabulary disciplined</h2>
+      <p class="ccy-body">Readers escalate systematically—not rhetorically—preserving assurance runway.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Early telemetry</p><h3 class="ccy-section-title">Dashboard archetypes reveal recurrence.</h3><p class="ccy-small">Pattern detection beats heroic audit-week salvage.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Ownership coupling</p><h3 class="ccy-section-title">Chartered escalation avoids orphaned exceptions.</h3><p class="ccy-small">Named committees dissolve tribal blame storms.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">ERP linkage</p><h3 class="ccy-section-title">Configuration lineage anchors remediation narratives.</h3><p class="ccy-small">Silent knobs invalidate heroic narratives absent snapshots.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Practical control implication</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Institutional exception taxonomy paired remediation playbook</h2>
+        <p class="ccy-consequence-body">Publish taxonomy binding archetypes to accountable forums; archive remediation retrospectives citing custody hops healed—not totals patched.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if exceptions stay anecdotal folklore</p>
+        <h2 class="ccy-consequence-heading">Repeated fractures metastasize into misstatement energy</h2>
+        <p class="ccy-consequence-body">Organizations oscillate crisis-to-crisis—never stabilizing vocabulary auditors eventually demand.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-related-links" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-related-grid"><a class="ccy-related-card" href="/glossary/"><span class="ccy-related-label">Glossary</span><span class="ccy-related-title">Account Currency Glossary — Enterprise Finance Reference</span></a><a class="ccy-related-card" href="/framework/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The Currency State Control Framework</span></a><a class="ccy-related-card" href="/ccy-state-chain/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The CCY State Chain — From Quoted Price to Audit Reality</span></a><a class="ccy-related-card" href="/monetary-truth-chain-of-custody/"><span class="ccy-related-label">Doctrine</span><span class="ccy-related-title">The Chain of Custody for Monetary Truth</span></a><a class="ccy-related-card" href="/cfo-guide/"><span class="ccy-related-label">Executive Guide</span><span class="ccy-related-title">The CFO Guide to Hidden Account Currency Risk</span></a><a class="ccy-related-card" href="/states/account-currency/"><span class="ccy-related-label">State 04</span><span class="ccy-related-title">Account Currency — State 04 — The Critical Control Point</span></a><a class="ccy-related-card" href="/states/ledger-currency/"><span class="ccy-related-label">State 05</span><span class="ccy-related-title">Ledger Currency — State 05 of the CCY State Chain</span></a><a class="ccy-related-card" href="/states/reporting-currency/"><span class="ccy-related-label">State 06</span><span class="ccy-related-title">Reporting Currency — State 06 of the CCY State Chain</span></a><a class="ccy-related-card" href="/erp-currency-configuration-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">ERP Currency Configuration Control — Reference</span></a><a class="ccy-related-card" href="/ledger-currency-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Ledger Currency Control — Reference</span></a><a class="ccy-related-card" href="/account-currency-control-point/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Account Currency Control Point — Reference</span></a><a class="ccy-related-card" href="/multi-currency-reconciliation-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Multi-Currency Reconciliation Control — Reference</span></a><a class="ccy-related-card" href="/fx-revaluation-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">FX Revaluation Control — Reference</span></a><a class="ccy-related-card" href="/currency-state-control-risk/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Currency State Control Risk — Reference</span></a><a class="ccy-related-card" href="/audit-evidence-for-currency-state-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Audit Evidence for Currency State Control — Reference</span></a><a class="ccy-related-card" href="/period-end-currency-close-control/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Period-End Currency Close Control — Reference</span></a><a class="ccy-related-card" href="/fx-control-evidence/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">FX Control Evidence — Reference</span></a><a class="ccy-related-card" href="/monetary-truth-close-discipline/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Monetary Truth Close Discipline — Reference</span></a><a class="ccy-related-card" href="/currency-state-audit-trail/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Currency State Audit Trail — Reference</span></a><a class="ccy-related-card" href="/account-currency-vs-settlement-currency/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Account Currency vs Settlement Currency — Comparison</span></a><a class="ccy-related-card" href="/ledger-currency-vs-reporting-currency/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Ledger Currency vs Reporting Currency — Comparison</span></a><a class="ccy-related-card" href="/glossary/monetary-ambiguity/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Monetary Ambiguity</span></a><a class="ccy-related-card" href="/glossary/state-ownership/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">State Ownership</span></a></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

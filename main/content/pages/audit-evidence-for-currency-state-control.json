@@ -1,0 +1,129 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/audit-evidence-for-currency-state-control/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "Audit Evidence & Close · Cluster 03",
+  "h1": "Audit Evidence for Currency State Control",
+  "intro": "Audit evidence for currency-state control answers forensic ownership—not cosmetic attestations. It proves which currency state governed each measurable obligation, ERP custody assignment, ledger posting, revaluation batch, reconciliation scope, reporting disclosure step, or consolidation bridge—and produces contiguous custody hops auditors reperformance-test without improvised spreadsheets.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Evidence earns monetary truth—it does not decorate outcomes afterward.<br>Currency-state naming decides whether artifacts compose—or contradict.",
+  "doctrine_attribution": "Audit Evidence & Close Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Chains—not snapshots—for custody-intensive populations",
+  "primary_section_body": [
+    "Generic audit manuals describe intentions; AccountCcy supplies custody vocabulary linking quotations through consolidation—operators attach artifacts per transition.",
+    "Framework posture references ERP ledger discipline upstream—configuration snapshots and postings inherit accountability downstream.",
+    "AccountCcy.com stays educational framework—not statutory auditing guidance or ERP consulting prescriptions."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "evidence-objects",
+      "eyebrow": "Operational anatomy",
+      "title": "What constitutes currency-state audit evidence",
+      "paragraphs": [
+        "Authorization capturing deliberate transitions across quotation, obligation, liquidity custody, chart retention, ledger measurement, visibility interpretation, and group assembly.",
+        "Technical lineage tying postings to rates, valuation batches to populations, reconciliation packs to named scopes, and disclosure drafts to archived ledger exports.",
+        "When narratives cite totals absent transitional lineage, ambiguity substitutes for assurance—even polished dashboards fracture."
+      ],
+      "steps": [
+        {
+          "title": "Control evidence vocabulary",
+          "body": "Artifacts proving policy—not rhetoric—governed each custody mutation.",
+          "link_url": "/glossary/control-evidence/",
+          "link_label": "Control evidence (defined)"
+        },
+        {
+          "title": "Audit trail vocabulary",
+          "body": "Reconstructability spanning ERP postings across currency-state hops.",
+          "link_url": "/glossary/audit-trail/",
+          "link_label": "Audit trail (defined)"
+        },
+        {
+          "title": "Monetary reconstruction",
+          "body": "Replay-grade forensic posture auditors invoke.",
+          "link_url": "/glossary/monetary-reconstruction/",
+          "link_label": "Monetary reconstruction (defined)"
+        },
+        {
+          "title": "Audit reality · terminal custody posture",
+          "body": "Where scrutiny consumes reconstructed lineage—not optimism decks.",
+          "link_url": "/states/audit-reality/",
+          "link_label": "Audit reality state"
+        },
+        {
+          "title": "ERP ledger control layer anchor",
+          "body": "Configuration-through-FX custody predecessor cluster.",
+          "link_url": "/erp-currency-configuration-control/",
+          "link_label": "ERP currency configuration control"
+        }
+      ]
+    },
+    {
+      "section_id": "evidence-breakdown-patterns",
+      "eyebrow": "Failure anatomy",
+      "title": "Where evidence chains shear silently",
+      "paragraphs": [
+        "Journals reference totals lacking subsystem lineage; reconciliation packs omit settlement confirmations bridging liquidity custody; translation narratives cite averages divorced from archived ledger snapshots.",
+        "ERP symptom: balanced totals conceal orphaned postings awaiting auditors.",
+        "Close symptom: controllers certify freezes lacking immutable extracts tying disclosures.",
+        "Consolidation symptom: elimination folklore substitutes for identifiable subsidiary proofs."
+      ]
+    },
+    {
+      "section_id": "evidence-control-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Evidence readiness checkpoints",
+      "questions": [
+        "Which custody artifact proves obligation denomination persisted across postings?",
+        "Which immutable ledger snapshot anchors outward disclosures?",
+        "Who owns escalation when reconciliation scopes omit settlement bridges?",
+        "Could reviewers reroute FX narratives solely via reproducible batches?",
+        "Do consolidation bridges cite identifiable elimination journals—not slide folklore?"
+      ]
+    },
+    {
+      "section_id": "cluster-03-strip",
+      "eyebrow": "Cluster continuity",
+      "title": "Adjacent close-layer anchors inside Cluster 03",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/period-end-currency-close-control/", "label": "Period-end currency close control" },
+        { "href": "/currency-state-audit-trail/", "label": "Currency state audit trail" },
+        { "href": "/monetary-truth-close-discipline/", "label": "Monetary truth close discipline" },
+        { "href": "/currency-control-exceptions/", "label": "Currency control exceptions" },
+        { "href": "/fx-control-evidence/", "label": "FX control evidence" },
+        { "href": "/framework/", "label": "Currency State Control Framework" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Evidence inherits disciplined ERP lineage upstream",
+  "graph_intro": "Readers grounding forensic readiness pair doctrine pillars with ledger-cluster posture—not fragmented anecdotes.",
+  "cards": [
+    {
+      "label": "Chain fidelity",
+      "title": "Each custody hop demands corroboration.",
+      "body": "Snapshots lacking predecessors collapse scrutiny narratives."
+    },
+    {
+      "label": "Assurance coupling",
+      "title": "Internal audit translates custody vocabulary into tests.",
+      "body": "Shared taxonomy aligns treasury, controllers, systems owners."
+    },
+    {
+      "label": "Strategic posture",
+      "title": "Evidence maturity distinguishes sovereign-grade doctrine.",
+      "body": "AccountCcy exists precisely because folklore tolerated ambiguity."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Archive transitional bundles—not heroic spreadsheets late-cycle",
+  "control_body": "Require numbered custody-hop bundles per material cycle pairing postings with confirmations, approvals, rates, valuation extracts; forbid narratives divorced from archived lineage.",
+  "risk_label": "Risk if evidence collapses into attestational rhetoric",
+  "risk_title": "Cosmetic assurance masking fractured lineage",
+  "risk_body": "Leadership signs disclosures auditors dismantle—reputation concentrates precisely where custody vocabulary vanished."
+}

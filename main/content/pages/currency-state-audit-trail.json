@@ -1,0 +1,153 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/currency-state-audit-trail/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "Audit Evidence & Close · Cluster 03",
+  "h1": "Currency State Audit Trail",
+  "intro": "Currency-state audit trails reconstruct custody lineage spanning transactional capture through settlement, account custody, ledger measurement, FX reruns, reporting narration, consolidation hubs—demonstrating which monetary interpretation governed each hop without collapsing distinctions into blended FX rhetoric. Trails operationalize chain-of-custody doctrine auditors reperformance-test alongside immutable ledger exports.",
+  "doctrine_eyebrow": "Custody thesis",
+  "doctrine_statement": "Audit trails narrate custody—not vibes.<br>Corroboration chains distinguish hops lest ambiguity metastasize.",
+  "doctrine_attribution": "Audit Evidence & Close Control Layer · AccountCcy.com",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Trail anatomy bridging liquidity physics through assurance overlays",
+  "primary_section_body": [
+    "Standards references contextualize—but never substitute regulated filings absent organizational counsel.",
+    "Upstream ERP-cluster lineage constrains downstream extracts—not substitutes ledger-cluster narratives.",
+    "Readers synthesize glossary definitional pillars—not substitutes audit-program prescriptions."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "trail-hop-map",
+      "eyebrow": "Operational anatomy",
+      "title": "Custody hops composing reconstructable trails",
+      "paragraphs": [
+        "Transactional capture documents originating denominators linking counterparties with contractual obligations.",
+        "Settlement rails reconcile liquidity movements bridging jurisdictional custody realities.",
+        "Account custody articulates population stewardship feeding reconciliation dashboards.",
+        "Ledger measurement freezes valuation narratives aligning reruns with journals—not orphaned spreadsheets.",
+        "FX reruns evidence feeds, populations, approvals translators regulators scrutinize.",
+        "Reporting narration aligns disclosures with archived ledger exports—not rhetorical variance decks.",
+        "Consolidation hubs synchronize subsidiaries respecting lineage freezes—not silent reruns.",
+        "Evidence retention preserves snapshots defeating turnover-induced amnesia."
+      ],
+      "steps": [
+        {
+          "title": "Audit evidence precedent",
+          "body": "Bundling discipline reinforcing custody assertions.",
+          "link_url": "/audit-evidence-for-currency-state-control/",
+          "link_label": "Audit evidence for currency-state control"
+        },
+        {
+          "title": "Account currency control point",
+          "body": "Custody stewardship vocabulary preceding ledger ingestion.",
+          "link_url": "/account-currency-control-point/",
+          "link_label": "Account currency control point"
+        },
+        {
+          "title": "Ledger currency control precedent",
+          "body": "Measurement lineage anchors downstream narration.",
+          "link_url": "/ledger-currency-control/",
+          "link_label": "Ledger currency control"
+        },
+        {
+          "title": "Evidence trail vocabulary",
+          "body": "Artifact lineage reinforcing hops.",
+          "link_url": "/glossary/evidence-trail/",
+          "link_label": "Evidence trail (defined)"
+        },
+        {
+          "title": "Chain-of-custody vocabulary",
+          "body": "Freeze choreography bridging hops.",
+          "link_url": "/glossary/chain-of-custody/",
+          "link_label": "Chain of custody (defined)"
+        },
+        {
+          "title": "Currency exposure vocabulary",
+          "body": "Recognition-layer custody framing.",
+          "link_url": "/glossary/currency-exposure/",
+          "link_label": "Currency exposure (defined)"
+        },
+        {
+          "title": "Audit defensibility vocabulary",
+          "body": "Tamper-resistant lineage posture.",
+          "link_url": "/glossary/audit-defensibility/",
+          "link_label": "Audit defensibility (defined)"
+        },
+        {
+          "title": "FX control evidence sibling",
+          "body": "FX lineage disciplinary counterpart.",
+          "link_url": "/fx-control-evidence/",
+          "link_label": "FX control evidence"
+        }
+      ]
+    },
+    {
+      "section_id": "trail-break-anatomy",
+      "eyebrow": "Failure anatomy",
+      "title": "Where trails dissolve despite voluminous attachments",
+      "paragraphs": [
+        "Spreadsheet castles cite contradictory denominators absent immutable ledger coupling.",
+        "Emails substitute approvals lacking timestamped governance charters.",
+        "Treasury decks diverge from ledger proofs auditors reconcile painfully.",
+        "Silent reruns overwrite audited postings absent escalation narratives.",
+        "Retention gaps vaporize snapshots regulators subpoena—destroying credibility overnight."
+      ]
+    },
+    {
+      "section_id": "trail-questions",
+      "eyebrow": "Custody interrogation",
+      "title": "Trail interrogations spanning operations through assurance",
+      "questions": [
+        "Which artifact proves denomination custody governing transactional inception?",
+        "Which reconciliation bridges settlement liquidity versus ledger measurement?",
+        "Which snapshots freeze ERP configuration influencing populations?",
+        "Which approvals accompany reruns touching postings?",
+        "Which archival exports feed disclosures—not rhetorical decks?"
+      ]
+    },
+    {
+      "section_id": "cluster-03-strip-trail",
+      "eyebrow": "Cluster continuity",
+      "title": "Pair trails with evidence bundles, close discipline, exceptions",
+      "paragraphs": [],
+      "reference_strip": [
+        { "href": "/audit-evidence-for-currency-state-control/", "label": "Audit evidence for currency-state control" },
+        { "href": "/period-end-currency-close-control/", "label": "Period-end currency close control" },
+        { "href": "/monetary-truth-close-discipline/", "label": "Monetary truth close discipline" },
+        { "href": "/currency-control-exceptions/", "label": "Currency control exceptions" },
+        { "href": "/states/account-currency/", "label": "Account currency state" },
+        { "href": "/states/ledger-currency/", "label": "Ledger currency state" },
+        { "href": "/states/reporting-currency/", "label": "Reporting currency state" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Audit trails prove custody lineage—not rhetorical FX narratives",
+  "graph_intro": "Readers institutionalize reconstructability regulators reperformance-test—not attachment theater masquerading assurance.",
+  "cards": [
+    {
+      "label": "Hop fidelity",
+      "title": "Each custody transition earns corroboration.",
+      "body": "Blend rhetoric forfeits trail credibility instantly."
+    },
+    {
+      "label": "Retention coupling",
+      "title": "Snapshots defeat turnover amnesia.",
+      "body": "Immutable archives survive committee reshuffles intact."
+    },
+    {
+      "label": "Cross-functional rehearsal",
+      "title": "Treasury versus controller narratives converge.",
+      "body": "Dual proofs dissolve tribal disconnect hallucinations."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Publish custody trail matrices pairing hops with artifact owners",
+  "control_body": "Maintain lineage dashboards archiving contemporaneous bundles—not scavenger missions orchestrated audit week.",
+  "risk_label": "Risk if trails rely rhetoric divorced immutable lineage",
+  "risk_title": "Assurance collapses once subpoenas expose spreadsheet castles",
+  "risk_body": "Institutions hemorrhage reputational capital regulators dismantle publicly overnight."
+}
