@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/account-currency-vs-ledger-currency/",
+  "type": "comparison",
+  "status": "published",
+  "quality_gate": "reference-standard",
+  "page_eyebrow": "Comparison · Custody assignment versus maintained books",
+  "h1": "Account Currency vs Ledger Currency",
+  "intro": "Account currency configures how individual accounts, balances, or postings retain monetary identity inside ERP charts—the custody assignments controllers reconcile at State 04. Ledger currency names the currency in which the entity’s primary books maintain measurement and trial-balance integrity—typically aligned with functional currency at State 05. Misreading configuration-level custody as synonymous with entity-wide ledger measurement misroutes close routines, revaluation batches, and forensic explanations.",
+  "doctrine_eyebrow": "Governing distinction",
+  "doctrine_statement": "Account currency decides where balances reconcile inside charts.<br>Ledger currency decides which measurement lens hosts the entity trial balance.",
+  "doctrine_attribution": "Currency identity comparison · AccountCcy.com",
+  "primary_section_eyebrow": "Side-by-side posture",
+  "primary_section_title": "Micro custody versus macro measurement shell",
+  "primary_section_body": [
+    "ERP architectures might assign foreign account currencies while ledger currency remains functional—foreign monetary items demand explicit remeasurement discipline feeding trial balance proofs.",
+    "Posting logic and account mapping translate subsystem detail into GL populations; ambiguous custody language obscures which engine owns residual FX.",
+    "Controllers defending period-end integrity must narrate both layers—custody assignments feeding populations versus ledger lens tying disclosures back to measured outcomes."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "conceptual-comparison",
+      "eyebrow": "Controlled vocabulary",
+      "title": "Conceptual comparison inside enterprise finance",
+      "paragraphs": [
+        "Use this distinction during chart redesigns, shared service migrations, multi-ledger consolidations, and audits comparing subsidiary configurations to group methodology."
+      ],
+      "steps": [
+        {
+          "title": "Account currency — chart-level custody",
+          "body": "Determines reconciliation currency per account population, impacts foreign balance identification, and informs which lines enter period-end revaluation scope.",
+          "link_url": "/states/account-currency/",
+          "link_label": "Account currency state"
+        },
+        {
+          "title": "Ledger currency — entity measurement lens",
+          "body": "Hosts systemic balances after postings, allocations, and subsystem rolls resolve—where trial balance closure proves internal monetary coherence.",
+          "link_url": "/states/ledger-currency/",
+          "link_label": "Ledger currency state"
+        }
+      ]
+    },
+    {
+      "section_id": "confusion-and-consequences",
+      "eyebrow": "Failure anatomy",
+      "title": "Where confusion appears—and what breaks",
+      "paragraphs": [
+        "Teams speak about “local currency” interchangeably for account assignments and ledger measurement—yet forensic obligations differ.",
+        "Weak mapping between subledger engines and GL obscures which custody population produced suspicious FX lines.",
+        "Accounting consequence: foreign-monetary-item classification errors distort unrealized versus realized pathways.",
+        "ERP consequence: duplicate or missing revaluation batches when populations disagree between account currency tags and ledger-close calendars.",
+        "Reporting consequence: CFO commentary cites ledger headlines without acknowledging foreign account populations still custodied differently upstream."
+      ]
+    },
+    {
+      "section_id": "custody-questions-each-side",
+      "eyebrow": "Custody interrogation",
+      "title": "Custody questions—each side",
+      "paragraphs": [
+        "Close forums should rehearse both questions before signing trial balance certifications."
+      ],
+      "steps": [
+        {
+          "title": "Account currency question",
+          "body": "Which chart assignments prove this balance reconciles inside named custody—and which migrations changed assignments without retrospective evidence?",
+          "link_url": "/glossary/account-currency/",
+          "link_label": "Account currency (defined)"
+        },
+        {
+          "title": "Ledger currency question",
+          "body": "Which ledger lens proves trial balance integrity before translation layers narrate outward visibility—and does functional alignment hold under stress scenarios?",
+          "link_url": "/glossary/ledger-currency/",
+          "link_label": "Ledger currency (defined)"
+        }
+      ]
+    },
+    {
+      "section_id": "comparison-reference-strip",
+      "eyebrow": "Doctrine & mechanics",
+      "title": "Framework continuity after this contrast",
+      "paragraphs": [
+        "ERP ledger control vocabulary—posting logic, account mapping, subledger rolls—exists precisely because custody hops must remain deterministic between accounts and GL measurement."
+      ],
+      "reference_strip": [
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/framework/", "label": "Currency State Control Framework" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/glossary/functional-currency/", "label": "Functional currency" },
+        { "href": "/glossary/fx-revaluation/", "label": "FX revaluation" },
+        { "href": "/glossary/posting-logic/", "label": "Posting logic" },
+        { "href": "/glossary/general-ledger/", "label": "General ledger" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Configuration depth beneath ledger headlines",
+  "graph_intro": "Foreign account currencies inside functional ledger shells explain many sophisticated FX diagnostics—name them before debating translation policy downstream.",
+  "cards": [
+    {
+      "label": "Measurement stack",
+      "title": "Custody assignments feed ledger measurement—they do not substitute it.",
+      "body": "Close integrity demands both narratives reconciled to postings."
+    },
+    {
+      "label": "ERP reality",
+      "title": "Engines expose account currency fields deliberately.",
+      "body": "Bypassing them invites invisible fractures surfaced only at audit depth."
+    },
+    {
+      "label": "Audit replay",
+      "title": "Independent reviewers trace populations before totals.",
+      "body": "Collapsed vocabulary forces heroic spreadsheets replacing metadata discipline."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Publish population maps tying accounts to ledger measurement",
+  "control_body": "Document how foreign account populations roll into functional ledger closes; align revaluation runbooks to explicit custody tags; guard chart migrations with replay tests comparing trial balances pre- and post-change.",
+  "risk_label": "Risk if vocabulary collapses",
+  "risk_title": "Broken trial balance narratives and FX misclassification",
+  "risk_body": "Collapsed identities mislabel foreign monetary items, orphan subsystem batches, and expose leadership when auditors demand population-level proofs behind consolidated FX commentary."
+}

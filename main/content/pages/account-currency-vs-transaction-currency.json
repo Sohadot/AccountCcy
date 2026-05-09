@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/account-currency-vs-transaction-currency/",
+  "type": "comparison",
+  "status": "published",
+  "quality_gate": "reference-standard",
+  "page_eyebrow": "Comparison · State 02 versus State 04",
+  "h1": "Account Currency vs Transaction Currency",
+  "intro": "Transaction currency names the denomination of the measurable obligation—the commercial or contractual monetary identity attached when finance recognizes an event. Account currency names how ERP custody assigns balances inside charts so postings, reconciliations, revaluation populations, and forensic replay stay coherent. Same ISO code on screen does not imply same institutional job; conflating the two reroutes FX debates to the wrong owners and seeds structural reconciliation drift.",
+  "doctrine_eyebrow": "Governing distinction",
+  "doctrine_statement": "Obligation currency answers “in what currency was this duty born?”<br>Account currency answers “in what currency does this balance live inside governed ledger custody?”",
+  "doctrine_attribution": "Currency identity comparison · AccountCcy.com",
+  "primary_section_eyebrow": "Side-by-side posture",
+  "primary_section_title": "Two identities on one economic thread",
+  "primary_section_body": [
+    "Transaction currency sits at State 02 in the CCY State Chain: pricing and obligation crystallize before postings freeze custody choices. Account currency sits at State 04: configurable ledger identity reconciles external movement into accountable balances.",
+    "ERP postings carry both signals—document currency versus account assignment—but controllers must prove which lens governs reconciliation scope, open FX populations, and disclosure bridges back to commercial evidence.",
+    "When teams substitute obligation narration for custody configuration, sub-ledgers appear balanced while auditors cannot replay how monetary truth migrated across systems."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "conceptual-comparison",
+      "eyebrow": "Controlled vocabulary",
+      "title": "Conceptual comparison inside enterprise finance",
+      "paragraphs": [
+        "Use this contrast during quote-to-cash design, AP/AR policy forums, intercompany billing reviews, and multi-currency ERP migrations—anywhere obligation wording meets chart configuration."
+      ],
+      "steps": [
+        {
+          "title": "Transaction currency — obligation identity",
+          "body": "Anchors measurable duties in the currency of invoices, contracts, bank instructions, or instrument denomination before ERP postings absorb them into custody populations.",
+          "link_url": "/states/transaction-currency/",
+          "link_label": "Transaction currency state"
+        },
+        {
+          "title": "Account currency — ERP custody identity",
+          "body": "Assigns how balances accumulate, reconcile, feed period-end revaluation batches, and inherit translation methodology downstream.",
+          "link_url": "/states/account-currency/",
+          "link_label": "Account currency state"
+        }
+      ]
+    },
+    {
+      "section_id": "confusion-and-consequences",
+      "eyebrow": "Failure anatomy",
+      "title": "Where confusion appears—and what breaks",
+      "paragraphs": [
+        "Confusion clusters where obligation currency equals custody ISO codes visually—teams assume matching symbols erase the need for documentary bridges.",
+        "Payables and receivables modules fracture when commercial denomination spans multiple corridors yet charts collapse into a single custody assignment without governed mappings.",
+        "Accounting consequence: incorrect posting populations enter foreign-monetary-item treatments, misrouting unrealized versus realized FX narratives.",
+        "ERP consequence: reconciliation scopes widen inexplicably—controllers chase variance inside the wrong subsystem.",
+        "Reporting consequence: management commentary cites transactional wording while disclosure packs rely on ledger custody—external readers inherit incompatible mental models."
+      ]
+    },
+    {
+      "section_id": "custody-questions-each-side",
+      "eyebrow": "Custody interrogation",
+      "title": "Custody questions—each side",
+      "paragraphs": [
+        "Finance, treasury, and systems owners should answer these independently, then reconcile answers before accepting period-end totals."
+      ],
+      "steps": [
+        {
+          "title": "Transaction currency question",
+          "body": "In which currency did counterparties measure legal performance of receivable or payable, and which artifact locks that denomination before postings reshape it?",
+          "link_url": "/glossary/transaction-currency/",
+          "link_label": "Transaction currency (defined)"
+        },
+        {
+          "title": "Account currency question",
+          "body": "Which ERP custody assignment reconciles this balance across books, entities, and migrations—and who authorized deviations when obligation currency diverged?",
+          "link_url": "/glossary/account-currency/",
+          "link_label": "Account currency (defined)"
+        }
+      ]
+    },
+    {
+      "section_id": "comparison-reference-strip",
+      "eyebrow": "Doctrine & mechanics",
+      "title": "Framework continuity after this contrast",
+      "paragraphs": [
+        "Stabilize vocabulary before layering FX mechanics—revaluation assumes identifiable custody populations; translation assumes ledger measurement already earned truth upstream."
+      ],
+      "reference_strip": [
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/framework/", "label": "Currency State Control Framework" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/what-is-account-currency/", "label": "What Is Account Currency?" },
+        { "href": "/glossary/account-currency-control/", "label": "Account currency control" },
+        { "href": "/glossary/fx-revaluation/", "label": "FX revaluation" },
+        { "href": "/cfo-guide/", "label": "CFO guide" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Comparison anchors inside the custody stack",
+  "graph_intro": "Move from obligation clarity into custody governance, then outward across ledger measurement and reporting—preserving reconstructable lineage at every hop.",
+  "cards": [
+    {
+      "label": "Chain discipline",
+      "title": "States 02 and 04 bracket external duties entering ERP custody.",
+      "body": "Skipping vocabulary between them invites silent substitution where dashboards show balanced FX lines yet forensic replay fails."
+    },
+    {
+      "label": "Lexical spine",
+      "title": "Published glossary entries lock adjacent meanings.",
+      "body": "Transaction currency and account currency definitions cite enterprise contexts—not interchangeable synonyms."
+    },
+    {
+      "label": "Executive posture",
+      "title": "CFO narratives inherit whichever fractures controllers tolerated upstream.",
+      "body": "Translation polish cannot substitute missing bridges between obligation currency and custody currency."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Separate forums own obligation wording versus chart custody",
+  "control_body": "Document joint approvals when invoice currency intentionally diverges from account assignments; archive evidence tying postings to commercial confirmations; rehearse reconciliation scopes before migrations rename currencies.",
+  "risk_label": "Risk if vocabulary collapses",
+  "risk_title": "Structural FX and reconciliation distortion",
+  "risk_body": "Collapsed identities route variance analytics to treasury rhetoric instead of configurable ledger truth—audit teams rebuild spreadsheets because ERP metadata no longer narrates custody hops."
+}

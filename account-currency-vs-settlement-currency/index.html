@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Account Currency vs Settlement Currency — Comparison</title>
+  <meta name="description" content="Settlement currency clears liquidity; account currency governs ledger custody—same ISO codes answer distinct treasury versus ERP forensic questions.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/account-currency-vs-settlement-currency/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Account Currency vs Settlement Currency — Comparison">
+  <meta property="og:description" content="Settlement currency clears liquidity; account currency governs ledger custody—same ISO codes answer distinct treasury versus ERP forensic questions.">
+  <meta property="og:url" content="https://accountccy.com/account-currency-vs-settlement-currency/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Account Currency vs Settlement Currency — Comparison">
+  <meta name="twitter:description" content="Settlement currency clears liquidity; account currency governs ledger custody—same ISO codes answer distinct treasury versus ERP forensic questions.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/account-currency-vs-settlement-currency/",
+            "url": "https://accountccy.com/account-currency-vs-settlement-currency/",
+            "name": "Account Currency vs Settlement Currency — Comparison",
+            "description": "Settlement currency clears liquidity; account currency governs ledger custody—same ISO codes answer distinct treasury versus ERP forensic questions.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Account Currency vs Settlement Currency — Comparison",
+                    "item": "https://accountccy.com/account-currency-vs-settlement-currency/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "Account Currency vs Settlement Currency",
+            "description": "Settlement currency clears liquidity; account currency governs ledger custody—same ISO codes answer distinct treasury versus ERP forensic questions.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/account-currency-vs-settlement-currency/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-05-09"
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-comparison" data-template="reference-page.html" data-page-type="comparison">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/what-is-account-currency/">Definition</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/framework/">Framework</a>
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/cfo-guide/">CFO Guide</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">Account Currency vs Settlement Currency — Comparison</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Comparison · Liquidity rail versus ledger custody</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">Account Currency vs Settlement Currency</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">Settlement currency names the monetary rail where cash or liquidity actually clears—bank networks, treasury workstations, netting agreements—often at State 03 between obligation and ERP custody. Account currency names how balances persist inside charts once finance asserts accountable ledger identity at State 04. Identical ISO symbols still answer different forensic questions: Which currency moved versus which currency holds reconciled exposure?</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Governing distinction</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">Settlement currency proves how liquidity executed.<br>Account currency proves how balances reconcile inside governed postings.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      Currency identity comparison · AccountCcy.com
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Side-by-side posture</p>
+        <h2 id="context-title" class="ccy-title">Cash execution versus accounting custody</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">Treasury teams steward settlement paths—confirmations, nostro timing, corridor choices—while controllers steward ledger assignments feeding trial balance integrity.</p>
+<p class="ccy-body">When settlement reroutes through USD clearing while obligations remain denominated in MAD or EUR, FX realization narratives belong to traceable bridges—not rhetorical blending.</p>
+<p class="ccy-body">Confusing the two invites phantom reconciliations: banks agree while ERP custody scopes disagree about which balances remain open across closes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="conceptual-comparison-heading"><div class="ccy-container"><p class="ccy-eyebrow">Controlled vocabulary</p><h2 id="conceptual-comparison-heading" class="ccy-title">Conceptual comparison inside enterprise finance</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Deploy this contrast during bank mandate redesigns, treasury pooling launches, AP factory migrations, and forensic reconstructions after FX variance escalations.</p>
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Settlement currency — liquidity closure</p><p class="ccy-body">Specifies denomination of realized cash movement, confirmations, and clearance—the monetary rail where exposure converts into settled liquidity.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/states/settlement-currency/">Settlement currency state</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Account currency — ERP retention posture</p><p class="ccy-body">Specifies how balances accumulate inside charts—reconciliation scopes, open-item treatments, and downstream revaluation eligibility.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/states/account-currency/">Account currency state</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="confusion-and-consequences-heading"><div class="ccy-container"><p class="ccy-eyebrow">Failure anatomy</p><h2 id="confusion-and-consequences-heading" class="ccy-title">Where confusion appears—and what breaks</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Teams assume matching ISO codes between bank feeds and GL accounts erase custody storytelling—yet confirmations often reveal deliberate corridors unlike invoice denomination.</p>
+<p class="ccy-body">Multi-bank workflows exacerbate drift when netting calendars diverge from ERP posting calendars.</p>
+<p class="ccy-body">Accounting consequence: realized FX recognition disconnects from identifiable banking artifacts—auditors challenge gain/loss narratives lacking confirmation lineage.</p>
+<p class="ccy-body">ERP consequence: clearing accounts balloon because settlement postings cannot marry custody scopes controllers expect.</p>
+<p class="ccy-body">Reporting consequence: liquidity dashboards narrate banking rails while management packs cite ledger balances—leadership debates phantom gaps.</p></div></div></section>
+<section class="ccy-section" aria-labelledby="custody-questions-each-side-heading"><div class="ccy-container"><p class="ccy-eyebrow">Custody interrogation</p><h2 id="custody-questions-each-side-heading" class="ccy-title">Custody questions—each side</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Treasury and accounting must intersect these answers before declaring exposures closed.</p>
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Settlement currency question</p><p class="ccy-body">Which currency cleared banking rails—and does confirmation evidence tie back to obligation currency without undocumented netting?</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/settlement-currency/">Settlement currency (defined)</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Account currency question</p><p class="ccy-body">Which ERP custody assignment still carries open monetary items after settlement—and does reconciliation prove continuity into ledger measurement?</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/account-currency/">Account currency (defined)</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="comparison-reference-strip-heading"><div class="ccy-container"><p class="ccy-eyebrow">Doctrine &amp; mechanics</p><h2 id="comparison-reference-strip-heading" class="ccy-title">Framework continuity after this contrast</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Chain-of-custody doctrine demands traceable hops between commercial obligation, liquidity execution, and ledger custody—never improvised spreadsheets bridging silence.</p>
+<nav class="ccy-pillar-reference-strip" aria-label="Related AccountCcy definitions"><a class="ccy-pillar-strip-link" href="/monetary-truth-chain-of-custody/">Doctrine pillar</a><a class="ccy-pillar-strip-link" href="/framework/">Currency State Control Framework</a><a class="ccy-pillar-strip-link" href="/ccy-state-chain/">CCY State Chain</a><a class="ccy-pillar-strip-link" href="/glossary/realized-fx/">Realized FX</a><a class="ccy-pillar-strip-link" href="/glossary/control-evidence/">Control evidence</a><a class="ccy-pillar-strip-link" href="/what-is-account-currency/">What Is Account Currency?</a><a class="ccy-pillar-strip-link" href="/cfo-guide/">CFO guide</a><a class="ccy-pillar-strip-link" href="/glossary/">Glossary hub</a></nav></div></div></section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Reference continuity</p>
+      <h2 id="graph-title" class="ccy-title">Liquidity and ledger identities in one lineage</h2>
+      <p class="ccy-body">Readers linking treasury execution to ERP custody should traverse states sequentially—obligation, settlement, account assignment—before interpreting FX outcomes.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">State sequencing</p><h3 class="ccy-section-title">Settlement precedes accountable ledger custody in operational narratives.</h3><p class="ccy-small">Yet postings may retain foreign custody while banks cleared corridors differently—document bridges explicitly.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Evidence coupling</p><h3 class="ccy-section-title">Bank confirmations anchor settlement truth.</h3><p class="ccy-small">Posting metadata anchors ledger custody—both belong in forensic bundles.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Risk concentration</p><h3 class="ccy-section-title">Pooling and netting amplify silent divergence.</h3><p class="ccy-small">Govern forums where treasury reshapes rails without accounting revisiting custody scopes.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Practical control implication</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Bridge treasury confirmations to ERP custody assignments</h2>
+        <p class="ccy-consequence-body">Maintain pairing matrices linking mandate currencies to chart assignments; escalate when netting calendars shift; rehearse month-end tie-outs between bank statements and open-item lists scoped by account currency.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if vocabulary collapses</p>
+        <h2 class="ccy-consequence-heading">Liquidity truth divorced from ledger truth</h2>
+        <p class="ccy-consequence-body">Collapsed identities invite contested realized FX, inflated clearing balances, and assurance findings where leadership cannot prove monetary lineage from bank to balance sheet.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-related-links" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-related-grid"><a class="ccy-related-card" href="/glossary/"><span class="ccy-related-label">Glossary</span><span class="ccy-related-title">Account Currency Glossary — Enterprise Finance Reference</span></a><a class="ccy-related-card" href="/states/account-currency/"><span class="ccy-related-label">State 04</span><span class="ccy-related-title">Account Currency — State 04 — The Critical Control Point</span></a><a class="ccy-related-card" href="/states/settlement-currency/"><span class="ccy-related-label">State 03</span><span class="ccy-related-title">Settlement Currency — State 03 of the CCY State Chain</span></a><a class="ccy-related-card" href="/glossary/account-currency/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Account Currency</span></a><a class="ccy-related-card" href="/glossary/settlement-currency/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Settlement Currency</span></a><a class="ccy-related-card" href="/what-is-account-currency/"><span class="ccy-related-label">Definition</span><span class="ccy-related-title">What Is Account Currency? — Definition and Control Discipline</span></a><a class="ccy-related-card" href="/framework/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The Currency State Control Framework</span></a><a class="ccy-related-card" href="/ccy-state-chain/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The CCY State Chain — From Quoted Price to Audit Reality</span></a><a class="ccy-related-card" href="/monetary-truth-chain-of-custody/"><span class="ccy-related-label">Doctrine</span><span class="ccy-related-title">The Chain of Custody for Monetary Truth</span></a><a class="ccy-related-card" href="/glossary/realized-fx/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Realized FX</span></a><a class="ccy-related-card" href="/glossary/control-evidence/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Control Evidence</span></a><a class="ccy-related-card" href="/cfo-guide/"><span class="ccy-related-label">Executive Guide</span><span class="ccy-related-title">The CFO Guide to Hidden Account Currency Risk</span></a></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -27,7 +27,10 @@
         "/ccy-state-chain/",
         "/framework/",
         "/monetary-truth-chain-of-custody/",
-        "/cfo-guide/"
+        "/cfo-guide/",
+        "/account-currency-vs-transaction-currency/",
+        "/account-currency-vs-settlement-currency/",
+        "/account-currency-vs-ledger-currency/"
       ],
       "buyer_relevance": [
         "all"
@@ -101,7 +104,8 @@
         "/states/settlement-currency/",
         "/ccy-state-chain/",
         "/framework/",
-        "/monetary-truth-chain-of-custody/"
+        "/monetary-truth-chain-of-custody/",
+        "/account-currency-vs-transaction-currency/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -140,7 +144,8 @@
         "/states/account-currency/",
         "/ccy-state-chain/",
         "/framework/",
-        "/monetary-truth-chain-of-custody/"
+        "/monetary-truth-chain-of-custody/",
+        "/account-currency-vs-settlement-currency/"
       ],
       "buyer_relevance": [
         "treasury systems",
@@ -365,7 +370,8 @@
         "/ccy-state-chain/",
         "/framework/",
         "/monetary-truth-chain-of-custody/",
-        "/glossary/ledger-currency/"
+        "/glossary/ledger-currency/",
+        "/functional-currency-vs-reporting-currency/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -403,7 +409,9 @@
         "/states/account-currency/",
         "/ccy-state-chain/",
         "/framework/",
-        "/monetary-truth-chain-of-custody/"
+        "/monetary-truth-chain-of-custody/",
+        "/account-currency-vs-ledger-currency/",
+        "/ledger-currency-vs-reporting-currency/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -442,7 +450,10 @@
         "/ccy-state-chain/",
         "/framework/",
         "/monetary-truth-chain-of-custody/",
-        "/cfo-guide/"
+        "/cfo-guide/",
+        "/functional-currency-vs-reporting-currency/",
+        "/ledger-currency-vs-reporting-currency/",
+        "/reporting-currency-vs-consolidation-currency/"
       ],
       "buyer_relevance": [
         "controllers",
@@ -482,7 +493,8 @@
         "/states/audit-reality/",
         "/ccy-state-chain/",
         "/framework/",
-        "/monetary-truth-chain-of-custody/"
+        "/monetary-truth-chain-of-custody/",
+        "/reporting-currency-vs-consolidation-currency/"
       ],
       "not_confused_with": "Consolidation currency is not subsidiary reporting currency—those feeds arrive translated already—and not ledger currency for individual entities.",
       "custody_question": "Which group lens proves eliminations tie every consolidated figure back to entity proofs?",

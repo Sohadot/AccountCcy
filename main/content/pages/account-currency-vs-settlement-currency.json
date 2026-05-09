@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/account-currency-vs-settlement-currency/",
+  "type": "comparison",
+  "status": "published",
+  "quality_gate": "reference-standard",
+  "page_eyebrow": "Comparison · Liquidity rail versus ledger custody",
+  "h1": "Account Currency vs Settlement Currency",
+  "intro": "Settlement currency names the monetary rail where cash or liquidity actually clears—bank networks, treasury workstations, netting agreements—often at State 03 between obligation and ERP custody. Account currency names how balances persist inside charts once finance asserts accountable ledger identity at State 04. Identical ISO symbols still answer different forensic questions: Which currency moved versus which currency holds reconciled exposure?",
+  "doctrine_eyebrow": "Governing distinction",
+  "doctrine_statement": "Settlement currency proves how liquidity executed.<br>Account currency proves how balances reconcile inside governed postings.",
+  "doctrine_attribution": "Currency identity comparison · AccountCcy.com",
+  "primary_section_eyebrow": "Side-by-side posture",
+  "primary_section_title": "Cash execution versus accounting custody",
+  "primary_section_body": [
+    "Treasury teams steward settlement paths—confirmations, nostro timing, corridor choices—while controllers steward ledger assignments feeding trial balance integrity.",
+    "When settlement reroutes through USD clearing while obligations remain denominated in MAD or EUR, FX realization narratives belong to traceable bridges—not rhetorical blending.",
+    "Confusing the two invites phantom reconciliations: banks agree while ERP custody scopes disagree about which balances remain open across closes."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "conceptual-comparison",
+      "eyebrow": "Controlled vocabulary",
+      "title": "Conceptual comparison inside enterprise finance",
+      "paragraphs": [
+        "Deploy this contrast during bank mandate redesigns, treasury pooling launches, AP factory migrations, and forensic reconstructions after FX variance escalations."
+      ],
+      "steps": [
+        {
+          "title": "Settlement currency — liquidity closure",
+          "body": "Specifies denomination of realized cash movement, confirmations, and clearance—the monetary rail where exposure converts into settled liquidity.",
+          "link_url": "/states/settlement-currency/",
+          "link_label": "Settlement currency state"
+        },
+        {
+          "title": "Account currency — ERP retention posture",
+          "body": "Specifies how balances accumulate inside charts—reconciliation scopes, open-item treatments, and downstream revaluation eligibility.",
+          "link_url": "/states/account-currency/",
+          "link_label": "Account currency state"
+        }
+      ]
+    },
+    {
+      "section_id": "confusion-and-consequences",
+      "eyebrow": "Failure anatomy",
+      "title": "Where confusion appears—and what breaks",
+      "paragraphs": [
+        "Teams assume matching ISO codes between bank feeds and GL accounts erase custody storytelling—yet confirmations often reveal deliberate corridors unlike invoice denomination.",
+        "Multi-bank workflows exacerbate drift when netting calendars diverge from ERP posting calendars.",
+        "Accounting consequence: realized FX recognition disconnects from identifiable banking artifacts—auditors challenge gain/loss narratives lacking confirmation lineage.",
+        "ERP consequence: clearing accounts balloon because settlement postings cannot marry custody scopes controllers expect.",
+        "Reporting consequence: liquidity dashboards narrate banking rails while management packs cite ledger balances—leadership debates phantom gaps."
+      ]
+    },
+    {
+      "section_id": "custody-questions-each-side",
+      "eyebrow": "Custody interrogation",
+      "title": "Custody questions—each side",
+      "paragraphs": [
+        "Treasury and accounting must intersect these answers before declaring exposures closed."
+      ],
+      "steps": [
+        {
+          "title": "Settlement currency question",
+          "body": "Which currency cleared banking rails—and does confirmation evidence tie back to obligation currency without undocumented netting?",
+          "link_url": "/glossary/settlement-currency/",
+          "link_label": "Settlement currency (defined)"
+        },
+        {
+          "title": "Account currency question",
+          "body": "Which ERP custody assignment still carries open monetary items after settlement—and does reconciliation prove continuity into ledger measurement?",
+          "link_url": "/glossary/account-currency/",
+          "link_label": "Account currency (defined)"
+        }
+      ]
+    },
+    {
+      "section_id": "comparison-reference-strip",
+      "eyebrow": "Doctrine & mechanics",
+      "title": "Framework continuity after this contrast",
+      "paragraphs": [
+        "Chain-of-custody doctrine demands traceable hops between commercial obligation, liquidity execution, and ledger custody—never improvised spreadsheets bridging silence."
+      ],
+      "reference_strip": [
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/framework/", "label": "Currency State Control Framework" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/glossary/realized-fx/", "label": "Realized FX" },
+        { "href": "/glossary/control-evidence/", "label": "Control evidence" },
+        { "href": "/what-is-account-currency/", "label": "What Is Account Currency?" },
+        { "href": "/cfo-guide/", "label": "CFO guide" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Liquidity and ledger identities in one lineage",
+  "graph_intro": "Readers linking treasury execution to ERP custody should traverse states sequentially—obligation, settlement, account assignment—before interpreting FX outcomes.",
+  "cards": [
+    {
+      "label": "State sequencing",
+      "title": "Settlement precedes accountable ledger custody in operational narratives.",
+      "body": "Yet postings may retain foreign custody while banks cleared corridors differently—document bridges explicitly."
+    },
+    {
+      "label": "Evidence coupling",
+      "title": "Bank confirmations anchor settlement truth.",
+      "body": "Posting metadata anchors ledger custody—both belong in forensic bundles."
+    },
+    {
+      "label": "Risk concentration",
+      "title": "Pooling and netting amplify silent divergence.",
+      "body": "Govern forums where treasury reshapes rails without accounting revisiting custody scopes."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Bridge treasury confirmations to ERP custody assignments",
+  "control_body": "Maintain pairing matrices linking mandate currencies to chart assignments; escalate when netting calendars shift; rehearse month-end tie-outs between bank statements and open-item lists scoped by account currency.",
+  "risk_label": "Risk if vocabulary collapses",
+  "risk_title": "Liquidity truth divorced from ledger truth",
+  "risk_body": "Collapsed identities invite contested realized FX, inflated clearing balances, and assurance findings where leadership cannot prove monetary lineage from bank to balance sheet."
+}

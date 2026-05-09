@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Ledger Currency vs Reporting Currency — Comparison</title>
+  <meta name="description" content="Ledger currency safeguards TB measurement; reporting currency presents statements—presentation must reconcile to ledger proofs, not replace them.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/ledger-currency-vs-reporting-currency/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Ledger Currency vs Reporting Currency — Comparison">
+  <meta property="og:description" content="Ledger currency safeguards TB measurement; reporting currency presents statements—presentation must reconcile to ledger proofs, not replace them.">
+  <meta property="og:url" content="https://accountccy.com/ledger-currency-vs-reporting-currency/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ledger Currency vs Reporting Currency — Comparison">
+  <meta name="twitter:description" content="Ledger currency safeguards TB measurement; reporting currency presents statements—presentation must reconcile to ledger proofs, not replace them.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/ledger-currency-vs-reporting-currency/",
+            "url": "https://accountccy.com/ledger-currency-vs-reporting-currency/",
+            "name": "Ledger Currency vs Reporting Currency — Comparison",
+            "description": "Ledger currency safeguards TB measurement; reporting currency presents statements—presentation must reconcile to ledger proofs, not replace them.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ledger Currency vs Reporting Currency — Comparison",
+                    "item": "https://accountccy.com/ledger-currency-vs-reporting-currency/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "Ledger Currency vs Reporting Currency",
+            "description": "Ledger currency safeguards TB measurement; reporting currency presents statements—presentation must reconcile to ledger proofs, not replace them.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/ledger-currency-vs-reporting-currency/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-05-09"
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-comparison" data-template="reference-page.html" data-page-type="comparison">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/what-is-account-currency/">Definition</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/framework/">Framework</a>
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/cfo-guide/">CFO Guide</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">Ledger Currency vs Reporting Currency — Comparison</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Comparison · Internal measurement versus outward presentation</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">Ledger Currency vs Reporting Currency</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">Ledger currency hosts entity-level trial balance measurement—the disciplined shell where postings, revaluation batches, and subsystem rolls prove internal monetary coherence at State 05. Reporting currency frames how measured results appear to investors, regulators, or boards when presentation intentionally translates ledger truth into another monetary lens at State 06. Collapsing these layers treats outward narratives as substitutes for ledger proofs—destroying audit reconstruction discipline.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Governing distinction</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">Ledger currency safeguards measured balances controllers certify.<br>Reporting currency safeguards communicated figures stakeholders consume.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      Currency identity comparison · AccountCcy.com
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Side-by-side posture</p>
+        <h2 id="context-title" class="ccy-title">Trial balance integrity versus disclosure narration</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">Ledger currency closure must precede credible translation—finance cannot defend reporting packs lacking reconciled GL custody.</p>
+<p class="ccy-body">Translation methodologies (closing, average, historical conventions per policy) reshape presentation without rewriting underlying postings unless controls fail.</p>
+<p class="ccy-body">Close calendars often stagger ledger freeze versus reporting publication—vocabulary clarifies which artifact governs each assertion.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="conceptual-comparison-heading"><div class="ccy-container"><p class="ccy-eyebrow">Controlled vocabulary</p><h2 id="conceptual-comparison-heading" class="ccy-title">Conceptual comparison inside enterprise finance</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Critical for registrant reporting, dual-listed entities, statutory supplements, and assurance reviews comparing TB extracts to published PDFs.</p>
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Ledger currency — internal measurement shell</p><p class="ccy-body">Preserves postings, revaluation outcomes, and TB tie-outs—the forensic backbone auditors reperformance-test before trusting outward totals.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/states/ledger-currency/">Ledger currency state</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Reporting currency — presentation shell</p><p class="ccy-body">Translates measured sets into stakeholder-facing statements, managing translation adjustments and disclosure bridges accountable to ledger archives.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/states/reporting-currency/">Reporting currency state</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="confusion-and-consequences-heading"><div class="ccy-container"><p class="ccy-eyebrow">Failure anatomy</p><h2 id="confusion-and-consequences-heading" class="ccy-title">Where confusion appears—and what breaks</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Teams cite polished reporting packs as evidence of ledger truth without exporting reconciliations from GL.</p>
+<p class="ccy-body">Shared service centers accelerate translation runs while ledger teams still patch journals—numbers diverge quietly.</p>
+<p class="ccy-body">Accounting consequence: undisclosed translation reconciling items accumulate until equity roll-forwards break.</p>
+<p class="ccy-body">ERP consequence: auxiliary reporting ledgers mis-sync with primary books—automation magnifies silent drift.</p>
+<p class="ccy-body">Reporting consequence: leadership signs filings referencing presentation currency while auditors demand ledger tie-outs—disconnect triggers material weakness narratives.</p></div></div></section>
+<section class="ccy-section" aria-labelledby="custody-questions-each-side-heading"><div class="ccy-container"><p class="ccy-eyebrow">Custody interrogation</p><h2 id="custody-questions-each-side-heading" class="ccy-title">Custody questions—each side</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Controllers and external reporting owners must pair answers each quarter.</p>
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Ledger currency question</p><p class="ccy-body">Which trial balance snapshot proves measurement completeness—including revaluation batches—and who locked the close?</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/ledger-currency/">Ledger currency (defined)</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Reporting currency question</p><p class="ccy-body">Which translation package ties each disclosed line to identifiable ledger accounts—not narrative decks alone?</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/reporting-currency/">Reporting currency (defined)</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="comparison-reference-strip-heading"><div class="ccy-container"><p class="ccy-eyebrow">Doctrine &amp; mechanics</p><h2 id="comparison-reference-strip-heading" class="ccy-title">Framework continuity after this contrast</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Reporting integrity vocabulary exists precisely because presentation layers tempt narrative shortcuts absent ledger lineage.</p>
+<nav class="ccy-pillar-reference-strip" aria-label="Related AccountCcy definitions"><a class="ccy-pillar-strip-link" href="/monetary-truth-chain-of-custody/">Doctrine pillar</a><a class="ccy-pillar-strip-link" href="/framework/">Currency State Control Framework</a><a class="ccy-pillar-strip-link" href="/ccy-state-chain/">CCY State Chain</a><a class="ccy-pillar-strip-link" href="/glossary/currency-translation/">Currency translation</a><a class="ccy-pillar-strip-link" href="/glossary/fx-revaluation/">FX revaluation</a><a class="ccy-pillar-strip-link" href="/glossary/reporting-integrity/">Reporting integrity</a><a class="ccy-pillar-strip-link" href="/cfo-guide/">CFO guide</a><a class="ccy-pillar-strip-link" href="/glossary/">Glossary hub</a></nav></div></div></section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Reference continuity</p>
+      <h2 id="graph-title" class="ccy-title">Prove ledger custody before defending outward packs</h2>
+      <p class="ccy-body">Translation discipline inherits whichever fractures ledger measurement tolerated—polish cannot reconstruct missing postings.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Close sequencing</p><h3 class="ccy-section-title">Ledger freeze ≠ reporting publication timing.</h3><p class="ccy-small">Document every intentional lag with reconciling bridges.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Artifacts</p><h3 class="ccy-section-title">TB exports anchor translation tie-outs.</h3><p class="ccy-small">Store immutable snapshots alongside disclosure drafts.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Audit alignment</p><h3 class="ccy-section-title">Independent reviewers start at ledger proofs.</h3><p class="ccy-small">Collapsed vocabulary invites contested filings despite attractive charts.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Practical control implication</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Institutionalize TB-to-reporting reconciliation packs</h2>
+        <p class="ccy-consequence-body">Require signed bridges each cycle linking GL accounts to translated statement lines; forbid standalone reporting adjustments lacking ledger journal lineage.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if vocabulary collapses</p>
+        <h2 class="ccy-consequence-heading">Misstatement between measured and presented results</h2>
+        <p class="ccy-consequence-body">Collapsed identities produce filings that read coherent yet fail reperformance—equity, rate, and disclosure risks escalate into regulatory scrutiny.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-related-links" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-related-grid"><a class="ccy-related-card" href="/glossary/"><span class="ccy-related-label">Glossary</span><span class="ccy-related-title">Account Currency Glossary — Enterprise Finance Reference</span></a><a class="ccy-related-card" href="/states/ledger-currency/"><span class="ccy-related-label">State 05</span><span class="ccy-related-title">Ledger Currency — State 05 of the CCY State Chain</span></a><a class="ccy-related-card" href="/states/reporting-currency/"><span class="ccy-related-label">State 06</span><span class="ccy-related-title">Reporting Currency — State 06 of the CCY State Chain</span></a><a class="ccy-related-card" href="/glossary/ledger-currency/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Ledger Currency</span></a><a class="ccy-related-card" href="/glossary/reporting-currency/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Reporting Currency</span></a><a class="ccy-related-card" href="/framework/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The Currency State Control Framework</span></a><a class="ccy-related-card" href="/ccy-state-chain/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The CCY State Chain — From Quoted Price to Audit Reality</span></a><a class="ccy-related-card" href="/monetary-truth-chain-of-custody/"><span class="ccy-related-label">Doctrine</span><span class="ccy-related-title">The Chain of Custody for Monetary Truth</span></a><a class="ccy-related-card" href="/glossary/currency-translation/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Currency Translation</span></a><a class="ccy-related-card" href="/glossary/fx-revaluation/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">FX Revaluation</span></a><a class="ccy-related-card" href="/glossary/reporting-integrity/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Reporting Integrity</span></a><a class="ccy-related-card" href="/cfo-guide/"><span class="ccy-related-label">Executive Guide</span><span class="ccy-related-title">The CFO Guide to Hidden Account Currency Risk</span></a></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

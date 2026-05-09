@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Functional Currency vs Reporting Currency — Comparison</title>
+  <meta name="description" content="Functional currency anchors measurement; reporting currency frames presentation—mixing them misroutes translation equity, rates, and disclosure bridges.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/functional-currency-vs-reporting-currency/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Functional Currency vs Reporting Currency — Comparison">
+  <meta property="og:description" content="Functional currency anchors measurement; reporting currency frames presentation—mixing them misroutes translation equity, rates, and disclosure bridges.">
+  <meta property="og:url" content="https://accountccy.com/functional-currency-vs-reporting-currency/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Functional Currency vs Reporting Currency — Comparison">
+  <meta name="twitter:description" content="Functional currency anchors measurement; reporting currency frames presentation—mixing them misroutes translation equity, rates, and disclosure bridges.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/functional-currency-vs-reporting-currency/",
+            "url": "https://accountccy.com/functional-currency-vs-reporting-currency/",
+            "name": "Functional Currency vs Reporting Currency — Comparison",
+            "description": "Functional currency anchors measurement; reporting currency frames presentation—mixing them misroutes translation equity, rates, and disclosure bridges.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Functional Currency vs Reporting Currency — Comparison",
+                    "item": "https://accountccy.com/functional-currency-vs-reporting-currency/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "Functional Currency vs Reporting Currency",
+            "description": "Functional currency anchors measurement; reporting currency frames presentation—mixing them misroutes translation equity, rates, and disclosure bridges.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/functional-currency-vs-reporting-currency/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-05-09"
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-comparison" data-template="reference-page.html" data-page-type="comparison">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/what-is-account-currency/">Definition</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/framework/">Framework</a>
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/cfo-guide/">CFO Guide</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">Functional Currency vs Reporting Currency — Comparison</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Comparison · Measurement lens versus presentation lens</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">Functional Currency vs Reporting Currency</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">Functional currency names the primary economic environment in which an entity measures monetary results—standards-based determination governing remeasurement discipline and typically aligning ledger currency. Reporting currency names the currency of outward financial statements when presentation intentionally diverges from functional measurement—invoking translation methodologies, equity adjustments, and disclosure bridges AccountCcy treats as State 06 visibility. Confusing measurement posture with presentation posture misroutes rate choices and equity narratives.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Governing distinction</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">Functional currency answers “how did we measure economic substance?”<br>Reporting currency answers “how do we present measured outcomes to audiences?”</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      Currency identity comparison · AccountCcy.com
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Side-by-side posture</p>
+        <h2 id="context-title" class="ccy-title">Economic measurement versus stakeholder-facing visibility</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">Standards contexts (IFRS IAS 21, US GAAP ASC 830-class frameworks) anchor functional determination; AccountCcy cites them as institutional background—not substitute advice.</p>
+<p class="ccy-body">Reporting currency layering emerges once ledger proofs exist; translation reshapes presentation rather than inventing custody upstream.</p>
+<p class="ccy-body">Policy committees must separate functional determination governance from investor-facing translation calendars—different artifacts, different controls.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="conceptual-comparison-heading"><div class="ccy-container"><p class="ccy-eyebrow">Controlled vocabulary</p><h2 id="conceptual-comparison-heading" class="ccy-title">Conceptual comparison inside enterprise finance</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Essential for group reporting design, SEC registrant presentations, EMENA statutory packs, and IPO readiness where measurement versus disclosure calendars collide.</p>
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Functional currency — measurement anchor</p><p class="ccy-body">Determines remeasurement treatments for foreign activities, informs ledger alignment, and anchors how foreign monetary items interact with period-end revaluation.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/states/ledger-currency/">Ledger currency state (measurement)</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Reporting currency — presentation anchor</p><p class="ccy-body">Frames published statements, translation adjustments, and equity classifications once measured facts exist—distinct from account-level custody assignments.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/states/reporting-currency/">Reporting currency state</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="confusion-and-consequences-heading"><div class="ccy-container"><p class="ccy-eyebrow">Failure anatomy</p><h2 id="confusion-and-consequences-heading" class="ccy-title">Where confusion appears—and what breaks</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Teams treat investor-facing USD packs as proof functional currency ‘must be USD’ without documented determination evidence.</p>
+<p class="ccy-body">Hypervisors collapse remeasurement batches into translation decks—rates and equity impacts shuffle silently.</p>
+<p class="ccy-body">Accounting consequence: translation adjustments misclassified or omitted from equity roll-forwards.</p>
+<p class="ccy-body">ERP consequence: duplicate functional/reporting ledgers misconfigured—close calendars argue while metadata contradicts policy memos.</p>
+<p class="ccy-body">Reporting consequence: MD&amp;A narratives cite presentation FX without reconciling to ledger-measured facts—regulators challenge coherence.</p></div></div></section>
+<section class="ccy-section" aria-labelledby="custody-questions-each-side-heading"><div class="ccy-container"><p class="ccy-eyebrow">Custody interrogation</p><h2 id="custody-questions-each-side-heading" class="ccy-title">Custody questions—each side</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Functional and reporting owners must produce artifacts—not slogans—before closing translation cycles.</p>
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Functional currency question</p><p class="ccy-body">Does documented functional determination match observed pricing power, cost structures, financing patterns, and crisis scenarios—and does ERP behave accordingly?</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/functional-currency/">Functional currency (defined)</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Reporting currency question</p><p class="ccy-body">Which translation methodology ties disclosed figures to archived ledger packages, and who certifies equity adjustments reconciled to general ledger detail?</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/reporting-currency/">Reporting currency (defined)</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="comparison-reference-strip-heading"><div class="ccy-container"><p class="ccy-eyebrow">Doctrine &amp; mechanics</p><h2 id="comparison-reference-strip-heading" class="ccy-title">Framework continuity after this contrast</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Currency translation entries operate strictly downstream of ledger measurement discipline—never upstream of account custody clarity.</p>
+<nav class="ccy-pillar-reference-strip" aria-label="Related AccountCcy definitions"><a class="ccy-pillar-strip-link" href="/monetary-truth-chain-of-custody/">Doctrine pillar</a><a class="ccy-pillar-strip-link" href="/framework/">Currency State Control Framework</a><a class="ccy-pillar-strip-link" href="/ccy-state-chain/">CCY State Chain</a><a class="ccy-pillar-strip-link" href="/glossary/currency-translation/">Currency translation</a><a class="ccy-pillar-strip-link" href="/glossary/translation-adjustment/">Translation adjustment</a><a class="ccy-pillar-strip-link" href="/glossary/remeasurement/">Remeasurement</a><a class="ccy-pillar-strip-link" href="/cfo-guide/">CFO guide</a><a class="ccy-pillar-strip-link" href="/glossary/">Glossary hub</a></nav></div></div></section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Reference continuity</p>
+      <h2 id="graph-title" class="ccy-title">Measurement truth before presentation polish</h2>
+      <p class="ccy-body">Link ledger mechanics first—functional alignment and revaluation—before interpreting outward reporting packs.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Standards posture</p><h3 class="ccy-section-title">Functional determination remains evidence-backed policy.</h3><p class="ccy-small">Reporting convenience never substitutes documented economics analysis.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Translation governance</p><h3 class="ccy-section-title">Presentation currencies accumulate governance debt quickly.</h3><p class="ccy-small">Archive methodology memos alongside automated translation runs.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">CFO accountability</p><h3 class="ccy-section-title">Executive attestations span both lenses.</h3><p class="ccy-small">Board decks inherit fractures when measurement and presentation committees avoid joint rehearsal.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Practical control implication</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Separate functional determination files from translation runbooks</h2>
+        <p class="ccy-consequence-body">Maintain dual traceability: operational indicators supporting functional tests; translation tie-outs bridging ledger exports to reporting disclosures—with signed approvals per change.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if vocabulary collapses</p>
+        <h2 class="ccy-consequence-heading">Equity and rate misstatements with regulatory exposure</h2>
+        <p class="ccy-consequence-body">Collapsed identities scatter translation adjustments, duplicate remeasurement, and destroy reconstructable paths regulators expect between measurement engines and published statements.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-related-links" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-related-grid"><a class="ccy-related-card" href="/glossary/"><span class="ccy-related-label">Glossary</span><span class="ccy-related-title">Account Currency Glossary — Enterprise Finance Reference</span></a><a class="ccy-related-card" href="/states/ledger-currency/"><span class="ccy-related-label">State 05</span><span class="ccy-related-title">Ledger Currency — State 05 of the CCY State Chain</span></a><a class="ccy-related-card" href="/states/reporting-currency/"><span class="ccy-related-label">State 06</span><span class="ccy-related-title">Reporting Currency — State 06 of the CCY State Chain</span></a><a class="ccy-related-card" href="/glossary/functional-currency/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Functional Currency</span></a><a class="ccy-related-card" href="/glossary/reporting-currency/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Reporting Currency</span></a><a class="ccy-related-card" href="/framework/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The Currency State Control Framework</span></a><a class="ccy-related-card" href="/ccy-state-chain/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The CCY State Chain — From Quoted Price to Audit Reality</span></a><a class="ccy-related-card" href="/monetary-truth-chain-of-custody/"><span class="ccy-related-label">Doctrine</span><span class="ccy-related-title">The Chain of Custody for Monetary Truth</span></a><a class="ccy-related-card" href="/glossary/currency-translation/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Currency Translation</span></a><a class="ccy-related-card" href="/glossary/translation-adjustment/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Translation Adjustment</span></a><a class="ccy-related-card" href="/glossary/remeasurement/"><span class="ccy-related-label">Glossary Term</span><span class="ccy-related-title">Remeasurement</span></a><a class="ccy-related-card" href="/cfo-guide/"><span class="ccy-related-label">Executive Guide</span><span class="ccy-related-title">The CFO Guide to Hidden Account Currency Risk</span></a></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

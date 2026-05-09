@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/reporting-currency-vs-consolidation-currency/",
+  "type": "comparison",
+  "status": "published",
+  "quality_gate": "reference-standard",
+  "page_eyebrow": "Comparison · Entity visibility versus group assembly",
+  "h1": "Reporting Currency vs Consolidation Currency",
+  "intro": "Reporting currency frames how an entity’s measured results appear once ledger truth exists—management packs, statutory filings, investor-facing statements at State 06. Consolidation currency names the group lens where subsidiary proofs, translations, eliminations, and ownership mechanics assemble combined narratives before audit-ready closure at State 07. Treating entity reporting packs as synonymous with group consolidation currency ignores elimination governance and residual FX reshaping that only emerges across entities.",
+  "doctrine_eyebrow": "Governing distinction",
+  "doctrine_statement": "Reporting currency narrates entity-level visibility.<br>Consolidation currency narrates group-level assembly atop multiple entity proofs.",
+  "doctrine_attribution": "Currency identity comparison · AccountCcy.com",
+  "primary_section_eyebrow": "Side-by-side posture",
+  "primary_section_title": "Single-entity presentation versus multi-entity synthesis",
+  "primary_section_body": [
+    "Subsidiaries may publish reporting currency packages already translated from local ledgers—group hubs still reshape currency layer via consolidation methodology.",
+    "Eliminations, ownership changes, and cross-charges introduce consolidation adjustments unrelated to any single entity’s reporting currency deck.",
+    "CFO offices must trace lineage from entity proofs through consolidation journals—not assume reporting totals aggregate cleanly."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "conceptual-comparison",
+      "eyebrow": "Controlled vocabulary",
+      "title": "Conceptual comparison inside enterprise finance",
+      "paragraphs": [
+        "Essential for group controllers, Hyperion/Tagetik-class hubs, acquisition integrations, and audits challenging elimination traceability."
+      ],
+      "steps": [
+        {
+          "title": "Reporting currency — entity presentation",
+          "body": "Translates or presents one entity’s ledger-measured facts for stakeholders—still bounded by that entity’s custody and policies.",
+          "link_url": "/states/reporting-currency/",
+          "link_label": "Reporting currency state"
+        },
+        {
+          "title": "Consolidation currency — group assembly",
+          "body": "Harmonizes multiple entity packages, executes eliminations, absorbs ownership mechanics, and aligns consolidated FX policy across contributors.",
+          "link_url": "/states/consolidation-currency/",
+          "link_label": "Consolidation currency state"
+        }
+      ]
+    },
+    {
+      "section_id": "confusion-and-consequences",
+      "eyebrow": "Failure anatomy",
+      "title": "Where confusion appears—and what breaks",
+      "paragraphs": [
+        "Teams assume subsidiary reporting currency submissions equal consolidated totals once summed—eliminations silently reshape figures.",
+        "Intercompany settlements denominated differently from reporting packs amplify mismatches consolidation journals must cure.",
+        "Accounting consequence: undisclosed consolidation adjustments masquerade as entity FX noise.",
+        "ERP consequence: ECCS-style hubs disagree with subsidiary ERP balances due to timing or methodology deltas.",
+        "Reporting consequence: investors receive polished group statements lacking reconstructable bridges from underlying entity filings."
+      ]
+    },
+    {
+      "section_id": "custody-questions-each-side",
+      "eyebrow": "Custody interrogation",
+      "title": "Custody questions—each side",
+      "paragraphs": [
+        "Group finance must certify both layers each reporting cycle."
+      ],
+      "steps": [
+        {
+          "title": "Reporting currency question",
+          "body": "Which entity-level package proves translation from ledger to statutory or management reporting—and who signed it?",
+          "link_url": "/glossary/reporting-currency/",
+          "link_label": "Reporting currency (defined)"
+        },
+        {
+          "title": "Consolidation currency question",
+          "body": "Which consolidation journal lineage ties each consolidated line to entity proofs and elimination policies—not spreadsheet folklore?",
+          "link_url": "/glossary/consolidation-currency/",
+          "link_label": "Consolidation currency (defined)"
+        }
+      ]
+    },
+    {
+      "section_id": "comparison-reference-strip",
+      "eyebrow": "Doctrine & mechanics",
+      "title": "Framework continuity after this contrast",
+      "paragraphs": [
+        "Consolidation adjustments vocabulary clarifies group reshaping after subsidiary proofs exist—distinct from translation mechanics operating entity-wide."
+      ],
+      "reference_strip": [
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/framework/", "label": "Currency State Control Framework" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/glossary/consolidation-adjustment/", "label": "Consolidation adjustment" },
+        { "href": "/glossary/currency-translation/", "label": "Currency translation" },
+        { "href": "/glossary/translation-adjustment/", "label": "Translation adjustment" },
+        { "href": "/states/audit-reality/", "label": "Audit reality state" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Entity proofs feed consolidation—not replace it",
+  "graph_intro": "Trace packages sequentially through reporting visibility before interpreting consolidated CFO narratives.",
+  "cards": [
+    {
+      "label": "Group hubs",
+      "title": "Consolidation engines encode elimination ethics.",
+      "body": "Subsidiary decks remain necessary but insufficient alone."
+    },
+    {
+      "label": "Ownership drift",
+      "title": "Structural changes reshape consolidation currency outcomes.",
+      "body": "Reporting currency decks rarely capture ownership surprises consolidated statements demand."
+    },
+    {
+      "label": "Audit closure",
+      "title": "Audit reality demands entity plus group lineage.",
+      "body": "Collapsed vocabulary invites contested consolidated balances despite polished subsidiary PDFs."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Archive entity packs with consolidation bridge indices",
+  "control_body": "Number consolidation journals to counterpart entity submissions; map elimination policies to data lineage; rehearse mismatches between subsidiary reporting currency closes and group calendars.",
+  "risk_label": "Risk if vocabulary collapses",
+  "risk_title": "Opaque consolidated FX and elimination narratives",
+  "risk_body": "Collapsed identities hide material consolidation adjustments—leadership cannot defend combined figures when auditors demand hop-by-hop reconstruction across entities."
+}

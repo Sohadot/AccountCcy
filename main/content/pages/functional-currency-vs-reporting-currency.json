@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-09",
+  "url": "/functional-currency-vs-reporting-currency/",
+  "type": "comparison",
+  "status": "published",
+  "quality_gate": "reference-standard",
+  "page_eyebrow": "Comparison · Measurement lens versus presentation lens",
+  "h1": "Functional Currency vs Reporting Currency",
+  "intro": "Functional currency names the primary economic environment in which an entity measures monetary results—standards-based determination governing remeasurement discipline and typically aligning ledger currency. Reporting currency names the currency of outward financial statements when presentation intentionally diverges from functional measurement—invoking translation methodologies, equity adjustments, and disclosure bridges AccountCcy treats as State 06 visibility. Confusing measurement posture with presentation posture misroutes rate choices and equity narratives.",
+  "doctrine_eyebrow": "Governing distinction",
+  "doctrine_statement": "Functional currency answers “how did we measure economic substance?”<br>Reporting currency answers “how do we present measured outcomes to audiences?”",
+  "doctrine_attribution": "Currency identity comparison · AccountCcy.com",
+  "primary_section_eyebrow": "Side-by-side posture",
+  "primary_section_title": "Economic measurement versus stakeholder-facing visibility",
+  "primary_section_body": [
+    "Standards contexts (IFRS IAS 21, US GAAP ASC 830-class frameworks) anchor functional determination; AccountCcy cites them as institutional background—not substitute advice.",
+    "Reporting currency layering emerges once ledger proofs exist; translation reshapes presentation rather than inventing custody upstream.",
+    "Policy committees must separate functional determination governance from investor-facing translation calendars—different artifacts, different controls."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "conceptual-comparison",
+      "eyebrow": "Controlled vocabulary",
+      "title": "Conceptual comparison inside enterprise finance",
+      "paragraphs": [
+        "Essential for group reporting design, SEC registrant presentations, EMENA statutory packs, and IPO readiness where measurement versus disclosure calendars collide."
+      ],
+      "steps": [
+        {
+          "title": "Functional currency — measurement anchor",
+          "body": "Determines remeasurement treatments for foreign activities, informs ledger alignment, and anchors how foreign monetary items interact with period-end revaluation.",
+          "link_url": "/states/ledger-currency/",
+          "link_label": "Ledger currency state (measurement)"
+        },
+        {
+          "title": "Reporting currency — presentation anchor",
+          "body": "Frames published statements, translation adjustments, and equity classifications once measured facts exist—distinct from account-level custody assignments.",
+          "link_url": "/states/reporting-currency/",
+          "link_label": "Reporting currency state"
+        }
+      ]
+    },
+    {
+      "section_id": "confusion-and-consequences",
+      "eyebrow": "Failure anatomy",
+      "title": "Where confusion appears—and what breaks",
+      "paragraphs": [
+        "Teams treat investor-facing USD packs as proof functional currency ‘must be USD’ without documented determination evidence.",
+        "Hypervisors collapse remeasurement batches into translation decks—rates and equity impacts shuffle silently.",
+        "Accounting consequence: translation adjustments misclassified or omitted from equity roll-forwards.",
+        "ERP consequence: duplicate functional/reporting ledgers misconfigured—close calendars argue while metadata contradicts policy memos.",
+        "Reporting consequence: MD&A narratives cite presentation FX without reconciling to ledger-measured facts—regulators challenge coherence."
+      ]
+    },
+    {
+      "section_id": "custody-questions-each-side",
+      "eyebrow": "Custody interrogation",
+      "title": "Custody questions—each side",
+      "paragraphs": [
+        "Functional and reporting owners must produce artifacts—not slogans—before closing translation cycles."
+      ],
+      "steps": [
+        {
+          "title": "Functional currency question",
+          "body": "Does documented functional determination match observed pricing power, cost structures, financing patterns, and crisis scenarios—and does ERP behave accordingly?",
+          "link_url": "/glossary/functional-currency/",
+          "link_label": "Functional currency (defined)"
+        },
+        {
+          "title": "Reporting currency question",
+          "body": "Which translation methodology ties disclosed figures to archived ledger packages, and who certifies equity adjustments reconciled to general ledger detail?",
+          "link_url": "/glossary/reporting-currency/",
+          "link_label": "Reporting currency (defined)"
+        }
+      ]
+    },
+    {
+      "section_id": "comparison-reference-strip",
+      "eyebrow": "Doctrine & mechanics",
+      "title": "Framework continuity after this contrast",
+      "paragraphs": [
+        "Currency translation entries operate strictly downstream of ledger measurement discipline—never upstream of account custody clarity."
+      ],
+      "reference_strip": [
+        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
+        { "href": "/framework/", "label": "Currency State Control Framework" },
+        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
+        { "href": "/glossary/currency-translation/", "label": "Currency translation" },
+        { "href": "/glossary/translation-adjustment/", "label": "Translation adjustment" },
+        { "href": "/glossary/remeasurement/", "label": "Remeasurement" },
+        { "href": "/cfo-guide/", "label": "CFO guide" },
+        { "href": "/glossary/", "label": "Glossary hub" }
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference continuity",
+  "graph_title": "Measurement truth before presentation polish",
+  "graph_intro": "Link ledger mechanics first—functional alignment and revaluation—before interpreting outward reporting packs.",
+  "cards": [
+    {
+      "label": "Standards posture",
+      "title": "Functional determination remains evidence-backed policy.",
+      "body": "Reporting convenience never substitutes documented economics analysis."
+    },
+    {
+      "label": "Translation governance",
+      "title": "Presentation currencies accumulate governance debt quickly.",
+      "body": "Archive methodology memos alongside automated translation runs."
+    },
+    {
+      "label": "CFO accountability",
+      "title": "Executive attestations span both lenses.",
+      "body": "Board decks inherit fractures when measurement and presentation committees avoid joint rehearsal."
+    }
+  ],
+  "control_label": "Practical control implication",
+  "control_title": "Separate functional determination files from translation runbooks",
+  "control_body": "Maintain dual traceability: operational indicators supporting functional tests; translation tie-outs bridging ledger exports to reporting disclosures—with signed approvals per change.",
+  "risk_label": "Risk if vocabulary collapses",
+  "risk_title": "Equity and rate misstatements with regulatory exposure",
+  "risk_body": "Collapsed identities scatter translation adjustments, duplicate remeasurement, and destroy reconstructable paths regulators expect between measurement engines and published statements."
+}

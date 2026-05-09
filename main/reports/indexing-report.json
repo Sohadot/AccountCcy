@@ -1,9 +1,45 @@
 {
-  "generated_at": "2026-05-09T05:10:14.321013+00:00",
-  "url_count": 55,
+  "generated_at": "2026-05-09T06:50:26.158473+00:00",
+  "url_count": 61,
   "errors": [],
   "warnings": [],
   "audits": [
+    {
+      "source_path": "account-currency-vs-ledger-currency/index.html",
+      "url_path": "/account-currency-vs-ledger-currency/",
+      "loc": "https://accountccy.com/account-currency-vs-ledger-currency/",
+      "title": "Account Currency vs Ledger Currency — Comparison",
+      "description": "Account currency configures chart custody; ledger currency hosts trial balance measurement—collapse invites misrouted close and revaluation.",
+      "canonical": "https://accountccy.com/account-currency-vs-ledger-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "account-currency-vs-settlement-currency/index.html",
+      "url_path": "/account-currency-vs-settlement-currency/",
+      "loc": "https://accountccy.com/account-currency-vs-settlement-currency/",
+      "title": "Account Currency vs Settlement Currency — Comparison",
+      "description": "Settlement currency clears liquidity; account currency governs ledger custody—same ISO codes answer distinct treasury versus ERP forensic questions.",
+      "canonical": "https://accountccy.com/account-currency-vs-settlement-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "account-currency-vs-transaction-currency/index.html",
+      "url_path": "/account-currency-vs-transaction-currency/",
+      "loc": "https://accountccy.com/account-currency-vs-transaction-currency/",
+      "title": "Account Currency vs Transaction Currency — Comparison",
+      "description": "State 04 account currency assigns ERP custody; State 02 transaction currency denominates obligations—conflation breaks reconciliation and FX evidence.",
+      "canonical": "https://accountccy.com/account-currency-vs-transaction-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
     {
       "source_path": "ccy-state-chain/index.html",
       "url_path": "/ccy-state-chain/",
@@ -35,6 +71,18 @@
       "title": "The Currency State Control Framework — AccountCcy.com",
       "description": "Layered custody map for multi-currency accounting—identity through ledger, FX, translation, reporting, audit reconstruction. AccountCcy Framework.",
       "canonical": "https://accountccy.com/framework/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "functional-currency-vs-reporting-currency/index.html",
+      "url_path": "/functional-currency-vs-reporting-currency/",
+      "loc": "https://accountccy.com/functional-currency-vs-reporting-currency/",
+      "title": "Functional Currency vs Reporting Currency — Comparison",
+      "description": "Functional currency anchors measurement; reporting currency frames presentation—mixing them misroutes translation equity, rates, and disclosure bridges.",
+      "canonical": "https://accountccy.com/functional-currency-vs-reporting-currency/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],
@@ -545,12 +593,36 @@
       "warnings": []
     },
     {
+      "source_path": "ledger-currency-vs-reporting-currency/index.html",
+      "url_path": "/ledger-currency-vs-reporting-currency/",
+      "loc": "https://accountccy.com/ledger-currency-vs-reporting-currency/",
+      "title": "Ledger Currency vs Reporting Currency — Comparison",
+      "description": "Ledger currency safeguards TB measurement; reporting currency presents statements—presentation must reconcile to ledger proofs, not replace them.",
+      "canonical": "https://accountccy.com/ledger-currency-vs-reporting-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "monetary-truth-chain-of-custody/index.html",
       "url_path": "/monetary-truth-chain-of-custody/",
       "loc": "https://accountccy.com/monetary-truth-chain-of-custody/",
       "title": "The Chain of Custody for Monetary Truth — AccountCcy.com",
       "description": "Monetary truth is custody across currency states, ledger rules, FX, translation, and audit evidence—not isolated figures. AccountCcy.com maps enterprise lineage.",
       "canonical": "https://accountccy.com/monetary-truth-chain-of-custody/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "reporting-currency-vs-consolidation-currency/index.html",
+      "url_path": "/reporting-currency-vs-consolidation-currency/",
+      "loc": "https://accountccy.com/reporting-currency-vs-consolidation-currency/",
+      "title": "Reporting Currency vs Consolidation Currency — Comparison",
+      "description": "Reporting currency reveals entity results; consolidation currency builds group statements—eliminations sit only at the group lens.",
+      "canonical": "https://accountccy.com/reporting-currency-vs-consolidation-currency/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],
