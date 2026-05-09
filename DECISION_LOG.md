@@ -65,6 +65,32 @@ The spine is ready for **controlled expansion**—additional glossary clusters, 
 
 ---
 
+## 2026-05-08 — Glossary Term Pages Cluster 02 Published
+
+### Decision
+
+AccountCcy.com published the second glossary term cluster focused on conceptual control terminology.
+
+The cluster covers monetary truth, chain of custody, currency state, the Currency State Control Framework, account currency control, functional currency, FX revaluation, and currency translation.
+
+### Strategic Meaning
+
+This cluster strengthens the conceptual vocabulary beneath the AccountCcy doctrine and connects the glossary layer to the framework, the completed CCY State Chain, the CFO guide, and future comparison, ERP, and diagnostic content.
+
+### Technical Changes
+
+- Existing published glossary terms were preserved rather than duplicated.
+- Invalid related-term slugs were corrected.
+- Glossary term pages were regenerated.
+- Sitemap expanded to 55 URLs.
+- The sovereign quality gate passed.
+
+### Governance Implication
+
+Glossary term relationships must reference only published or valid glossary slugs. Related-term arrays are part of the reference graph and must remain honest, controlled, and non-placeholder.
+
+---
+
 ## 2026-05-08 — Audit Evidence Control Layer Integrated
 
 ### Decision
