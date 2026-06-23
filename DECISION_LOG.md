@@ -766,6 +766,185 @@ Create page briefs for the initial sovereign build, starting with Homepage, Chai
 
 ---
 
+## Additional Operating Rule — Governed Build Logging
+
+Every substantive governed build change must be recorded in this file before the phase is considered complete.
+
+This includes page publication, template changes, diagnostic behavior, ontology changes, evidence maps, control artifacts, sitemap/indexing changes, monetization posture, acquisition posture, quality-gate decisions, security decisions, link-safety decisions, and any detail that affects the asset's meaning, structure, public surface, or future buyer interpretation.
+
+Typographical noise does not need a separate entry. Any change that affects meaning, structure, behavior, publication status, SEO surface, buyer logic, governance, or technical trust must be logged.
+
+---
+
+## 2026-06-23 — Asset Intelligence Factory Plan, Diagnostic, and Acquisition Posture Published
+
+### Decision
+
+Published the first AccountCcy.com Category Intelligence Factory layer.
+
+The phase added or changed:
+
+- `ASSET_INTELLIGENCE_FACTORY_PLAN.md`
+- `/currency-state-diagnostic/`
+- `/acquisition/`
+- `main/content/pages/currency-state-diagnostic.json`
+- `main/content/pages/acquisition.json`
+- `main/data/pages.json`
+- `main/data/tools.json`
+- `scripts/generate_pages.py`
+- `assets/css/main.css`
+- `sitemap.xml`
+- indexing and schema reports
+
+### Strategic Meaning
+
+The asset moved from reference surface toward governed category infrastructure.
+
+The Currency State Diagnostic creates practical output from the thesis. The Strategic Acquisition Posture frames AccountCcy.com as a governed reference asset, not commodity domain inventory. The Asset Intelligence Factory Plan defines the operating model for domain thesis, category language, ontology, standard, protocol, engine, reference layer, governance, interface thesis, monetization, and buyer logic.
+
+### Technical and Governance Details
+
+The diagnostic was implemented as a local-first browser assessment:
+
+- no POST form
+- no external data collection endpoint
+- no certification claim
+- no accounting, audit, tax, legal, treasury, investment, or ERP implementation advice
+- explicit non-advisory disclaimer
+
+The generator was extended so diagnostic questions are structured data rather than hand-authored HTML.
+
+The acquisition page was published with restrained language:
+
+- no price
+- no urgency
+- no marketplace framing
+- no domain-sale posture
+- institutional inquiry only
+
+### Validation
+
+Sovereign build and quality gate passed after publication:
+
+- content validation errors: 0
+- asset validation errors: 0
+- SEO validation errors: 0
+- link validation errors: 0
+- schema errors: 0
+- sitemap errors: 0
+- sitemap warnings: 0
+
+### Next Action
+
+Deepen the ontology and make the diagnostic report path more credible without weakening professional trust.
+
+---
+
+## 2026-06-23 — Ontology, Evidence Maps, Diagnostic Output, Homepage, and Reference Expansion Published
+
+### Decision
+
+Published the second governed Category Intelligence Factory expansion.
+
+The phase added or changed:
+
+- evidence maps for all eight Currency State pages
+- control artifacts for all eight Currency State pages
+- deeper diagnostic output showing overall maturity, weakest custody area, and strongest custody area
+- `main/templates/state_page.html`
+- `main/templates/homepage.html`
+- `main/content/pages/homepage.json`
+- `scripts/generate_pages.py`
+- `assets/css/main.css`
+- five new high-quality reference pages:
+  - `/account-currency-in-erp/`
+  - `/functional-currency-explained/`
+  - `/revaluation-and-translation/`
+  - `/risks/account-currency-misconfiguration/`
+  - `/compare/account-currency-vs-reporting-currency/`
+- corresponding content JSON files
+- registry publication status for the five pages
+- sitemap, indexing report, and schema report
+
+### Strategic Meaning
+
+The ontology now has reviewable evidence depth. Each state is no longer only a conceptual description; it has artifacts, owners, and proof expectations.
+
+The diagnostic now produces a more buyer-relevant output because it identifies maturity and custody weak spots. The homepage now presents the asset as a Category Intelligence Factory with direct pathways into framework, state chain, diagnostic, and acquisition posture.
+
+The five new reference pages strengthen professional SEO while staying inside the AccountCcy thesis:
+
+- ERP account currency control
+- functional currency boundaries
+- revaluation versus translation
+- account currency misconfiguration risk
+- account currency versus reporting currency
+
+### Technical and Governance Details
+
+The generator was extended to support:
+
+- `evidence_map`
+- `control_artifacts`
+- local diagnostic detail output
+- breadcrumb behavior that avoids broken intermediate links for `/risks/` and `/compare/`
+
+The homepage was moved into governed JSON content so future builds do not preserve stale hand-authored HTML.
+
+Published page descriptions were shortened to satisfy SEO warning thresholds.
+
+No new external scripts, data collection endpoints, third-party tracking, POST forms, or professional-advice claims were introduced.
+
+### Validation
+
+Sovereign build and quality gate passed after publication:
+
+- generated sitemap URLs: 80
+- content validation errors: 0
+- asset validation errors: 0
+- SEO validation errors: 0
+- link validation errors: 0
+- schema errors: 0
+- sitemap errors: 0
+- sitemap warnings: 0
+
+### Next Action
+
+Future monetization should focus on a governed diagnostic report layer, with explicit evidence maps, non-advisory boundaries, and high-trust report language before any paid workflow is exposed publicly.
+
+---
+
+## 2026-06-23 — Decision Log Discipline Tightened
+
+### Decision
+
+AccountCcy.com will treat `DECISION_LOG.md` as the mandatory record for every substantive governed build change.
+
+### Strategic Meaning
+
+The asset is being developed as category infrastructure, not a casual website. A strict decision record protects institutional memory, prevents hidden drift, and gives a future strategic buyer a clear trail of why the asset evolved as it did.
+
+### Implications
+
+Every future governed implementation phase must log:
+
+- published or unpublished pages
+- template and renderer changes
+- diagnostic logic changes
+- ontology, evidence-map, or control-artifact changes
+- sitemap and indexing changes
+- monetization or acquisition posture changes
+- validation results
+- security, link-safety, or technical-quality decisions
+
+Minor copy spelling fixes may remain outside the log, but any change that alters meaning, structure, behavior, publication status, SEO surface, buyer logic, or governance must be recorded.
+
+### Next Action
+
+Before final delivery of each build phase, update this file with the changes made and the validation result.
+
+---
+
 ## Future Decisions
 
 Future entries should record major decisions related to:
