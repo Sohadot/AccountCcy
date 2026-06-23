@@ -24,6 +24,16 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
+  "evidence_map": [
+    {"label": "Books", "title": "Trial balance and journal lineage", "body": "Shows how account-level custody accumulated into ledger measurement for the close period."},
+    {"label": "Valuation", "title": "Revaluation batch and rate-source log", "body": "Proves which populations, rates, and timing governed ledger remeasurement."},
+    {"label": "Policy", "title": "Functional and ledger currency support", "body": "Connects measurement policy to ERP configuration and actual posted balances."}
+  ],
+  "control_artifacts": [
+    {"artifact": "Period trial balance archive", "owner": "Controller", "purpose": "Locks measured ledger positions for reporting and review."},
+    {"artifact": "Revaluation run log", "owner": "Close operations", "purpose": "Documents population, rate, timing, and approval for ledger remeasurement."},
+    {"artifact": "Ledger configuration snapshot", "owner": "ERP architecture", "purpose": "Proves books operated under approved currency settings."}
+  ],
   "pillar_sections": [
     {
       "section_id": "state05-position",

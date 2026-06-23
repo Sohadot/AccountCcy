@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Account Currency vs Reporting Currency — Key Differences</title>
+  <meta name="description" content="Account currency vs reporting currency: custody of maintained balances versus presentation of measured results in enterprise finance.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/compare/account-currency-vs-reporting-currency/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Account Currency vs Reporting Currency — Key Differences">
+  <meta property="og:description" content="Account currency vs reporting currency: custody of maintained balances versus presentation of measured results in enterprise finance.">
+  <meta property="og:url" content="https://accountccy.com/compare/account-currency-vs-reporting-currency/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Account Currency vs Reporting Currency — Key Differences">
+  <meta name="twitter:description" content="Account currency vs reporting currency: custody of maintained balances versus presentation of measured results in enterprise finance.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/compare/account-currency-vs-reporting-currency/",
+            "url": "https://accountccy.com/compare/account-currency-vs-reporting-currency/",
+            "name": "Account Currency vs Reporting Currency — Key Differences",
+            "description": "Account currency vs reporting currency: custody of maintained balances versus presentation of measured results in enterprise finance.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Compare",
+                    "item": "https://accountccy.com/compare/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Account Currency vs Reporting Currency — Key Differences",
+                    "item": "https://accountccy.com/compare//account-currency-vs-reporting-currency/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "Account Currency vs Reporting Currency",
+            "description": "Account currency vs reporting currency: custody of maintained balances versus presentation of measured results in enterprise finance.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/compare/account-currency-vs-reporting-currency/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-06-23"
+        },
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Can account currency and reporting currency be the same code?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, but they still answer different control questions and require different evidence."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which comes first?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Account currency custody precedes reporting currency presentation in the CCY State Chain."
+                    }
+                }
+            ]
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-comparison" data-template="reference-page.html" data-page-type="comparison">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/what-is-account-currency/">Definition</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/framework/">Framework</a>
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/cfo-guide/">CFO Guide</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li style="color: var(--ccy-color-slate-mid);">Compare</li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">Account Currency vs Reporting Currency — Key Differences</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Comparison Reference</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">Account Currency vs Reporting Currency</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">Account currency and reporting currency answer different questions in enterprise finance. Account currency governs how balances are maintained and controlled inside accounts; reporting currency governs how measured results are presented to management, investors, regulators, or group reporting audiences.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Comparison doctrine</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">Account currency is custody. Reporting currency is presentation.<br>Confusing them turns visibility into false control.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      AccountCcy.com Comparison Layer
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Core distinction</p>
+        <h2 id="context-title" class="ccy-title">One controls balances; the other presents results.</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">Account currency sits at State 04 of the CCY State Chain. It attaches currency identity to accounts, balances, and reconciliation scopes.</p>
+<p class="ccy-body">Reporting currency sits at State 06. It translates measured ledger results into a presentation view for reporting, governance, or disclosure.</p>
+<p class="ccy-body">The two may share the same ISO code in simple structures, but they remain different custody states with different evidence requirements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="comparison-map-heading"><div class="ccy-container"><p class="ccy-eyebrow">State map</p><h2 id="comparison-map-heading" class="ccy-title">How the two states differ</h2><div class="ccy-pillar-section-body">
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Account currency</p><p class="ccy-body">Account-level custody setting that controls balance maintenance, reconciliation scope, and downstream revaluation behavior.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/states/account-currency/">State 04</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Reporting currency</p><p class="ccy-body">Presentation currency used to tell the financial story after ledger measurement stabilizes.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/states/reporting-currency/">State 06</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Revaluation and translation</p><p class="ccy-body">The mechanics that often expose confusion between custody and presentation.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/revaluation-and-translation/">Mechanics reference</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="evidence-differences-heading"><div class="ccy-container"><p class="ccy-eyebrow">Evidence discipline</p><h2 id="evidence-differences-heading" class="ccy-title">Different evidence proves each currency identity</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Account currency evidence includes account master data, policy matrices, configuration approvals, reconciliation scope, and change logs.</p>
+<p class="ccy-body">Reporting currency evidence includes translation methodology, reporting packages, bridge schedules, management commentary support, and disclosure reconciliations.</p>
+<p class="ccy-body">When teams use one evidence set to defend the other, audit reality weakens.</p></div></div></section>
+<section class="ccy-section" aria-labelledby="comparison-questions-heading"><div class="ccy-container"><p class="ccy-eyebrow">Governance interrogation</p><h2 id="comparison-questions-heading" class="ccy-title">Control questions for the distinction</h2><div class="ccy-pillar-section-body">
+<ul class="ccy-custody-questions"><li><p class="ccy-body">Which account currency governs maintained balances?</p></li>
+<li><p class="ccy-body">Which reporting currency governs external or management presentation?</p></li>
+<li><p class="ccy-body">Where does ledger measurement occur between the two?</p></li>
+<li><p class="ccy-body">Which evidence proves account custody versus reporting translation?</p></li>
+<li><p class="ccy-body">Are FX effects being explained as operational, remeasurement, or presentation effects?</p></li>
+<li><p class="ccy-body">Can reviewers trace reporting numbers back to account-level custody without informal bridges?</p></li></ul></div></div></section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Reference graph</p>
+      <h2 id="graph-title" class="ccy-title">Account currency is not reporting currency.</h2>
+      <p class="ccy-body">This comparison protects a high-value SEO intent while reinforcing AccountCcy&#x27;s state architecture.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Custody</p><h3 class="ccy-section-title">Account currency controls maintained balances.</h3><p class="ccy-small">It belongs to account configuration, reconciliation scope, and revaluation populations.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Presentation</p><h3 class="ccy-section-title">Reporting currency controls visibility.</h3><p class="ccy-small">It belongs to management reporting, disclosures, translation, and external communication.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Evidence</p><h3 class="ccy-section-title">Each requires different proof.</h3><p class="ccy-small">Configuration extracts cannot replace reporting bridges, and reporting bridges cannot prove account custody.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Control logic</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Maintain separate evidence trails.</h2>
+        <p class="ccy-consequence-body">Account-level configuration and reporting translation should reconcile, but they should not collapse into one control object.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if weak</p>
+        <h2 class="ccy-consequence-heading">Presentation mistaken for control.</h2>
+        <p class="ccy-consequence-body">Teams may explain reported figures while losing the ability to prove how the underlying balances were maintained.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-related-links" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-related-grid"><a class="ccy-related-card" href="/states/account-currency/"><span class="ccy-related-label">State 04</span><span class="ccy-related-title">Account Currency — State 04 — The Critical Control Point</span></a><a class="ccy-related-card" href="/states/reporting-currency/"><span class="ccy-related-label">State 06</span><span class="ccy-related-title">Reporting Currency — State 06 of the CCY State Chain</span></a><a class="ccy-related-card" href="/ccy-state-chain/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The CCY State Chain — From Quoted Price to Audit Reality</span></a><a class="ccy-related-card" href="/revaluation-and-translation/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Foreign Currency Revaluation and Translation</span></a></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

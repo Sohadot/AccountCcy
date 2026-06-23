@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -9,12 +26,19 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://accountccy.com/">
 
-  <meta property="og:type" content="website">
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
   <meta property="og:title" content="AccountCcy.com — The Chain of Custody for Monetary Truth">
   <meta property="og:description" content="Account currency reference stack—definition entry, State 04 custody, CCY chain, framework, doctrine, glossary—for monetary lineage in enterprise finance.">
   <meta property="og:url" content="https://accountccy.com/">
   <meta property="og:site_name" content="AccountCcy.com">
   <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="AccountCcy.com — The Chain of Custody for Monetary Truth">
@@ -28,59 +52,64 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 
   <script type="application/ld+json">
-  {
+{
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "AccountCcy.com",
-    "url": "https://accountccy.com/",
-    "description": "A sovereign-grade reference asset for account currency control, currency state governance, and the chain through which monetary movement becomes accounting truth inside enterprise finance.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Sohadot"
-    },
-    "inLanguage": "en"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "DefinedTermSet",
-    "name": "Currency State Control Framework",
-    "url": "https://accountccy.com/#framework",
-    "description": "An original conceptual framework for understanding how currency changes institutional state as it moves from market price to accounting truth inside enterprise finance.",
-    "hasDefinedTerm": [
-      {
-        "@type": "DefinedTerm",
-        "name": "Quoted Currency",
-        "description": "Currency as a market price before it enters a transaction, account, ledger, report, or audit trail."
-      },
-      {
-        "@type": "DefinedTerm",
-        "name": "Transaction Currency",
-        "description": "The currency in which a financial event is denominated."
-      },
-      {
-        "@type": "DefinedTerm",
-        "name": "Settlement Currency",
-        "description": "The currency in which payment or settlement occurs."
-      },
-      {
-        "@type": "DefinedTerm",
-        "name": "Account Currency",
-        "description": "The currency assigned to an account for recording, maintaining, reconciling, and controlling financial balances inside an accounting or ERP system."
-      },
-      {
-        "@type": "DefinedTerm",
-        "name": "Audit Reality",
-        "description": "The final defensible state in which monetary truth can be traced, supported, reviewed, and defended."
-      }
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/",
+            "url": "https://accountccy.com/",
+            "name": "AccountCcy.com — The Chain of Custody for Monetary Truth",
+            "description": "Account currency reference stack—definition entry, State 04 custody, CCY chain, framework, doctrine, glossary—for monetary lineage in enterprise finance.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "The Chain of Custody for Monetary Truth",
+            "description": "Account currency reference stack—definition entry, State 04 custody, CCY chain, framework, doctrine, glossary—for monetary lineage in enterprise finance.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-06-23"
+        }
     ]
-  }
+}
   </script>
 </head>
 
-<body>
+<body class="page-pillar" data-template="homepage.html" data-page-type="pillar">
   <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
 
   <header class="ccy-masthead" role="banner">
@@ -109,621 +138,224 @@
   </header>
 
   <main id="main">
-    <section class="ccy-hero" aria-labelledby="hero-title">
-      <div class="ccy-hero-content">
-        <div class="ccy-hero-copy ccy-stack" style="--ccy-stack-space: 1.5rem;">
-          <p class="ccy-eyebrow">Monetary Truth Custody</p>
 
-          <h1 id="hero-title" class="ccy-display">The Chain of Custody for Monetary Truth</h1>
 
-          <p class="ccy-subtitle">
-            Inside enterprise finance, currency does not become truth when it moves.
-            It becomes truth when it is recorded, assigned, reconciled, translated,
-            consolidated, and defended.
-          </p>
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: homepage.html
 
-          <div class="ccy-rule-gold" aria-hidden="true"></div>
+  Role:
+  Public homepage content template rendered inside base.html.
 
-          <blockquote class="ccy-thesis-quote">
-            Money does not become accounting truth automatically. It becomes truth through custody.
-          </blockquote>
+  Sovereign render contract:
+  - The homepage must establish the supreme thesis above the fold.
+  - The custody rail must remain visible and meaningful.
+  - Acquisition language must remain restrained and secondary.
+  - No domain-sale language. No price. No urgency.
+  - No links to draft or unpublished pages.
+-->
 
-          <div class="ccy-hero-actions" aria-label="Primary actions">
-            <a class="ccy-button ccy-button-primary" href="/framework/">Explore the Framework</a>
-            <a class="ccy-button ccy-button-secondary" href="/ccy-state-chain/">Trace the State Chain</a>
-          </div>
-        </div>
+<section class="ccy-hero" aria-labelledby="hero-title">
+  <div class="ccy-hero-content">
+    <div class="ccy-hero-copy ccy-stack" style="--ccy-stack-space: 1.5rem;">
+      <p class="ccy-eyebrow">Account Currency Control · Category Intelligence Factory</p>
+      <h1 id="hero-title" class="ccy-display">The Chain of Custody for Monetary Truth</h1>
+      <p class="ccy-subtitle">AccountCcy.com is a governed reference asset for account currency control, currency-state governance, ERP currency configuration, FX mechanics, reporting integrity, and audit-defensible monetary reconstruction.</p>
+      <div class="ccy-rule-gold" aria-hidden="true"></div>
+      <blockquote class="ccy-thesis-quote">Money does not become accounting truth automatically. It becomes truth through custody.</blockquote>
+
+      <div class="ccy-hero-actions" aria-label="Primary actions">
+        <a class="ccy-button ccy-button-primary" href="/framework/">Explore the Framework</a>
+        <a class="ccy-button ccy-button-secondary" href="/ccy-state-chain/">Trace the State Chain</a>
+        <a class="ccy-button ccy-button-secondary" href="/currency-state-diagnostic/">Run the Diagnostic</a>
       </div>
+    </div>
+  </div>
 
-      <aside class="ccy-hero-visual" aria-labelledby="rail-title">
-        <div class="ccy-custody-rail" role="list" aria-label="CCY State Chain preview">
-          <p id="rail-title" class="ccy-label">The CCY State Chain</p>
+  <aside class="ccy-hero-visual" aria-labelledby="rail-title">
+    <div class="ccy-custody-rail" role="list" aria-label="CCY State Chain homepage preview">
+      <p id="rail-title" class="ccy-label">The CCY State Chain</p>
+<div class="ccy-custody-state" role="listitem"><div class="ccy-state-dot" aria-hidden="true"></div><div class="ccy-state-body"><h3 class="ccy-state-name"><a href="/states/quoted-currency/">Quoted Currency</a></h3><p class="ccy-state-desc">Market quotation before obligation attaches.</p></div></div>
+<div class="ccy-custody-state" role="listitem"><div class="ccy-state-dot" aria-hidden="true"></div><div class="ccy-state-body"><h3 class="ccy-state-name"><a href="/states/transaction-currency/">Transaction Currency</a></h3><p class="ccy-state-desc">Denomination of the recorded financial event.</p></div></div>
+<div class="ccy-custody-state" role="listitem"><div class="ccy-state-dot" aria-hidden="true"></div><div class="ccy-state-body"><h3 class="ccy-state-name"><a href="/states/settlement-currency/">Settlement Currency</a></h3><p class="ccy-state-desc">Cash or settlement rail actually moved.</p></div></div>
+<div class="ccy-custody-state is-control" role="listitem"><div class="ccy-state-dot" aria-hidden="true"></div><div class="ccy-state-body"><h3 class="ccy-state-name"><a href="/states/account-currency/">Account Currency</a></h3><p class="ccy-state-desc">Assigned custody currency for maintained balances.</p></div></div>
+<div class="ccy-custody-state" role="listitem"><div class="ccy-state-dot" aria-hidden="true"></div><div class="ccy-state-body"><h3 class="ccy-state-name"><a href="/states/ledger-currency/">Ledger Currency</a></h3><p class="ccy-state-desc">Books maintained for the entity.</p></div></div>
+<div class="ccy-custody-state" role="listitem"><div class="ccy-state-dot" aria-hidden="true"></div><div class="ccy-state-body"><h3 class="ccy-state-name"><a href="/states/reporting-currency/">Reporting Currency</a></h3><p class="ccy-state-desc">Presentation layer for management and filings.</p></div></div>
+<div class="ccy-custody-state" role="listitem"><div class="ccy-state-dot" aria-hidden="true"></div><div class="ccy-state-body"><h3 class="ccy-state-name"><a href="/states/consolidation-currency/">Consolidation Currency</a></h3><p class="ccy-state-desc">Group currency unifying reporting entities.</p></div></div>
+<div class="ccy-custody-state" role="listitem"><div class="ccy-state-dot" aria-hidden="true"></div><div class="ccy-state-body"><h3 class="ccy-state-name"><a href="/states/audit-reality/">Audit Reality</a></h3><p class="ccy-state-desc">Traceable, defendable monetary truth.</p></div></div>
+    </div>
+  </aside>
+</section>
 
-          <div class="ccy-custody-state" role="listitem">
-            <div class="ccy-state-dot" aria-hidden="true"></div>
-            <div class="ccy-state-body">
-              <h2 class="ccy-state-name">Quoted Currency</h2>
-              <p class="ccy-state-desc">Currency as market price.</p>
-            </div>
-          </div>
+<section id="sovereign-pathway" class="ccy-section ccy-surface-cream" aria-labelledby="pathway-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-10);">
+      <p class="ccy-eyebrow">Reference Architecture</p>
+      <h2 id="pathway-title" class="ccy-title">The Monetary Truth Architecture</h2>
+      <p class="ccy-body">
+        AccountCcy.com reads as a governed stack—not scattered guides. This pathway mirrors how treasury,
+        controllers, ERP architects, and auditors traverse doctrine-backed custody vocabulary inside enterprise finance.
+      </p>
+    </div>
+    <ol class="ccy-sovereign-pathway">
+      <li class="ccy-sovereign-pathway-step">
+        <a class="ccy-sovereign-pathway-link" href="/what-is-account-currency/">
+          <span class="ccy-sovereign-pathway-num">01</span>
+          <span class="ccy-sovereign-pathway-heading">Account Currency — definition entry</span>
+        </a>
+        <p class="ccy-small">Primary explanatory entry for custody identity attached to accounts, balances, and monetary records.</p>
+      </li>
+      <li class="ccy-sovereign-pathway-step">
+        <a class="ccy-sovereign-pathway-link" href="/states/account-currency/">
+          <span class="ccy-sovereign-pathway-num">02</span>
+          <span class="ccy-sovereign-pathway-heading">Account Currency State — canonical State 04</span>
+        </a>
+        <p class="ccy-small">The CCY reference node for account-level monetary context inside the custody chain.</p>
+      </li>
+      <li class="ccy-sovereign-pathway-step">
+        <a class="ccy-sovereign-pathway-link" href="/ccy-state-chain/">
+          <span class="ccy-sovereign-pathway-num">03</span>
+          <span class="ccy-sovereign-pathway-heading">CCY State Chain — currency as sequential states</span>
+        </a>
+        <p class="ccy-small">Navigable eight-state model from quotation through audit-defensible reconstruction.</p>
+      </li>
+      <li class="ccy-sovereign-pathway-step">
+        <a class="ccy-sovereign-pathway-link" href="/framework/">
+          <span class="ccy-sovereign-pathway-num">04</span>
+          <span class="ccy-sovereign-pathway-heading">Currency State Control Framework — operational layer</span>
+        </a>
+        <p class="ccy-small">Layered custody controls spanning ERP behavior, ledgers, FX, translation, reporting, and evidence.</p>
+      </li>
+      <li class="ccy-sovereign-pathway-step">
+        <a class="ccy-sovereign-pathway-link" href="/monetary-truth-chain-of-custody/">
+          <span class="ccy-sovereign-pathway-num">05</span>
+          <span class="ccy-sovereign-pathway-heading">Monetary truth custody — doctrine pillar</span>
+        </a>
+        <p class="ccy-small">Why monetary figures demand lineage, reconstruction discipline, and accountable custody—not dashboards alone.</p>
+      </li>
+      <li class="ccy-sovereign-pathway-step">
+        <a class="ccy-sovereign-pathway-link" href="/glossary/">
+          <span class="ccy-sovereign-pathway-num">06</span>
+          <span class="ccy-sovereign-pathway-heading">AccountCcy Glossary — controlled vocabulary</span>
+        </a>
+        <p class="ccy-small">Conceptual authority map linking defined terms to custody mechanics across the reference system.</p>
+      </li>
+      <li class="ccy-sovereign-pathway-step">
+        <a class="ccy-sovereign-pathway-link" href="/currency-state-diagnostic/">
+          <span class="ccy-sovereign-pathway-num">07</span>
+          <span class="ccy-sovereign-pathway-heading">Currency State Diagnostic â€” maturity output</span>
+        </a>
+        <p class="ccy-small">Local-first assessment surface producing a reference maturity signal without collecting data.</p>
+      </li>
+      <li class="ccy-sovereign-pathway-step">
+        <a class="ccy-sovereign-pathway-link" href="/acquisition/">
+          <span class="ccy-sovereign-pathway-num">08</span>
+          <span class="ccy-sovereign-pathway-heading">Strategic acquisition posture â€” category asset logic</span>
+        </a>
+        <p class="ccy-small">Restrained institutional framing for the domain, doctrine, ontology, reference graph, and diagnostic layer.</p>
+      </li>
+    </ol>
+  </div>
+</section>
 
-          <div class="ccy-custody-state" role="listitem">
-            <div class="ccy-state-dot" aria-hidden="true"></div>
-            <div class="ccy-state-body">
-              <h2 class="ccy-state-name">Transaction Currency</h2>
-              <p class="ccy-state-desc">Currency of the financial event.</p>
-            </div>
-          </div>
-
-          <div class="ccy-custody-state" role="listitem">
-            <div class="ccy-state-dot" aria-hidden="true"></div>
-            <div class="ccy-state-body">
-              <h2 class="ccy-state-name">Settlement Currency</h2>
-              <p class="ccy-state-desc">Currency of payment or settlement.</p>
-            </div>
-          </div>
-
-          <div class="ccy-custody-state is-control" role="listitem">
-            <div class="ccy-state-dot" aria-hidden="true"></div>
-            <div class="ccy-state-body">
-              <h2 class="ccy-state-name">Account Currency</h2>
-              <p class="ccy-state-desc">The custody point where monetary movement enters accounting record.</p>
-            </div>
-          </div>
-
-          <div class="ccy-custody-state" role="listitem">
-            <div class="ccy-state-dot" aria-hidden="true"></div>
-            <div class="ccy-state-body">
-              <h2 class="ccy-state-name">Ledger Currency</h2>
-              <p class="ccy-state-desc">Currency of maintained accounting books.</p>
-            </div>
-          </div>
-
-          <div class="ccy-custody-state" role="listitem">
-            <div class="ccy-state-dot" aria-hidden="true"></div>
-            <div class="ccy-state-body">
-              <h2 class="ccy-state-name">Reporting Currency</h2>
-              <p class="ccy-state-desc">Currency of financial presentation.</p>
-            </div>
-          </div>
-
-          <div class="ccy-custody-state" role="listitem">
-            <div class="ccy-state-dot" aria-hidden="true"></div>
-            <div class="ccy-state-body">
-              <h2 class="ccy-state-name">Consolidation Currency</h2>
-              <p class="ccy-state-desc">Currency of group-level truth.</p>
-            </div>
-          </div>
-
-          <div class="ccy-custody-state" role="listitem">
-            <div class="ccy-state-dot" aria-hidden="true"></div>
-            <div class="ccy-state-body">
-              <h2 class="ccy-state-name">Audit Reality</h2>
-              <p class="ccy-state-desc">Defensible monetary truth.</p>
-            </div>
-          </div>
-        </div>
-      </aside>
-    </section>
-
-    <section id="sovereign-pathway" class="ccy-section ccy-surface-cream" aria-labelledby="pathway-title">
-      <div class="ccy-container">
-        <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-10);">
-          <p class="ccy-eyebrow">Reference Architecture</p>
-          <h2 id="pathway-title" class="ccy-title">The Monetary Truth Architecture</h2>
-          <p class="ccy-body">
-            AccountCcy.com reads as a governed stack—not scattered guides. This pathway mirrors how treasury,
-            controllers, ERP architects, and auditors traverse doctrine-backed custody vocabulary inside enterprise finance.
-          </p>
-        </div>
-        <ol class="ccy-sovereign-pathway">
-          <li class="ccy-sovereign-pathway-step">
-            <a class="ccy-sovereign-pathway-link" href="/what-is-account-currency/">
-              <span class="ccy-sovereign-pathway-num">01</span>
-              <span class="ccy-sovereign-pathway-heading">Account Currency — definition entry</span>
-            </a>
-            <p class="ccy-small">Primary explanatory entry for custody identity attached to accounts, balances, and monetary records.</p>
-          </li>
-          <li class="ccy-sovereign-pathway-step">
-            <a class="ccy-sovereign-pathway-link" href="/states/account-currency/">
-              <span class="ccy-sovereign-pathway-num">02</span>
-              <span class="ccy-sovereign-pathway-heading">Account Currency State — canonical State 04</span>
-            </a>
-            <p class="ccy-small">The CCY reference node for account-level monetary context inside the custody chain.</p>
-          </li>
-          <li class="ccy-sovereign-pathway-step">
-            <a class="ccy-sovereign-pathway-link" href="/ccy-state-chain/">
-              <span class="ccy-sovereign-pathway-num">03</span>
-              <span class="ccy-sovereign-pathway-heading">CCY State Chain — currency as sequential states</span>
-            </a>
-            <p class="ccy-small">Navigable eight-state model from quotation through audit-defensible reconstruction.</p>
-          </li>
-          <li class="ccy-sovereign-pathway-step">
-            <a class="ccy-sovereign-pathway-link" href="/framework/">
-              <span class="ccy-sovereign-pathway-num">04</span>
-              <span class="ccy-sovereign-pathway-heading">Currency State Control Framework — operational layer</span>
-            </a>
-            <p class="ccy-small">Layered custody controls spanning ERP behavior, ledgers, FX, translation, reporting, and evidence.</p>
-          </li>
-          <li class="ccy-sovereign-pathway-step">
-            <a class="ccy-sovereign-pathway-link" href="/monetary-truth-chain-of-custody/">
-              <span class="ccy-sovereign-pathway-num">05</span>
-              <span class="ccy-sovereign-pathway-heading">Monetary truth custody — doctrine pillar</span>
-            </a>
-            <p class="ccy-small">Why monetary figures demand lineage, reconstruction discipline, and accountable custody—not dashboards alone.</p>
-          </li>
-          <li class="ccy-sovereign-pathway-step">
-            <a class="ccy-sovereign-pathway-link" href="/glossary/">
-              <span class="ccy-sovereign-pathway-num">06</span>
-              <span class="ccy-sovereign-pathway-heading">AccountCcy Glossary — controlled vocabulary</span>
-            </a>
-            <p class="ccy-small">Conceptual authority map linking defined terms to custody mechanics across the reference system.</p>
-          </li>
-        </ol>
+<section class="ccy-section" aria-labelledby="problem-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">The Institutional Problem</p>
+        <h2 id="problem-title" class="ccy-title">Enterprise finance often reports monetary truth before it proves custody.</h2>
       </div>
-    </section>
-
-    <section id="problem" class="ccy-section" aria-labelledby="problem-title">
-      <div class="ccy-container">
-        <div class="ccy-grid-2">
-          <div class="ccy-stack">
-            <p class="ccy-eyebrow">The Hidden Problem</p>
-            <h2 id="problem-title" class="ccy-title">
-              Enterprise finance does not suffer only from currency volatility.
-              It suffers from monetary truth fragmentation.
-            </h2>
-          </div>
-
-          <div class="ccy-stack">
-            <p class="ccy-body">
-              A financial event can carry multiple currency identities before it becomes defensible reporting reality.
-              It may be quoted in one currency, transacted in another, settled in another, recorded in an account,
-              maintained in a ledger, translated for reporting, consolidated at group level, and reviewed under audit.
-            </p>
-
-            <div class="ccy-risk-note">
-              <p class="ccy-small">
-                When these states are misunderstood or weakly governed, the result can be reconciliation complexity,
-                FX distortion, reporting inconsistency, close-process burden, and audit exposure.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="ccy-grid-4" style="margin-top: var(--ccy-space-12);">
-          <article class="ccy-state-card">
-            <p class="ccy-eyebrow">01</p>
-            <h3 class="ccy-section-title">Multiple identities</h3>
-            <p class="ccy-small">The same monetary event can carry several currency roles across systems.</p>
-          </article>
-
-          <article class="ccy-state-card">
-            <p class="ccy-eyebrow">02</p>
-            <h3 class="ccy-section-title">System consequences</h3>
-            <p class="ccy-small">ERP configuration can become a financial control issue, not only a setup task.</p>
-          </article>
-
-          <article class="ccy-state-card">
-            <p class="ccy-eyebrow">03</p>
-            <h3 class="ccy-section-title">Close pressure</h3>
-            <p class="ccy-small">Fragmented currency states increase reconciliation and financial close complexity.</p>
-          </article>
-
-          <article class="ccy-state-card">
-            <p class="ccy-eyebrow">04</p>
-            <h3 class="ccy-section-title">Audit exposure</h3>
-            <p class="ccy-small">The final number must be traceable, supportable, reviewable, and defensible.</p>
-          </article>
-        </div>
+      <div class="ccy-stack">
+<p class="ccy-body">A currency value can pass through quotation, obligation, settlement, account custody, ledger measurement, reporting translation, consolidation, and audit reality. Each state changes the control question.</p>
+<p class="ccy-body">When teams collapse those states into one familiar ISO code, reconciliations may tie while evidence fails. AccountCcy.com exists to make those transitions explicit, governed, and replayable.</p>
+<p class="ccy-body">The asset now includes a public diagnostic layer so the framework produces a maturity signal rather than only publishing reference material.</p>
       </div>
-    </section>
+    </div>
 
-    <section id="state-chain" class="ccy-section ccy-surface-cream" aria-labelledby="state-chain-title">
-      <div class="ccy-container">
-        <div class="ccy-grid-2">
-          <div class="ccy-stack">
-            <p class="ccy-eyebrow">The Custody Rail</p>
-            <h2 id="state-chain-title" class="ccy-title">From market price to audit reality.</h2>
-            <p class="ccy-body">
-              Currency enters enterprise finance as a price signal. It does not become accounting truth in one step.
-              It passes through a controlled chain of states, each carrying a different institutional meaning.
-            </p>
-            <a class="ccy-button ccy-button-secondary" href="#reference">Study the Reference Architecture</a>
-          </div>
+    <div class="ccy-grid-4" style="margin-top: var(--ccy-space-12);">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Ontology</p><h3 class="ccy-section-title">Eight currency states, one custody chain.</h3><p class="ccy-small">Each state has evidence classes, control artifacts, ownership questions, and downstream consequences.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Engine</p><h3 class="ccy-section-title">Diagnostic output, not passive reading.</h3><p class="ccy-small">The Currency State Diagnostic converts doctrine into a local maturity reading without collecting data.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Reference</p><h3 class="ccy-section-title">Pages built for serious professional intent.</h3><p class="ccy-small">ERP control, revaluation, translation, misconfiguration, reporting, and audit reality are connected through the same graph.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Acquisition</p><h3 class="ccy-section-title">A category asset, not domain inventory.</h3><p class="ccy-small">The acquisition posture is strategic, restrained, and tied to ownership of language, ontology, and diagnostic surface.</p></article>
+    </div>
+  </div>
+</section>
 
-          <div class="ccy-panel-strong">
-            <div class="ccy-custody-rail" role="list" aria-label="Currency states from price to audit reality">
-              <div class="ccy-custody-state" role="listitem">
-                <div class="ccy-state-dot" aria-hidden="true"></div>
-                <div class="ccy-state-body">
-                  <h3 class="ccy-state-name">Quoted Currency</h3>
-                  <p class="ccy-state-desc">Rate signal before record.</p>
-                </div>
-              </div>
-              <div class="ccy-custody-state" role="listitem">
-                <div class="ccy-state-dot" aria-hidden="true"></div>
-                <div class="ccy-state-body">
-                  <h3 class="ccy-state-name">Transaction Currency</h3>
-                  <p class="ccy-state-desc">Currency of obligation.</p>
-                </div>
-              </div>
-              <div class="ccy-custody-state" role="listitem">
-                <div class="ccy-state-dot" aria-hidden="true"></div>
-                <div class="ccy-state-body">
-                  <h3 class="ccy-state-name">Settlement Currency</h3>
-                  <p class="ccy-state-desc">Currency of payment movement.</p>
-                </div>
-              </div>
-              <div class="ccy-custody-state is-control" role="listitem">
-                <div class="ccy-state-dot" aria-hidden="true"></div>
-                <div class="ccy-state-body">
-                  <h3 class="ccy-state-name">Account Currency</h3>
-                  <p class="ccy-state-desc">The control point where external movement enters accounting custody.</p>
-                </div>
-              </div>
-              <div class="ccy-custody-state" role="listitem">
-                <div class="ccy-state-dot" aria-hidden="true"></div>
-                <div class="ccy-state-body">
-                  <h3 class="ccy-state-name">Ledger Currency</h3>
-                  <p class="ccy-state-desc">Maintained accounting record.</p>
-                </div>
-              </div>
-              <div class="ccy-custody-state" role="listitem">
-                <div class="ccy-state-dot" aria-hidden="true"></div>
-                <div class="ccy-state-body">
-                  <h3 class="ccy-state-name">Reporting Currency</h3>
-                  <p class="ccy-state-desc">Financial presentation layer.</p>
-                </div>
-              </div>
-              <div class="ccy-custody-state" role="listitem">
-                <div class="ccy-state-dot" aria-hidden="true"></div>
-                <div class="ccy-state-body">
-                  <h3 class="ccy-state-name">Consolidation Currency</h3>
-                  <p class="ccy-state-desc">Group-level monetary truth.</p>
-                </div>
-              </div>
-              <div class="ccy-custody-state" role="listitem">
-                <div class="ccy-state-dot" aria-hidden="true"></div>
-                <div class="ccy-state-body">
-                  <h3 class="ccy-state-name">Audit Reality</h3>
-                  <p class="ccy-state-desc">Final defensible state.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">The Control Point</p>
+        <h2 id="control-title" class="ccy-title">Account currency is the control point where monetary movement enters accounting custody.</h2>
+        <p class="ccy-body">State 04 decides how balances live inside accounts, which populations revalue, which reconciliations scope, and which evidence auditors can replay. It is the hinge between external monetary movement and internal accounting truth.</p>
       </div>
-    </section>
-
-    <section id="control-point" class="ccy-section" aria-labelledby="control-title">
-      <div class="ccy-container">
-        <div class="ccy-grid-2">
-          <div class="ccy-stack">
-            <p class="ccy-eyebrow">The Control Point</p>
-            <h2 id="control-title" class="ccy-title">
-              Account currency is where monetary movement enters accounting custody.
-            </h2>
-            <p class="ccy-body">
-              Before the account currency state, currency belongs primarily to market, transaction, and settlement behavior.
-              After the account currency state, it begins to propagate into ledger, reporting, consolidation, and audit layers.
-            </p>
-          </div>
-
-          <div class="ccy-panel-gold ccy-stack">
-            <p class="ccy-label">Definition</p>
-            <p class="ccy-section-title">Account Currency</p>
-            <p class="ccy-body">
-              The currency assigned to an account for recording, maintaining, reconciling,
-              and controlling financial balances inside an accounting or ERP system.
-            </p>
-            <div class="ccy-rule"></div>
-            <p class="ccy-small">
-              This is why AccountCcy.com does not reduce account currency to a configuration field.
-              Account currency is framed as a financial control discipline.
-            </p>
-          </div>
-        </div>
+      <div class="ccy-panel-gold">
+        <p class="ccy-label">Account Currency</p>
+        <p class="ccy-section-title">Account currency is the monetary context assigned to an account, balance, obligation line, ledger position, or monetary record for controlled maintenance and reconstruction.</p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section id="framework" class="ccy-section ccy-bg-ink" aria-labelledby="framework-title">
-      <div class="ccy-container">
-        <div class="ccy-grid-2">
-          <div class="ccy-stack">
-            <p class="ccy-eyebrow">The Framework</p>
-            <h2 id="framework-title" class="ccy-title">The Currency State Control Framework</h2>
-          </div>
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">AccountCcy Doctrine</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">AccountCcy.com does not treat currency as a flat label. It treats currency as a sequence of institutional states that must be owned, evidenced, reconciled, reported, and defended.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      The Currency State Control Framework · AccountCcy.com
+    </p>
+  </div>
+</section>
 
-          <p class="ccy-subtitle">
-            Currency is not a static unit inside enterprise finance. It changes institutional meaning as it is quoted,
-            transacted, settled, assigned, maintained, translated, consolidated, and defended.
-          </p>
-        </div>
-
-        <div class="ccy-grid-4" style="margin-top: var(--ccy-space-12);">
-          <article class="ccy-state-card">
-            <span class="ccy-badge ccy-badge-gold">State Identity</span>
-            <h3 class="ccy-section-title" style="margin-top: var(--ccy-space-4);">Different states carry different meanings.</h3>
-            <p class="ccy-small">A currency role is not interchangeable simply because it uses the same code.</p>
-          </article>
-
-          <article class="ccy-state-card">
-            <span class="ccy-badge ccy-badge-gold">Custody Transfer</span>
-            <h3 class="ccy-section-title" style="margin-top: var(--ccy-space-4);">Movement becomes record through controlled transition.</h3>
-            <p class="ccy-small">The transition from external movement to internal record is the custody moment.</p>
-          </article>
-
-          <article class="ccy-state-card is-control">
-            <span class="ccy-badge ccy-badge-gold">Control Point</span>
-            <h3 class="ccy-section-title" style="margin-top: var(--ccy-space-4);">Account currency governs downstream propagation.</h3>
-            <p class="ccy-small">The account layer affects ledger, reporting, consolidation, and audit defensibility.</p>
-          </article>
-
-          <article class="ccy-state-card">
-            <span class="ccy-badge ccy-badge-gold">Audit Reality</span>
-            <h3 class="ccy-section-title" style="margin-top: var(--ccy-space-4);">The final number must be defensible.</h3>
-            <p class="ccy-small">Monetary truth must be traceable, reconcilable, supportable, and reviewable.</p>
-          </article>
-        </div>
+<section class="ccy-section" aria-labelledby="audience-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Who It Serves</p>
+        <h2 id="audience-title" class="ccy-title">Built for the teams that must prove monetary lineage.</h2>
       </div>
-    </section>
+      <p class="ccy-body">The reference system is designed for professionals who need accountable vocabulary before systems, reports, and reviews can align.</p>
+    </div>
 
-    <section id="doctrine" class="ccy-doctrine-block" aria-labelledby="doctrine-title">
-      <div class="ccy-container">
-        <p class="ccy-eyebrow">AccountCcy Doctrine</p>
-        <h2 id="doctrine-title" class="ccy-doctrine-text">
-          Currency is not only exchanged.<br>
-          It is <strong>recorded, assigned, reconciled, translated, revalued, consolidated, reported,</strong> and audited.<br><br>
-          AccountCcy.com maps the chain of custody through which monetary movement becomes accounting truth.
-        </h2>
-        <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
-          The Currency State Control Framework · AccountCcy.com
-        </p>
+    <div class="ccy-grid-3" style="margin-top: var(--ccy-space-12);">
+<article class="ccy-evidence-panel"><p class="ccy-eyebrow">Controllers</p><h3 class="ccy-section-title">Control account currency policy.</h3><p class="ccy-small">Clarify which accounts carry which custody currency and how exceptions are evidenced.</p></article>
+<article class="ccy-evidence-panel"><p class="ccy-eyebrow">ERP architects</p><h3 class="ccy-section-title">Translate policy into configuration.</h3><p class="ccy-small">Connect chart settings, subledger integrations, posting logic, and close snapshots.</p></article>
+<article class="ccy-evidence-panel"><p class="ccy-eyebrow">CFO teams</p><h3 class="ccy-section-title">Explain reporting without weak FX narratives.</h3><p class="ccy-small">Separate revaluation, translation, consolidation, and audit reality.</p></article>
+<article class="ccy-evidence-panel"><p class="ccy-eyebrow">Assurance teams</p><h3 class="ccy-section-title">Review evidence, not slogans.</h3><p class="ccy-small">Trace monetary outcomes through artifacts that survive reperformance.</p></article>
+<article class="ccy-evidence-panel"><p class="ccy-eyebrow">Platforms</p><h3 class="ccy-section-title">Own the control language.</h3><p class="ccy-small">Financial close, ERP, treasury, and audit technology buyers can extend the framework into product workflows.</p></article>
+<article class="ccy-evidence-panel"><p class="ccy-eyebrow">Strategic buyers</p><h3 class="ccy-section-title">Acquire category infrastructure.</h3><p class="ccy-small">The value is the domain, thesis, ontology, reference graph, diagnostic surface, and governance discipline together.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="acquisition-preview-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Strategic Acquisition</p>
+        <h2 id="acquisition-preview-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">AccountCcy.com may be considered for strategic acquisition where institutional alignment exists.</h2>
       </div>
-    </section>
-
-    <section id="audience" class="ccy-section" aria-labelledby="audience-title">
-      <div class="ccy-container">
-        <div class="ccy-grid-2">
-          <div class="ccy-stack">
-            <p class="ccy-eyebrow">Who It Serves</p>
-            <h2 id="audience-title" class="ccy-title">Built for the professionals who live inside the financial system.</h2>
-          </div>
-
-          <p class="ccy-body">
-            AccountCcy.com is designed for serious enterprise finance audiences:
-            the people and platforms responsible for making monetary movement reconcilable, reportable, and defensible.
-          </p>
-        </div>
-
-        <div class="ccy-grid-3" style="margin-top: var(--ccy-space-12);">
-          <article class="ccy-evidence-panel">
-            <p class="ccy-eyebrow">Enterprise Finance</p>
-            <h3 class="ccy-section-title">CFOs and Group Controllers</h3>
-            <p class="ccy-small">They need confidence that multi-currency records remain reconcilable, reportable, and defensible.</p>
-          </article>
-
-          <article class="ccy-evidence-panel">
-            <p class="ccy-eyebrow">Systems</p>
-            <h3 class="ccy-section-title">ERP Architects and Consultants</h3>
-            <p class="ccy-small">They configure the systems where currency behavior becomes operational reality.</p>
-          </article>
-
-          <article class="ccy-evidence-panel">
-            <p class="ccy-eyebrow">Close</p>
-            <h3 class="ccy-section-title">Financial Close and Reconciliation Teams</h3>
-            <p class="ccy-small">They face the consequences when currency identities fragment across accounts, ledgers, and reports.</p>
-          </article>
-
-          <article class="ccy-evidence-panel">
-            <p class="ccy-eyebrow">Risk</p>
-            <h3 class="ccy-section-title">Treasury and Risk Teams</h3>
-            <p class="ccy-small">They manage exposure before it becomes accounting consequence.</p>
-          </article>
-
-          <article class="ccy-evidence-panel">
-            <p class="ccy-eyebrow">Reporting</p>
-            <h3 class="ccy-section-title">Reporting and Consolidation Teams</h3>
-            <p class="ccy-small">They translate, consolidate, and defend financial truth across entities and currencies.</p>
-          </article>
-
-          <article class="ccy-evidence-panel">
-            <p class="ccy-eyebrow">Audit</p>
-            <h3 class="ccy-section-title">Audit and Advisory Professionals</h3>
-            <p class="ccy-small">They care whether the final number can be traced, supported, reviewed, and defended.</p>
-          </article>
-        </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">The public posture is not domain-sale language. It is a controlled asset-transfer posture for buyers who understand account currency control, enterprise finance systems, reporting integrity, and audit-defensible monetary truth.</p>
+        <a class="ccy-button ccy-button-gold" href="/acquisition/">Strategic Acquisition Posture</a>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section id="evidence" class="ccy-section ccy-surface-cream" aria-labelledby="evidence-title">
-      <div class="ccy-container">
-        <div class="ccy-grid-2">
-          <div class="ccy-stack">
-            <p class="ccy-eyebrow">Evidence Discipline</p>
-            <h2 id="evidence-title" class="ccy-title">Original framework. Real financial-system behavior.</h2>
-          </div>
 
-          <div class="ccy-stack">
-            <p class="ccy-body">
-              The Currency State Control Framework is original conceptual architecture.
-              It is not presented as an official accounting standard.
-              Its purpose is to structure and explain real behaviors across enterprise finance:
-              currency configuration, ledger maintenance, reporting currency, revaluation, translation,
-              reconciliation, consolidation, and audit defensibility.
-            </p>
-
-            <div class="ccy-verified-note">
-              <p class="ccy-small">
-                AccountCcy.com is a reference and educational framework.
-                It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="ccy-grid-4" style="margin-top: var(--ccy-space-12);">
-          <article class="ccy-state-card">
-            <p class="ccy-eyebrow">ERP Behavior</p>
-            <p class="ccy-small">Currency affects accounts, ledgers, postings, revaluation, reporting, and configuration discipline.</p>
-          </article>
-          <article class="ccy-state-card">
-            <p class="ccy-eyebrow">Financial Reporting</p>
-            <p class="ccy-small">Functional, reporting, presentation, and consolidation currencies shape visibility.</p>
-          </article>
-          <article class="ccy-state-card">
-            <p class="ccy-eyebrow">Financial Close</p>
-            <p class="ccy-small">Reconciliation and close processes reveal whether currency states are controlled or fragmented.</p>
-          </article>
-          <article class="ccy-state-card">
-            <p class="ccy-eyebrow">Audit Defensibility</p>
-            <p class="ccy-small">Monetary truth must survive documentation, review, and professional scrutiny.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="diagnostic" class="ccy-section" aria-labelledby="diagnostic-title">
-      <div class="ccy-container">
-        <div class="ccy-grid-2">
-          <div class="ccy-stack">
-            <p class="ccy-eyebrow">Future Diagnostic Layer</p>
-            <h2 id="diagnostic-title" class="ccy-title">Measure the maturity of your currency state controls.</h2>
-            <p class="ccy-body">
-              The Currency State Diagnostic will help finance teams and practitioners assess how well monetary movement
-              is governed across the chain of custody.
-            </p>
-          </div>
-
-          <div class="ccy-panel-strong">
-            <p class="ccy-label">Maturity scale</p>
-            <div class="ccy-cluster" style="margin-top: var(--ccy-space-4);">
-              <span class="ccy-badge">Fragmented</span>
-              <span class="ccy-badge">Configured</span>
-              <span class="ccy-badge ccy-badge-gold">Governed</span>
-              <span class="ccy-badge">Controlled</span>
-              <span class="ccy-badge ccy-badge-verified">Audit-Defensible</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="ccy-grid-4" style="margin-top: var(--ccy-space-12);">
-          <article class="ccy-state-card">
-            <h3 class="ccy-section-title">Identity Mapping</h3>
-            <p class="ccy-small">Are currency roles clearly distinguished across systems?</p>
-          </article>
-          <article class="ccy-state-card is-control">
-            <h3 class="ccy-section-title">Account Control</h3>
-            <p class="ccy-small">Is account currency governed as a control point?</p>
-          </article>
-          <article class="ccy-state-card">
-            <h3 class="ccy-section-title">Close Readiness</h3>
-            <p class="ccy-small">Can currency states be reconciled during financial close?</p>
-          </article>
-          <article class="ccy-state-card">
-            <h3 class="ccy-section-title">Audit Defensibility</h3>
-            <p class="ccy-small">Can the final number be traced and defended?</p>
-          </article>
-        </div>
-
-        <div style="margin-top: var(--ccy-space-8);">
-          <a class="ccy-button ccy-button-secondary" href="#reference">Diagnostic Coming Soon</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="reference" class="ccy-section ccy-surface-cream" aria-labelledby="reference-title">
-      <div class="ccy-container">
-        <div class="ccy-grid-2">
-          <div class="ccy-stack">
-            <p class="ccy-eyebrow">Reference Architecture</p>
-            <h2 id="reference-title" class="ccy-title">A governed reference system for account currency control.</h2>
-          </div>
-
-          <p class="ccy-body">
-            AccountCcy.com will expand through a controlled reference architecture.
-            Each page exists to strengthen the doctrine, the framework, the state chain, or the professional usefulness of the asset.
-          </p>
-        </div>
-
-        <div class="ccy-grid-3" style="margin-top: var(--ccy-space-12);">
-          <article class="ccy-panel">
-            <p class="ccy-eyebrow">Doctrine</p>
-            <h3 class="ccy-section-title">The Chain of Custody for Monetary Truth</h3>
-            <p class="ccy-small">The philosophical anchor explaining how monetary movement becomes accounting truth.</p>
-          </article>
-
-          <article class="ccy-panel">
-            <p class="ccy-eyebrow">Framework</p>
-            <h3 class="ccy-section-title">The Currency State Control Framework</h3>
-            <p class="ccy-small">The structural methodology for currency state governance.</p>
-          </article>
-
-          <article class="ccy-panel">
-            <p class="ccy-eyebrow">State Chain</p>
-            <h3 class="ccy-section-title">The CCY State Chain</h3>
-            <p class="ccy-small">The eight-state doctrine from quoted currency to audit reality.</p>
-          </article>
-
-          <article class="ccy-panel">
-            <p class="ccy-eyebrow">Definition</p>
-            <h3 class="ccy-section-title">What Is Account Currency?</h3>
-            <p class="ccy-small">The primary definitional anchor for account currency control.</p>
-          </article>
-
-          <article class="ccy-panel">
-            <p class="ccy-eyebrow">Comparison</p>
-            <h3 class="ccy-section-title">Transaction vs Account vs Reporting</h3>
-            <p class="ccy-small">A structured comparison of currency identities inside enterprise finance.</p>
-          </article>
-
-          <article class="ccy-panel">
-            <p class="ccy-eyebrow">CFO Guide</p>
-            <h3 class="ccy-section-title">Hidden Account Currency Risk</h3>
-            <p class="ccy-small">A strategic view for finance leaders, controllers, and close teams.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="acquisition" class="ccy-section ccy-bg-ink" aria-labelledby="acquisition-title">
-      <div class="ccy-container">
-        <div class="ccy-grid-2">
-          <div class="ccy-stack">
-            <p class="ccy-eyebrow">Strategic Acquisition</p>
-            <h2 id="acquisition-title" class="ccy-title">
-              A category-grade reference asset may be considered for strategic acquisition where institutional alignment exists.
-            </h2>
-          </div>
-
-          <div class="ccy-stack">
-            <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
-              AccountCcy.com is not positioned as a commodity domain sale.
-              It is being developed as a reference asset for organizations operating at the intersection of account currency control,
-              enterprise finance architecture, financial close, reconciliation, treasury, reporting, and audit defensibility.
-            </p>
-
-            <div class="ccy-cluster">
-              <span class="ccy-badge ccy-badge-gold">Financial Close</span>
-              <span class="ccy-badge ccy-badge-gold">Consolidation</span>
-              <span class="ccy-badge ccy-badge-gold">ERP Platforms</span>
-              <span class="ccy-badge ccy-badge-gold">Treasury Systems</span>
-              <span class="ccy-badge ccy-badge-gold">CFO Advisory</span>
-            </div>
-
-            <a class="ccy-button ccy-button-gold" href="mailto:agent@sohadot.com?subject=Institutional%20Inquiry%20Regarding%20AccountCcy.com">
-              Initiate Institutional Inquiry
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="ccy-related-links" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-related-grid"><a class="ccy-related-card" href="/monetary-truth-chain-of-custody/"><span class="ccy-related-label">Doctrine</span><span class="ccy-related-title">The Chain of Custody for Monetary Truth</span></a><a class="ccy-related-card" href="/framework/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The Currency State Control Framework</span></a><a class="ccy-related-card" href="/ccy-state-chain/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The CCY State Chain — From Quoted Price to Audit Reality</span></a><a class="ccy-related-card" href="/what-is-account-currency/"><span class="ccy-related-label">Definition</span><span class="ccy-related-title">What Is Account Currency? — Definition and Control Discipline</span></a><a class="ccy-related-card" href="/states/account-currency/"><span class="ccy-related-label">State 04</span><span class="ccy-related-title">Account Currency — State 04 — The Critical Control Point</span></a><a class="ccy-related-card" href="/glossary/"><span class="ccy-related-label">Glossary</span><span class="ccy-related-title">Account Currency Glossary — Enterprise Finance Reference</span></a><a class="ccy-related-card" href="/cfo-guide/"><span class="ccy-related-label">Executive Guide</span><span class="ccy-related-title">The CFO Guide to Hidden Account Currency Risk</span></a></div></div></section>
   </main>
 
   <footer class="ccy-footer" role="contentinfo">
     <div class="ccy-footer-inner">
       <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
-      <p>Reference framework · agent@sohadot.com</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
     </div>
   </footer>
 </body>

@@ -22,6 +22,16 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
+  "evidence_map": [
+    {"label": "Traceability", "title": "End-to-end monetary reconstruction pack", "body": "Links quotation, obligation, settlement, account custody, ledger measurement, reporting, and consolidation into replayable evidence."},
+    {"label": "Review", "title": "Control sign-off and exception resolution", "body": "Shows which owners reviewed currency-state transitions and how unresolved exceptions were handled."},
+    {"label": "Assurance", "title": "Independent reperformance support", "body": "Provides enough artifacts for reviewers to test outcomes without relying on informal memory."}
+  ],
+  "control_artifacts": [
+    {"artifact": "Currency-state audit trail", "owner": "Internal control", "purpose": "Proves state transitions across the full CCY chain."},
+    {"artifact": "Evidence binder index", "owner": "Close governance", "purpose": "Organizes policies, extracts, reconciliations, rates, and approvals for review."},
+    {"artifact": "Exception closure log", "owner": "Controller with internal audit", "purpose": "Documents remediation before assertions become audit reality."}
+  ],
   "state_risk_title": "Performative assurance without custody lineage",
   "state_risk_body": "Controls certified on paper cannot compensate when earlier currency states were unnamed — auditors escalate findings precisely when traceability collapses.",
   "state_control_title": "Evidence-grade traceability",

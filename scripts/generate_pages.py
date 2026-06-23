@@ -194,7 +194,10 @@ def breadcrumb(p: Page) -> str:
         else:
             label=part.replace('-',' ').title()
             href = '/ccy-state-chain/' if parts[0]=='states' and idx==0 else path_acc
-            items.append(f'<li><a href="{esc(href)}" style="color: var(--ccy-color-gold); text-decoration:none;">{esc(label)}</a></li>')
+            if parts[0] in {'risks', 'compare'} and idx == 0:
+                items.append(f'<li style="color: var(--ccy-color-slate-mid);">{esc(label)}</li>')
+            else:
+                items.append(f'<li><a href="{esc(href)}" style="color: var(--ccy-color-gold); text-decoration:none;">{esc(label)}</a></li>')
     return '<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);">'+''.join(items)+'</ol></nav></div>'
 
 def related(p: Page, records: Dict[str,Page], glossary: Dict[str,Any]) -> str:
@@ -440,7 +443,9 @@ def diagnostic_questions_html(questions: Any, diag_slug: str) -> str:
         if not isinstance(q, dict):
             raise GenerationError(f'Diagnostic question must be object, got {q!r}')
         qid = re.sub(r'[^a-zA-Z0-9_-]', '', str(q.get('id') or f'q{idx:02d}'))
-        state = esc(q.get('state', ''))
+        state_raw = str(q.get('state', '')).strip()
+        state = esc(state_raw)
+        state_name = esc(q.get('state_name', f'State {state_raw}'))
         weight = int(q.get('weight', 1) or 1)
         text = esc(q.get('question', ''))
         why = esc(q.get('why', ''))
@@ -449,7 +454,7 @@ def diagnostic_questions_html(questions: Any, diag_slug: str) -> str:
             cid = f'{diag_slug}-{qid}-{val}'
             choices.append(
                 f'<label class="ccy-diagnostic-choice" for="{esc(cid)}">'
-                f'<input id="{esc(cid)}" type="radio" name="{esc(qid)}" value="{esc(val)}" data-weight="{weight}">'
+                f'<input id="{esc(cid)}" type="radio" name="{esc(qid)}" value="{esc(val)}" data-weight="{weight}" data-state="{state}" data-state-name="{state_name}">'
                 f'<span>{esc(label)}</span></label>'
             )
         blocks.append(
@@ -467,6 +472,7 @@ def diagnostic_questions_html(questions: Any, diag_slug: str) -> str:
         '<p class="ccy-label">Local diagnostic output</p>'
         '<p class="ccy-section-title" data-diagnostic-score>Answer the assessment to produce a maturity reading.</p>'
         '<p class="ccy-small" data-diagnostic-reading>No information leaves this page. The result is a reference signal, not an audit conclusion.</p>'
+        '<ul class="ccy-diagnostic-reading-list" data-diagnostic-detail></ul>'
         '</div>'
         '<script>(function(){'
         'var root=document.querySelector("[data-diagnostic-slug=\'' + esc(diag_slug) + '\']");'
@@ -474,16 +480,51 @@ def diagnostic_questions_html(questions: Any, diag_slug: str) -> str:
         'var scoreEl=root.querySelector("[data-diagnostic-score]");'
         'var readEl=root.querySelector("[data-diagnostic-reading]");'
         'function label(p){if(p<35)return["Fragmented","Currency-state ownership is not yet reliable enough for assurance reuse."];if(p<60)return["Configured","Core controls exist, but evidence lineage remains uneven across states."];if(p<78)return["Governed","The organization can explain custody logic and should harden repeatable evidence."];if(p<90)return["Controlled","Currency-state control is operationally disciplined with traceable review points."];return["Audit-Defensible","The posture is mature enough to support structured reperformance conversations."];}'
-        'function calc(){var qs=root.querySelectorAll(".ccy-diagnostic-question");var total=0,max=0,answered=0;qs.forEach(function(q){var pick=q.querySelector("input:checked");var any=q.querySelector("input");var w=any?Number(any.dataset.weight||1):1;max+=3*w;if(pick){answered++;total+=Number(pick.value)*w;}});if(!answered){return;}var pct=Math.round((total/max)*100);var r=label(pct);scoreEl.textContent=r[0]+" · "+pct+"% maturity signal";readEl.textContent=r[1]+" Answered "+answered+" of "+qs.length+" control questions."; }'
+        'var detailEl=root.querySelector("[data-diagnostic-detail]");'
+        'function calc(){var qs=root.querySelectorAll(".ccy-diagnostic-question");var total=0,max=0,answered=0;var states={};qs.forEach(function(q){var pick=q.querySelector("input:checked");var any=q.querySelector("input");var w=any?Number(any.dataset.weight||1):1;max+=3*w;if(pick){answered++;total+=Number(pick.value)*w;var key=pick.dataset.state||"Unmapped";var name=pick.dataset.stateName||("State "+key);states[key]=states[key]||{name:name,total:0,max:0,count:0};states[key].total+=Number(pick.value)*w;states[key].max+=3*w;states[key].count++;}});if(!answered){return;}var pct=Math.round((total/max)*100);var r=label(pct);var arr=Object.keys(states).map(function(k){var s=states[k];s.pct=Math.round((s.total/s.max)*100);return s;}).sort(function(a,b){return a.pct-b.pct;});var weakest=arr[0];var strongest=arr[arr.length-1];scoreEl.textContent=r[0]+" · "+pct+"% maturity signal";readEl.textContent=r[1]+" Answered "+answered+" of "+qs.length+" control questions.";if(detailEl){detailEl.innerHTML="";[["Weakest custody area",weakest],["Strongest custody area",strongest]].forEach(function(pair){if(!pair[1])return;var li=document.createElement("li");li.textContent=pair[0]+": "+pair[1].name+" ("+pair[1].pct+"%).";detailEl.appendChild(li);});}}'
         'root.addEventListener("change",calc);'
         '}());</script>'
     )
+
+
+def evidence_map_html(items: Any) -> str:
+    if not isinstance(items, list) or not items:
+        return ''
+    cards_html = []
+    for item in items:
+        if not isinstance(item, dict):
+            raise GenerationError(f'evidence_map item must be object, got {item!r}')
+        cards_html.append(
+            '<article class="ccy-evidence-map-card">'
+            f'<p class="ccy-eyebrow">{esc(item.get("label", "Evidence"))}</p>'
+            f'<h3 class="ccy-section-title">{esc(item.get("title", ""))}</h3>'
+            f'<p class="ccy-small">{esc(item.get("body", ""))}</p>'
+            '</article>'
+        )
+    return ''.join(cards_html)
+
+
+def control_artifacts_html(items: Any) -> str:
+    if not isinstance(items, list) or not items:
+        return ''
+    rows = []
+    for item in items:
+        if not isinstance(item, dict):
+            raise GenerationError(f'control_artifacts item must be object, got {item!r}')
+        rows.append(
+            '<tr>'
+            f'<th scope="row">{esc(item.get("artifact", ""))}</th>'
+            f'<td>{esc(item.get("owner", ""))}</td>'
+            f'<td>{esc(item.get("purpose", ""))}</td>'
+            '</tr>'
+        )
+    return ''.join(rows)
 
 def render_acq(root: Path, p: Page, c: Dict[str,Any]) -> str:
     return repl(tmpl(root,'acquisition.html'), {'ACQUISITION_H1':esc(c.get('h1',p.title)),'ACQUISITION_INTRO':esc(c.get('intro',p.meta_description)),'ACQUISITION_DOCTRINE':raw(c.get('acquisition_doctrine','This is not a commodity domain sale. It is a strategic asset transfer.')),'ASSET_INCLUDED_TITLE':esc(c.get('asset_included_title','What the asset includes.')),'ASSET_INCLUDED_BODY_HTML':paras(c.get('asset_included_body',[])),'ASSET_INCLUDED_CARDS_HTML':cards(c.get('asset_included_cards',[])),'BUYER_TITLE':esc(c.get('buyer_title','Aligned institutional buyers.')),'BUYER_INTRO':esc(c.get('buyer_intro','')),'BUYER_CARDS_HTML':cards(c.get('buyer_cards',[]),'ccy-evidence-panel'),'INQUIRY_TITLE':esc(c.get('inquiry_title','Institutional inquiry only.')),'INQUIRY_BODY':esc(c.get('inquiry_body',''))})
 
 def render_state(root: Path, p: Page, c: Dict[str,Any], allowed_urls: Optional[Set[str]] = None) -> str:
-    return repl(tmpl(root,'state_page.html'), {'STATE_NUMBER':esc(c.get('state_number','')),'STATE_NAME':esc(c.get('state_name',c.get('h1',p.title))),'STATE_SUMMARY':esc(c.get('state_summary',c.get('intro',''))),'STATE_ROLE_LABEL':esc(c.get('state_role_label','State Role')),'STATE_ROLE_TITLE':esc(c.get('state_role_title','')),'STATE_ROLE_BODY':esc(c.get('state_role_body','')),'CUSTODY_QUESTION':esc(c.get('custody_question','')),'CHAIN_POSITION_BODY':esc(c.get('chain_position_body','')),'STATE_RAIL_HTML':rail(c.get('state_rail',[]),c.get('state_name')),'PILLAR_SECTIONS_HTML':pillar_sections_html(c.get('pillar_sections'), allowed_urls),'STATE_RISK_TITLE':esc(c.get('state_risk_title','')),'STATE_RISK_BODY':esc(c.get('state_risk_body','')),'STATE_CONTROL_TITLE':esc(c.get('state_control_title','')),'STATE_CONTROL_BODY':esc(c.get('state_control_body','')),'RECEIVES_FROM':esc(c.get('receives_from','')),'PASSES_TO':esc(c.get('passes_to',''))})
+    return repl(tmpl(root,'state_page.html'), {'STATE_NUMBER':esc(c.get('state_number','')),'STATE_NAME':esc(c.get('state_name',c.get('h1',p.title))),'STATE_SUMMARY':esc(c.get('state_summary',c.get('intro',''))),'STATE_ROLE_LABEL':esc(c.get('state_role_label','State Role')),'STATE_ROLE_TITLE':esc(c.get('state_role_title','')),'STATE_ROLE_BODY':esc(c.get('state_role_body','')),'CUSTODY_QUESTION':esc(c.get('custody_question','')),'CHAIN_POSITION_BODY':esc(c.get('chain_position_body','')),'STATE_RAIL_HTML':rail(c.get('state_rail',[]),c.get('state_name')),'EVIDENCE_MAP_HTML':evidence_map_html(c.get('evidence_map')),'CONTROL_ARTIFACTS_HTML':control_artifacts_html(c.get('control_artifacts')),'PILLAR_SECTIONS_HTML':pillar_sections_html(c.get('pillar_sections'), allowed_urls),'STATE_RISK_TITLE':esc(c.get('state_risk_title','')),'STATE_RISK_BODY':esc(c.get('state_risk_body','')),'STATE_CONTROL_TITLE':esc(c.get('state_control_title','')),'STATE_CONTROL_BODY':esc(c.get('state_control_body','')),'RECEIVES_FROM':esc(c.get('receives_from','')),'PASSES_TO':esc(c.get('passes_to',''))})
 
 def render_base(root: Path, p: Page, c: Dict[str,Any], main: str, rel: str) -> str:
     return repl(tmpl(root,'base.html'), {'PAGE_TITLE':esc(p.title),'META_DESCRIPTION':esc(p.meta_description),'ROBOTS_DIRECTIVE':'index, follow' if p.indexable else 'noindex, follow','CANONICAL_URL':canon(p.url),'OG_TYPE':'website' if p.type=='homepage' else 'article','OG_TITLE':esc(p.title),'OG_DESCRIPTION':esc(p.meta_description),'JSON_LD':schema_for_registered_page(p.raw,c,BASE_URL),'BODY_CLASS':esc('page-'+p.type),'TEMPLATE_NAME':esc(template_for(p)),'PAGE_TYPE':esc(p.type),'BREADCRUMB_HTML':breadcrumb(p),'MAIN_CONTENT':main,'RELATED_LINKS_HTML':rel})

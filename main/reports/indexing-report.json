@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T09:24:16.313399+00:00",
-  "url_count": 75,
+  "generated_at": "2026-06-23T09:39:31.675493+00:00",
+  "url_count": 80,
   "errors": [],
   "warnings": [],
   "audits": [
@@ -11,6 +11,18 @@
       "title": "Account Currency Control Point — Reference",
       "description": "Account currency is State 04 custody—chart assignments decide reconciliation scopes and FX populations, not cosmetic ISO labels.",
       "canonical": "https://accountccy.com/account-currency-control-point/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "account-currency-in-erp/index.html",
+      "url_path": "/account-currency-in-erp/",
+      "loc": "https://accountccy.com/account-currency-in-erp/",
+      "title": "Account Currency in ERP Systems — Reference Architecture",
+      "description": "Account currency in ERP governs balances, revaluation, reconciliation, reporting, and audit evidence. A reference architecture for enterprise finance.",
+      "canonical": "https://accountccy.com/account-currency-in-erp/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],
@@ -101,6 +113,18 @@
       "warnings": []
     },
     {
+      "source_path": "compare/account-currency-vs-reporting-currency/index.html",
+      "url_path": "/compare/account-currency-vs-reporting-currency/",
+      "loc": "https://accountccy.com/compare/account-currency-vs-reporting-currency/",
+      "title": "Account Currency vs Reporting Currency — Key Differences",
+      "description": "Account currency vs reporting currency: custody of maintained balances versus presentation of measured results in enterprise finance.",
+      "canonical": "https://accountccy.com/compare/account-currency-vs-reporting-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "currency-control-exceptions/index.html",
       "url_path": "/currency-control-exceptions/",
       "loc": "https://accountccy.com/currency-control-exceptions/",
@@ -167,6 +191,18 @@
       "title": "The Currency State Control Framework — AccountCcy.com",
       "description": "Layered custody map for multi-currency accounting—identity through ledger, FX, translation, reporting, audit reconstruction. AccountCcy Framework.",
       "canonical": "https://accountccy.com/framework/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "functional-currency-explained/index.html",
+      "url_path": "/functional-currency-explained/",
+      "loc": "https://accountccy.com/functional-currency-explained/",
+      "title": "Functional Currency Explained — Definition, Determination, and Control",
+      "description": "Functional currency explained as a measurement lens distinct from account, ledger, and reporting currency inside enterprise finance.",
+      "canonical": "https://accountccy.com/functional-currency-explained/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],
@@ -791,6 +827,30 @@
       "title": "Reporting Currency vs Consolidation Currency — Comparison",
       "description": "Reporting currency reveals entity results; consolidation currency builds group statements—eliminations sit only at the group lens.",
       "canonical": "https://accountccy.com/reporting-currency-vs-consolidation-currency/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "revaluation-and-translation/index.html",
+      "url_path": "/revaluation-and-translation/",
+      "loc": "https://accountccy.com/revaluation-and-translation/",
+      "title": "Foreign Currency Revaluation and Translation — AccountCcy.com",
+      "description": "Foreign currency revaluation vs translation explained through ledger measurement, reporting presentation, and audit evidence.",
+      "canonical": "https://accountccy.com/revaluation-and-translation/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "source_path": "risks/account-currency-misconfiguration/index.html",
+      "url_path": "/risks/account-currency-misconfiguration/",
+      "loc": "https://accountccy.com/risks/account-currency-misconfiguration/",
+      "title": "Account Currency Misconfiguration — Risk and Control",
+      "description": "Account currency misconfiguration risk in ERP: configuration drift, wrong FX populations, weak reconciliation, and audit evidence gaps.",
+      "canonical": "https://accountccy.com/risks/account-currency-misconfiguration/",
       "robots": "index, follow",
       "h1_count": 1,
       "errors": [],

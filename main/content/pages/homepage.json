@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-23",
+  "url": "/",
+  "type": "homepage",
+  "quality_gate": "sovereign",
+  "homepage_eyebrow": "Account Currency Control · Category Intelligence Factory",
+  "h1": "The Chain of Custody for Monetary Truth",
+  "intro": "AccountCcy.com is a governed reference asset for account currency control, currency-state governance, ERP currency configuration, FX mechanics, reporting integrity, and audit-defensible monetary reconstruction.",
+  "thesis_quote": "Money does not become accounting truth automatically. It becomes truth through custody.",
+  "state_rail": [
+    {"name": "Quoted Currency", "description": "Market quotation before obligation attaches.", "url": "/states/quoted-currency/"},
+    {"name": "Transaction Currency", "description": "Denomination of the recorded financial event.", "url": "/states/transaction-currency/"},
+    {"name": "Settlement Currency", "description": "Cash or settlement rail actually moved.", "url": "/states/settlement-currency/"},
+    {"name": "Account Currency", "description": "Assigned custody currency for maintained balances.", "url": "/states/account-currency/"},
+    {"name": "Ledger Currency", "description": "Books maintained for the entity.", "url": "/states/ledger-currency/"},
+    {"name": "Reporting Currency", "description": "Presentation layer for management and filings.", "url": "/states/reporting-currency/"},
+    {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
+    {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
+  ],
+  "problem_eyebrow": "The Institutional Problem",
+  "problem_title": "Enterprise finance often reports monetary truth before it proves custody.",
+  "problem_body": [
+    "A currency value can pass through quotation, obligation, settlement, account custody, ledger measurement, reporting translation, consolidation, and audit reality. Each state changes the control question.",
+    "When teams collapse those states into one familiar ISO code, reconciliations may tie while evidence fails. AccountCcy.com exists to make those transitions explicit, governed, and replayable.",
+    "The asset now includes a public diagnostic layer so the framework produces a maturity signal rather than only publishing reference material."
+  ],
+  "primary_section_body": [
+    "AccountCcy.com is governed as a reference-grade category asset. The homepage must establish the thesis, expose the state chain, direct readers to doctrine and framework pages, and surface the diagnostic and acquisition pathways without sales pressure.",
+    "The public identity remains the chain of custody for monetary truth inside enterprise finance."
+  ],
+  "problem_cards": [
+    {"label": "Ontology", "title": "Eight currency states, one custody chain.", "body": "Each state has evidence classes, control artifacts, ownership questions, and downstream consequences."},
+    {"label": "Engine", "title": "Diagnostic output, not passive reading.", "body": "The Currency State Diagnostic converts doctrine into a local maturity reading without collecting data."},
+    {"label": "Reference", "title": "Pages built for serious professional intent.", "body": "ERP control, revaluation, translation, misconfiguration, reporting, and audit reality are connected through the same graph."},
+    {"label": "Acquisition", "title": "A category asset, not domain inventory.", "body": "The acquisition posture is strategic, restrained, and tied to ownership of language, ontology, and diagnostic surface."}
+  ],
+  "control_point_title": "Account currency is the control point where monetary movement enters accounting custody.",
+  "control_point_body": "State 04 decides how balances live inside accounts, which populations revalue, which reconciliations scope, and which evidence auditors can replay. It is the hinge between external monetary movement and internal accounting truth.",
+  "account_currency_definition": "Account currency is the monetary context assigned to an account, balance, obligation line, ledger position, or monetary record for controlled maintenance and reconstruction.",
+  "homepage_doctrine": "AccountCcy.com does not treat currency as a flat label. It treats currency as a sequence of institutional states that must be owned, evidenced, reconciled, reported, and defended.",
+  "audience_title": "Built for the teams that must prove monetary lineage.",
+  "audience_intro": "The reference system is designed for professionals who need accountable vocabulary before systems, reports, and reviews can align.",
+  "audience_cards": [
+    {"label": "Controllers", "title": "Control account currency policy.", "body": "Clarify which accounts carry which custody currency and how exceptions are evidenced."},
+    {"label": "ERP architects", "title": "Translate policy into configuration.", "body": "Connect chart settings, subledger integrations, posting logic, and close snapshots."},
+    {"label": "CFO teams", "title": "Explain reporting without weak FX narratives.", "body": "Separate revaluation, translation, consolidation, and audit reality."},
+    {"label": "Assurance teams", "title": "Review evidence, not slogans.", "body": "Trace monetary outcomes through artifacts that survive reperformance."},
+    {"label": "Platforms", "title": "Own the control language.", "body": "Financial close, ERP, treasury, and audit technology buyers can extend the framework into product workflows."},
+    {"label": "Strategic buyers", "title": "Acquire category infrastructure.", "body": "The value is the domain, thesis, ontology, reference graph, diagnostic surface, and governance discipline together."}
+  ],
+  "acquisition_preview_title": "AccountCcy.com may be considered for strategic acquisition where institutional alignment exists.",
+  "acquisition_preview_body": "The public posture is not domain-sale language. It is a controlled asset-transfer posture for buyers who understand account currency control, enterprise finance systems, reporting integrity, and audit-defensible monetary truth."
+}

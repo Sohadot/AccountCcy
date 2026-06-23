@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-23",
+  "url": "/revaluation-and-translation/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "FX Mechanics Reference",
+  "h1": "Foreign Currency Revaluation and Translation",
+  "intro": "Foreign currency revaluation and currency translation are distinct mechanisms in the custody chain. Revaluation restates monetary balances for ledger measurement; translation converts measured results into reporting or consolidation presentation.",
+  "doctrine_eyebrow": "Mechanics doctrine",
+  "doctrine_statement": "Revaluation changes measured ledger posture. Translation changes presentation posture.<br>Both require evidence, but they do not answer the same custody question.",
+  "doctrine_attribution": "AccountCcy.com FX Mechanics Layer",
+  "primary_section_eyebrow": "Distinction",
+  "primary_section_title": "Separate remeasurement mechanics from presentation translation.",
+  "primary_section_body": [
+    "AccountCcy treats revaluation as a State 05 ledger discipline tied to open monetary populations, rate sources, timing, and approval evidence.",
+    "Translation belongs to State 06 and State 07 presentation layers, where measured ledger results are converted for reporting, consolidation, and group visibility.",
+    "The distinction matters because misclassification can distort unrealized FX, equity translation effects, reporting bridges, and audit explanations."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "mechanics-map",
+      "eyebrow": "Mechanics map",
+      "title": "Where each mechanism sits in the CCY State Chain",
+      "steps": [
+        {"title": "FX revaluation", "body": "Restates open monetary balances in the ledger using governed rates.", "link_url": "/glossary/fx-revaluation/", "link_label": "FX revaluation"},
+        {"title": "Remeasurement", "body": "Measurement mechanics tied to functional and ledger currency context.", "link_url": "/glossary/remeasurement/", "link_label": "Remeasurement"},
+        {"title": "Currency translation", "body": "Converts measured results into reporting or consolidation presentation.", "link_url": "/glossary/currency-translation/", "link_label": "Currency translation"},
+        {"title": "Reporting currency", "body": "Presentation layer where translation becomes visible.", "link_url": "/states/reporting-currency/", "link_label": "State 06"}
+      ]
+    },
+    {
+      "section_id": "evidence-map",
+      "eyebrow": "Evidence map",
+      "title": "Evidence required to defend revaluation and translation",
+      "paragraphs": [
+        "Revaluation evidence includes population listings, rate-source approval, run logs, exception review, and ledger posting support.",
+        "Translation evidence includes methodology memos, reporting packages, translation rates, equity movement support, consolidation roll-forwards, and bridge schedules.",
+        "Both require versioned artifacts. Neither should rely on a spreadsheet whose origin cannot be replayed."
+      ]
+    },
+    {
+      "section_id": "mechanics-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Revaluation and translation control questions",
+      "questions": [
+        "Which balances are included in revaluation populations and why?",
+        "Which exchange-rate source governed the run and who approved overrides?",
+        "Where are unrealized and realized FX separated?",
+        "Which translation methodology applies to reporting or consolidation packages?",
+        "How are translation adjustments reconciled to equity or reporting bridges?",
+        "Can auditors reperformance-test both mechanisms independently?"
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference graph",
+  "graph_title": "Revaluation and translation are adjacent but not interchangeable.",
+  "graph_intro": "This page protects AccountCcy's terminology from one of the most common multi-currency accounting collapses.",
+  "cards": [
+    {"label": "Ledger", "title": "Revaluation operates on measured balances.", "body": "It is tied to open monetary populations, rates, and ledger posting evidence."},
+    {"label": "Reporting", "title": "Translation operates on presentation.", "body": "It converts measured results into reporting or group currency views."},
+    {"label": "Audit", "title": "Evidence must separate mechanics.", "body": "Reviewers need to test revaluation and translation without blended narratives."}
+  ],
+  "control_label": "Control logic",
+  "control_title": "Separate run logs, rate evidence, and bridge schedules.",
+  "control_body": "Keep revaluation evidence and translation evidence distinct while linking both to the same custody chain.",
+  "risk_label": "Risk if weak",
+  "risk_title": "FX explanations that sound right but test poorly.",
+  "risk_body": "If revaluation and translation are blended, committees may approve narratives that cannot survive reperformance.",
+  "faq": [
+    {"question": "Are revaluation and translation the same?", "answer": "No. Revaluation restates ledger monetary balances; translation converts measured results into reporting or consolidation currency."},
+    {"question": "Which state owns revaluation?", "answer": "Primarily State 05 Ledger Currency, with dependencies from account currency and downstream reporting effects."}
+  ]
+}

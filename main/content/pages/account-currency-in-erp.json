@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-23",
+  "url": "/account-currency-in-erp/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "sovereign",
+  "page_eyebrow": "ERP Reference Architecture",
+  "h1": "Account Currency in ERP Systems",
+  "intro": "Account currency in ERP systems is the governed account-level custody setting that shapes postings, reconciliation scope, FX revaluation populations, ledger measurement, reporting translation, and audit reconstruction. It is not a cosmetic display label and not a substitute for professional configuration judgment.",
+  "doctrine_eyebrow": "ERP custody thesis",
+  "doctrine_statement": "ERP account currency is where monetary identity becomes executable accounting behavior.<br>Configuration is evidence, not background.",
+  "doctrine_attribution": "AccountCcy.com ERP Reference Layer",
+  "primary_section_eyebrow": "Reference posture",
+  "primary_section_title": "Treat ERP currency behavior as custody architecture.",
+  "primary_section_body": [
+    "ERP systems do not merely store currency labels. They operationalize account-level monetary custody through chart settings, subledger behavior, posting rules, revaluation eligibility, reporting extracts, and control logs.",
+    "This page avoids vendor-specific instructions. It defines the evidence and governance questions an enterprise finance team should ask before relying on account currency configuration as a source of monetary truth.",
+    "The correct posture is not to assume the ERP is right. The correct posture is to prove that live configuration matches policy, ownership, reconciliation design, and downstream assurance needs."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "erp-custody-layers",
+      "eyebrow": "Architecture",
+      "title": "The ERP layers that turn account currency into control behavior",
+      "paragraphs": [
+        "Chart configuration assigns the account-level currency state.",
+        "Subledger integration decides whether transaction and settlement currencies survive ingestion.",
+        "Posting logic routes obligations, settlements, revaluation entries, and adjustments into governed accounts.",
+        "Currency master data constrains precision, activation, rounding, and allowed denominations.",
+        "Close controls freeze configuration snapshots so later audit work can replay the period as it actually operated."
+      ],
+      "steps": [
+        {"title": "State 04 custody", "body": "Account currency defines the maintained balance context that downstream ledger and reporting layers inherit.", "link_url": "/states/account-currency/", "link_label": "Account Currency state"},
+        {"title": "ERP configuration control", "body": "Configuration must be owned, reviewed, and evidenced before close outputs are trusted.", "link_url": "/erp-currency-configuration-control/", "link_label": "ERP currency configuration control"},
+        {"title": "Diagnostic output", "body": "The Currency State Diagnostic turns configuration questions into a local maturity signal.", "link_url": "/currency-state-diagnostic/", "link_label": "Currency State Diagnostic"}
+      ]
+    },
+    {
+      "section_id": "erp-evidence-map",
+      "eyebrow": "Evidence map",
+      "title": "Minimum evidence for ERP account currency defensibility",
+      "paragraphs": [
+        "A defensible ERP posture should retain: account master extracts, configuration approval logs, policy matrices, mapping tables, revaluation run logs, exception reports, and period-specific snapshots.",
+        "The evidence must show not only what the configuration is, but why it exists, who approved it, which populations it affects, and how it changed across periods."
+      ]
+    },
+    {
+      "section_id": "erp-control-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "ERP account currency control questions",
+      "questions": [
+        "Does the account master extract match the approved account currency policy matrix?",
+        "Can configuration changes be tied to approval evidence and migration testing?",
+        "Do subledger interfaces preserve transaction and settlement currency metadata?",
+        "Are revaluation populations derived from configuration rather than manual recollection?",
+        "Does the close archive include the configuration snapshot used for that period?",
+        "Can auditors reconstruct account currency behavior without asking systems teams to recreate history?"
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference graph",
+  "graph_title": "ERP configuration is the operational surface of account currency control.",
+  "graph_intro": "This page bridges AccountCcy doctrine into practical ERP evidence without becoming vendor-specific implementation advice.",
+  "cards": [
+    {"label": "Configuration", "title": "Currency behavior lives in settings.", "body": "Account currency must be proved through extracts and approvals, not inferred from reports."},
+    {"label": "Integration", "title": "Interfaces can erase custody metadata.", "body": "Subledger and middleware behavior must preserve currency-state lineage."},
+    {"label": "Close", "title": "Period snapshots protect audit replay.", "body": "The close archive should show the configuration that governed the period."}
+  ],
+  "control_label": "Control logic",
+  "control_title": "Freeze account currency configuration as evidence.",
+  "control_body": "Every material close should preserve account master extracts, mapping versions, revaluation parameters, and owner sign-offs.",
+  "risk_label": "Risk if weak",
+  "risk_title": "ERP confidence without replayable evidence.",
+  "risk_body": "Teams may trust the system while losing the ability to prove which currency rules actually governed postings and balances.",
+  "faq": [
+    {"question": "Is this ERP implementation advice?", "answer": "No. It is a reference architecture for evidence and governance questions. Qualified ERP and accounting professionals should decide implementation."},
+    {"question": "Why does account currency matter in ERP?", "answer": "It affects balance maintenance, reconciliation scope, revaluation populations, reporting extracts, and audit reconstruction."}
+  ]
+}

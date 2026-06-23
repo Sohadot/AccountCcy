@@ -24,6 +24,16 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
+  "evidence_map": [
+    {"label": "Obligation", "title": "Contract, invoice, order, or confirmation", "body": "Proves the currency in which the counterparty obligation is denominated before payment or ledger custody."},
+    {"label": "Source system", "title": "Authoritative transaction extract", "body": "Preserves transaction currency metadata as the event enters ERP, subledger, or treasury systems."},
+    {"label": "Interface", "title": "Integration mapping evidence", "body": "Shows whether middleware preserved, converted, or enriched denomination fields during ingestion."}
+  ],
+  "control_artifacts": [
+    {"artifact": "Obligation currency register", "owner": "Controller with commercial finance", "purpose": "Maintains authoritative denomination for material obligation populations."},
+    {"artifact": "Source-system extract", "owner": "Finance systems", "purpose": "Proves transaction currency survived operational capture."},
+    {"artifact": "Interface mapping log", "owner": "ERP architecture", "purpose": "Prevents silent denomination conversion before accounting custody."}
+  ],
   "pillar_sections": [
     {
       "section_id": "state02-position",

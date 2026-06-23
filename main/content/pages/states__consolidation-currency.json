@@ -22,6 +22,16 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
+  "evidence_map": [
+    {"label": "Entity package", "title": "Submitted reporting pack and sign-off", "body": "Proves each entity's reporting currency package before group conversion and eliminations."},
+    {"label": "Elimination", "title": "Intercompany and ownership adjustment support", "body": "Shows how group-level adjustments altered currency presentation without destroying lineage."},
+    {"label": "Group bridge", "title": "Consolidation currency roll-forward", "body": "Connects entity packages, translation effects, and final group statements."}
+  ],
+  "control_artifacts": [
+    {"artifact": "Consolidation package checklist", "owner": "Group reporting", "purpose": "Confirms entity submissions are complete and currency-ready."},
+    {"artifact": "Elimination journal support", "owner": "Consolidation team", "purpose": "Documents group-level adjustments and currency effects."},
+    {"artifact": "CTA and ownership roll-forward", "owner": "Financial reporting", "purpose": "Proves translation and ownership movements through group currency."}
+  ],
   "state_risk_title": "Opaque elimination journals",
   "state_risk_body": "Complex adjustments hide upstream account mis-assignments until variance analytics collapse during audit readiness.",
   "state_control_title": "Consolidation governance forums",

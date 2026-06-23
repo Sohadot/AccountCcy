@@ -24,6 +24,16 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
+  "evidence_map": [
+    {"label": "Bank proof", "title": "Statement, confirmation, or payment rail evidence", "body": "Shows which currency actually cleared, settled, or netted through liquidity infrastructure."},
+    {"label": "Treasury proof", "title": "TMS payment instruction and approval", "body": "Connects settlement execution to authorized obligation populations and value-date logic."},
+    {"label": "Accounting bridge", "title": "Settlement-to-posting reconciliation", "body": "Ties bank reality to subledger cash application and general ledger recognition."}
+  ],
+  "control_artifacts": [
+    {"artifact": "Bank confirmation pack", "owner": "Treasury operations", "purpose": "Proves settlement currency and value date."},
+    {"artifact": "TMS-to-ERP reconciliation", "owner": "Treasury accounting", "purpose": "Aligns liquidity execution with accounting postings."},
+    {"artifact": "Realized FX support", "owner": "Controller", "purpose": "Documents economic effect when transaction and settlement currencies diverge."}
+  ],
   "pillar_sections": [
     {
       "section_id": "state03-position",

@@ -248,6 +248,42 @@
   </div>
 </section>
 
+<section class="ccy-section ccy-surface-cream" aria-labelledby="evidence-map-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-10);">
+      <p class="ccy-eyebrow">Evidence Map</p>
+      <h2 id="evidence-map-title" class="ccy-title">Artifacts that make Account Currency defensible.</h2>
+      <p class="ccy-body">Each state must be provable through artifacts, not asserted through narrative. These evidence classes define what reviewers should be able to inspect before this state passes downstream.</p>
+    </div>
+    <div class="ccy-grid-3">
+<article class="ccy-evidence-map-card"><p class="ccy-eyebrow">Policy</p><h3 class="ccy-section-title">Account currency assignment policy</h3><p class="ccy-small">Defines which account classes carry which custody currency and who approves exceptions.</p></article><article class="ccy-evidence-map-card"><p class="ccy-eyebrow">Configuration</p><h3 class="ccy-section-title">ERP chart and account master extract</h3><p class="ccy-small">Proves the live account currency setting that postings, reconciliations, and valuation engines inherit.</p></article><article class="ccy-evidence-map-card"><p class="ccy-eyebrow">Change control</p><h3 class="ccy-section-title">Approval and migration evidence</h3><p class="ccy-small">Documents why account currency changed and how historical balances were bridged.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-artifacts-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-8);">
+      <p class="ccy-eyebrow">Control Artifacts</p>
+      <h2 id="control-artifacts-title" class="ccy-title">Minimum governance artifacts for this state.</h2>
+    </div>
+    <div class="ccy-table-wrap">
+      <table class="ccy-control-table">
+        <thead>
+          <tr>
+            <th scope="col">Artifact</th>
+            <th scope="col">Owner</th>
+            <th scope="col">Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+<tr><th scope="row">Account currency policy matrix</th><td>Controller</td><td>Sets the governed custody rule for each material account class.</td></tr><tr><th scope="row">Chart-of-accounts currency extract</th><td>ERP architecture</td><td>Proves live configuration matches approved policy.</td></tr><tr><th scope="row">Account currency change log</th><td>Finance systems governance</td><td>Prevents undocumented custody drift.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
 <section class="ccy-section" aria-labelledby="state04-chain-relationships-heading"><div class="ccy-container"><p class="ccy-eyebrow">Neighboring identities</p><h2 id="state04-chain-relationships-heading" class="ccy-title">Account Currency relative to published CCY vocabulary</h2><div class="ccy-pillar-section-body"><p class="ccy-body">State 04 answers custody configuration inside charts; each neighboring identity answers a different forensic question. Published glossary entries anchor language—never interchangeable synonyms.</p>
 <ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Transaction currency — obligation denomination</p><p class="ccy-body">Defines measurable commercial duties before postings stabilize balances; account currency assigns ERP custody where balances reconcile—aligned ISO codes still carry distinct control obligations.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/transaction-currency/">Transaction currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Quoted currency — pre-obligation signal</p><p class="ccy-body">Market-facing rates precede measurable obligations; custody debates intensify once quotations convert into transactional duties feeding postings.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/quoted-currency/">Quoted currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Settlement currency — cash rail denomination</p><p class="ccy-body">Governs clearing banks that move liquidity; divergence from transactional denomination crystallizes FX outcomes controllers must classify as realized once postings absorb banking proofs tied back to State 04 assignments.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/settlement-currency/">Settlement currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Ledger currency — measurement posture downstream</p><p class="ccy-body">Frames maintained trial-balance measurement after custody enters charts; confusion collapses policy debates when ledger lenses substitute for explicit account assignments prematurely.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/ledger-currency/">Ledger currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Functional currency — economic-environment lens</p><p class="ccy-body">Determines entity-wide measurement priorities before translation refracts outward; distinct from account-level custody yet tightly coupled inside ERP stacks.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/functional-currency/">Functional currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Reporting currency — visibility narration</p><p class="ccy-body">Presentation refracts ledger custody through disclosure choices—cannot substitute missing account-level lineage upstream.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/reporting-currency/">Reporting currency</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">FX revaluation — period-boundary restatement</p><p class="ccy-body">Period-end revaluation consumes foreign monetary populations account configurations expose—unrealized FX accumulates on open items until settlement realizes outcomes; remeasurement discipline must stay explicit when functional contexts diverge; exchange-rate-source governance proves which curve locked the batch.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/fx-revaluation/">FX revaluation</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Currency translation — methodology versus custody</p><p class="ccy-body">Converts measured ledger outcomes into presentation currencies—distinct mechanical discipline from configuring where balances accumulate beforehand.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/currency-translation/">Currency translation</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Audit trail discipline — reconstructability</p><p class="ccy-body">Contiguous audit trails, repeatable monetary reconstruction, and corpus-grade control evidence expose State 04 fractures regardless of polished disclosures downstream.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/audit-reality/">Audit reality</a></p></li></ol></div></div></section>
 <section class="ccy-section ccy-surface-cream" aria-labelledby="why-state04-matters-heading"><div class="ccy-container"><p class="ccy-eyebrow">Operational consequence</p><h2 id="why-state04-matters-heading" class="ccy-title">Why Account Currency as a monetary state matters</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Account-level monetary control decides reconciliation scopes, subsystem postings, and controller accountability—without naming custody, automation rearranges symptoms.</p>

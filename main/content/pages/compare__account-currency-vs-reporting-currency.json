@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-23",
+  "url": "/compare/account-currency-vs-reporting-currency/",
+  "type": "comparison",
+  "status": "published",
+  "quality_gate": "reference-standard",
+  "page_eyebrow": "Comparison Reference",
+  "h1": "Account Currency vs Reporting Currency",
+  "intro": "Account currency and reporting currency answer different questions in enterprise finance. Account currency governs how balances are maintained and controlled inside accounts; reporting currency governs how measured results are presented to management, investors, regulators, or group reporting audiences.",
+  "doctrine_eyebrow": "Comparison doctrine",
+  "doctrine_statement": "Account currency is custody. Reporting currency is presentation.<br>Confusing them turns visibility into false control.",
+  "doctrine_attribution": "AccountCcy.com Comparison Layer",
+  "primary_section_eyebrow": "Core distinction",
+  "primary_section_title": "One controls balances; the other presents results.",
+  "primary_section_body": [
+    "Account currency sits at State 04 of the CCY State Chain. It attaches currency identity to accounts, balances, and reconciliation scopes.",
+    "Reporting currency sits at State 06. It translates measured ledger results into a presentation view for reporting, governance, or disclosure.",
+    "The two may share the same ISO code in simple structures, but they remain different custody states with different evidence requirements."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "comparison-map",
+      "eyebrow": "State map",
+      "title": "How the two states differ",
+      "steps": [
+        {"title": "Account currency", "body": "Account-level custody setting that controls balance maintenance, reconciliation scope, and downstream revaluation behavior.", "link_url": "/states/account-currency/", "link_label": "State 04"},
+        {"title": "Reporting currency", "body": "Presentation currency used to tell the financial story after ledger measurement stabilizes.", "link_url": "/states/reporting-currency/", "link_label": "State 06"},
+        {"title": "Revaluation and translation", "body": "The mechanics that often expose confusion between custody and presentation.", "link_url": "/revaluation-and-translation/", "link_label": "Mechanics reference"}
+      ]
+    },
+    {
+      "section_id": "evidence-differences",
+      "eyebrow": "Evidence discipline",
+      "title": "Different evidence proves each currency identity",
+      "paragraphs": [
+        "Account currency evidence includes account master data, policy matrices, configuration approvals, reconciliation scope, and change logs.",
+        "Reporting currency evidence includes translation methodology, reporting packages, bridge schedules, management commentary support, and disclosure reconciliations.",
+        "When teams use one evidence set to defend the other, audit reality weakens."
+      ]
+    },
+    {
+      "section_id": "comparison-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Control questions for the distinction",
+      "questions": [
+        "Which account currency governs maintained balances?",
+        "Which reporting currency governs external or management presentation?",
+        "Where does ledger measurement occur between the two?",
+        "Which evidence proves account custody versus reporting translation?",
+        "Are FX effects being explained as operational, remeasurement, or presentation effects?",
+        "Can reviewers trace reporting numbers back to account-level custody without informal bridges?"
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference graph",
+  "graph_title": "Account currency is not reporting currency.",
+  "graph_intro": "This comparison protects a high-value SEO intent while reinforcing AccountCcy's state architecture.",
+  "cards": [
+    {"label": "Custody", "title": "Account currency controls maintained balances.", "body": "It belongs to account configuration, reconciliation scope, and revaluation populations."},
+    {"label": "Presentation", "title": "Reporting currency controls visibility.", "body": "It belongs to management reporting, disclosures, translation, and external communication."},
+    {"label": "Evidence", "title": "Each requires different proof.", "body": "Configuration extracts cannot replace reporting bridges, and reporting bridges cannot prove account custody."}
+  ],
+  "control_label": "Control logic",
+  "control_title": "Maintain separate evidence trails.",
+  "control_body": "Account-level configuration and reporting translation should reconcile, but they should not collapse into one control object.",
+  "risk_label": "Risk if weak",
+  "risk_title": "Presentation mistaken for control.",
+  "risk_body": "Teams may explain reported figures while losing the ability to prove how the underlying balances were maintained.",
+  "faq": [
+    {"question": "Can account currency and reporting currency be the same code?", "answer": "Yes, but they still answer different control questions and require different evidence."},
+    {"question": "Which comes first?", "answer": "Account currency custody precedes reporting currency presentation in the CCY State Chain."}
+  ]
+}

@@ -24,6 +24,16 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
+  "evidence_map": [
+    {"label": "Market source", "title": "Approved rate feed or quotation source", "body": "Identifies which market feed, broker quote, treasury curve, or pricing document produced the pre-obligation currency signal."},
+    {"label": "Timing", "title": "Quote timestamp and validity window", "body": "Shows when the quoted currency applied and whether the quote remained valid when commercial terms moved toward obligation."},
+    {"label": "Handoff", "title": "Commercial-to-finance transition note", "body": "Documents how the pricing lens will be preserved or transformed when a transaction is captured."}
+  ],
+  "control_artifacts": [
+    {"artifact": "Approved rate-source register", "owner": "Treasury", "purpose": "Controls which quoted-currency sources may influence pricing and obligation capture."},
+    {"artifact": "Quote timestamp log", "owner": "Treasury operations", "purpose": "Proves rate timing and quote validity before the transaction state begins."},
+    {"artifact": "Contract pricing memo", "owner": "Commercial finance", "purpose": "Bridges market quotation language to contractual denomination."}
+  ],
   "state_risk_title": "Quote anchoring without transition governance",
   "state_risk_body": "Organizations hedge curves brilliantly yet never document how quoted lenses translate into transaction postings — producing mismatch surprises when obligation differs from the quoting convention traders memorized.",
   "state_control_title": "Quote catalog discipline",

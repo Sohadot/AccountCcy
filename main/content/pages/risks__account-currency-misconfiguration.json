@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-23",
+  "url": "/risks/account-currency-misconfiguration/",
+  "type": "risk",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "Risk Reference",
+  "h1": "Account Currency Misconfiguration",
+  "intro": "Account currency misconfiguration is a structural currency-state risk where ERP account settings, policy ownership, posting behavior, revaluation populations, or audit evidence diverge. The risk is not simply a wrong field; it is broken monetary custody.",
+  "doctrine_eyebrow": "Risk doctrine",
+  "doctrine_statement": "Misconfigured account currency breaks the chain of custody before reporting can defend itself.",
+  "doctrine_attribution": "AccountCcy.com Risk Layer",
+  "primary_section_eyebrow": "Risk posture",
+  "primary_section_title": "Treat misconfiguration as assurance debt.",
+  "primary_section_body": [
+    "A misconfigured account currency can alter which balances are maintained, revalued, reconciled, translated, reported, or audited.",
+    "The danger is amplified because many teams only discover misconfiguration after period-end exceptions, unexplained FX, failed reconciliations, migration errors, or audit evidence gaps.",
+    "This page defines risk patterns and control questions. It does not provide ERP implementation advice."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "risk-patterns",
+      "eyebrow": "Failure patterns",
+      "title": "Common account currency misconfiguration patterns",
+      "paragraphs": [
+        "Default account creation assigns currency without policy review.",
+        "Migrated chart records preserve legacy behavior inconsistent with current entity policy.",
+        "Subledger currency fields map into accounts that carry incompatible custody assumptions.",
+        "Foreign monetary populations for revaluation are derived from stale configuration.",
+        "Reporting teams compensate through bridge spreadsheets instead of correcting custody."
+      ],
+      "steps": [
+        {"title": "State 04 exposure", "body": "The risk begins where account-level custody is assigned.", "link_url": "/states/account-currency/", "link_label": "Account Currency state"},
+        {"title": "ERP architecture", "body": "Configuration must be evidenced and reconciled to policy.", "link_url": "/account-currency-in-erp/", "link_label": "Account currency in ERP"},
+        {"title": "Diagnostic", "body": "The diagnostic surfaces maturity gaps without collecting data.", "link_url": "/currency-state-diagnostic/", "link_label": "Currency State Diagnostic"}
+      ]
+    },
+    {
+      "section_id": "risk-evidence",
+      "eyebrow": "Evidence map",
+      "title": "Evidence that should exist before the risk is closed",
+      "paragraphs": [
+        "A resolved misconfiguration should leave a trace: issue ticket, affected account population, configuration extract, approval evidence, remediation journal support, revaluation rerun evidence, reconciliation sign-off, and a decision log explaining why the fix is complete.",
+        "Closing the issue without evidence simply transfers the risk into audit reality."
+      ]
+    },
+    {
+      "section_id": "risk-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Misconfiguration control questions",
+      "questions": [
+        "Which accounts are affected and which currency state is wrong?",
+        "What policy or approval did the live configuration contradict?",
+        "Did the error affect revaluation, reconciliation, reporting, or consolidation?",
+        "Were historical periods restated, bridged, or disclosed internally?",
+        "Can the fix be reperformed from system extracts and approvals?",
+        "Was the root cause configuration, interface mapping, master data, migration, or governance?"
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference graph",
+  "graph_title": "Misconfiguration is a custody failure, not a cosmetic defect.",
+  "graph_intro": "The page connects ERP risk to AccountCcy's State 04, diagnostic surface, and audit evidence layer.",
+  "cards": [
+    {"label": "ERP", "title": "Wrong settings create wrong populations.", "body": "Configuration errors can affect revaluation eligibility and reconciliation scope."},
+    {"label": "Close", "title": "Period-end exposes hidden drift.", "body": "Misconfiguration often appears as unexplained FX or recurring reconciliation exceptions."},
+    {"label": "Audit", "title": "Evidence decides whether remediation is credible.", "body": "A fix without traceability remains assurance debt."}
+  ],
+  "control_label": "Control logic",
+  "control_title": "Close misconfiguration with evidence, not assertion.",
+  "control_body": "Require population analysis, root cause, configuration proof, journal impact, and reviewer sign-off.",
+  "risk_label": "Residual risk",
+  "risk_title": "Silent carry-forward into later periods.",
+  "risk_body": "If misconfiguration is patched informally, future closes inherit uncertainty that is harder to isolate.",
+  "faq": [
+    {"question": "Is account currency misconfiguration always material?", "answer": "Not necessarily. Materiality requires professional judgment, but even immaterial errors may reveal weak governance."},
+    {"question": "What is the first control step?", "answer": "Identify affected account populations and prove live configuration against approved policy."}
+  ]
+}

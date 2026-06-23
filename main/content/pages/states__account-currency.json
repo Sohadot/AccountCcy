@@ -22,6 +22,16 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
+  "evidence_map": [
+    {"label": "Policy", "title": "Account currency assignment policy", "body": "Defines which account classes carry which custody currency and who approves exceptions."},
+    {"label": "Configuration", "title": "ERP chart and account master extract", "body": "Proves the live account currency setting that postings, reconciliations, and valuation engines inherit."},
+    {"label": "Change control", "title": "Approval and migration evidence", "body": "Documents why account currency changed and how historical balances were bridged."}
+  ],
+  "control_artifacts": [
+    {"artifact": "Account currency policy matrix", "owner": "Controller", "purpose": "Sets the governed custody rule for each material account class."},
+    {"artifact": "Chart-of-accounts currency extract", "owner": "ERP architecture", "purpose": "Proves live configuration matches approved policy."},
+    {"artifact": "Account currency change log", "owner": "Finance systems governance", "purpose": "Prevents undocumented custody drift."}
+  ],
   "pillar_sections": [
     {
       "section_id": "state04-chain-relationships",

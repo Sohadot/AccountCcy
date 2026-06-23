@@ -1585,6 +1585,65 @@ button {
   background: var(--ccy-color-paper);
 }
 
+.ccy-diagnostic-reading-list {
+  margin: var(--ccy-space-4) 0 0;
+  padding-left: 1.15rem;
+  color: var(--ccy-color-slate-mid);
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-xs);
+  line-height: var(--ccy-line-body);
+}
+
+.ccy-evidence-map-card {
+  padding: var(--ccy-space-5);
+  border: 1px solid var(--ccy-color-rule-soft);
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.ccy-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--ccy-color-rule-soft);
+  background: var(--ccy-color-paper);
+}
+
+.ccy-control-table {
+  width: 100%;
+  min-width: 44rem;
+  border-collapse: collapse;
+}
+
+.ccy-control-table th,
+.ccy-control-table td {
+  padding: var(--ccy-space-4);
+  border-bottom: 1px solid var(--ccy-color-rule-soft);
+  text-align: left;
+  vertical-align: top;
+}
+
+.ccy-control-table thead th {
+  font-family: var(--ccy-font-mono);
+  font-size: var(--ccy-font-size-2xs);
+  letter-spacing: var(--ccy-letter-wide);
+  text-transform: uppercase;
+  color: var(--ccy-color-gold-dark, var(--ccy-color-gold));
+}
+
+.ccy-control-table tbody th {
+  width: 26%;
+  font-family: var(--ccy-font-heading);
+  font-size: var(--ccy-font-size-md);
+  line-height: var(--ccy-line-heading);
+  color: var(--ccy-color-slate-dark);
+}
+
+.ccy-control-table td {
+  color: var(--ccy-color-slate-mid);
+  font-size: var(--ccy-font-size-sm);
+  line-height: var(--ccy-line-body);
+}
+
 @media (max-width: 45rem) {
   .ccy-diagnostic-scale {
     grid-template-columns: 1fr;

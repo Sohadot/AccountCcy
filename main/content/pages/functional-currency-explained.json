@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-23",
+  "url": "/functional-currency-explained/",
+  "type": "pillar",
+  "status": "published",
+  "quality_gate": "reference-high",
+  "page_eyebrow": "Definition Reference",
+  "h1": "Functional Currency Explained",
+  "intro": "Functional currency is the measurement lens associated with an entity's primary economic environment. AccountCcy treats it as a ledger-measurement discipline that must remain distinct from account currency, transaction currency, reporting currency, and consolidation currency.",
+  "doctrine_eyebrow": "Measurement doctrine",
+  "doctrine_statement": "Functional currency explains the economic lens. Account currency governs account-level custody.<br>Confusing them weakens monetary reconstruction.",
+  "doctrine_attribution": "AccountCcy.com Reference Layer",
+  "primary_section_eyebrow": "Precision",
+  "primary_section_title": "Functional currency belongs to measurement, not every currency question.",
+  "primary_section_body": [
+    "Functional currency is widely used in accounting standards and professional practice. AccountCcy references it carefully as established terminology, while the CCY State Chain remains the site's original reference architecture.",
+    "The key discipline is separation: transaction currency measures obligations, account currency assigns custody, ledger currency accumulates books, reporting currency presents results, and functional currency informs measurement policy.",
+    "This page is educational reference material only and does not determine functional currency for any entity."
+  ],
+  "pillar_sections": [
+    {
+      "section_id": "functional-boundaries",
+      "eyebrow": "Boundary map",
+      "title": "Functional currency relative to neighboring states",
+      "steps": [
+        {"title": "Account currency", "body": "Account-level custody setting for maintained balances.", "link_url": "/states/account-currency/", "link_label": "State 04"},
+        {"title": "Ledger currency", "body": "The books where functional measurement usually becomes operationally visible.", "link_url": "/states/ledger-currency/", "link_label": "State 05"},
+        {"title": "Reporting currency", "body": "Presentation currency for reporting packages, management views, or filings.", "link_url": "/states/reporting-currency/", "link_label": "State 06"},
+        {"title": "Revaluation and translation", "body": "Separate mechanics that often become confused when functional currency is poorly governed.", "link_url": "/revaluation-and-translation/", "link_label": "Reference"}
+      ]
+    },
+    {
+      "section_id": "functional-evidence",
+      "eyebrow": "Evidence discipline",
+      "title": "Evidence that functional currency has been governed",
+      "paragraphs": [
+        "A defensible posture includes a documented determination, review cadence, entity-level ownership, ERP configuration alignment, and close-period evidence showing that remeasurement and translation followed the approved lens.",
+        "The highest-risk failure is not disagreement about a term. It is a gap between policy memos, live ledger configuration, and close outputs."
+      ]
+    },
+    {
+      "section_id": "functional-questions",
+      "eyebrow": "Governance interrogation",
+      "title": "Functional currency control questions",
+      "questions": [
+        "Does documented functional currency match ledger configuration and entity operating facts?",
+        "Who approves reassessment after acquisitions, market changes, or business model shifts?",
+        "How do remeasurement populations tie to functional currency policy?",
+        "Which reporting packages depend on translation from functional measurement?",
+        "Can reviewers connect policy, configuration, and close output without informal explanations?"
+      ]
+    }
+  ],
+  "graph_eyebrow": "Reference graph",
+  "graph_title": "Functional currency is a measurement lens inside the custody chain.",
+  "graph_intro": "The page stabilizes high-value definition intent while linking into AccountCcy's original state architecture.",
+  "cards": [
+    {"label": "Policy", "title": "Economic environment matters.", "body": "Functional currency is determined through professional judgment under applicable standards."},
+    {"label": "Configuration", "title": "Policy must meet ERP reality.", "body": "Memos alone do not prove measurement behavior if ledgers operate differently."},
+    {"label": "Boundary", "title": "Do not confuse measurement with custody.", "body": "Account currency and functional currency can align, but they answer different control questions."}
+  ],
+  "control_label": "Control logic",
+  "control_title": "Tie functional currency policy to live ledger evidence.",
+  "control_body": "Maintain determination memos, reassessment triggers, configuration snapshots, and close evidence together.",
+  "risk_label": "Risk if weak",
+  "risk_title": "Policy language detached from ledger behavior.",
+  "risk_body": "Finance may cite functional currency correctly while the ERP operates under contradictory settings.",
+  "faq": [
+    {"question": "Is functional currency the same as account currency?", "answer": "No. Functional currency is an entity measurement lens; account currency is account-level custody inside the chart or ERP structure."},
+    {"question": "Is this accounting advice?", "answer": "No. It is educational reference content. Determination requires qualified professional judgment."}
+  ]
+}

@@ -24,6 +24,16 @@
     {"name": "Consolidation Currency", "description": "Group currency unifying reporting entities.", "url": "/states/consolidation-currency/"},
     {"name": "Audit Reality", "description": "Traceable, defendable monetary truth.", "url": "/states/audit-reality/"}
   ],
+  "evidence_map": [
+    {"label": "Translation", "title": "Reporting translation workbook", "body": "Shows how ledger outputs were converted into reporting currency using governed rates and methodology."},
+    {"label": "Bridge", "title": "Ledger-to-reporting reconciliation", "body": "Connects trial balance positions to management packs, statutory reports, and disclosure schedules."},
+    {"label": "Narrative", "title": "CFO commentary support", "body": "Ties reported currency effects to evidence rather than unsupported FX storytelling."}
+  ],
+  "control_artifacts": [
+    {"artifact": "Reporting currency methodology memo", "owner": "Group reporting", "purpose": "Defines presentation currency treatment and translation basis."},
+    {"artifact": "Ledger-to-reporting bridge", "owner": "Financial reporting", "purpose": "Proves reported lines reconcile to archived ledger packages."},
+    {"artifact": "Translation adjustment support", "owner": "Consolidation team", "purpose": "Documents equity and presentation impacts separately from operational FX."}
+  ],
   "pillar_sections": [
     {
       "section_id": "state06-position",
