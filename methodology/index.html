@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    AccountCcy.com Sovereign Template System v2
+    Template: base.html
+
+    Function:
+    The constitutional shell for all public AccountCcy.com pages.
+
+    Render contract:
+    - Exactly one H1 must be supplied by the child template.
+    - No placeholder content may be rendered.
+    - No page may be rendered unless registered in the sovereign data layer.
+    - No public URL may use .html.
+    - No public page may link to unpublished pages.
+    - No POST forms are allowed on static hosting.
+    - No third-party scripts are allowed by default.
+    - Canonical URLs must be absolute and match the public directory URL.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AccountCcy Methodology — Framework Governance and Claim Discipline</title>
+  <meta name="description" content="How AccountCcy.com governs currency-state concepts, claim boundaries, source discipline, versioning, and publication quality for monetary truth custody.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://accountccy.com/methodology/">
+
+  <!-- Soft CSP for static hosting. Final security headers should be enforced at Cloudflare/edge level. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; script-src 'self' 'unsafe-inline'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f0e8">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="AccountCcy Methodology — Framework Governance and Claim Discipline">
+  <meta property="og:description" content="How AccountCcy.com governs currency-state concepts, claim boundaries, source discipline, versioning, and publication quality for monetary truth custody.">
+  <meta property="og:url" content="https://accountccy.com/methodology/">
+  <meta property="og:site_name" content="AccountCcy.com">
+  <meta property="og:image" content="https://accountccy.com/assets/img/social-preview.webp">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AccountCcy Methodology — Framework Governance and Claim Discipline">
+  <meta name="twitter:description" content="How AccountCcy.com governs currency-state concepts, claim boundaries, source discipline, versioning, and publication quality for monetary truth custody.">
+  <meta name="twitter:image" content="https://accountccy.com/assets/img/social-preview.webp">
+
+  <link rel="icon" href="/assets/icons/favicon.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Libre+Baskerville:wght@400;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://accountccy.com/methodology/",
+            "url": "https://accountccy.com/methodology/",
+            "name": "AccountCcy Methodology — Framework Governance and Claim Discipline",
+            "description": "How AccountCcy.com governs currency-state concepts, claim boundaries, source discipline, versioning, and publication quality for monetary truth custody.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "about": {
+                "@type": "Thing",
+                "name": "Account Currency Control"
+            },
+            "inLanguage": "en"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://accountccy.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "AccountCcy Methodology — Framework Governance and Claim Discipline",
+                    "item": "https://accountccy.com/methodology/"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "headline": "AccountCcy Methodology",
+            "description": "How AccountCcy.com governs currency-state concepts, claim boundaries, source discipline, versioning, and publication quality for monetary truth custody.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://accountccy.com/methodology/"
+            },
+            "author": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AccountCcy.com",
+                "url": "https://accountccy.com/"
+            },
+            "inLanguage": "en",
+            "dateModified": "2026-06-23"
+        },
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Is the AccountCcy methodology an accounting standard?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No. It is an original reference methodology for organizing currency-state custody. It is not an accounting, audit, tax, legal, treasury, investment, or ERP implementation standard."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does the methodology provide professional advice?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No. It provides educational and reference structure. Decisions requiring professional judgment should be handled by qualified professionals."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why publish a methodology page?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The methodology gives serious readers a public trust surface explaining how AccountCcy concepts, claims, links, sources, versions, and pages are governed."
+                    }
+                }
+            ]
+        }
+    ]
+}
+  </script>
+</head>
+
+<body class="page-pillar" data-template="reference-page.html" data-page-type="pillar">
+  <a class="ccy-visually-hidden" href="#main">Skip to main content</a>
+
+  <header class="ccy-masthead" role="banner">
+    <div class="ccy-masthead-inner">
+      <a class="ccy-brand" href="/" aria-label="AccountCcy.com homepage">
+        <img
+          src="/assets/img/logo-accountccy.webp"
+          alt="AccountCcy.com"
+          width="260"
+          height="120"
+          loading="eager"
+          decoding="async"
+          class="ccy-brand-logo"
+        >
+      </a>
+
+      <nav class="ccy-nav" aria-label="Primary navigation">
+        <a href="/what-is-account-currency/">Definition</a>
+        <a href="/ccy-state-chain/">State Chain</a>
+        <a href="/framework/">Framework</a>
+        <a href="/monetary-truth-chain-of-custody/">Doctrine</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/cfo-guide/">CFO Guide</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+<div class="ccy-container" style="padding-top: var(--ccy-space-6); padding-bottom: 0;"><nav aria-label="Breadcrumb"><ol style="display:flex; flex-wrap:wrap; gap: var(--ccy-space-2); list-style:none; margin:0; padding:0; font-family: var(--ccy-font-mono); font-size: var(--ccy-font-size-2xs); letter-spacing: var(--ccy-letter-wide); color: var(--ccy-color-slate-soft);"><li><a href="/" style="color: var(--ccy-color-gold); text-decoration:none;">Home</a></li><li aria-hidden="true" style="color: var(--ccy-color-rule-dark);">→</li><li aria-current="page" style="color: var(--ccy-color-slate-mid);">AccountCcy Methodology — Framework Governance and Claim Discipline</li></ol></nav></div>
+
+<!--
+  AccountCcy.com Sovereign Template System v2
+  Template: reference-page.html
+
+  Role:
+  Canonical hyphen-named reference template for pillar, comparison, ERP, risk, CFO, and strategic reference pages.
+
+  Note:
+  This is the hyphenated public template name requested for the template inventory.
+  It is functionally equivalent to the stronger v2 reference_page.html contract, but named for template clarity.
+-->
+
+<section class="ccy-section" aria-labelledby="page-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm);">
+      <p class="ccy-eyebrow">Public Methodology</p>
+      <h1 id="page-title" class="ccy-display" style="margin-bottom: var(--ccy-space-6);">AccountCcy Methodology</h1>
+      <div class="ccy-rule-gold" aria-hidden="true" style="margin-bottom: var(--ccy-space-6);"></div>
+      <p class="ccy-subtitle">How AccountCcy.com defines, governs, limits, and updates its reference framework for currency-state control and monetary truth custody.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-doctrine-block" aria-labelledby="doctrine-title">
+  <div class="ccy-container">
+    <p class="ccy-eyebrow">Methodology Doctrine</p>
+    <h2 id="doctrine-title" class="ccy-doctrine-text">AccountCcy.com is governed by one thesis:<br>the chain of custody for monetary truth inside enterprise finance.</h2>
+    <p class="ccy-label" style="margin-top: var(--ccy-space-8); color: var(--ccy-color-dark-faint);">
+      AccountCcy.com Methodology
+    </p>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="context-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Trust Surface</p>
+        <h2 id="context-title" class="ccy-title">The methodology explains how the framework is built and limited.</h2>
+      </div>
+      <div class="ccy-stack">
+<p class="ccy-body">AccountCcy.com publishes an original reference framework for currency-state control. The methodology exists so readers can understand how concepts are created, bounded, linked, reviewed, versioned, and kept inside the governing thesis.</p>
+<p class="ccy-body">The site does not present itself as an accounting standard, ERP vendor document, audit opinion, legal opinion, tax position, treasury instruction, investment guidance, or implementation guide.</p>
+<p class="ccy-body">The methodology is a trust layer. It clarifies how AccountCcy separates original framework language from established professional terminology, ERP and system behavior, accounting practice, public references, and external validation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="what-methodology-governs-heading"><div class="ccy-container"><p class="ccy-eyebrow">Scope</p><h2 id="what-methodology-governs-heading" class="ccy-title">What the AccountCcy methodology governs</h2><div class="ccy-pillar-section-body"><p class="ccy-body">The methodology governs concept creation, terminology control, CCY State Chain structure, glossary publication, internal linking, source boundaries, claim boundaries, versioning, public page eligibility, diagnostic readiness, and acquisition-grade trust posture.</p>
+<p class="ccy-body">It prevents the asset from becoming a loose content library. Every public surface must strengthen the chain of custody for monetary truth, the Currency State Control Framework, or the practical evidence discipline around account currency control.</p>
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Concept creation</p><p class="ccy-body">New concepts must fit the governing hierarchy and must not compete with the CCY State Chain without a logged framework decision.</p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Terminology control</p><p class="ccy-body">Glossary terms are controlled reference entities. They are not SEO filler and should not be created merely because a keyword exists.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/glossary/">Glossary</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Public page eligibility</p><p class="ccy-body">A page may be published only when it passes doctrine alignment, conceptual integrity, content quality, link safety, SEO discipline, mobile readability, quality validation, and governance traceability.</p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Diagnostic readiness</p><p class="ccy-body">Tools must produce useful reference output while staying local-first, non-certifying, and non-advisory.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/currency-state-diagnostic/">Currency State Diagnostic</a></p></li></ol></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="methodology-layers-heading"><div class="ccy-container"><p class="ccy-eyebrow">Six layers</p><h2 id="methodology-layers-heading" class="ccy-title">The six layers of AccountCcy methodology</h2><div class="ccy-pillar-section-body">
+<ol class="ccy-monetary-sequence"><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Layer 01 — Doctrine</p><p class="ccy-body">The governing thesis and conceptual hierarchy define why the asset exists and what every public surface must serve.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/monetary-truth-chain-of-custody/">Doctrine pillar</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Layer 02 — Framework</p><p class="ccy-body">The Currency State Control Framework is original AccountCcy architecture for organizing currency-state governance inside enterprise finance.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/framework/">Framework</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Layer 03 — State Chain</p><p class="ccy-body">The eight-state CCY State Chain runs from quoted currency through audit reality and gives the framework a stable sequence.</p><p class="ccy-small"><span class="ccy-seq-ref-label">Reference:</span> <a href="/ccy-state-chain/">CCY State Chain</a></p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Layer 04 — Terminology</p><p class="ccy-body">Glossary terms stabilize the language so readers can distinguish account currency, ledger currency, reporting currency, revaluation, translation, evidence, and audit reality without collapsing them.</p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Layer 05 — Evidence and claim boundaries</p><p class="ccy-body">The methodology separates original framework language, established professional terminology, ERP behavior, accounting practice, and unsupported claims.</p></li><li class="ccy-monetary-sequence-item"><p class="ccy-seq-step-title">Layer 06 — Versioning and governance</p><p class="ccy-body">Material framework changes must be recorded, versioned, and traceable through governance files and the decision log.</p></li></ol></div></div></section>
+<section class="ccy-section" aria-labelledby="claim-boundary-heading"><div class="ccy-container"><p class="ccy-eyebrow">Claim boundary</p><h2 id="claim-boundary-heading" class="ccy-title">What AccountCcy may claim, and what it may not claim</h2><div class="ccy-pillar-section-body"><p class="ccy-body">AccountCcy.com may claim that it publishes an original reference framework for currency-state custody and account currency control. It may explain how its concepts relate to enterprise finance behavior, evidence discipline, ERP configuration patterns, financial close risk, and audit defensibility.</p>
+<p class="ccy-body">AccountCcy.com may not claim that its framework is an official accounting standard, audit standard, legal rule, tax rule, regulatory requirement, ERP vendor instruction, or professional opinion.</p>
+<p class="ccy-body">Claims about accounting standards, ERP systems, audit procedures, reporting treatment, tax consequences, legal obligations, treasury policy, or implementation choices require source support or restrained language. When context determines the answer, AccountCcy should say so.</p>
+<ul class="ccy-custody-questions"><li><p class="ccy-body">Is the claim original AccountCcy framework language or established professional terminology?</p></li>
+<li><p class="ccy-body">Could the claim be mistaken for accounting, audit, tax, legal, treasury, investment, or ERP implementation advice?</p></li>
+<li><p class="ccy-body">Does the claim require source support, or should it be narrowed?</p></li>
+<li><p class="ccy-body">Does the wording imply endorsement by an accounting body, ERP vendor, audit firm, regulator, or professional association?</p></li></ul></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="source-boundary-heading"><div class="ccy-container"><p class="ccy-eyebrow">Source boundary</p><h2 id="source-boundary-heading" class="ccy-title">How AccountCcy separates sources, practice, and original architecture</h2><div class="ccy-pillar-section-body"><p class="ccy-body">The methodology distinguishes original conceptual architecture from established accounting terminology, ERP and system behavior, professional practice, public references, and external validation.</p>
+<p class="ccy-body">Original architecture includes the Chain of Custody for Monetary Truth, Currency State Control Framework, CCY State Chain, and Audit Reality as AccountCcy framework language.</p>
+<p class="ccy-body">Established terminology and professional practice should be handled carefully. Vendor references must not imply endorsement or affiliation. Public references should support factual or terminology claims without turning AccountCcy concepts into supposed official standards.</p>
+<p class="ccy-body">The external evidence registry begins honestly. It should be populated only with real external signals such as citations, backlinks, qualified usage, professional mentions, diagnostic usage signals, or institutional inquiries.</p></div></div></section>
+<section class="ccy-section" aria-labelledby="publication-discipline-heading"><div class="ccy-container"><p class="ccy-eyebrow">Publication discipline</p><h2 id="publication-discipline-heading" class="ccy-title">Public pages must pass governance before publication</h2><div class="ccy-pillar-section-body"><p class="ccy-body">Public pages must pass doctrine alignment, conceptual integrity, content quality, link safety, SEO discipline, mobile readability, quality gate validation, and governance traceability.</p>
+<p class="ccy-body">A public page should not exist only because a keyword exists. It should strengthen the governing thesis, clarify the framework, improve evidence discipline, or make the asset more trustworthy to serious enterprise finance readers.</p>
+<p class="ccy-body">The existing build pipeline enforces content validation, asset validation, SEO validation, link validation, schema generation, and strict sitemap generation. Automated checks protect the technical floor; methodology protects the strategic ceiling.</p>
+<nav class="ccy-pillar-reference-strip" aria-label="Related AccountCcy definitions"><a class="ccy-pillar-strip-link" href="/monetary-truth-chain-of-custody/">Doctrine</a><a class="ccy-pillar-strip-link" href="/framework/">Framework</a><a class="ccy-pillar-strip-link" href="/ccy-state-chain/">State Chain</a><a class="ccy-pillar-strip-link" href="/glossary/">Glossary</a><a class="ccy-pillar-strip-link" href="/what-is-account-currency/">Definition Entry</a><a class="ccy-pillar-strip-link" href="/cfo-guide/">CFO Guide</a></nav></div></div></section>
+<section class="ccy-section ccy-surface-cream" aria-labelledby="why-this-matters-heading"><div class="ccy-container"><p class="ccy-eyebrow">Strategic trust</p><h2 id="why-this-matters-heading" class="ccy-title">Why the methodology matters</h2><div class="ccy-pillar-section-body"><p class="ccy-body">The methodology keeps AccountCcy.com coherent, defensible, non-generic, reference-grade, difficult to dilute, harder to imitate, and useful to CFOs, controllers, ERP architects, close teams, audit professionals, and enterprise finance software buyers.</p>
+<p class="ccy-body">A site can copy surface language. It is harder to copy a governed method, claim boundary, source boundary, versioning discipline, link graph, diagnostic posture, and decision history without exposing that the imitation lacks institutional memory.</p>
+<p class="ccy-body">The methodology also protects future monetization and acquisition posture. A premium diagnostic report, framework license, briefing, or strategic inquiry should inherit trust from the methodology rather than compensate for weak governance.</p></div></div></section>
+<section class="ccy-section" aria-labelledby="evidence-disclaimer-heading"><div class="ccy-container"><p class="ccy-eyebrow">Evidence discipline disclaimer</p><h2 id="evidence-disclaimer-heading" class="ccy-title">Reference framework only</h2><div class="ccy-pillar-section-body"><p class="ccy-body">AccountCcy.com is a reference and educational framework. It does not provide accounting, audit, tax, legal, treasury, investment, or ERP implementation advice.</p>
+<p class="ccy-body">Readers should consult qualified professionals for decisions requiring professional judgment, entity-specific analysis, regulatory interpretation, audit conclusions, tax treatment, legal assessment, treasury policy, or ERP implementation.</p></div></div></section>
+
+<section class="ccy-section ccy-surface-cream" aria-labelledby="graph-title">
+  <div class="ccy-container">
+    <div style="max-width: var(--ccy-container-sm); margin-bottom: var(--ccy-space-12);">
+      <p class="ccy-eyebrow">Methodology graph</p>
+      <h2 id="graph-title" class="ccy-title">The methodology binds doctrine, framework, state chain, terminology, sources, claims, and versioning.</h2>
+      <p class="ccy-body">This page is a public trust surface for how AccountCcy.com governs the reference system without exposing raw internal governance documents as public documentation.</p>
+    </div>
+
+    <div class="ccy-grid-3">
+<article class="ccy-state-card"><p class="ccy-eyebrow">Doctrine</p><h3 class="ccy-section-title">The thesis governs every surface.</h3><p class="ccy-small">AccountCcy.com exists to structure the chain of custody for monetary truth inside enterprise finance.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Boundaries</p><h3 class="ccy-section-title">Original language is separated from external authority.</h3><p class="ccy-small">The framework is original; professional claims must remain restrained, sourced, or explicitly bounded.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Validation</p><h3 class="ccy-section-title">Publication depends on quality gates.</h3><p class="ccy-small">Pages must pass content, SEO, link, schema, sitemap, and governance checks before publication.</p></article>
+<article class="ccy-state-card"><p class="ccy-eyebrow">Versioning</p><h3 class="ccy-section-title">Framework changes require traceability.</h3><p class="ccy-small">Material changes must be versioned, logged, and consistent with the public methodology.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section" aria-labelledby="control-title">
+  <div class="ccy-container">
+    <div class="ccy-consequence-grid">
+      <article class="ccy-consequence-card is-control">
+        <p class="ccy-consequence-label">Governance logic</p>
+        <h2 id="control-title" class="ccy-consequence-heading">Methodology prevents authority drift.</h2>
+        <p class="ccy-consequence-body">The page explains how the asset remains coherent while it expands: every concept, page, diagnostic, and public claim must remain inside the thesis and its boundaries.</p>
+      </article>
+
+      <article class="ccy-consequence-card is-risk">
+        <p class="ccy-consequence-label">Risk if absent</p>
+        <h2 class="ccy-consequence-heading">A strong framework can look like unsupported content without a public method.</h2>
+        <p class="ccy-consequence-body">Without a public methodology, serious readers may see pages but not the governance that makes the reference system trustworthy.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ccy-section ccy-bg-ink" aria-labelledby="evidence-title">
+  <div class="ccy-container">
+    <div class="ccy-grid-2" style="align-items: start;">
+      <div class="ccy-stack">
+        <p class="ccy-eyebrow">Evidence Discipline</p>
+        <h2 id="evidence-title" class="ccy-title" style="color: var(--ccy-color-dark-text);">Original framework. Real institutional behavior.</h2>
+      </div>
+      <div class="ccy-stack">
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          AccountCcy.com develops original framework language while distinguishing it from established accounting terminology, ERP behavior, reporting practice, financial messaging conventions, and professional standards.
+        </p>
+        <p class="ccy-body" style="color: var(--ccy-color-dark-muted);">
+          Vendor names, accounting standards, and system categories may be referenced only as context. Such references do not imply affiliation, endorsement, official interpretation, or professional advice.
+        </p>
+        <div class="ccy-verified-note">
+          <p class="ccy-small">
+            Reference and educational framework only. Not accounting, audit, tax, legal, investment, or ERP implementation advice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="ccy-related-links" aria-labelledby="related-title"><div class="ccy-container"><p class="ccy-eyebrow" id="related-title">Continue Reading</p><div class="ccy-related-grid"><a class="ccy-related-card" href="/monetary-truth-chain-of-custody/"><span class="ccy-related-label">Doctrine</span><span class="ccy-related-title">The Chain of Custody for Monetary Truth</span></a><a class="ccy-related-card" href="/framework/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The Currency State Control Framework</span></a><a class="ccy-related-card" href="/ccy-state-chain/"><span class="ccy-related-label">Framework</span><span class="ccy-related-title">The CCY State Chain — From Quoted Price to Audit Reality</span></a><a class="ccy-related-card" href="/glossary/"><span class="ccy-related-label">Glossary</span><span class="ccy-related-title">Account Currency Glossary — Enterprise Finance Reference</span></a><a class="ccy-related-card" href="/what-is-account-currency/"><span class="ccy-related-label">Definition</span><span class="ccy-related-title">What Is Account Currency? — Definition and Control Discipline</span></a><a class="ccy-related-card" href="/cfo-guide/"><span class="ccy-related-label">Executive Guide</span><span class="ccy-related-title">The CFO Guide to Hidden Account Currency Risk</span></a><a class="ccy-related-card" href="/currency-state-diagnostic/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Currency State Diagnostic — Account Currency Control Maturity</span></a><a class="ccy-related-card" href="/acquisition/"><span class="ccy-related-label">Reference</span><span class="ccy-related-title">Strategic Acquisition</span></a></div></div></section>
+  </main>
+
+  <footer class="ccy-footer" role="contentinfo">
+    <div class="ccy-footer-inner">
+      <p>AccountCcy.com · The chain of custody for monetary truth inside enterprise finance.</p>
+      <p>Reference framework · <a href="mailto:agent@sohadot.com">agent@sohadot.com</a></p>
+    </div>
+    <div class="ccy-container" style="margin-top: var(--ccy-space-4);">
+      <p class="ccy-small" style="font-family: var(--ccy-font-mono); color: var(--ccy-color-slate-soft);">
+        AccountCcy.com provides reference and educational materials only. It does not provide accounting, audit, tax, legal, investment, or ERP implementation advice.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

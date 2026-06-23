@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T11:25:07.994269+00:00",
-  "url_count": 80,
+  "generated_at": "2026-06-23T12:16:32.730131+00:00",
+  "url_count": 81,
   "errors": [],
   "warnings": [],
   "audits": [
@@ -773,6 +773,18 @@
       "warnings": []
     },
     {
+      "source_path": "methodology/index.html",
+      "url_path": "/methodology/",
+      "loc": "https://accountccy.com/methodology/",
+      "title": "AccountCcy Methodology — Framework Governance and Claim Discipline",
+      "description": "How AccountCcy.com governs currency-state concepts, claim boundaries, source discipline, versioning, and publication quality for monetary truth custody.",
+      "canonical": "https://accountccy.com/methodology/",
+      "robots": "index, follow",
+      "h1_count": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
       "source_path": "monetary-truth-chain-of-custody/index.html",
       "url_path": "/monetary-truth-chain-of-custody/",
       "loc": "https://accountccy.com/monetary-truth-chain-of-custody/",
@@ -789,7 +801,7 @@
       "url_path": "/monetary-truth-close-discipline/",
       "loc": "https://accountccy.com/monetary-truth-close-discipline/",
       "title": "Monetary Truth Close Discipline — Reference",
-      "description": "Close discipline turns monetary ambiguity into defensible truth via freeze choreography, contemporaneous evidence, and accountable custody transitions—not improvisation.",
+      "description": "Close discipline turns monetary ambiguity into defensible truth through freeze controls, evidence, and accountable currency-state transitions.",
       "canonical": "https://accountccy.com/monetary-truth-close-discipline/",
       "robots": "index, follow",
       "h1_count": 1,
@@ -897,7 +909,7 @@
       "url_path": "/states/ledger-currency/",
       "loc": "https://accountccy.com/states/ledger-currency/",
       "title": "Ledger Currency — State 05 of the CCY State Chain",
-      "description": "Ledger currency is State 05 GL measurement—subledger roll-ups, posting logic, functional alignment, valuation batches—before reporting translation refracts narratives.",
+      "description": "Ledger currency is State 05, where account custody becomes GL measurement, trial balances, revaluation evidence, and reporting-ready records.",
       "canonical": "https://accountccy.com/states/ledger-currency/",
       "robots": "index, follow",
       "h1_count": 1,

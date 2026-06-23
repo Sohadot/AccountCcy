@@ -1010,6 +1010,56 @@ Run the quality gate and keep the next build phase focused on trust signals rath
 
 ---
 
+## 2026-06-23 - Public Methodology Surface Published
+
+### Decision
+
+Published `/methodology/` as the single public methodology surface for AccountCcy.com.
+
+The page explains how the framework is governed, what it covers, what it does not claim, how source boundaries are handled, and how publication discipline is maintained.
+
+### Strategic Meaning
+
+This creates a public trust layer without exposing raw internal governance files.
+
+The methodology surface strengthens credibility for buyers, advisors, auditors, ERP vendors, financial close platforms, and acquisition reviewers by showing that AccountCcy.com is governed by a disciplined framework rather than loose content expansion.
+
+### Technical Changes
+
+- Confirmed `main/content/pages/methodology.json` as the public methodology content source.
+- Registered `/methodology/` as a published, indexable page in `main/data/pages.json`.
+- Added targeted inbound methodology links from `/`, `/framework/`, `/monetary-truth-chain-of-custody/`, `/glossary/`, `/cfo-guide/`, and `/acquisition/`.
+- Kept the methodology page connected to `/currency-state-diagnostic/` and `/acquisition/` because both routes are currently published.
+- Shortened two existing meta descriptions that blocked a warning-free strict sitemap run.
+- Regenerated HTML, sitemap, robots output, and indexing reports.
+
+### Governance Implication
+
+Future public expansion should remain consistent with the methodology page, source boundary policy, claim boundary discipline, versioning discipline, and quality gate requirements.
+
+No unsupported market claim, vendor advice, accounting advice, or external validation claim should be added unless it is supported by the governance artifacts and evidence registry.
+
+### Validation
+
+Executed:
+
+- `py scripts\generate_pages.py --root . --overwrite`
+- `py scripts\generate_sitemap.py --root . --write-robots --strict --report`
+- `py scripts\quality_gate.py --root .`
+
+Results:
+
+- sitemap URL count: 81
+- sitemap errors: 0
+- sitemap warnings: 0
+- sovereign quality gate: passed
+
+Suggested commit message:
+
+`feat(site): publish public methodology trust surface`
+
+---
+
 ## Future Decisions
 
 Future entries should record major decisions related to:
