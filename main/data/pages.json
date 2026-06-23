@@ -874,8 +874,8 @@
 
     {
       "url": "/currency-state-diagnostic/",
-      "type": "pillar",
-      "status": "draft",
+      "type": "diagnostic",
+      "status": "published",
       "quality_gate": "sovereign",
       "title": "Currency State Diagnostic — Account Currency Control Maturity",
       "meta_description": "Assess your organization's account currency control maturity across the CCY State Chain — from Quoted Currency to Audit Reality.",
@@ -891,8 +891,8 @@
 
     {
       "url": "/acquisition/",
-      "type": "pillar",
-      "status": "draft",
+      "type": "acquisition",
+      "status": "published",
       "quality_gate": "sovereign",
       "title": "Strategic Acquisition — AccountCcy.com",
       "meta_description": "AccountCcy.com is a sovereign-grade reference asset for enterprise finance. Strategic acquisition inquiries are considered from aligned institutional organizations only.",

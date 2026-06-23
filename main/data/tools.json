@@ -5,9 +5,9 @@
     {
       "slug": "currency-state-diagnostic",
       "name": "Currency State Diagnostic",
-      "url": "/tools/currency-state-diagnostic/",
+      "url": "/currency-state-diagnostic/",
       "public_url": "/currency-state-diagnostic/",
-      "status": "draft",
+      "status": "published",
       "type": "diagnostic",
       "maturity_levels": ["Fragmented", "Configured", "Governed", "Controlled", "Audit-Defensible"],
       "ccy_states_assessed": [1, 2, 3, 4, 5, 6, 7, 8],
@@ -27,7 +27,7 @@
       ],
       "disclaimer": "The Currency State Diagnostic is a reference maturity framework for educational and self-assessment purposes. It does not provide accounting, audit, tax, legal, or ERP implementation advice. Consult qualified professionals for matters requiring professional judgment.",
       "monetization_path": "paid diagnostic report",
-      "related_pages": ["/ccy-state-chain/", "/framework/", "/what-is-account-currency/", "/cfo-guide/"]
+      "related_pages": ["/ccy-state-chain/", "/framework/", "/what-is-account-currency/", "/cfo-guide/", "/acquisition/"]
     },
     {
       "slug": "account-currency-control-checklist",

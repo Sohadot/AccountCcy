@@ -1,0 +1,92 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-23",
+  "url": "/currency-state-diagnostic/",
+  "type": "diagnostic",
+  "status": "published",
+  "quality_gate": "sovereign",
+  "diagnostic_type": "Currency-State Maturity Assessment",
+  "h1": "Currency State Diagnostic",
+  "intro": "A local-first maturity assessment for testing whether an organization can explain, control, and evidence the passage from quoted currency to audit reality. The diagnostic translates AccountCcy doctrine into a structured control reading without collecting data or implying professional certification.",
+  "purpose_title": "Assess whether monetary truth is controlled as a chain, not defended as isolated balances.",
+  "purpose_body": "The diagnostic focuses on currency-state custody: source rate discipline, transaction and settlement distinction, account currency policy, ledger remeasurement, reporting translation, consolidation traceability, and audit reconstruction. It is designed for controllers, CFO teams, ERP architects, close leaders, and assurance professionals who need a clearer vocabulary before deeper review.",
+  "disclaimer": "Reference maturity tool only. It does not provide accounting, audit, tax, legal, treasury, investment, or ERP implementation advice and does not certify compliance.",
+  "assessment_title": "Self-assess the custody chain across eight currency states.",
+  "assessment_intro": "Select the current maturity signal for each control question. The score is calculated in the browser only; no answers are transmitted, stored, or submitted.",
+  "questions": [
+    {
+      "id": "q01",
+      "state": "01",
+      "weight": 1,
+      "question": "Is the approved source of FX rates documented, governed, and consistently applied before transaction capture?",
+      "why": "Quoted currency becomes risky when market reference, rate source, and timing are treated as informal background."
+    },
+    {
+      "id": "q02",
+      "state": "02",
+      "weight": 2,
+      "question": "Is transaction currency preserved separately from settlement currency in source systems and subledger records?",
+      "why": "Obligation denomination and payment denomination are different custody states even when they share an ISO code."
+    },
+    {
+      "id": "q03",
+      "state": "03",
+      "weight": 2,
+      "question": "Are settlement differences reconciled to transaction obligations with clear ownership and evidence?",
+      "why": "Cash movement should not erase the original monetary identity of the obligation."
+    },
+    {
+      "id": "q04",
+      "state": "04",
+      "weight": 3,
+      "question": "Does every material account class have a documented account currency policy and review owner?",
+      "why": "Account currency is the control point where monetary movement enters accounting custody."
+    },
+    {
+      "id": "q05",
+      "state": "04",
+      "weight": 3,
+      "question": "Are account currency changes blocked from informal configuration drift and supported by approval evidence?",
+      "why": "Configuration amnesia creates downstream ambiguity across reconciliation, revaluation, reporting, and audit."
+    },
+    {
+      "id": "q06",
+      "state": "05",
+      "weight": 2,
+      "question": "Are monetary-item populations, rate lineage, and revaluation batches reproducible at period end?",
+      "why": "Ledger currency control depends on repeatable remeasurement, not narrative comfort after the close."
+    },
+    {
+      "id": "q07",
+      "state": "06",
+      "weight": 2,
+      "question": "Are reporting currency translations tied back to ledger populations, translation rules, and disclosure classifications?",
+      "why": "Reporting visibility is not the same state as ledger measurement."
+    },
+    {
+      "id": "q08",
+      "state": "07",
+      "weight": 3,
+      "question": "Can consolidation adjustments be traced to entity ledgers, intercompany logic, and currency translation treatment?",
+      "why": "Consolidation currency control fails when group presentation cannot replay source custody."
+    },
+    {
+      "id": "q09",
+      "state": "08",
+      "weight": 3,
+      "question": "Can independent reviewers reconstruct material currency outcomes without relying on undocumented spreadsheets?",
+      "why": "Audit reality requires replayable evidence, not heroic institutional memory."
+    }
+  ],
+  "maturity_title": "A maturity reading, not a compliance certificate.",
+  "maturity_intro": "The five maturity levels describe the strength of currency-state custody. They help prioritize deeper review, not replace professional judgment.",
+  "maturity_levels": [
+    "Fragmented",
+    "Configured",
+    "Governed",
+    "Controlled",
+    "Audit-Defensible"
+  ],
+  "report_title": "The dignified monetization layer is a governed diagnostic report.",
+  "report_body": "A premium report may later translate the maturity reading into an educational control brief, evidence map, and executive discussion pack. It must remain reference-grade, non-advisory, and aligned with the Currency State Control Framework."
+}
