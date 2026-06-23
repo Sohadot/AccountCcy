@@ -1130,6 +1130,42 @@ Suggested commit message:
 
 ---
 
+## 2026-06-23 - Strategic Narrative Elevation Sprint
+
+### Decision
+
+Elevated the core AccountCcy.com narrative across existing public surfaces without creating new URLs or expanding the sitemap.
+
+Updated surfaces:
+
+- `/`
+- `/monetary-truth-chain-of-custody/`
+- `/framework/`
+- `/acquisition/`
+- `/methodology/`
+
+### Strategic Meaning
+
+The public story now centers more directly on monetary truth custody:
+
+> In enterprise finance, money does not become truth when it moves. It becomes truth when its currency state can be traced, controlled, reconciled, reported, consolidated, and defended.
+
+The homepage now presents the big story in the first screen, frames the eight currency states as a narrative custody chain, and distinguishes AccountCcy from currency conversion. The doctrine page has been strengthened as the philosophical anchor. The framework page connects the thesis to bounded control architecture across ERP, accounts, ledger, reporting, consolidation, and audit evidence. The acquisition page speaks more clearly to strategic buyers while preserving restrained institutional posture.
+
+### Governance Implication
+
+No new URLs were created.
+
+No vendor-specific targeting, public comparison narratives, market leadership claims, official-standard language, price anchoring, urgency language, or professional advice language was introduced.
+
+The methodology page remains a trust layer and includes only a light thesis-binding sentence.
+
+Suggested commit message:
+
+`feat(strategy): elevate monetary truth custody narrative`
+
+---
+
 ## Future Decisions
 
 Future entries should record major decisions related to:
