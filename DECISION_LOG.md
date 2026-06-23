@@ -945,6 +945,71 @@ Before final delivery of each build phase, update this file with the changes mad
 
 ---
 
+## 2026-06-23 — Trust Hardening Sprint Started
+
+### Decision
+
+Started a trust-hardening phase and paused broad public page expansion.
+
+This phase added:
+
+- `METHODOLOGY.md`
+- `SOURCE_BOUNDARY_POLICY.md`
+- `CLAIM_BOUNDARY_MATRIX.md`
+- `FRAMEWORK_VERSIONING.md`
+- `PUBLIC_CHANGELOG.md`
+- `EXTERNAL_EVIDENCE_REGISTRY.md`
+
+It also updated:
+
+- `ASSET_INTELLIGENCE_FACTORY_PLAN.md`
+
+### Strategic Meaning
+
+AccountCcy.com already has a strong internal reference system, but market inevitability requires trust layers beyond page count.
+
+The purpose of this sprint is to prevent the asset from looking like fast content expansion and to make its governance harder to imitate. The asset now has explicit methodology, source boundaries, claim boundaries, versioning discipline, public changelog discipline, and a registry for verified external evidence.
+
+### Implications
+
+No new comparison cluster or broad SEO expansion should be added before this trust layer is stable.
+
+Future authority should be built through:
+
+- source discipline
+- methodology clarity
+- framework versioning
+- claim restraint
+- verified external evidence
+- diagnostic usage signals
+- qualified professional references
+
+### Technical and Governance Details
+
+The trust-hardening files are governance files, not new public HTML pages.
+
+They do not increase sitemap URL count and do not add public routes.
+
+The external evidence registry starts empty by design. AccountCcy.com should not claim external authority before external authority exists.
+
+### Validation
+
+Sovereign quality gate must be run after this entry.
+
+Expected technical impact:
+
+- no new indexable URLs
+- no new external scripts
+- no data collection endpoints
+- no professional-advice expansion
+- no acquisition language escalation
+
+### Next Action
+
+Run the quality gate and keep the next build phase focused on trust signals rather than page volume.
+
+---
+
 ## Future Decisions
 
 Future entries should record major decisions related to:

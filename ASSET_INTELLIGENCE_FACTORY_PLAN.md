@@ -242,12 +242,21 @@ A buyer may reproduce a tool, but reproducing the name, thesis, vocabulary, refe
 
 ## 12. Immediate Execution Sequence
 
+Completed foundation:
+
 1. Publish the Currency State Diagnostic as a local-first maturity engine.
 2. Publish a restrained Strategic Acquisition Posture page.
 3. Keep all weaker tools in draft until content and link integrity are complete.
 4. Expand the reference layer through state-specific and evidence-specific pages only where the quality gate is met.
-5. Use the diagnostic report as the first dignified monetization layer.
-6. Preserve the asset as reference infrastructure before commercial surface.
+
+Current phase:
+
+5. Freeze broad page expansion.
+6. Add methodology, source boundary, claim boundary, framework versioning, public changelog, and external evidence registry discipline.
+7. Use the diagnostic report as the first dignified monetization layer only after trust boundaries are visibly stable.
+8. Preserve the asset as reference infrastructure before commercial surface.
+
+No new comparison cluster should be added before the trust-hardening layer is complete and logged.
 
 ---
 
