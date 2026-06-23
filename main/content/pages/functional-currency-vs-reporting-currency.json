@@ -1,123 +1,168 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-09",
+  "last_updated": "2026-06-23",
   "url": "/functional-currency-vs-reporting-currency/",
   "type": "comparison",
   "status": "published",
   "quality_gate": "reference-standard",
-  "page_eyebrow": "Comparison · Measurement lens versus presentation lens",
+  "page_eyebrow": "Comparison - Measurement lens versus presentation lens",
   "h1": "Functional Currency vs Reporting Currency",
-  "intro": "Functional currency names the primary economic environment in which an entity measures monetary results—standards-based determination governing remeasurement discipline and typically aligning ledger currency. Reporting currency names the currency of outward financial statements when presentation intentionally diverges from functional measurement—invoking translation methodologies, equity adjustments, and disclosure bridges AccountCcy treats as State 06 visibility. Confusing measurement posture with presentation posture misroutes rate choices and equity narratives.",
+  "intro": "Professionals searching for functional currency vs reporting currency are usually separating the currency of economic measurement from the currency of presentation. Functional currency describes the primary measurement environment, commonly reflected through ledger measurement discipline at State 05; reporting currency describes how measured results are presented at State 06. This page is a reference framework, not accounting advice or an interpretation of any standard.",
   "doctrine_eyebrow": "Governing distinction",
-  "doctrine_statement": "Functional currency answers “how did we measure economic substance?”<br>Reporting currency answers “how do we present measured outcomes to audiences?”",
-  "doctrine_attribution": "Currency identity comparison · AccountCcy.com",
-  "primary_section_eyebrow": "Side-by-side posture",
-  "primary_section_title": "Economic measurement versus stakeholder-facing visibility",
+  "doctrine_statement": "Functional currency supports measurement. Reporting currency supports presentation.",
+  "doctrine_attribution": "AccountCcy.com comparison reference",
+  "primary_section_eyebrow": "Search intent answer",
+  "primary_section_title": "Economic measurement versus reporting presentation",
   "primary_section_body": [
-    "Standards contexts (IFRS IAS 21, US GAAP ASC 830-class frameworks) anchor functional determination; AccountCcy cites them as institutional background—not substitute advice.",
-    "Reporting currency layering emerges once ledger proofs exist; translation reshapes presentation rather than inventing custody upstream.",
-    "Policy committees must separate functional determination governance from investor-facing translation calendars—different artifacts, different controls."
+    "Functional currency is a determination concept tied to economic substance and measurement discipline. AccountCcy maps its operational effect through ledger currency and remeasurement controls.",
+    "Reporting currency is a presentation concept tied to management, statutory, investor, or group reporting views.",
+    "The distinction matters because rate selection, translation adjustments, and equity narratives depend on whether finance is measuring facts or presenting measured facts."
   ],
   "pillar_sections": [
     {
-      "section_id": "conceptual-comparison",
-      "eyebrow": "Controlled vocabulary",
-      "title": "Conceptual comparison inside enterprise finance",
+      "section_id": "comparison-at-a-glance",
+      "eyebrow": "Structured comparison",
+      "title": "Side-by-side distinction",
       "paragraphs": [
-        "Essential for group reporting design, SEC registrant presentations, EMENA statutory packs, and IPO readiness where measurement versus disclosure calendars collide."
+        "Use this section as the quick comparison layer: what each term means, where it sits in the currency-state chain, and which evidence proves it."
       ],
       "steps": [
         {
-          "title": "Functional currency — measurement anchor",
-          "body": "Determines remeasurement treatments for foreign activities, informs ledger alignment, and anchors how foreign monetary items interact with period-end revaluation.",
-          "link_url": "/states/ledger-currency/",
-          "link_label": "Ledger currency state (measurement)"
-        },
-        {
-          "title": "Reporting currency — presentation anchor",
-          "body": "Frames published statements, translation adjustments, and equity classifications once measured facts exist—distinct from account-level custody assignments.",
-          "link_url": "/states/reporting-currency/",
-          "link_label": "Reporting currency state"
-        }
-      ]
-    },
-    {
-      "section_id": "confusion-and-consequences",
-      "eyebrow": "Failure anatomy",
-      "title": "Where confusion appears—and what breaks",
-      "paragraphs": [
-        "Teams treat investor-facing USD packs as proof functional currency ‘must be USD’ without documented determination evidence.",
-        "Hypervisors collapse remeasurement batches into translation decks—rates and equity impacts shuffle silently.",
-        "Accounting consequence: translation adjustments misclassified or omitted from equity roll-forwards.",
-        "ERP consequence: duplicate functional/reporting ledgers misconfigured—close calendars argue while metadata contradicts policy memos.",
-        "Reporting consequence: MD&A narratives cite presentation FX without reconciling to ledger-measured facts—regulators challenge coherence."
-      ]
-    },
-    {
-      "section_id": "custody-questions-each-side",
-      "eyebrow": "Custody interrogation",
-      "title": "Custody questions—each side",
-      "paragraphs": [
-        "Functional and reporting owners must produce artifacts—not slogans—before closing translation cycles."
-      ],
-      "steps": [
-        {
-          "title": "Functional currency question",
-          "body": "Does documented functional determination match observed pricing power, cost structures, financing patterns, and crisis scenarios—and does ERP behave accordingly?",
+          "title": "Functional currency",
+          "body": "Measurement concept. In the AccountCcy state model, its operational effect is usually visible through State 05 ledger measurement and remeasurement discipline.",
           "link_url": "/glossary/functional-currency/",
-          "link_label": "Functional currency (defined)"
+          "link_label": "Functional currency glossary"
         },
         {
-          "title": "Reporting currency question",
-          "body": "Which translation methodology ties disclosed figures to archived ledger packages, and who certifies equity adjustments reconciled to general ledger detail?",
-          "link_url": "/glossary/reporting-currency/",
-          "link_label": "Reporting currency (defined)"
+          "title": "Reporting currency",
+          "body": "State 06. The presentation lens used to show measured results to reporting audiences.",
+          "link_url": "/states/reporting-currency/",
+          "link_label": "State 06"
         }
       ]
     },
     {
-      "section_id": "comparison-reference-strip",
-      "eyebrow": "Doctrine & mechanics",
-      "title": "Framework continuity after this contrast",
+      "section_id": "operational-consequences",
+      "eyebrow": "ERP, close, reconciliation, reporting",
+      "title": "Operational consequences of the distinction",
       "paragraphs": [
-        "Currency translation entries operate strictly downstream of ledger measurement discipline—never upstream of account custody clarity."
+        "ERP consequence: functional determination should align with ledger behavior, rate logic, and remeasurement treatment; reporting views should not rewrite that measurement.",
+        "Close consequence: remeasurement and translation routines must remain separated in evidence and ownership.",
+        "Reconciliation consequence: translation packs should tie back to measured ledger outputs rather than becoming independent explanations.",
+        "Reporting consequence: equity and translation narratives become fragile when presentation currency is treated as measurement currency."
+      ]
+    },
+    {
+      "section_id": "where-confusion-creates-risk",
+      "eyebrow": "Risk boundary",
+      "title": "Where confusion creates risk",
+      "paragraphs": [
+        "Confusion creates risk when a reporting package in one currency is treated as evidence that the entity measures in that currency.",
+        "The failure pattern is a presentation convenience used as if it were an economic determination."
+      ]
+    },
+    {
+      "section_id": "custody-questions-each-concept",
+      "eyebrow": "Custody questions",
+      "title": "Questions each concept must answer",
+      "paragraphs": [
+        "These questions are reference prompts for evidence discipline. They are not audit, accounting, tax, legal, treasury, or ERP implementation advice."
+      ],
+      "questions": [
+        "Functional currency custody question: which documented indicators support the measurement environment, and does system behavior align?",
+        "Reporting currency custody question: which translation package proves how measured results became presented results?",
+        "Bridge question: can reviewers separate remeasurement evidence from translation evidence?"
+      ]
+    },
+    {
+      "section_id": "related-glossary-state-links",
+      "eyebrow": "Related references",
+      "title": "Glossary, state, and methodology links",
+      "paragraphs": [
+        "The related references keep the comparison inside AccountCcy.com terminology and make the trust boundary explicit. The methodology link explains claim limits and source discipline."
       ],
       "reference_strip": [
-        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
-        { "href": "/framework/", "label": "Currency State Control Framework" },
-        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
-        { "href": "/glossary/currency-translation/", "label": "Currency translation" },
-        { "href": "/glossary/translation-adjustment/", "label": "Translation adjustment" },
-        { "href": "/glossary/remeasurement/", "label": "Remeasurement" },
-        { "href": "/cfo-guide/", "label": "CFO guide" },
-        { "href": "/glossary/", "label": "Glossary hub" }
+        {
+          "href": "/glossary/functional-currency/",
+          "label": "Functional currency glossary"
+        },
+        {
+          "href": "/glossary/reporting-currency/",
+          "label": "Reporting currency glossary"
+        },
+        {
+          "href": "/states/ledger-currency/",
+          "label": "Ledger currency state"
+        },
+        {
+          "href": "/states/reporting-currency/",
+          "label": "Reporting currency state"
+        },
+        {
+          "href": "/glossary/remeasurement/",
+          "label": "Remeasurement"
+        },
+        {
+          "href": "/glossary/currency-translation/",
+          "label": "Currency translation"
+        },
+        {
+          "href": "/monetary-truth-chain-of-custody/",
+          "label": "Monetary truth doctrine"
+        },
+        {
+          "href": "/framework/",
+          "label": "Currency State Control Framework"
+        },
+        {
+          "href": "/ccy-state-chain/",
+          "label": "CCY State Chain"
+        },
+        {
+          "href": "/methodology/",
+          "label": "Methodology and claim boundary"
+        },
+        {
+          "href": "/glossary/",
+          "label": "Glossary hub"
+        }
+      ]
+    },
+    {
+      "section_id": "comparison-faq",
+      "eyebrow": "FAQ",
+      "title": "Practical comparison questions",
+      "questions": [
+        "Is reporting currency proof of functional currency? No. Reporting currency presents results; functional currency relates to measurement.",
+        "Why does AccountCcy map functional currency through ledger currency? Because the site models currency states operationally, and functional determination affects ledger measurement behavior.",
+        "Is this accounting advice? No. It is a reference framework and trust-boundary explanation, not professional advice."
       ]
     }
   ],
   "graph_eyebrow": "Reference continuity",
-  "graph_title": "Measurement truth before presentation polish",
-  "graph_intro": "Link ledger mechanics first—functional alignment and revaluation—before interpreting outward reporting packs.",
+  "graph_title": "Keep comparison intent inside the custody chain",
+  "graph_intro": "The purpose of this page is to strengthen professional search intent while preserving AccountCcy.com claim discipline and state architecture.",
   "cards": [
     {
-      "label": "Standards posture",
-      "title": "Functional determination remains evidence-backed policy.",
-      "body": "Reporting convenience never substitutes documented economics analysis."
+      "label": "State position",
+      "title": "Each term belongs to a different control layer.",
+      "body": "The distinction is strongest when mapped to the CCY State Chain rather than reduced to screen labels."
     },
     {
-      "label": "Translation governance",
-      "title": "Presentation currencies accumulate governance debt quickly.",
-      "body": "Archive methodology memos alongside automated translation runs."
+      "label": "Evidence",
+      "title": "Different evidence proves different currency identities.",
+      "body": "Configuration, payment, ledger, translation, and consolidation artifacts should not be substituted for each other."
     },
     {
-      "label": "CFO accountability",
-      "title": "Executive attestations span both lenses.",
-      "body": "Board decks inherit fractures when measurement and presentation committees avoid joint rehearsal."
+      "label": "Trust boundary",
+      "title": "The page is a reference framework, not advice.",
+      "body": "The methodology page defines claim limits, source boundaries, and publication discipline."
     }
   ],
   "control_label": "Practical control implication",
-  "control_title": "Separate functional determination files from translation runbooks",
-  "control_body": "Maintain dual traceability: operational indicators supporting functional tests; translation tie-outs bridging ledger exports to reporting disclosures—with signed approvals per change.",
+  "control_title": "Keep determination evidence separate from translation evidence",
+  "control_body": "Maintain separate evidence for functional determination, ledger measurement, remeasurement routines, and reporting translation packages.",
   "risk_label": "Risk if vocabulary collapses",
-  "risk_title": "Equity and rate misstatements with regulatory exposure",
-  "risk_body": "Collapsed identities scatter translation adjustments, duplicate remeasurement, and destroy reconstructable paths regulators expect between measurement engines and published statements."
+  "risk_title": "Presentation currency treated as measurement currency",
+  "risk_body": "The risk is misclassified FX, weak equity bridges, and reporting explanations that cannot be traced back to measured ledger facts."
 }

@@ -1060,6 +1060,76 @@ Suggested commit message:
 
 ---
 
+## 2026-06-23 - SEO Strengthening Sprint for Existing Comparison Pages
+
+### Decision
+
+Strengthened the existing comparison-page set for professional search intent without creating a new comparison cluster or adding a new URL.
+
+The sprint covered:
+
+- `/account-currency-vs-transaction-currency/`
+- `/account-currency-vs-settlement-currency/`
+- `/account-currency-vs-ledger-currency/`
+- `/functional-currency-vs-reporting-currency/`
+- `/ledger-currency-vs-reporting-currency/`
+- `/reporting-currency-vs-consolidation-currency/`
+- `/compare/account-currency-vs-reporting-currency/`
+
+### Strategic Meaning
+
+The comparison pages now answer high-intent professional searches more directly while preserving AccountCcy.com's framework discipline.
+
+The sprint strengthens discoverability, comprehension, and internal trust flow without diluting the site through broad page-volume expansion.
+
+### Technical Changes
+
+- Reworked each targeted comparison page opening around clear search intent.
+- Added a one-sentence governing distinction to each page.
+- Added structured side-by-side comparison sections.
+- Added explicit currency-state positioning for each compared concept.
+- Added ERP, close, reconciliation, and reporting consequence sections.
+- Added risk-boundary sections explaining where confusion creates control risk.
+- Added custody questions for each concept.
+- Added related glossary links, related state links, and a controlled `/methodology/` trust-boundary link.
+- Added FAQ-style question sections inside the existing reference-page rendering model.
+- Updated `main/data/pages.json` so the targeted comparison pages include `/methodology/` as a required trust-boundary link.
+
+### Governance Implication
+
+No new page was created during this sprint.
+
+The optional `/account-currency-vs-functional-currency/` page was intentionally not created because the existing comparison set could be strengthened first.
+
+The added content remains reference and educational framework material only. It does not claim official standard status and does not provide accounting, audit, tax, legal, treasury, investment, or ERP implementation advice.
+
+### Validation
+
+Executed:
+
+- `py scripts\generate_pages.py --root . --dry-run`
+- `py scripts\generate_pages.py --root . --overwrite`
+- `py scripts\generate_sitemap.py --root . --write-robots --strict --report`
+- `py scripts\quality_gate.py --root .`
+
+Results:
+
+- sitemap URL count: 81
+- sitemap errors: 0
+- sitemap warnings: 0
+- content validation errors: 0
+- asset validation errors: 0
+- SEO validation errors: 0
+- link validation errors: 0
+- schema errors: 0
+- sovereign quality gate: passed
+
+Suggested commit message:
+
+`feat(seo): strengthen comparison pages for professional search intent`
+
+---
+
 ## Future Decisions
 
 Future entries should record major decisions related to:

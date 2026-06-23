@@ -1,123 +1,168 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-09",
+  "last_updated": "2026-06-23",
   "url": "/ledger-currency-vs-reporting-currency/",
   "type": "comparison",
   "status": "published",
   "quality_gate": "reference-standard",
-  "page_eyebrow": "Comparison · Internal measurement versus outward presentation",
+  "page_eyebrow": "Comparison - State 05 versus State 06",
   "h1": "Ledger Currency vs Reporting Currency",
-  "intro": "Ledger currency hosts entity-level trial balance measurement—the disciplined shell where postings, revaluation batches, and subsystem rolls prove internal monetary coherence at State 05. Reporting currency frames how measured results appear to investors, regulators, or boards when presentation intentionally translates ledger truth into another monetary lens at State 06. Collapsing these layers treats outward narratives as substitutes for ledger proofs—destroying audit reconstruction discipline.",
+  "intro": "Professionals searching for ledger currency vs reporting currency are usually separating internal measured books from external or management presentation. Ledger currency hosts entity-level trial balance measurement at State 05; reporting currency presents measured results at State 06. The distinction matters because translation can present ledger truth, but it cannot replace ledger proof.",
   "doctrine_eyebrow": "Governing distinction",
-  "doctrine_statement": "Ledger currency safeguards measured balances controllers certify.<br>Reporting currency safeguards communicated figures stakeholders consume.",
-  "doctrine_attribution": "Currency identity comparison · AccountCcy.com",
-  "primary_section_eyebrow": "Side-by-side posture",
-  "primary_section_title": "Trial balance integrity versus disclosure narration",
+  "doctrine_statement": "Ledger currency is measured books. Reporting currency is presented results.",
+  "doctrine_attribution": "AccountCcy.com comparison reference",
+  "primary_section_eyebrow": "Search intent answer",
+  "primary_section_title": "Trial balance measurement versus reporting view",
   "primary_section_body": [
-    "Ledger currency closure must precede credible translation—finance cannot defend reporting packs lacking reconciled GL custody.",
-    "Translation methodologies (closing, average, historical conventions per policy) reshape presentation without rewriting underlying postings unless controls fail.",
-    "Close calendars often stagger ledger freeze versus reporting publication—vocabulary clarifies which artifact governs each assertion."
+    "Ledger currency anchors postings, subledger rolls, revaluation results, and trial balance closure.",
+    "Reporting currency translates or presents those measured results for management, statutory, investor, or group reporting audiences.",
+    "Strong close evidence keeps the ledger freeze, translation package, and reporting bridge visibly separate."
   ],
   "pillar_sections": [
     {
-      "section_id": "conceptual-comparison",
-      "eyebrow": "Controlled vocabulary",
-      "title": "Conceptual comparison inside enterprise finance",
+      "section_id": "comparison-at-a-glance",
+      "eyebrow": "Structured comparison",
+      "title": "Side-by-side distinction",
       "paragraphs": [
-        "Critical for registrant reporting, dual-listed entities, statutory supplements, and assurance reviews comparing TB extracts to published PDFs."
+        "Use this section as the quick comparison layer: what each term means, where it sits in the currency-state chain, and which evidence proves it."
       ],
       "steps": [
         {
-          "title": "Ledger currency — internal measurement shell",
-          "body": "Preserves postings, revaluation outcomes, and TB tie-outs—the forensic backbone auditors reperformance-test before trusting outward totals.",
+          "title": "Ledger currency",
+          "body": "State 05. The measurement shell where the entity trial balance is maintained and closed.",
           "link_url": "/states/ledger-currency/",
-          "link_label": "Ledger currency state"
+          "link_label": "State 05"
         },
         {
-          "title": "Reporting currency — presentation shell",
-          "body": "Translates measured sets into stakeholder-facing statements, managing translation adjustments and disclosure bridges accountable to ledger archives.",
+          "title": "Reporting currency",
+          "body": "State 06. The presentation lens applied after ledger measurement has been stabilized.",
           "link_url": "/states/reporting-currency/",
-          "link_label": "Reporting currency state"
+          "link_label": "State 06"
         }
       ]
     },
     {
-      "section_id": "confusion-and-consequences",
-      "eyebrow": "Failure anatomy",
-      "title": "Where confusion appears—and what breaks",
+      "section_id": "operational-consequences",
+      "eyebrow": "ERP, close, reconciliation, reporting",
+      "title": "Operational consequences of the distinction",
       "paragraphs": [
-        "Teams cite polished reporting packs as evidence of ledger truth without exporting reconciliations from GL.",
-        "Shared service centers accelerate translation runs while ledger teams still patch journals—numbers diverge quietly.",
-        "Accounting consequence: undisclosed translation reconciling items accumulate until equity roll-forwards break.",
-        "ERP consequence: auxiliary reporting ledgers mis-sync with primary books—automation magnifies silent drift.",
-        "Reporting consequence: leadership signs filings referencing presentation currency while auditors demand ledger tie-outs—disconnect triggers material weakness narratives."
+        "ERP consequence: reporting ledgers, extracts, and reporting tools must reconcile to ledger-currency books rather than replace them.",
+        "Close consequence: reporting packs should not be finalized before ledger measurement and revaluation evidence is locked.",
+        "Reconciliation consequence: TB-to-reporting bridges must explain every presentation adjustment.",
+        "Reporting consequence: management commentary becomes weak if it cannot trace presented figures back to ledger proofs."
       ]
     },
     {
-      "section_id": "custody-questions-each-side",
-      "eyebrow": "Custody interrogation",
-      "title": "Custody questions—each side",
+      "section_id": "where-confusion-creates-risk",
+      "eyebrow": "Risk boundary",
+      "title": "Where confusion creates risk",
       "paragraphs": [
-        "Controllers and external reporting owners must pair answers each quarter."
+        "Confusion creates risk when polished reporting outputs are treated as proof that underlying books were measured correctly.",
+        "The failure pattern is presentable statements without reproducible ledger lineage."
+      ]
+    },
+    {
+      "section_id": "custody-questions-each-concept",
+      "eyebrow": "Custody questions",
+      "title": "Questions each concept must answer",
+      "paragraphs": [
+        "These questions are reference prompts for evidence discipline. They are not audit, accounting, tax, legal, treasury, or ERP implementation advice."
       ],
-      "steps": [
-        {
-          "title": "Ledger currency question",
-          "body": "Which trial balance snapshot proves measurement completeness—including revaluation batches—and who locked the close?",
-          "link_url": "/glossary/ledger-currency/",
-          "link_label": "Ledger currency (defined)"
-        },
-        {
-          "title": "Reporting currency question",
-          "body": "Which translation package ties each disclosed line to identifiable ledger accounts—not narrative decks alone?",
-          "link_url": "/glossary/reporting-currency/",
-          "link_label": "Reporting currency (defined)"
-        }
+      "questions": [
+        "Ledger currency custody question: which trial balance snapshot proves measured books at close?",
+        "Reporting currency custody question: which translation or presentation bridge proves how measured books became reported numbers?",
+        "Bridge question: can every reporting line be traced back to ledger accounts and approved adjustments?"
       ]
     },
     {
-      "section_id": "comparison-reference-strip",
-      "eyebrow": "Doctrine & mechanics",
-      "title": "Framework continuity after this contrast",
+      "section_id": "related-glossary-state-links",
+      "eyebrow": "Related references",
+      "title": "Glossary, state, and methodology links",
       "paragraphs": [
-        "Reporting integrity vocabulary exists precisely because presentation layers tempt narrative shortcuts absent ledger lineage."
+        "The related references keep the comparison inside AccountCcy.com terminology and make the trust boundary explicit. The methodology link explains claim limits and source discipline."
       ],
       "reference_strip": [
-        { "href": "/monetary-truth-chain-of-custody/", "label": "Doctrine pillar" },
-        { "href": "/framework/", "label": "Currency State Control Framework" },
-        { "href": "/ccy-state-chain/", "label": "CCY State Chain" },
-        { "href": "/glossary/currency-translation/", "label": "Currency translation" },
-        { "href": "/glossary/fx-revaluation/", "label": "FX revaluation" },
-        { "href": "/glossary/reporting-integrity/", "label": "Reporting integrity" },
-        { "href": "/cfo-guide/", "label": "CFO guide" },
-        { "href": "/glossary/", "label": "Glossary hub" }
+        {
+          "href": "/glossary/ledger-currency/",
+          "label": "Ledger currency glossary"
+        },
+        {
+          "href": "/glossary/reporting-currency/",
+          "label": "Reporting currency glossary"
+        },
+        {
+          "href": "/states/ledger-currency/",
+          "label": "Ledger currency state"
+        },
+        {
+          "href": "/states/reporting-currency/",
+          "label": "Reporting currency state"
+        },
+        {
+          "href": "/glossary/reporting-integrity/",
+          "label": "Reporting integrity"
+        },
+        {
+          "href": "/glossary/currency-translation/",
+          "label": "Currency translation"
+        },
+        {
+          "href": "/monetary-truth-chain-of-custody/",
+          "label": "Monetary truth doctrine"
+        },
+        {
+          "href": "/framework/",
+          "label": "Currency State Control Framework"
+        },
+        {
+          "href": "/ccy-state-chain/",
+          "label": "CCY State Chain"
+        },
+        {
+          "href": "/methodology/",
+          "label": "Methodology and claim boundary"
+        },
+        {
+          "href": "/glossary/",
+          "label": "Glossary hub"
+        }
+      ]
+    },
+    {
+      "section_id": "comparison-faq",
+      "eyebrow": "FAQ",
+      "title": "Practical comparison questions",
+      "questions": [
+        "Can ledger currency and reporting currency match? Yes, but they still answer different questions: measurement versus presentation.",
+        "Which comes first in the AccountCcy state model? Ledger currency precedes reporting currency.",
+        "What evidence is expected? Ledger evidence proves measured books; reporting evidence proves presentation bridges."
       ]
     }
   ],
   "graph_eyebrow": "Reference continuity",
-  "graph_title": "Prove ledger custody before defending outward packs",
-  "graph_intro": "Translation discipline inherits whichever fractures ledger measurement tolerated—polish cannot reconstruct missing postings.",
+  "graph_title": "Keep comparison intent inside the custody chain",
+  "graph_intro": "The purpose of this page is to strengthen professional search intent while preserving AccountCcy.com claim discipline and state architecture.",
   "cards": [
     {
-      "label": "Close sequencing",
-      "title": "Ledger freeze ≠ reporting publication timing.",
-      "body": "Document every intentional lag with reconciling bridges."
+      "label": "State position",
+      "title": "Each term belongs to a different control layer.",
+      "body": "The distinction is strongest when mapped to the CCY State Chain rather than reduced to screen labels."
     },
     {
-      "label": "Artifacts",
-      "title": "TB exports anchor translation tie-outs.",
-      "body": "Store immutable snapshots alongside disclosure drafts."
+      "label": "Evidence",
+      "title": "Different evidence proves different currency identities.",
+      "body": "Configuration, payment, ledger, translation, and consolidation artifacts should not be substituted for each other."
     },
     {
-      "label": "Audit alignment",
-      "title": "Independent reviewers start at ledger proofs.",
-      "body": "Collapsed vocabulary invites contested filings despite attractive charts."
+      "label": "Trust boundary",
+      "title": "The page is a reference framework, not advice.",
+      "body": "The methodology page defines claim limits, source boundaries, and publication discipline."
     }
   ],
   "control_label": "Practical control implication",
-  "control_title": "Institutionalize TB-to-reporting reconciliation packs",
-  "control_body": "Require signed bridges each cycle linking GL accounts to translated statement lines; forbid standalone reporting adjustments lacking ledger journal lineage.",
+  "control_title": "Require TB-to-reporting bridge discipline",
+  "control_body": "Tie reporting packages to frozen ledger-currency trial balances, approved translation methods, and documented presentation adjustments.",
   "risk_label": "Risk if vocabulary collapses",
-  "risk_title": "Misstatement between measured and presented results",
-  "risk_body": "Collapsed identities produce filings that read coherent yet fail reperformance—equity, rate, and disclosure risks escalate into regulatory scrutiny."
+  "risk_title": "Presented results without ledger lineage",
+  "risk_body": "The risk is a coherent reporting narrative that cannot survive reperformance from the general ledger."
 }
