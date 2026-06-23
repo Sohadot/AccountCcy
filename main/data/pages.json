@@ -91,6 +91,23 @@
     },
 
     {
+      "url": "/methodology/",
+      "type": "pillar",
+      "status": "published",
+      "quality_gate": "sovereign",
+      "title": "AccountCcy Methodology â€” Framework Governance and Claim Discipline",
+      "meta_description": "How AccountCcy.com governs currency-state concepts, claim boundaries, source discipline, versioning, and publication quality for monetary truth custody.",
+      "seo_intent": "methodology trust, framework governance, reference credibility",
+      "buyer_relevance": ["CFO advisory", "ERP vendors", "financial close platforms", "audit technology", "professional education"],
+      "monetization_relevance": ["framework licensing", "premium briefings", "strategic acquisition trust"],
+      "required_links": ["/monetary-truth-chain-of-custody/", "/framework/", "/ccy-state-chain/", "/glossary/", "/what-is-account-currency/", "/cfo-guide/", "/currency-state-diagnostic/", "/acquisition/"],
+      "schema_types": ["Article", "WebPage", "BreadcrumbList"],
+      "indexable": true,
+      "priority": "0.8",
+      "changefreq": "monthly"
+    },
+
+    {
       "url": "/transaction-vs-account-vs-reporting-currency/",
       "type": "pillar",
       "status": "draft",
